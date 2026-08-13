@@ -1,0 +1,1270 @@
+{
+  "version": 1,
+  "actualizado": "2026-08-13",
+  "lecciones": [
+    {
+      "id": "geo-0001",
+      "category": "geopolitica",
+      "title": "Ormuz: el cuello de botella que nadie puede ensanchar",
+      "subtitle": "Una quinta parte del petróleo del mundo cabe por un pasillo de tres kilómetros.",
+      "cover_image": {
+        "query": "strait of hormuz satellite",
+        "wikipedia": "Estrecho de Ormuz",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Stra%C3%9Fe_von_Hormuz.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Jacques Descloitres, MODIS Land Rapid Response Team, NASA/GSFC",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Stra%C3%9Fe_von_Hormuz.jpg"
+      },
+      "cards": [
+        {
+          "heading": "Una puerta estrecha",
+          "text": "El estrecho de Ormuz separa Irán de Omán y conecta el golfo Pérsico con el océano Índico. En su punto más angosto mide unos 33 kilómetros, pero los carriles por los que puede circular un petrolero cargado son bastante más estrechos: unos tres kilómetros en cada sentido. Todo el crudo del golfo sale por ahí o no sale."
+        },
+        {
+          "heading": "Qué cantidad pasa",
+          "text": "Por Ormuz circulan alrededor de veinte millones de barriles diarios de petróleo y derivados, cerca de una quinta parte del consumo mundial. Arabia Saudí, Irak, Emiratos, Kuwait, Catar e Irán dependen de esa salida. Ninguna ruta alternativa por tierra tiene capacidad para absorber más que una fracción de ese volumen."
+        },
+        {
+          "heading": "El poder del que estorba",
+          "text": "La consecuencia estratégica es asimétrica. Irán no necesita ganar una guerra naval para afectar al mercado mundial: le basta con generar dudas creíbles sobre la seguridad del tránsito. Las primas de los seguros marítimos suben antes que cualquier disparo, y ese encarecimiento ya se traslada al precio del barril."
+        },
+        {
+          "heading": "Por qué no se cierra",
+          "text": "Cerrar Ormuz también estrangularía las exportaciones iraníes y provocaría una respuesta militar internacional. Por eso la amenaza se ha usado muchas veces como instrumento de negociación y nunca se ha ejecutado del todo. Es una palanca que pierde valor en cuanto se acciona, y ambas partes lo saben."
+        }
+      ],
+      "key_fact": "Ninguna infraestructura terrestre alternativa puede absorber más que una fracción de los veinte millones de barriles diarios que cruzan Ormuz.",
+      "questions": [
+        {
+          "q": "¿Por qué la amenaza de cerrar Ormuz tiene efecto aunque nunca llegue a ejecutarse?",
+          "options": [
+            "Porque los países del golfo dejan de producir preventivamente",
+            "Porque el encarecimiento de los seguros marítimos se traslada al precio antes de cualquier acción militar",
+            "Porque el tráfico se desvía automáticamente a oleoductos alternativos",
+            "Porque los tratados internacionales obligan a compensar económicamente cualquier amenaza"
+          ],
+          "correct": 1,
+          "note": "El mercado reacciona al riesgo percibido, no solo a la interrupción real. La prima de riesgo es un coste inmediato y verificable."
+        },
+        {
+          "q": "¿Qué hace que la posición iraní sobre Ormuz sea asimétrica?",
+          "options": [
+            "Es el mayor exportador de crudo de la región",
+            "Controla en solitario ambas orillas del estrecho",
+            "Puede alterar el mercado sin necesidad de vencer militarmente a nadie",
+            "Posee derecho de veto sobre el tránsito según el derecho del mar"
+          ],
+          "correct": 2,
+          "note": "La otra orilla es Omán. Y aunque Irán exporta, no es el mayor productor del golfo: Arabia Saudí lo supera con holgura."
+        },
+        {
+          "q": "Si Irán cerrase efectivamente el estrecho, ¿cuál sería la consecuencia menos deseable para el propio Irán?",
+          "options": [
+            "Quedaría excluido de la OPEP de forma automática",
+            "Se vería obligado a reducir su producción interna de refino",
+            "Perdería la soberanía sobre sus aguas territoriales",
+            "Bloquearía también sus propias exportaciones de crudo"
+          ],
+          "correct": 3,
+          "note": "Irán exporta por la misma vía que pretende bloquear. Una palanca deja de ser útil en el momento en que se acciona del todo."
+        },
+        {
+          "q": "¿Qué explica mejor la importancia estratégica de Ormuz?",
+          "options": [
+            "La existencia de yacimientos submarinos bajo el propio estrecho",
+            "Su condición de única ruta entre Europa y Asia",
+            "La concentración de un volumen enorme en un espacio sin sustituto viable",
+            "La profundidad excepcional de sus aguas"
+          ],
+          "correct": 2,
+          "note": "La geografía crítica no es la que tiene recursos, sino la que concentra un flujo que no puede desviarse a ningún otro sitio."
+        }
+      ]
+    },
+    {
+      "id": "geo-0002",
+      "category": "geopolitica",
+      "title": "Sykes-Picot: dos funcionarios y un mapa de Oriente Medio",
+      "subtitle": "Un acuerdo secreto de 1916 cuyas líneas siguen dibujando fronteras reales.",
+      "cover_image": {
+        "query": "sykes picot agreement map 1916",
+        "wikipedia": "Acuerdo Sykes-Picot",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Sykes-picot.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sykes-picot.png"
+      },
+      "cards": [
+        {
+          "heading": "Un reparto anticipado",
+          "text": "En 1916, con la Primera Guerra Mundial aún sin resolver, el británico Mark Sykes y el francés François Georges-Picot negociaron en secreto cómo repartirse los territorios árabes del Imperio otomano cuando este cayera. Trazaron zonas de influencia sobre un mapa antes de que ninguna de las dos potencias controlase realmente el terreno."
+        },
+        {
+          "heading": "La promesa paralela",
+          "text": "El problema es que Reino Unido había prometido a la vez otra cosa. A través de la correspondencia con el jerife Huseín de La Meca había alentado una revuelta árabe contra los otomanos sugiriendo un Estado árabe independiente. Las dos promesas eran incompatibles, y ambas se hicieron por escrito."
+        },
+        {
+          "heading": "Lo revelan los bolcheviques",
+          "text": "El acuerdo salió a la luz en 1917, cuando el nuevo gobierno bolchevique encontró los documentos en los archivos zaristas y los publicó para desacreditar a las potencias occidentales. Rusia había sido parte del pacto. La revelación dañó de forma duradera la credibilidad británica entre sus aliados árabes."
+        },
+        {
+          "heading": "Qué queda hoy",
+          "text": "Es un lugar común decir que Sykes-Picot creó las fronteras actuales de Oriente Medio, y no es exacto: el reparto definitivo llegó después, con los mandatos de la Sociedad de Naciones. Lo que sí instauró fue el precedente de que esas fronteras las decidieran actores externos según sus propios intereses."
+        }
+      ],
+      "key_fact": "El acuerdo se hizo público porque los bolcheviques, al llegar al poder en 1917, publicaron los tratados secretos que encontraron en los archivos del zar.",
+      "questions": [
+        {
+          "q": "¿Cuál era la contradicción central de la política británica en la región?",
+          "options": [
+            "Reconocía el mandato francés y a la vez lo impugnaba ante la Sociedad de Naciones",
+            "Prometía por escrito independencia árabe mientras pactaba en secreto un reparto con Francia",
+            "Apoyaba militarmente a los otomanos y políticamente a sus enemigos",
+            "Financiaba la revuelta árabe con fondos que exigía devolver"
+          ],
+          "correct": 1,
+          "note": "La correspondencia con el jerife Huseín y el acuerdo con Picot son de fechas casi contiguas y resultaban incompatibles entre sí."
+        },
+        {
+          "q": "¿Por qué es impreciso afirmar que Sykes-Picot dibujó las fronteras actuales de Oriente Medio?",
+          "options": [
+            "Solo afectaba a territorios que hoy pertenecen a Turquía",
+            "Sus líneas fueron anuladas por el Tratado de Versalles",
+            "El acuerdo nunca llegó a firmarse formalmente",
+            "El reparto definitivo se concretó después, mediante los mandatos de la Sociedad de Naciones"
+          ],
+          "correct": 3,
+          "note": "Sykes-Picot fijó un principio y un precedente; los trazados concretos vinieron con la posguerra y difieren de aquellas líneas iniciales."
+        },
+        {
+          "q": "¿Qué convierte la publicación bolchevique de 1917 en un episodio significativo?",
+          "options": [
+            "Expuso ante los aliados árabes que habían sido objeto de un reparto pactado a sus espaldas",
+            "Anuló jurídicamente el acuerdo",
+            "Provocó la salida de Reino Unido de la guerra",
+            "Obligó a Francia a renunciar a sus reivindicaciones en Siria"
+          ],
+          "correct": 0,
+          "note": "El daño fue de credibilidad, no jurídico. El acuerdo siguió orientando la política de ambas potencias tras la revelación."
+        },
+        {
+          "q": "¿Qué principio general ilustra mejor este episodio?",
+          "options": [
+            "Que las potencias coloniales respetaban las divisiones étnicas previas",
+            "Que la diplomacia de guerra siempre se somete a ratificación parlamentaria",
+            "Que las fronteras pueden fijarse por conveniencia de terceros antes de existir control sobre el terreno",
+            "Que los acuerdos secretos son jurídicamente nulos"
+          ],
+          "correct": 2,
+          "note": "Sykes y Picot repartieron territorio que ninguna de las dos potencias ocupaba todavía. La legitimidad vino después de la línea, no antes."
+        }
+      ]
+    },
+    {
+      "id": "eco-0001",
+      "category": "economia",
+      "title": "El domingo que Nixon rompió el vínculo entre el dólar y el oro",
+      "subtitle": "El 15 de agosto de 1971 el dinero dejó de estar respaldado por un metal.",
+      "cover_image": {
+        "query": "gold bars federal reserve vault",
+        "wikipedia": "Sistema de Bretton Woods",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Image-Mount_Washington_Hotel.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Image-Mount_Washington_Hotel.jpg"
+      },
+      "cards": [
+        {
+          "heading": "El sistema anterior",
+          "text": "Desde 1944, el acuerdo de Bretton Woods había fijado un sistema de dos escalones: las demás monedas se anclaban al dólar y el dólar era convertible en oro a treinta y cinco dólares la onza. Estados Unidos actuaba como ancla del sistema entero y garantizaba esa conversión a los bancos centrales extranjeros."
+        },
+        {
+          "heading": "La grieta",
+          "text": "El gasto de la guerra de Vietnam y los programas sociales internos aumentaron la cantidad de dólares en circulación muy por encima de las reservas de oro que los respaldaban. Varios países europeos empezaron a pedir la conversión, y la aritmética era clara: no había metal suficiente para cubrir todas las promesas."
+        },
+        {
+          "heading": "La decisión",
+          "text": "El 15 de agosto de 1971 Nixon anunció por televisión la suspensión temporal de la convertibilidad. El adjetivo era diplomático: nunca se restableció. En pocos años el sistema derivó hacia tipos de cambio flotantes, donde el valor de cada moneda lo fija el mercado frente a las demás."
+        },
+        {
+          "heading": "Qué cambió de fondo",
+          "text": "Desde entonces el dinero es fiduciario: vale porque hay una autoridad que lo emite y una expectativa colectiva de que seguirá siendo aceptado. Eso liberó a los bancos centrales de una restricción física y les dio una herramienta poderosa, con el problema añadido de que ya no existe un límite externo a la emisión."
+        }
+      ],
+      "key_fact": "Nixon anunció la medida como una suspensión temporal de la convertibilidad. Nunca se restableció.",
+      "questions": [
+        {
+          "q": "¿Qué desequilibrio hizo insostenible el sistema de Bretton Woods?",
+          "options": [
+            "El precio de mercado del oro cayó por debajo de la paridad oficial",
+            "Circulaban más dólares de los que las reservas de oro estadounidenses podían respaldar",
+            "Estados Unidos dejó de aceptar oro como forma de pago internacional",
+            "Los países europeos se negaron a mantener sus monedas ancladas al dólar"
+          ],
+          "correct": 1,
+          "note": "La promesa era convertible en teoría e imposible en la práctica en cuanto un número suficiente de tenedores la ejerciera a la vez."
+        },
+        {
+          "q": "¿Qué significa que una moneda sea fiduciaria?",
+          "options": [
+            "Que su emisión está limitada por ley a un porcentaje del PIB",
+            "Que puede convertirse en oro a petición del tenedor",
+            "Que solo puede usarse dentro de las fronteras del país emisor",
+            "Que su valor descansa en la autoridad emisora y en la aceptación colectiva, no en un respaldo material"
+          ],
+          "correct": 3,
+          "note": "Del latín fides, confianza. Es exactamente lo que sostiene el valor una vez retirado el ancla metálica."
+        },
+        {
+          "q": "¿Cuál fue la consecuencia estructural de mayor alcance para los bancos centrales?",
+          "options": [
+            "Desapareció el límite físico externo a la cantidad de dinero que podían emitir",
+            "Perdieron la capacidad de fijar tipos de interés",
+            "Quedaron obligados a mantener reservas en divisas extranjeras",
+            "Pasaron a depender de la aprobación del Fondo Monetario Internacional para emitir"
+          ],
+          "correct": 0,
+          "note": "El oro imponía una restricción que ninguna decisión política podía saltarse. Sin él, el único límite es el que la propia institución se imponga."
+        },
+        {
+          "q": "¿Hacia qué régimen cambiario derivó el sistema tras la decisión de 1971?",
+          "options": [
+            "Tipos de cambio flotantes fijados por el mercado",
+            "Una moneda única para el bloque occidental",
+            "Un patrón plata coordinado por el FMI",
+            "Paridades fijas revisables cada década"
+          ],
+          "correct": 0,
+          "note": "La transición no fue inmediata: se completó a lo largo de los primeros años setenta, tras un intento fallido de restablecer paridades fijas."
+        }
+      ]
+    },
+    {
+      "id": "eco-0002",
+      "category": "economia",
+      "title": "Japón y la década que duró treinta años",
+      "subtitle": "Qué pasa cuando una economía rica deja de creer que los precios subirán.",
+      "cover_image": {
+        "query": "tokyo skyline financial district",
+        "wikipedia": "Década perdida (Japón)",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Harga_Saham_Nikkei_225.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Encik Tekateki",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Harga_Saham_Nikkei_225.png"
+      },
+      "cards": [
+        {
+          "heading": "La burbuja",
+          "text": "A finales de los años ochenta Japón vivió una de las mayores burbujas de activos de la historia moderna. El índice Nikkei rozó los treinta y nueve mil puntos en diciembre de 1989, y el suelo urbano de Tokio alcanzó valoraciones que hacían circular la comparación de que el terreno del palacio imperial valía más que todo el estado de California."
+        },
+        {
+          "heading": "El pinchazo",
+          "text": "El banco central subió los tipos para enfriar la especulación y la burbuja se deshizo a partir de 1990. Lo llamativo no fue la caída, sino su duración: el Nikkei tardó unos treinta y cuatro años en volver a aquel máximo. Ninguna recesión occidental de posguerra se le parece en persistencia."
+        },
+        {
+          "heading": "Deflación y expectativas",
+          "text": "El daño de fondo fue psicológico antes que contable. Cuando los hogares y las empresas interiorizan que los precios no van a subir, aplazan compras e inversiones, y ese aplazamiento hace caer más los precios. La expectativa se valida a sí misma y el círculo se cierra sobre la propia economía."
+        },
+        {
+          "heading": "Lo que se aprendió",
+          "text": "El episodio cambió la doctrina de los bancos centrales occidentales. De ahí vienen la agresividad de la respuesta a la crisis de 2008, el objetivo explícito de inflación en torno al dos por ciento y la idea de que una inflación demasiado baja es un problema, no un logro."
+        }
+      ],
+      "key_fact": "El Nikkei tardó unos treinta y cuatro años en recuperar el máximo de diciembre de 1989.",
+      "questions": [
+        {
+          "q": "¿Por qué la deflación tiende a alimentarse a sí misma?",
+          "options": [
+            "Porque incrementa las exportaciones hasta agotar la producción interna",
+            "Porque reduce automáticamente los salarios nominales por ley",
+            "Porque obliga a los bancos centrales a subir los tipos de interés",
+            "Si se espera que los precios bajen, se aplaza el gasto, y ese aplazamiento hace bajar más los precios"
+          ],
+          "correct": 3,
+          "note": "Es la diferencia entre una caída puntual de precios y una espiral: en la segunda, la expectativa se convierte en la causa."
+        },
+        {
+          "q": "¿Qué enseñanza extrajeron los bancos centrales occidentales del caso japonés?",
+          "options": [
+            "Que la política monetaria pierde efecto en economías envejecidas",
+            "Que el objetivo de inflación debe situarse en cero",
+            "Que una inflación demasiado baja es un problema y conviene fijar un objetivo positivo explícito",
+            "Que las burbujas de activos deben dejarse crecer sin intervención"
+          ],
+          "correct": 2,
+          "note": "De ahí el objetivo en torno al dos por ciento: no es el óptimo teórico, es un margen de seguridad frente a la deflación."
+        },
+        {
+          "q": "¿Qué distingue al caso japonés de una recesión occidental típica de posguerra?",
+          "options": [
+            "El colapso simultáneo del sistema bancario en pocas semanas",
+            "Su duración: la recuperación del máximo bursátil tardó más de tres décadas",
+            "La profundidad de la caída del PIB en el primer año",
+            "La intervención de organismos internacionales para rescatar la moneda"
+          ],
+          "correct": 1,
+          "note": "Japón mantuvo un nivel de vida alto durante todo el periodo. El rasgo anómalo fue el estancamiento sostenido, no una crisis aguda."
+        },
+        {
+          "q": "¿Qué desencadenó el pinchazo de la burbuja japonesa?",
+          "options": [
+            "La retirada masiva de inversión extranjera",
+            "La devaluación forzosa del yen",
+            "Un colapso de la demanda de exportaciones",
+            "La subida de tipos de interés del banco central para enfriar la especulación"
+          ],
+          "correct": 3,
+          "note": "Es un patrón recurrente: el endurecimiento monetario que pretende desinflar una burbuja de forma ordenada rara vez lo consigue."
+        }
+      ]
+    },
+    {
+      "id": "his-0001",
+      "category": "historia",
+      "title": "Trece días de octubre y un hombre que dijo que no",
+      "subtitle": "La crisis de los misiles no se resolvió solo en los despachos de Washington y Moscú.",
+      "cover_image": {
+        "query": "cuban missile crisis reconnaissance photograph",
+        "wikipedia": "Crisis de los misiles de Cuba",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Aerial_Photograph_of_Medium_Range_Ballistic_Missile_Launch_Site_Two_at_San_Cristobal_-_NARA_-_193933.tif/lossy-page1-1920px-Aerial_Photograph_of_Medium_Range_Ballistic_Missile_Launch_Site_Two_at_San_Cristobal_-_NARA_-_193933.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Unknown authorUnknown author or not provided",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Aerial_Photograph_of_Medium_Range_Ballistic_Missile_Launch_Site_Two_at_San_Cristobal_-_NARA_-_193933.tif"
+      },
+      "cards": [
+        {
+          "heading": "Las fotografías",
+          "text": "En octubre de 1962 un vuelo de reconocimiento estadounidense fotografió emplazamientos de misiles balísticos soviéticos en construcción en Cuba, a menos de doscientos kilómetros de Florida. Kennedy convocó un comité restringido de asesores y durante trece días se discutió si responder con una invasión, un bombardeo o un bloqueo naval."
+        },
+        {
+          "heading": "La cuarentena",
+          "text": "Se optó por el bloqueo, llamado oficialmente cuarentena porque un bloqueo naval es jurídicamente un acto de guerra. La medida ganaba tiempo y dejaba la siguiente decisión en manos soviéticas. Fue una elección deliberada de la opción que menos cerraba puertas, frente a asesores que pedían el ataque directo."
+        },
+        {
+          "heading": "El submarino B-59",
+          "text": "El 27 de octubre, buques estadounidenses lanzaron cargas de profundidad de señalización sobre un submarino soviético incomunicado desde hacía días. Sus oficiales creyeron que la guerra había empezado. El protocolo exigía el acuerdo de tres mandos para lanzar el torpedo nuclear que llevaban a bordo, y uno de ellos, Vasili Arjípov, se negó."
+        },
+        {
+          "heading": "El acuerdo invisible",
+          "text": "La salida pública fue la retirada de los misiles soviéticos a cambio del compromiso de no invadir Cuba. La parte silenciada fue que Estados Unidos retiró también sus misiles Júpiter de Turquía, meses después y sin vincularlo formalmente. Que una parte pueda ceder sin parecer que cede resultó decisivo."
+        }
+      ],
+      "key_fact": "El lanzamiento del torpedo nuclear del submarino B-59 requería el acuerdo de tres oficiales. Vasili Arjípov fue el único que se opuso.",
+      "questions": [
+        {
+          "q": "¿Por qué se llamó cuarentena y no bloqueo a la medida naval?",
+          "options": [
+            "Porque solo afectaba a buques con carga sanitaria",
+            "Porque lo exigía así la resolución de Naciones Unidas",
+            "Porque su duración estaba limitada de antemano a catorce días",
+            "Porque un bloqueo naval constituye jurídicamente un acto de guerra"
+          ],
+          "correct": 3,
+          "note": "La elección del término no fue cosmética: permitía actuar sin cruzar formalmente el umbral que habría justificado una respuesta militar."
+        },
+        {
+          "q": "¿Qué papel tuvo el episodio del submarino B-59?",
+          "options": [
+            "Fue hundido, lo que precipitó la retirada soviética",
+            "Transportaba las cabezas nucleares destinadas a los emplazamientos cubanos",
+            "Rompió el bloqueo y forzó la negociación",
+            "Una tripulación incomunicada estuvo a punto de lanzar un arma nuclear creyendo que la guerra ya había empezado"
+          ],
+          "correct": 3,
+          "note": "Ilustra un riesgo distinto al de la decisión política: el de la escalada accidental por parte de mandos sin información ni instrucciones."
+        },
+        {
+          "q": "¿Qué elemento del acuerdo final no se hizo público en su momento?",
+          "options": [
+            "La creación de una zona desmilitarizada en el Caribe",
+            "La retirada de los misiles Júpiter estadounidenses de Turquía",
+            "La indemnización pagada al Gobierno cubano",
+            "El compromiso soviético de no volver a desplegar armas en el Caribe"
+          ],
+          "correct": 1,
+          "note": "Se ejecutó meses después y sin vincularlo formalmente al acuerdo, precisamente para que no se leyera como una concesión."
+        },
+        {
+          "q": "¿Qué principio de negociación ilustra el desenlace?",
+          "options": [
+            "La amenaza creíble de invasión es la vía más rápida a la desescalada",
+            "Permitir que el adversario ceda sin que parezca públicamente que cede facilita el acuerdo",
+            "Publicar todos los términos del pacto refuerza su cumplimiento",
+            "Las negociaciones nucleares requieren siempre mediación de terceros"
+          ],
+          "correct": 1,
+          "note": "Kennedy necesitaba que Jruschov pudiera retirarse sin humillación. La discreción sobre Turquía fue el precio de ese margen."
+        }
+      ]
+    },
+    {
+      "id": "his-0002",
+      "category": "historia",
+      "title": "La peste negra y el precio inesperado del trabajo",
+      "subtitle": "Una catástrofe demográfica que reordenó la economía europea desde abajo.",
+      "cover_image": {
+        "query": "black death medieval manuscript illumination",
+        "wikipedia": "Peste negra",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Doutielt3.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Pierart dou Tielt (fl. 1340-1360)",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Doutielt3.jpg"
+      },
+      "cards": [
+        {
+          "heading": "La magnitud",
+          "text": "Entre 1347 y 1351 la peste negra recorrió Europa y mató a una proporción de la población que las estimaciones sitúan entre un tercio y la mitad. No fue una epidemia más: fue una interrupción demográfica sin precedente conocido en el continente, y la recuperación de los niveles previos tardó más de un siglo."
+        },
+        {
+          "heading": "Menos manos, más valor",
+          "text": "La tierra siguió estando donde estaba, pero la gente que podía trabajarla se había reducido drásticamente. El resultado fue mecánico: los jornaleros supervivientes podían exigir salarios más altos y mejores condiciones, o marcharse a otro señorío que los ofreciera. La escasez cambió el poder de negociación."
+        },
+        {
+          "heading": "La ley contra el mercado",
+          "text": "Los señores reaccionaron por vía legal. En Inglaterra, el Estatuto de Trabajadores de 1351 prohibió pagar salarios superiores a los de antes de la peste y castigó a quienes abandonaran su puesto. Se aplicó de forma desigual y no logró contener la presión: la aritmética de la escasez pesaba más que la norma."
+        },
+        {
+          "heading": "El efecto largo",
+          "text": "A lo largo de las décadas siguientes, la servidumbre se erosionó en buena parte de Europa occidental y las rentas señoriales cayeron. Es un caso incómodo pero instructivo: un shock catastrófico alteró de forma duradera una relación de poder que llevaba siglos pareciendo natural."
+        }
+      ],
+      "key_fact": "El Estatuto de Trabajadores inglés de 1351 prohibió pagar salarios superiores a los previos a la peste. La escasez de mano de obra terminó imponiéndose sobre la ley.",
+      "questions": [
+        {
+          "q": "¿Por qué mejoró la posición negociadora de los jornaleros tras la peste?",
+          "options": [
+            "La Iglesia impuso salarios mínimos obligatorios",
+            "La tierra disponible no varió mientras la mano de obra se volvía escasa",
+            "Los señores perdieron sus títulos de propiedad durante la epidemia",
+            "Se abolieron los tributos señoriales en toda Europa"
+          ],
+          "correct": 1,
+          "note": "Es un cambio en la relación entre dos factores de producción: el que se vuelve escaso gana capacidad de exigir."
+        },
+        {
+          "q": "¿Qué revela el fracaso relativo del Estatuto de Trabajadores?",
+          "options": [
+            "Que la legislación medieval carecía de mecanismos de sanción",
+            "Que los jornaleros ingleses estaban organizados en gremios",
+            "Que una norma tiene difícil sostener un precio contra una escasez real y persistente",
+            "Que la Corona apoyaba en secreto las demandas salariales"
+          ],
+          "correct": 2,
+          "note": "El estatuto sí preveía castigos y se aplicó. Lo que no pudo fue crear los trabajadores que faltaban."
+        },
+        {
+          "q": "¿Cuál fue el efecto de largo plazo en Europa occidental?",
+          "options": [
+            "La erosión progresiva de la servidumbre y la caída de las rentas señoriales",
+            "El fortalecimiento definitivo del régimen feudal",
+            "La sustitución de la agricultura por la manufactura urbana",
+            "La unificación de los sistemas monetarios del continente"
+          ],
+          "correct": 0,
+          "note": "El proceso fue desigual y llevó décadas. En Europa oriental la evolución fue en buena medida la contraria."
+        },
+        {
+          "q": "¿Qué idea general ilustra mejor este episodio?",
+          "options": [
+            "Que un shock demográfico puede alterar relaciones de poder que parecían inmutables",
+            "Que la recuperación demográfica revierte siempre los cambios sociales",
+            "Que las epidemias tienden a reforzar el orden social existente",
+            "Que la legislación laboral nace de la negociación colectiva"
+          ],
+          "correct": 0,
+          "note": "Lo que parecía un orden natural resultó depender de una proporción concreta entre personas y tierra."
+        }
+      ]
+    },
+    {
+      "id": "cie-0001",
+      "category": "ciencia",
+      "title": "Cómo sabemos que la Tierra tiene 4.500 millones de años",
+      "subtitle": "La respuesta no estaba en la Tierra, sino en un meteorito de Arizona.",
+      "cover_image": {
+        "query": "meteor crater arizona aerial",
+        "wikipedia": "Edad de la Tierra",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Meteor_Crater_-_Arizona.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "National Map Seamless Server",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Meteor_Crater_-_Arizona.jpg"
+      },
+      "cards": [
+        {
+          "heading": "El reloj atómico",
+          "text": "Ciertos isótopos inestables se transforman en otros elementos a un ritmo constante e insensible a la temperatura o la presión. Medir la proporción entre el isótopo original y su producto de desintegración en una roca permite calcular cuánto tiempo lleva el proceso en marcha. Eso es la datación radiométrica."
+        },
+        {
+          "heading": "El problema de la corteza",
+          "text": "Aplicado a rocas terrestres, el método tropieza con un obstáculo: la Tierra recicla su superficie. La tectónica de placas, la erosión y el vulcanismo destruyen y rehacen la corteza continuamente, así que las rocas terrestres más antiguas no datan de la formación del planeta sino de mucho después."
+        },
+        {
+          "heading": "La solución de Patterson",
+          "text": "En 1953 Clair Patterson resolvió el problema cambiando de material. Analizó fragmentos del meteorito del Cañón del Diablo, en Arizona, formado a la vez que el sistema solar y no reprocesado desde entonces. Obtuvo unos 4.550 millones de años, una cifra que las mediciones posteriores han confirmado con precisión creciente."
+        },
+        {
+          "heading": "El efecto secundario",
+          "text": "Para medir plomo con esa exactitud, Patterson tuvo que construir el primer laboratorio ultralimpio y descubrió que el ambiente estaba contaminado por el plomo de la gasolina. Dedicó décadas a demostrarlo contra la industria química. Su campaña acabó contribuyendo a la retirada del plomo de los combustibles."
+        }
+      ],
+      "key_fact": "Patterson dató el sistema solar analizando un meteorito, no rocas terrestres: la corteza de la Tierra se recicla y no conserva material de su formación.",
+      "questions": [
+        {
+          "q": "¿Por qué las rocas terrestres no sirven para datar la formación del planeta?",
+          "options": [
+            "La tectónica, la erosión y el vulcanismo reciclan la corteza continuamente",
+            "El campo magnético terrestre distorsiona las mediciones",
+            "Los isótopos se desintegran más rápido en presencia de agua",
+            "La atmósfera altera la composición isotópica de la superficie"
+          ],
+          "correct": 0,
+          "note": "El ritmo de desintegración es insensible a las condiciones ambientales. El problema no es el reloj: es que la roca no es original."
+        },
+        {
+          "q": "¿En qué se basa la datación radiométrica?",
+          "options": [
+            "En que ciertos isótopos se desintegran a un ritmo constante e independiente del entorno",
+            "En la velocidad de enfriamiento del núcleo terrestre",
+            "En el desplazamiento observable de las placas tectónicas",
+            "En la acumulación anual de sedimentos en capas medibles"
+          ],
+          "correct": 0,
+          "note": "Esa constancia es lo que convierte la desintegración en un reloj fiable: no se acelera ni se frena con la temperatura o la presión."
+        },
+        {
+          "q": "¿Qué hallazgo colateral surgió del trabajo de Patterson?",
+          "options": [
+            "Que el plomo de la gasolina contaminaba el ambiente de forma generalizada",
+            "Que existen meteoritos anteriores al sistema solar",
+            "Que la corteza oceánica es más antigua que la continental",
+            "Que la Tierra y la Luna tienen composiciones isotópicas distintas"
+          ],
+          "correct": 0,
+          "note": "La exigencia de precisión le obligó a construir el primer laboratorio ultralimpio, y al hacerlo descubrió cuánto plomo había fuera."
+        },
+        {
+          "q": "¿Por qué un meteorito era el material adecuado?",
+          "options": [
+            "Contiene una concentración mayor de isótopos radiactivos",
+            "Se formó junto con el sistema solar y no ha sido reprocesado desde entonces",
+            "Su origen extraterrestre elimina la contaminación por plomo",
+            "Su estructura cristalina conserva mejor los productos de desintegración"
+          ],
+          "correct": 1,
+          "note": "Lo decisivo es que su reloj no se ha reiniciado: sigue midiendo desde el mismo punto de partida que el resto del sistema solar."
+        }
+      ]
+    },
+    {
+      "id": "cie-0002",
+      "category": "ciencia",
+      "title": "El experimento que falló y por eso cambió la física",
+      "subtitle": "Michelson y Morley buscaban el éter en 1887 y no encontraron nada. Ese nada valía mucho.",
+      "cover_image": {
+        "query": "michelson morley interferometer apparatus",
+        "wikipedia": "Experimento de Michelson y Morley",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Experimento_de_Michelson_y_Morley.svg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Wiki LIC",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Experimento_de_Michelson_y_Morley.svg"
+      },
+      "cards": [
+        {
+          "heading": "El éter",
+          "text": "En el siglo XIX se daba por hecho que la luz, como cualquier onda conocida, necesitaba un medio por el que propagarse. A ese medio hipotético que llenaría todo el espacio se le llamó éter luminífero. Nadie lo había detectado, pero la analogía con el sonido en el aire lo hacía casi obligatorio."
+        },
+        {
+          "heading": "La medición",
+          "text": "En 1887, en Cleveland, Albert Michelson y Edward Morley diseñaron un instrumento para detectarlo. Si la Tierra se mueve a través del éter, la luz debería viajar a velocidades ligeramente distintas según la dirección, igual que un nadador tarda distinto a favor o en contra de la corriente. Buscaban esa diferencia."
+        },
+        {
+          "heading": "El resultado nulo",
+          "text": "No apareció ninguna diferencia. El aparato era lo bastante sensible como para detectarla y el resultado se repitió en distintas épocas del año, descartando explicaciones de conveniencia. La velocidad de la luz era la misma en todas las direcciones, cosa que ninguna teoría del momento sabía explicar."
+        },
+        {
+          "heading": "La reinterpretación",
+          "text": "Einstein resolvió el problema en 1905 invirtiendo la pregunta. En lugar de buscar por qué no se detectaba el movimiento respecto al éter, tomó la constancia de la velocidad de la luz como punto de partida y dedujo el resto. El éter dejó de ser necesario, y con él cayó la noción de tiempo absoluto."
+        }
+      ],
+      "key_fact": "El experimento se repitió en distintas épocas del año para descartar que la Tierra estuviera momentáneamente en reposo respecto al éter. El resultado fue el mismo.",
+      "questions": [
+        {
+          "q": "¿Qué esperaban detectar Michelson y Morley?",
+          "options": [
+            "La composición química del éter",
+            "Variaciones en la velocidad de la luz según la dirección de medida",
+            "Una desviación de los rayos luminosos por efecto de la gravedad",
+            "Un desplazamiento en la frecuencia de la luz de las estrellas"
+          ],
+          "correct": 1,
+          "note": "La analogía era el nadador en un río: la corriente debería alterar el tiempo de ida y vuelta según la dirección."
+        },
+        {
+          "q": "¿Por qué el resultado negativo fue tan significativo?",
+          "options": [
+            "Porque obligó a rediseñar todos los instrumentos ópticos de la época",
+            "Porque contradijo mediciones anteriores igual de precisas",
+            "El aparato era suficientemente sensible, de modo que el nada medido era un dato firme",
+            "Porque demostró que el éter existía pero era imperceptible"
+          ],
+          "correct": 2,
+          "note": "Un resultado nulo solo informa si el instrumento habría detectado el efecto de existir. Esa era la fuerza del montaje."
+        },
+        {
+          "q": "¿Cómo resolvió Einstein la anomalía?",
+          "options": [
+            "Demostró un error sistemático en el interferómetro",
+            "Tomó la constancia de la velocidad de la luz como punto de partida en vez de como problema",
+            "Postuló que la luz cambia de naturaleza según el observador",
+            "Propuso que el éter se desplazaba arrastrado por la Tierra"
+          ],
+          "correct": 1,
+          "note": "El giro consistió en cambiar qué se considera dato y qué se considera anomalía. Lo que había que revisar era el tiempo absoluto."
+        },
+        {
+          "q": "¿Qué idea general sobre el método científico ilustra el episodio?",
+          "options": [
+            "La teoría siempre precede a la observación",
+            "Un experimento que no encuentra lo que busca puede ser más informativo que uno que lo confirma",
+            "Las hipótesis deben confirmarse antes de construir el instrumento",
+            "Los resultados nulos deben repetirse hasta obtener señal"
+          ],
+          "correct": 1,
+          "note": "El experimento fracasó respecto a su objetivo declarado y por eso mismo se convirtió en uno de los más importantes de la física."
+        }
+      ]
+    },
+    {
+      "id": "fil-0001",
+      "category": "filosofia",
+      "title": "El velo de ignorancia: elegir las reglas sin saber quién serás",
+      "subtitle": "Rawls propuso en 1971 un experimento mental para decidir qué es una sociedad justa.",
+      "cover_image": {
+        "query": "john rawls philosopher portrait",
+        "wikipedia": "Velo de ignorancia",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/John_Rawls_%281971_photo_portrait%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Published by the Belknap Press of Harvard University Press. Photograph taken by Alec Rawls, John's son. The portrait was uncredited on the original dust jacket, but Alec is identified as its photographer on the copyright page of the 1994 German-language first edition of the book John Rawls by Thomas Pogge.",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:John_Rawls_(1971_photo_portrait).jpg"
+      },
+      "cards": [
+        {
+          "heading": "El experimento",
+          "text": "John Rawls plantea en Teoría de la justicia una situación imaginaria: un grupo de personas debe acordar las reglas de la sociedad en la que van a vivir sin saber qué lugar ocuparán en ella. Desconocen su clase, su talento, su salud, su género y su época. Es lo que llama el velo de ignorancia."
+        },
+        {
+          "heading": "Por qué funciona",
+          "text": "El dispositivo neutraliza el interés propio sin apelar a la generosidad de nadie. Si no sabes si te tocará ser cirujano o repartidor, dejas de razonar sobre qué te conviene y empiezas a razonar sobre qué te resultaría aceptable en cualquier posición, incluida la peor."
+        },
+        {
+          "heading": "Lo que se elegiría",
+          "text": "Rawls sostiene que en esas condiciones se acordarían libertades básicas iguales para todos y se aceptarían desigualdades solo si mejoran la situación de los que están peor. No es igualitarismo estricto: admite que alguien gane más, siempre que esa diferencia beneficie también al último de la fila."
+        },
+        {
+          "heading": "La objeción",
+          "text": "Robert Nozick replicó que el argumento se fija solo en cómo quedan repartidos los bienes e ignora cómo se llegó a ese reparto. Si cada paso fue voluntario y legítimo, sostiene, el resultado también lo es aunque sea desigual. El desacuerdo entre ambos sigue estructurando buena parte del debate político actual."
+        }
+      ],
+      "key_fact": "El velo de ignorancia no apela a la generosidad: obtiene imparcialidad a partir del interés propio, retirando la información sobre la posición que se ocupará.",
+      "questions": [
+        {
+          "q": "¿Qué información se oculta bajo el velo de ignorancia?",
+          "options": [
+            "La identidad de los demás participantes en la deliberación",
+            "Las consecuencias económicas de cada regla propuesta",
+            "La posición que ocupará cada uno en la sociedad que está diseñando",
+            "El contenido de las teorías políticas anteriores"
+          ],
+          "correct": 2,
+          "note": "Los participantes conservan el conocimiento general sobre economía y sociedad: lo único que ignoran es su lugar en ella."
+        },
+        {
+          "q": "¿Bajo qué condición admite Rawls las desigualdades económicas?",
+          "options": [
+            "Si se compensan mediante impuestos progresivos",
+            "Si mejoran la situación de quienes están peor",
+            "Si no superan una proporción fijada de antemano",
+            "Si derivan del mérito individual demostrable"
+          ],
+          "correct": 1,
+          "note": "Es el principio de diferencia. Distingue la propuesta de Rawls tanto del igualitarismo estricto como del laissez faire."
+        },
+        {
+          "q": "¿En qué consiste la objeción de Nozick?",
+          "options": [
+            "Que el principio de diferencia desincentiva el ahorro",
+            "Que el velo de ignorancia es psicológicamente irrealizable",
+            "Que juzgar un reparto solo por su resultado ignora si el proceso que llevó a él fue legítimo",
+            "Que las libertades básicas no pueden ser iguales para todos"
+          ],
+          "correct": 2,
+          "note": "Es la distinción entre justicia de resultado y justicia de procedimiento, y sigue siendo el eje del desacuerdo."
+        },
+        {
+          "q": "¿Cuál es la virtud metodológica del velo de ignorancia?",
+          "options": [
+            "Garantiza que todos los participantes lleguen al mismo resultado",
+            "Sustituye el razonamiento moral por el cálculo estadístico",
+            "Elimina la necesidad de deliberación colectiva",
+            "Produce imparcialidad a partir del interés propio, sin exigir altruismo"
+          ],
+          "correct": 3,
+          "note": "Ahí está su elegancia: no pide a nadie que sea mejor persona, solo le retira la información que le permitiría barrer para casa."
+        }
+      ]
+    },
+    {
+      "id": "fil-0002",
+      "category": "filosofia",
+      "title": "Hume y el problema de que el sol salga mañana",
+      "subtitle": "Ninguna cantidad de observaciones pasadas demuestra lógicamente lo que ocurrirá después.",
+      "cover_image": {
+        "query": "david hume portrait painting",
+        "wikipedia": "Problema de la inducción",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Black_Swan-Mindaugas_Urbonas.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Mindaugas Urbonas  from Lithuanian wikipedia (Profile, Advento kalendoriai, Kalėdiniai žaisliukai, Dietistės paslaugos )",
+        "license": "CC BY-SA 2.5",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Black_Swan-Mindaugas_Urbonas.jpg"
+      },
+      "cards": [
+        {
+          "heading": "La pregunta",
+          "text": "David Hume plantea en el siglo XVIII una cuestión aparentemente ingenua: ¿qué justifica que esperemos que el futuro se parezca al pasado? Hemos visto salir el sol muchas veces, pero de ahí no se sigue lógicamente que vaya a salir mañana. No hay contradicción en imaginar que no lo haga."
+        },
+        {
+          "heading": "El círculo",
+          "text": "La respuesta intuitiva es que la naturaleza es regular y siempre ha funcionado así. Hume señala que esa respuesta da por supuesto lo que pretende demostrar: usa la experiencia pasada para justificar la confianza en la experiencia pasada. El argumento gira sobre sí mismo sin llegar a apoyarse en nada."
+        },
+        {
+          "heading": "Costumbre, no razón",
+          "text": "Su conclusión no es que debamos dejar de inducir, sino que la inducción no descansa en la razón sino en la costumbre. Esperamos que el pan alimente porque siempre lo ha hecho, y ese hábito es una disposición psicológica útil, no una deducción lógica. La distinción es entre lo que hacemos y lo que podemos demostrar."
+        },
+        {
+          "heading": "La herencia",
+          "text": "El problema sigue abierto y ha marcado la filosofía de la ciencia. Popper propuso esquivarlo: si la inducción no puede confirmar teorías, que la ciencia avance falsándolas, buscando el caso que las refute en vez de acumular casos que las confirmen. Es una solución elegante que no todos aceptan como suficiente."
+        }
+      ],
+      "key_fact": "Hume no concluye que la inducción sea inútil, sino que su fundamento es psicológico, no lógico: la costumbre, no la razón.",
+      "questions": [
+        {
+          "q": "¿Cuál es el núcleo del problema de la inducción?",
+          "options": [
+            "Los sentidos no son fiables como fuente de conocimiento",
+            "Las leyes naturales cambian con el tiempo",
+            "Ninguna cantidad de observaciones pasadas implica lógicamente lo que ocurrirá en el futuro",
+            "La memoria distorsiona sistemáticamente las observaciones previas"
+          ],
+          "correct": 2,
+          "note": "No cuestiona la fiabilidad de la observación, sino el salto de lo observado a lo no observado."
+        },
+        {
+          "q": "¿Por qué rechaza Hume la apelación a la regularidad de la naturaleza?",
+          "options": [
+            "Porque contradice la existencia del libre albedrío",
+            "Porque la naturaleza presenta excepciones documentadas",
+            "Porque usa la experiencia pasada para justificar la confianza en la experiencia pasada",
+            "Porque la regularidad no puede medirse con precisión"
+          ],
+          "correct": 2,
+          "note": "Es una petición de principio: el argumento presupone justamente aquello que se le pide demostrar."
+        },
+        {
+          "q": "¿En qué sostiene Hume que se basa realmente la inducción?",
+          "options": [
+            "En la estructura lógica del lenguaje",
+            "En un acuerdo convencional entre observadores",
+            "En una intuición racional previa a toda experiencia",
+            "En la costumbre, un hábito psicológico útil pero no demostrativo"
+          ],
+          "correct": 3,
+          "note": "De ahí que su conclusión sea descriptiva y no prescriptiva: explica qué hacemos, no nos pide dejar de hacerlo."
+        },
+        {
+          "q": "¿Cómo propuso Popper sortear el problema?",
+          "options": [
+            "Introduciendo la probabilidad como sustituto de la certeza",
+            "Limitando la ciencia a los fenómenos directamente observables",
+            "Sustituyendo la confirmación por la falsación como motor del avance científico",
+            "Demostrando que la inducción sí tiene fundamento lógico"
+          ],
+          "correct": 2,
+          "note": "Popper acepta el diagnóstico de Hume y cambia el objetivo: buscar refutaciones en lugar de acumular confirmaciones."
+        }
+      ]
+    },
+    {
+      "id": "pre-0001",
+      "category": "presente",
+      "title": "Qué hace realmente un banco central independiente",
+      "subtitle": "Y por qué se le quitó al gobierno la llave de la máquina de imprimir.",
+      "cover_image": {
+        "query": "european central bank frankfurt building",
+        "wikipedia": "Banco central",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/ECB_Frankfurt_at_Sunset.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Maslmaslmasl",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:ECB_Frankfurt_at_Sunset.jpg"
+      },
+      "cards": [
+        {
+          "heading": "La herramienta",
+          "text": "Un banco central no gestiona el presupuesto ni recauda impuestos. Su instrumento principal es el tipo de interés al que presta a la banca comercial, que se propaga al resto de la economía: hipotecas, crédito a empresas, rentabilidad del ahorro. Subirlo enfría la actividad y bajarlo la estimula."
+        },
+        {
+          "heading": "El conflicto de intereses",
+          "text": "Un gobierno que controlase esa palanca tendría una tentación permanente: bajar tipos antes de unas elecciones produce crecimiento y empleo a corto plazo, y la inflación resultante llega después, ya con otro ocupando el cargo. El incentivo empuja de forma sistemática hacia la decisión equivocada."
+        },
+        {
+          "heading": "La solución institucional",
+          "text": "De ahí la independencia. Los mandatos son largos y no coinciden con los ciclos electorales, el cese es difícil y el objetivo está fijado por ley, normalmente una inflación baja y estable en torno al dos por ciento. No es que los banqueros centrales sean más sabios: es que su horizonte temporal es distinto."
+        },
+        {
+          "heading": "El límite del diseño",
+          "text": "La independencia también tiene coste democrático. Decisiones con enorme efecto distributivo entre deudores y ahorradores las toma un órgano no elegido. El equilibrio se busca con transparencia y comparecencias parlamentarias, pero la tensión de fondo entre eficacia técnica y legitimidad electoral no desaparece."
+        }
+      ],
+      "key_fact": "La independencia del banco central no presupone mayor sabiduría, sino un horizonte temporal distinto del ciclo electoral.",
+      "questions": [
+        {
+          "q": "¿Cuál es el instrumento principal de un banco central?",
+          "options": [
+            "El nivel de impuestos sobre las rentas del capital",
+            "El tipo de interés al que presta a la banca comercial",
+            "El tipo de cambio fijado por decreto",
+            "El volumen del gasto público anual"
+          ],
+          "correct": 1,
+          "note": "Los impuestos y el gasto son política fiscal, competencia del gobierno. La distinción entre ambas esferas es el fundamento del diseño."
+        },
+        {
+          "q": "¿Qué problema de incentivos justifica la independencia?",
+          "options": [
+            "Los parlamentos tardan demasiado en aprobar cambios de tipos",
+            "Un gobierno tendería a estimular antes de las elecciones y a dejar la inflación para después",
+            "Los gobiernos carecen de información económica fiable",
+            "Las decisiones monetarias exigen unanimidad internacional"
+          ],
+          "correct": 1,
+          "note": "El problema no es de competencia técnica sino de desajuste entre el calendario político y el económico."
+        },
+        {
+          "q": "¿Cuál es la principal objeción democrática a este diseño?",
+          "options": [
+            "Un órgano no elegido toma decisiones con fuerte efecto distributivo",
+            "Los bancos centrales no publican sus deliberaciones",
+            "Sus miembros son designados por instituciones extranjeras",
+            "Sus decisiones no pueden revisarse judicialmente"
+          ],
+          "correct": 0,
+          "note": "Una subida de tipos beneficia a los ahorradores y perjudica a los endeudados. Eso es una elección política tomada sin urnas."
+        },
+        {
+          "q": "¿Qué mecanismo protege en la práctica la independencia?",
+          "options": [
+            "La rotación anual de la presidencia entre países miembros",
+            "La prohibición de comparecer ante el parlamento",
+            "La financiación exclusiva mediante aportaciones privadas",
+            "Mandatos largos desacoplados del ciclo electoral y objetivos fijados por ley"
+          ],
+          "correct": 3,
+          "note": "Las comparecencias parlamentarias no contradicen la independencia: son precisamente el contrapeso de transparencia que la hace aceptable."
+        }
+      ]
+    },
+    {
+      "id": "pre-0002",
+      "category": "presente",
+      "title": "El veto: por qué el Consejo de Seguridad se bloquea a sí mismo",
+      "subtitle": "El defecto más criticado de Naciones Unidas fue una condición para que existiera.",
+      "cover_image": {
+        "query": "united nations security council chamber",
+        "wikipedia": "Consejo de Seguridad de las Naciones Unidas",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/UN_Security_Council_mural.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Per Krohg",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:UN_Security_Council_mural.jpg"
+      },
+      "cards": [
+        {
+          "heading": "La composición",
+          "text": "El Consejo de Seguridad tiene quince miembros. Diez son elegidos por la Asamblea General por periodos de dos años. Los otros cinco son permanentes: Estados Unidos, Rusia, China, Reino Unido y Francia, los vencedores de la Segunda Guerra Mundial. Solo estos cinco tienen derecho de veto."
+        },
+        {
+          "heading": "Cómo funciona el veto",
+          "text": "El voto negativo de cualquiera de los cinco permanentes tumba una resolución sustantiva aunque los otros catorce miembros la apoyen. No es una mayoría cualificada: es un bloqueo unilateral. Y como los conflictos importantes suelen implicar a alguna de esas potencias o a sus aliados, el bloqueo aparece precisamente cuando más importa."
+        },
+        {
+          "heading": "Por qué se aceptó",
+          "text": "El precedente era la Sociedad de Naciones, que fracasó en parte porque las grandes potencias no se sintieron vinculadas por ella. En 1945 el cálculo fue que un organismo con las potencias dentro y capacidad de bloqueo era preferible a uno sin ellas. El veto fue el precio de la participación."
+        },
+        {
+          "heading": "El desvío",
+          "text": "Cuando el Consejo se bloquea, la acción se desplaza a otras vías: la Asamblea General, que puede pronunciarse pero no obligar, las alianzas regionales o las coaliciones al margen del sistema. El resultado es que la parálisis no detiene los acontecimientos, solo los saca del cauce previsto."
+        }
+      ],
+      "key_fact": "El veto se concedió porque el precedente de la Sociedad de Naciones había mostrado que un organismo sin las grandes potencias dentro carece de eficacia.",
+      "questions": [
+        {
+          "q": "¿Qué distingue a los cinco miembros permanentes del resto?",
+          "options": [
+            "Pueden proponer resoluciones sin necesidad de copatrocinadores",
+            "Aportan la mayor parte del presupuesto de la organización",
+            "Su voto negativo bloquea por sí solo cualquier resolución sustantiva",
+            "Presiden el Consejo de forma rotatoria y exclusiva"
+          ],
+          "correct": 2,
+          "note": "El veto es unilateral: no requiere sumar apoyos, basta con uno de los cinco para paralizar la decisión."
+        },
+        {
+          "q": "¿Qué razonamiento llevó a aceptar el veto en 1945?",
+          "options": [
+            "Compensaba la desigualdad de población entre estados miembros",
+            "Se consideraba una medida transitoria de cinco años",
+            "Era la condición impuesta por la Asamblea General",
+            "Un organismo con las grandes potencias dentro parecía preferible a uno sin ellas"
+          ],
+          "correct": 3,
+          "note": "La Sociedad de Naciones había fracasado en buena medida por la ausencia o la desvinculación de las grandes potencias."
+        },
+        {
+          "q": "¿Por qué el veto suele aparecer en los conflictos más graves?",
+          "options": [
+            "Porque el Consejo solo debate conflictos que afectan a los cinco",
+            "Porque las resoluciones sobre uso de la fuerza requieren unanimidad",
+            "Porque esos conflictos implican con frecuencia a las propias potencias permanentes o a sus aliados",
+            "Porque los miembros no permanentes se abstienen en esos casos"
+          ],
+          "correct": 2,
+          "note": "El mecanismo funciona bien en asuntos periféricos y falla justamente donde se le exigiría más."
+        },
+        {
+          "q": "¿Qué ocurre cuando el Consejo queda bloqueado?",
+          "options": [
+            "Se suspende temporalmente el derecho de veto del país bloqueante",
+            "La resolución se aprueba automáticamente pasados noventa días",
+            "El asunto pasa a la Corte Internacional de Justicia",
+            "La acción se desplaza a la Asamblea General, alianzas regionales o coaliciones externas"
+          ],
+          "correct": 3,
+          "note": "La parálisis del Consejo no congela el conflicto: solo traslada la respuesta fuera del cauce que el sistema había previsto."
+        }
+      ]
+    },
+    {
+      "id": "art-0001",
+      "category": "arte",
+      "title": "Las Meninas: el cuadro que te está mirando a ti",
+      "subtitle": "Velázquez resolvió en 1656 un problema de perspectiva que nadie le había pedido resolver.",
+      "cover_image": {
+        "query": "las meninas velazquez painting",
+        "wikipedia": "Las meninas",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Las_Meninas_01.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Diego Velázquez",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Las_Meninas_01.jpg"
+      },
+      "cards": [
+        {
+          "heading": "La escena",
+          "text": "En el Museo del Prado, un lienzo de más de tres metros muestra a la infanta Margarita rodeada de sus damas, un perro, dos personas de la corte y el propio Velázquez ante un bastidor enorme del que solo vemos el reverso. Todos parecen haberse girado hacia algo situado fuera del cuadro."
+        },
+        {
+          "heading": "El espejo del fondo",
+          "text": "Al fondo, un espejo refleja los rostros de Felipe IV y Mariana de Austria. La deducción es inevitable: los reyes están donde estamos nosotros. El espectador ocupa físicamente el lugar de los monarcas, y la escena está construida desde ese punto de vista sin decirlo en ningún momento."
+        },
+        {
+          "heading": "Qué está pintando",
+          "text": "El debate lleva siglos abierto. Si el pintor retrata a los reyes, el gran lienzo del que vemos el dorso sería ese retrato. Si retrata la escena que tenemos delante, el cuadro se contiene a sí mismo. Velázquez no da la respuesta y probablemente la ambigüedad sea el asunto."
+        },
+        {
+          "heading": "La firma social",
+          "text": "Hay un detalle biográfico. Velázquez aparece con la cruz de la Orden de Santiago en el pecho, distinción que no obtuvo hasta 1659, tres años después de pintar el cuadro. Fue añadida después. Para un pintor de la época, ser reconocido como noble y no como artesano era una batalla larga."
+        }
+      ],
+      "key_fact": "La cruz de Santiago que luce Velázquez en el cuadro se añadió años después de pintarlo: no la obtuvo hasta 1659.",
+      "questions": [
+        {
+          "q": "¿Qué revela el espejo del fondo?",
+          "options": [
+            "Que el pintor se ha retratado dos veces",
+            "Que la escena transcurre en una sala contigua",
+            "Que la infanta está posando para un retrato distinto",
+            "Que los reyes ocupan el lugar desde el que el espectador mira el cuadro"
+          ],
+          "correct": 3,
+          "note": "El espejo hace algo poco habitual: no amplía la escena, sino que revela dónde está situado quien mira."
+        },
+        {
+          "q": "¿Por qué es ambiguo el contenido del gran lienzo que pinta Velázquez?",
+          "options": [
+            "Porque documentos de la época lo describen de forma contradictoria",
+            "Porque su tamaño no encaja con el de la sala",
+            "Porque su reverso muestra una preparación sin terminar",
+            "Podría ser el retrato de los reyes o la escena que el espectador está viendo"
+          ],
+          "correct": 3,
+          "note": "Si fuera la segunda opción, el cuadro se contendría a sí mismo. Velázquez deja las dos lecturas abiertas."
+        },
+        {
+          "q": "¿Qué indica la cruz de Santiago sobre el pecho del pintor?",
+          "options": [
+            "Que Velázquez pertenecía a la orden desde su juventud",
+            "Se añadió después de terminado el cuadro, cuando obtuvo la distinción",
+            "Que se trata de un añadido de un restaurador del siglo XIX",
+            "Que el cuadro fue encargado por la propia orden"
+          ],
+          "correct": 1,
+          "note": "Refleja una preocupación real de la época: el estatus del pintor como noble frente a su consideración como artesano."
+        },
+        {
+          "q": "¿Qué convierte a Las Meninas en un cuadro singular?",
+          "options": [
+            "Prescinde por completo de la perspectiva lineal",
+            "Emplea una técnica de pintura al óleo desconocida hasta entonces",
+            "Es el primer retrato colectivo de la corte española",
+            "Integra al espectador dentro de la construcción de la escena"
+          ],
+          "correct": 3,
+          "note": "Quien mira no observa la escena desde fuera: ocupa una posición que el propio cuadro le asigna."
+        }
+      ]
+    },
+    {
+      "id": "art-0002",
+      "category": "arte",
+      "title": "Brunelleschi y la invención de la profundidad",
+      "subtitle": "La perspectiva lineal no se descubrió mirando: se dedujo con geometría.",
+      "cover_image": {
+        "query": "florence baptistery renaissance architecture",
+        "wikipedia": "Perspectiva lineal",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/%D9%85%D9%86%D8%B8%D9%88%D8%B1-%D8%A8%D9%85%D8%B3%D8%AA%D9%88%D9%89-%D8%A7%D8%B3%D9%82%D8%A7%D8%B7-%D8%B1%D8%A3%D8%B3%D9%8A.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Hasanisawi",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%D9%85%D9%86%D8%B8%D9%88%D8%B1-%D8%A8%D9%85%D8%B3%D8%AA%D9%88%D9%89-%D8%A7%D8%B3%D9%82%D8%A7%D8%B7-%D8%B1%D8%A3%D8%B3%D9%8A.jpg"
+      },
+      "cards": [
+        {
+          "heading": "Antes",
+          "text": "La pintura medieval europea no ignoraba la profundidad: la jerarquizaba. Las figuras se dimensionaban según su importancia y no según su distancia, de modo que un santo podía ser más grande que el edificio que lo contenía. No era torpeza técnica sino un criterio distinto sobre qué debía representar una imagen."
+        },
+        {
+          "heading": "El experimento",
+          "text": "Hacia 1413, el arquitecto Filippo Brunelleschi pintó en Florencia el baptisterio sobre una tabla con un agujero en el punto de fuga. El espectador miraba por detrás a través del agujero, hacia un espejo que reflejaba la pintura. Al retirar el espejo veía el edificio real. Coincidían."
+        },
+        {
+          "heading": "La regla",
+          "text": "El principio es que las líneas paralelas que se alejan del observador convergen en un punto de fuga sobre el horizonte, y que los tamaños disminuyen de forma proporcional a la distancia. En 1435 Leon Battista Alberti lo formuló por escrito en su tratado sobre la pintura y lo convirtió en método enseñable."
+        },
+        {
+          "heading": "La consecuencia",
+          "text": "La perspectiva convirtió el cuadro en una ventana con un único punto de observación correcto. Eso trajo un realismo espacial inédito, y también una restricción: la imagen pasó a organizarse alrededor de un ojo concreto. Buena parte del arte del siglo XX consistió en discutir precisamente esa convención."
+        }
+      ],
+      "key_fact": "Brunelleschi verificó su perspectiva con un espejo: el espectador comparaba la pintura reflejada con el edificio real y comprobaba que coincidían.",
+      "questions": [
+        {
+          "q": "¿Por qué la pintura medieval dimensionaba las figuras por importancia?",
+          "options": [
+            "Porque los pigmentos limitaban el tamaño de las figuras",
+            "Porque desconocía la existencia del horizonte visual",
+            "Porque aplicaba un criterio distinto sobre qué debía representar una imagen",
+            "Porque la Iglesia prohibía representar la profundidad"
+          ],
+          "correct": 2,
+          "note": "No era una limitación técnica sino una decisión: la imagen jerarquizaba significados en lugar de reproducir la visión."
+        },
+        {
+          "q": "¿En qué consistió el experimento de Brunelleschi?",
+          "options": [
+            "Comparar mediante un espejo la pintura del baptisterio con el edificio real",
+            "Proyectar la imagen del edificio sobre un lienzo mediante una lente",
+            "Medir el edificio y reproducirlo a escala en un plano",
+            "Superponer varios dibujos hechos desde distintas posiciones"
+          ],
+          "correct": 0,
+          "note": "El espejo permitía la comparación directa entre representación y realidad, y convertía la demostración en verificable."
+        },
+        {
+          "q": "¿Cuál fue la aportación de Alberti?",
+          "options": [
+            "Aplicar la perspectiva por primera vez a la escultura",
+            "Demostrar matemáticamente que el método era incorrecto",
+            "Formular por escrito el método y convertirlo en enseñable",
+            "Descubrir el punto de fuga con anterioridad a Brunelleschi"
+          ],
+          "correct": 2,
+          "note": "La diferencia entre un hallazgo y una técnica es que la segunda puede transmitirse. Ese fue el papel del tratado de 1435."
+        },
+        {
+          "q": "¿Qué restricción introdujo la perspectiva lineal?",
+          "options": [
+            "Impidió representar figuras humanas a tamaño natural",
+            "Obligó a pintar siempre en formato horizontal",
+            "Excluyó el uso del color en los fondos arquitectónicos",
+            "Organizó la imagen alrededor de un único punto de observación correcto"
+          ],
+          "correct": 3,
+          "note": "Ganar realismo espacial supuso fijar dónde debe estar el ojo. El cubismo, siglos después, se construyó contra esa premisa."
+        }
+      ]
+    },
+    {
+      "id": "lit-0001",
+      "category": "literatura",
+      "title": "Don Quijote: la novela que empieza burlándose de las novelas",
+      "subtitle": "Cervantes escribió una parodia y le salió el primer personaje que cambia por dentro.",
+      "cover_image": {
+        "query": "don quixote illustration dore",
+        "wikipedia": "Don Quijote de la Mancha",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Title_page_first_edition_Don_Quijote.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Juan de la Cuesta",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Title_page_first_edition_Don_Quijote.jpg"
+      },
+      "cards": [
+        {
+          "heading": "El objetivo declarado",
+          "text": "Cervantes publica la primera parte en 1605 con un propósito explícito: ridiculizar los libros de caballerías, un género de enorme éxito popular y escasa consideración literaria. El planteamiento es sencillo. Un hidalgo lee tantos que pierde el juicio y decide salir al mundo a comportarse como sus protagonistas."
+        },
+        {
+          "heading": "Lo que pasa después",
+          "text": "La burla no se sostiene mucho tiempo. El personaje resulta más complejo que la parodia que lo originó, y la relación con Sancho Panza pasa de contraste cómico a algo parecido a una amistad real, donde cada uno acaba contagiando al otro su manera de ver el mundo."
+        },
+        {
+          "heading": "El juego de 1615",
+          "text": "En 1615, en la segunda parte, los personajes con los que se cruza Quijote y Sancho han leído la primera. Saben quiénes son y actúan en consecuencia. El libro se convierte en un comentario sobre su propia recepción, un recurso que la literatura no volvería a explotar en serio hasta mucho después."
+        },
+        {
+          "heading": "La primera novela moderna",
+          "text": "La etiqueta es discutible, pero apunta a algo real. Frente a la épica, donde los héroes son lo que son desde la primera página, aquí hay un protagonista que se transforma a lo largo del relato, una prosa que mezcla registros y un narrador que no merece confianza plena."
+        }
+      ],
+      "key_fact": "En la segunda parte de 1615, los personajes que Quijote y Sancho encuentran han leído la primera parte y les tratan según lo que allí se contaba.",
+      "questions": [
+        {
+          "q": "¿Cuál era el propósito declarado de Cervantes al escribir la primera parte?",
+          "options": [
+            "Retratar la decadencia de la nobleza castellana",
+            "Componer una autobiografía encubierta",
+            "Ridiculizar los libros de caballerías",
+            "Adaptar al castellano la épica italiana"
+          ],
+          "correct": 2,
+          "note": "El propósito paródico está enunciado por el propio autor. Lo interesante es que la obra excedió con mucho ese objetivo."
+        },
+        {
+          "q": "¿Qué recurso emplea la segunda parte de 1615?",
+          "options": [
+            "Los capítulos se ordenan de forma no cronológica",
+            "Los personajes que aparecen han leído la primera parte y actúan sabiendo quién es Quijote",
+            "Sancho asume el papel de narrador principal",
+            "La narración cambia a primera persona"
+          ],
+          "correct": 1,
+          "note": "El libro incorpora su propia recepción como material narrativo, algo excepcional para su tiempo."
+        },
+        {
+          "q": "¿Qué distingue a Don Quijote de la épica anterior?",
+          "options": [
+            "El protagonista se transforma a lo largo del relato en lugar de estar definido desde el principio",
+            "Prescinde de cualquier elemento fantástico",
+            "Se desarrolla en un tiempo histórico determinado con exactitud",
+            "Está escrito íntegramente en verso"
+          ],
+          "correct": 0,
+          "note": "El héroe épico es lo que es. El personaje de novela cambia, y ese cambio es buena parte de lo que se cuenta."
+        },
+        {
+          "q": "¿Cómo evoluciona la relación entre Quijote y Sancho?",
+          "options": [
+            "De alianza inicial a enfrentamiento definitivo",
+            "De contraste cómico a una influencia recíproca entre ambos",
+            "Permanece invariable a lo largo de las dos partes",
+            "De relación jerárquica a inversión completa de papeles"
+          ],
+          "correct": 1,
+          "note": "Cada uno acaba contagiando al otro su forma de mirar. La crítica lo llamó, con cierta gracia, la sanchificación de Quijote."
+        }
+      ]
+    },
+    {
+      "id": "lit-0002",
+      "category": "literatura",
+      "title": "Macondo: cuando lo extraordinario se cuenta sin levantar la voz",
+      "subtitle": "García Márquez publicó en 1967 un libro cuyo hallazgo está en el tono, no en los prodigios.",
+      "cover_image": {
+        "query": "gabriel garcia marquez portrait",
+        "wikipedia": "Cien años de soledad",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Cien_a%C3%B1os_de_soledad.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Luis Rivera",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Cien_a%C3%B1os_de_soledad.png"
+      },
+      "cards": [
+        {
+          "heading": "El libro",
+          "text": "Cien años de soledad se publicó en Buenos Aires en 1967 y narra siete generaciones de la familia Buendía en el pueblo imaginario de Macondo. Los nombres se repiten entre generaciones, los personajes reproducen los errores de sus antepasados y el tiempo avanza más en espiral que en línea recta."
+        },
+        {
+          "heading": "El hallazgo del tono",
+          "text": "Lo característico no es que ocurran hechos imposibles, sino cómo se cuentan. Una mujer asciende al cielo mientras tiende la ropa y el narrador dedica la misma atención a la sábana que al ascenso. Lo maravilloso no se subraya ni se justifica: se registra con la naturalidad de una noticia local."
+        },
+        {
+          "heading": "La historia debajo",
+          "text": "Bajo la superficie fantástica hay historia colombiana reconocible. El episodio de la matanza de los trabajadores bananeros y su posterior negación oficial remite a hechos de 1928. La novela cuenta cómo un país recuerda y cómo un poder consigue que ciertas cosas dejen de haber ocurrido."
+        },
+        {
+          "heading": "Lo que vino después",
+          "text": "El libro impulsó la proyección internacional de la narrativa latinoamericana y fijó una etiqueta, el realismo mágico, que después se aplicó con generosidad excesiva a autores muy distintos entre sí. El propio García Márquez insistió en que no inventaba nada: solo contaba el Caribe con el tono en que allí se cuenta."
+        }
+      ],
+      "key_fact": "El episodio de la matanza de los trabajadores bananeros y su negación posterior remite a hechos ocurridos en Colombia en 1928.",
+      "questions": [
+        {
+          "q": "¿En qué consiste el rasgo distintivo del estilo de la novela?",
+          "options": [
+            "Los prodigios se explican siempre por causas naturales al final",
+            "El narrador advierte al lector cada vez que un hecho es imposible",
+            "Los hechos extraordinarios se narran con la misma naturalidad que los cotidianos",
+            "El relato alterna capítulos realistas y capítulos fantásticos"
+          ],
+          "correct": 2,
+          "note": "El efecto nace del tono, no del contenido: lo maravilloso no se subraya ni se justifica, simplemente se registra."
+        },
+        {
+          "q": "¿Qué hecho histórico colombiano resuena en la novela?",
+          "options": [
+            "La fundación de la República de la Nueva Granada",
+            "La independencia de Panamá en 1903",
+            "La guerra con Perú por el trapecio amazónico",
+            "La matanza de trabajadores bananeros de 1928 y su negación posterior"
+          ],
+          "correct": 3,
+          "note": "La novela no solo narra la matanza: narra cómo se logra que oficialmente no haya ocurrido, que es su asunto de fondo."
+        },
+        {
+          "q": "¿Qué función tiene la repetición de nombres entre generaciones?",
+          "options": [
+            "Reproduce una costumbre onomástica española del siglo XIX",
+            "Señala qué personajes son reales y cuáles imaginados",
+            "Refuerza la idea de un tiempo circular en el que los errores se reproducen",
+            "Facilita la identificación de los personajes principales"
+          ],
+          "correct": 2,
+          "note": "La confusión que produce en el lector no es un defecto: es el procedimiento con el que la novela construye su noción del tiempo."
+        },
+        {
+          "q": "¿Qué matizó el propio García Márquez sobre el realismo mágico?",
+          "options": [
+            "Que la etiqueta la había acuñado él mismo",
+            "Que se trataba de una técnica aprendida de la narrativa rusa",
+            "Que no inventaba nada: contaba el Caribe en el tono en que allí se cuenta",
+            "Que solo se aplicaba correctamente a su primera novela"
+          ],
+          "correct": 2,
+          "note": "La etiqueta se extendió después a autores muy distintos entre sí, hasta perder buena parte de su capacidad descriptiva."
+        }
+      ]
+    }
+  ]
+}
