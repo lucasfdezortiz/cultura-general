@@ -61,7 +61,7 @@ CATEGORIES: dict[str, dict] = {
         "color": "#4A3F63",
         "icono": "◈",
         "descripcion": "Las preguntas que no se resuelven pero sí se afinan.",
-        "orden": 5,
+        "orden": 7,
     },
     "presente": {
         "nombre": "Claves del Presente",
@@ -72,7 +72,40 @@ CATEGORIES: dict[str, dict] = {
         "color": "#8A5A2B",
         "icono": "◉",
         "descripcion": "Las estructuras duraderas que hacen entender las noticias.",
+        "orden": 8,
+    },
+    "fisica": {
+        "nombre": "Física",
+        "peso": 2.0,
+        "objetivo": 40,
+        "por_dia": 1,
+        "activa": True,
+        "color": "#1F6B6B",
+        "icono": "◎",
+        "descripcion": "Las reglas que no admiten excepción.",
+        "orden": 5,
+    },
+    "matematicas": {
+        "nombre": "Matemáticas y Estadística",
+        "peso": 2.0,
+        "objetivo": 40,
+        "por_dia": 1,
+        "activa": True,
+        "color": "#8A4A1F",
+        "icono": "∑",
+        "descripcion": "Contar, medir y no dejarse engañar por los números.",
         "orden": 6,
+    },
+    "mitologia": {
+        "nombre": "Mitología",
+        "peso": 1.5,
+        "objetivo": 30,
+        "por_dia": 1,
+        "activa": True,
+        "color": "#6B4A7A",
+        "icono": "☾",
+        "descripcion": "Los relatos con los que las culturas se explicaron el mundo.",
+        "orden": 9,
     },
     "arte": {
         "nombre": "Arte",
@@ -83,7 +116,7 @@ CATEGORIES: dict[str, dict] = {
         "color": "#8C3F4D",
         "icono": "✦",
         "descripcion": "Qué estaba intentando resolver quien lo hizo.",
-        "orden": 7,
+        "orden": 10,
     },
     "literatura": {
         "nombre": "Literatura",
@@ -94,7 +127,7 @@ CATEGORIES: dict[str, dict] = {
         "color": "#3F5A3D",
         "icono": "❖",
         "descripcion": "Libros que cambiaron la forma de contar algo.",
-        "orden": 8,
+        "orden": 11,
     },
 }
 
@@ -108,6 +141,9 @@ PREFIJOS: dict[str, str] = {
     "presente": "pre",
     "arte": "art",
     "literatura": "lit",
+    "fisica": "fis",
+    "matematicas": "mat",
+    "mitologia": "mit",
 }
 
 # Umbral por debajo del cual avisamos de que hay que recargar el banco.

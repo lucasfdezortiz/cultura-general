@@ -89,9 +89,9 @@ def main() -> int:
         n, obj = por_cat.get(cat, 0), meta["objetivo"]
         total_obj += obj
         barra = "█" * int(n / obj * 26) if obj else ""
-        print(f"  {meta['nombre']:<22} {n:>3}/{obj:<3} {barra}")
+        print(f"  {meta['nombre']:<26} {n:>3}/{obj:<3} {barra}")
     hechas = len(banco["lecciones"])
-    print(f"\n  {'TOTAL':<22} {hechas:>3}/{total_obj:<3} ({hechas / total_obj * 100:.0f}% del objetivo)")
+    print(f"\n  {'TOTAL':<26} {hechas:>3}/{total_obj:<3} ({hechas / total_obj * 100:.0f}% del objetivo)")
 
     if args.dry_run:
         print("\n--dry-run: no se ha escrito el banco.")

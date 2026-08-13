@@ -28,21 +28,48 @@ def _siguiente_pendiente(
     return None
 
 
+def _rotacion(orden: list[str], hoy: str) -> list[str]:
+    """Rota la lista de categorías según el día.
+
+    Con un tope diario, sin rotación las últimas categorías del orden no
+    saldrían nunca. Desplazar el punto de partida un puesto por día hace que
+    todas entren en el paquete cada pocos días, y sigue siendo determinista:
+    depende solo de la fecha.
+    """
+    if not orden:
+        return orden
+    dias = date.fromisoformat(hoy).toordinal()
+    desfase = dias % len(orden)
+    return orden[desfase:] + orden[:desfase]
+
+
 def construir_paquete(banco: dict, prog: dict, hoy: str) -> list[str]:
     """Ids del paquete de hoy, sin tocar el progreso."""
     completadas = prog_mod.ids_completadas(prog)
     activas = prog_mod.categorias_activas(prog)
     dominadas = set(prog.get("dominadas", []))
 
-    prioritarias = [c for c in activas if c not in dominadas]
-    secundarias = [c for c in activas if c in dominadas]
-    orden = sorted(prioritarias, key=lambda c: CATEGORIES[c]["orden"]) + sorted(
-        secundarias, key=lambda c: CATEGORIES[c]["orden"]
+    prioritarias = sorted(
+        (c for c in activas if c not in dominadas), key=lambda c: CATEGORIES[c]["orden"]
     )
+    secundarias = sorted(
+        (c for c in activas if c in dominadas), key=lambda c: CATEGORIES[c]["orden"]
+    )
+
+    tope = prog_mod.max_por_dia(prog)
+    if tope:
+        # Solo rotan las prioritarias: las dominadas quedan siempre al final.
+        orden = _rotacion(prioritarias, hoy) + secundarias
+    else:
+        orden = prioritarias + secundarias
 
     paquete: list[str] = []
     for cat in orden:
+        if tope and len(paquete) >= tope:
+            break
         for _ in range(max(1, CATEGORIES[cat].get("por_dia", 1))):
+            if tope and len(paquete) >= tope:
+                break
             lid = _siguiente_pendiente(banco, cat, completadas, set(paquete))
             if lid:
                 paquete.append(lid)
@@ -60,14 +87,31 @@ def paquete_del_dia(banco: dict, prog: dict, hoy: str | None = None) -> tuple[li
 
     if dia and dia.get("paquete"):
         vigentes = [i for i in dia["paquete"] if i in banco["lecciones"]]
+        completadas = prog_mod.ids_completadas(prog)
+        tope = prog_mod.max_por_dia(prog)
+
+        # Bajar el tope recorta el día en curso, quitando pendientes por la
+        # cola. Si no, el ajuste no surtiría efecto hasta mañana y parecería
+        # que el control está roto. Lo ya completado nunca se retira: cuenta
+        # para el sello aunque exceda el tope nuevo.
+        if tope and len(vigentes) > tope:
+            hechas = [i for i in vigentes if i in completadas]
+            pendientes = [i for i in vigentes if i not in completadas]
+            hueco = max(0, tope - len(hechas))
+            recortado = hechas + pendientes[:hueco]
+            if recortado != vigentes:
+                vigentes = [i for i in dia["paquete"] if i in recortado]
+                prog_mod.fijar_paquete(prog, hoy, vigentes)
+                return vigentes, True
 
         # El paquete anclado NO se recalcula: completar una lección no debe
         # traer la siguiente de esa misma categoría al día de hoy. Lo único
         # que puede ampliarlo es activar una categoría que aún no aparezca.
         representadas = {banco["lecciones"][i]["category"] for i in vigentes}
-        completadas = prog_mod.ids_completadas(prog)
         nuevos: list[str] = []
         for cat in sorted(prog_mod.categorias_activas(prog), key=lambda x: CATEGORIES[x]["orden"]):
+            if tope and len(vigentes) + len(nuevos) >= tope:
+                break
             if cat in representadas:
                 continue
             lid = _siguiente_pendiente(banco, cat, completadas, set(vigentes) | set(nuevos))

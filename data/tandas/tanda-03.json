@@ -1,0 +1,306 @@
+{
+  "tanda": 3,
+  "nota": "Estreno de Física, Matemáticas y Estadística, y Mitología",
+  "lecciones": [
+    {
+      "id": "fis-0001",
+      "category": "fisica",
+      "title": "Por qué la velocidad de la luz es un límite y no un récord",
+      "subtitle": "No es que no tengamos motores suficientes: la estructura del espacio y el tiempo lo impide.",
+      "cover_image": { "query": "light beam speed physics", "wikipedia": "Velocidad de la luz" },
+      "cards": [
+        { "heading": "El punto de partida", "text": "La relatividad especial arranca de un hecho medido: la velocidad de la luz en el vacío sale igual para cualquier observador, se mueva como se mueva. Eso rompe la intuición de que las velocidades se suman. Si persigues un rayo de luz a gran velocidad, no lo ves alejarse más despacio: sigue apartándose a la misma velocidad de siempre." },
+        { "heading": "Qué se rompe entonces", "text": "Si la velocidad de la luz es la misma para todos, lo que tiene que ceder es el tiempo. La velocidad es distancia dividida por tiempo, así que mantener fijo ese cociente obliga a que dos observadores en movimiento relativo midan duraciones y distancias distintas. El tiempo deja de ser un fondo común e idéntico para todos." },
+        { "heading": "Por qué es un techo", "text": "Cuanto más rápido va un objeto, más energía hace falta para acelerarlo un poco más, y esa exigencia crece sin fin al acercarse a la velocidad de la luz. Llegar exactamente a ella requeriría energía infinita para cualquier cosa con masa. No es un problema de ingeniería: es una imposibilidad aritmética." },
+        { "heading": "Consecuencias comprobadas", "text": "No es especulación. Los relojes atómicos en avión se desfasan respecto a los de tierra en la cantidad prevista, y las partículas inestables producidas en la atmósfera alta llegan al suelo porque su desintegración se retrasa a alta velocidad. El sistema de posicionamiento por satélite necesita corregir estos efectos para no acumular error." }
+      ],
+      "key_fact": "Los satélites de posicionamiento corrigen los efectos relativistas de forma continua: sin esa corrección, el error acumulado haría el sistema inservible en pocas horas.",
+      "questions": [
+        { "q": "¿Cuál es el hecho experimental del que parte la relatividad especial?", "options": ["La velocidad de la luz en el vacío resulta la misma para cualquier observador", "La luz se desvía al pasar cerca de una masa", "El tiempo transcurre igual en todos los sistemas de referencia", "La energía y la masa son magnitudes independientes"], "correct": 0, "note": "Es una medición, no un postulado arbitrario. Todo lo demás se deduce de tomarla en serio." },
+        { "q": "¿Qué debe ceder para que la velocidad de la luz sea invariante?", "options": ["El carácter absoluto del tiempo y de las distancias", "La conservación de la energía", "La constancia de la masa en reposo", "La aditividad de las fuerzas"], "correct": 0, "note": "Si el cociente entre distancia y tiempo es fijo para todos, son el numerador y el denominador los que tienen que variar." },
+        { "q": "¿Por qué un objeto con masa no puede alcanzar la velocidad de la luz?", "options": ["La energía necesaria para acercarse a ella crece sin límite", "La resistencia del vacío aumenta con la velocidad", "Su masa en reposo se anularía", "El objeto dejaría de ser observable"], "correct": 0, "note": "El obstáculo no es tecnológico. Es que la cantidad requerida diverge, y no hay motor que resuelva un infinito." },
+        { "q": "¿Qué evidencia cotidiana confirma la dilatación temporal?", "options": ["Los satélites de posicionamiento corrigen el desfase de sus relojes de forma continua", "Las señales de radio tardan más en los días cálidos", "La luz de las estrellas llega desplazada al rojo", "Los relojes mecánicos se atrasan a gran altitud"], "correct": 0, "note": "Sin esas correcciones el error de posición se acumularía hasta hacer el sistema inservible en cuestión de horas." }
+      ]
+    },
+    {
+      "id": "fis-0002",
+      "category": "fisica",
+      "title": "La entropía y por qué el tiempo solo va hacia delante",
+      "subtitle": "Casi todas las leyes de la física funcionan igual del revés. Una no.",
+      "cover_image": { "query": "smoke dispersion physics disorder", "wikipedia": "Entropía" },
+      "cards": [
+        { "heading": "La asimetría", "text": "Si grabas una bola de billar chocando con otra y pasas el vídeo al revés, lo que ves sigue siendo física válida. Pero si grabas una taza cayéndose y la reproduces al revés, la escena resulta imposible. Las leyes fundamentales no distinguen pasado de futuro; nuestra experiencia sí. Esa discrepancia es el problema." },
+        { "heading": "Contar configuraciones", "text": "La respuesta está en el recuento. Hay muchísimas maneras de que los fragmentos de una taza estén esparcidos por el suelo y muy pocas de que compongan una taza intacta. Un sistema evoluciona hacia estados desordenados sencillamente porque hay muchos más de esos disponibles. No hay una fuerza que empuje al desorden: hay aritmética." },
+        { "heading": "La segunda ley", "text": "La entropía mide cuántas configuraciones microscópicas corresponden al mismo aspecto macroscópico. La segunda ley de la termodinámica dice que en un sistema aislado nunca disminuye. Es la única ley fundamental que señala una dirección temporal, y de ahí que se hable de la flecha del tiempo." },
+        { "heading": "El matiz importante", "text": "La entropía puede disminuir localmente: un frigorífico enfría su interior y un organismo se construye a sí mismo. Lo hacen exportando más desorden del que reducen, en forma de calor al entorno. La ley se aplica al conjunto, no a cada rincón, y confundir ambas cosas es el error habitual al invocarla." }
+      ],
+      "key_fact": "La entropía puede disminuir localmente. Un frigorífico enfría su interior exportando al entorno más desorden del que elimina dentro.",
+      "questions": [
+        { "q": "¿Por qué los sistemas evolucionan hacia estados desordenados?", "options": ["Hay muchísimas más configuraciones desordenadas disponibles que ordenadas", "Existe una fuerza fundamental que empuja hacia el desorden", "La energía se destruye progresivamente", "La gravedad favorece las disposiciones dispersas"], "correct": 0, "note": "Es un argumento de recuento, no de fuerzas. Lo probable ocurre porque hay más maneras de que ocurra." },
+        { "q": "¿Qué hace singular a la segunda ley de la termodinámica?", "options": ["Es la única ley fundamental que distingue una dirección temporal", "Es la única que se cumple exactamente en todos los casos", "Prohíbe la conservación de la energía en sistemas cerrados", "Solo se aplica a escalas subatómicas"], "correct": 0, "note": "Las demás leyes fundamentales funcionan igual si se invierte el signo del tiempo; esta no." },
+        { "q": "¿Cómo puede un organismo vivo mantenerse ordenado?", "options": ["Exportando al entorno más desorden del que reduce en su interior", "Suspendiendo temporalmente la segunda ley", "Manteniéndose aislado del intercambio de energía", "Reduciendo su temperatura interna por debajo del entorno"], "correct": 0, "note": "La ley se aplica al conjunto del sistema y su entorno, no a cada porción por separado." },
+        { "q": "¿Qué mide exactamente la entropía?", "options": ["Cuántas configuraciones microscópicas corresponden al mismo aspecto macroscópico", "La cantidad total de energía no aprovechable", "La velocidad media de las partículas de un gas", "La diferencia de temperatura entre dos cuerpos"], "correct": 0, "note": "Esa definición es la que conecta el desorden observable con el conteo estadístico que lo explica." }
+      ]
+    },
+    {
+      "id": "fis-0003",
+      "category": "fisica",
+      "title": "Emmy Noether y el motivo de que la energía se conserve",
+      "subtitle": "En 1918 demostró que cada ley de conservación esconde una simetría.",
+      "cover_image": { "query": "emmy noether mathematician portrait", "wikipedia": "Teorema de Noether" },
+      "cards": [
+        { "heading": "Una pregunta rara", "text": "La conservación de la energía se enseña como un hecho comprobado: la energía ni se crea ni se destruye. Pero cabe preguntar por qué. No es evidente que el universo tuviera que funcionar así, y durante mucho tiempo la respuesta fue simplemente que las mediciones lo confirmaban una y otra vez." },
+        { "heading": "El teorema", "text": "Emmy Noether demostró en 1918 que toda simetría continua de un sistema físico lleva asociada una magnitud que se conserva. Si las leyes son las mismas hoy que mañana, se conserva la energía. Si son las mismas aquí que un metro más allá, se conserva el momento lineal. Si no dependen de la orientación, se conserva el momento angular." },
+        { "heading": "Qué cambia", "text": "El resultado convierte una colección de reglas empíricas sueltas en consecuencias de una sola idea. Las leyes de conservación dejan de ser hechos que hay que aceptar y pasan a ser lo que se sigue de que las leyes de la física no cambien al desplazarse en el tiempo, en el espacio o en el ángulo." },
+        { "heading": "La autora", "text": "Noether trabajó en Gotinga sin sueldo ni plaza durante años porque la universidad no admitía profesoras. Hilbert defendió su incorporación con el argumento de que la facultad no era una casa de baños. Fue expulsada por el régimen nazi en 1933 y murió en Estados Unidos dos años después." }
+      ],
+      "key_fact": "Toda simetría continua lleva asociada una cantidad conservada: la energía se conserva porque las leyes de la física no cambian con el paso del tiempo.",
+      "questions": [
+        { "q": "¿Qué establece el teorema de Noether?", "options": ["Cada simetría continua de un sistema lleva asociada una magnitud conservada", "La energía total del universo es constante y finita", "Toda magnitud conservada implica una fuerza fundamental", "Las leyes físicas son invariantes bajo inversión temporal"], "correct": 0, "note": "Es un puente entre dos ideas que parecían independientes: la simetría de las leyes y lo que permanece constante." },
+        { "q": "¿A qué simetría corresponde la conservación de la energía?", "options": ["A que las leyes de la física sean las mismas en cualquier instante", "A que sean las mismas en cualquier punto del espacio", "A que no dependan de la orientación del sistema", "A que sean iguales para cualquier observador en movimiento"], "correct": 0, "note": "La invariancia respecto al lugar da el momento lineal, y respecto a la orientación, el momento angular." },
+        { "q": "¿Qué aporta el teorema frente a la comprobación empírica?", "options": ["Explica por qué se conservan esas magnitudes en lugar de constatar que lo hacen", "Permite medirlas con mayor precisión", "Amplía el número de magnitudes conservadas conocidas", "Demuestra que la energía puede crearse en ciertos casos"], "correct": 0, "note": "Convierte un catálogo de reglas empíricas en consecuencias de una sola idea estructural." },
+        { "q": "¿En qué circunstancias trabajó Noether al formularlo?", "options": ["Sin sueldo ni plaza en Gotinga, porque la universidad no admitía profesoras", "Como catedrática titular de física teórica", "En un instituto privado financiado por Hilbert", "Desde el exilio en Estados Unidos"], "correct": 0, "note": "La expulsión y el exilio llegaron después, en 1933, con la llegada del régimen nazi." }
+      ]
+    },
+    {
+      "id": "fis-0004",
+      "category": "fisica",
+      "title": "Por qué el cielo es azul y los atardeceres rojos",
+      "subtitle": "La misma ecuación explica las dos cosas, y depende de cuánto aire atraviesa la luz.",
+      "cover_image": { "query": "blue sky sunset gradient", "wikipedia": "Dispersión de Rayleigh" },
+      "cards": [
+        { "heading": "La luz del sol", "text": "La luz solar contiene todas las longitudes de onda visibles mezcladas, lo que percibimos como blanco. Al entrar en la atmósfera, choca con moléculas de nitrógeno y oxígeno mucho menores que su longitud de onda, y en esa interacción no todos los colores se comportan igual." },
+        { "heading": "La ecuación", "text": "La dispersión producida por partículas muy pequeñas crece de forma acusada al disminuir la longitud de onda: aproximadamente con la cuarta potencia inversa. Eso significa que la luz azul se dispersa muchas veces más que la roja. El azul rebota en todas direcciones y nos llega desde cualquier punto del cielo, no solo desde el sol." },
+        { "heading": "Por qué no violeta", "text": "El violeta tiene longitud de onda aún menor y se dispersa todavía más, así que cabría esperar un cielo violeta. No lo es por dos motivos que se suman: el sol emite menos violeta que azul, y nuestros receptores visuales son bastante menos sensibles a esa parte del espectro. El color que percibimos es el resultado de ambas cosas." },
+        { "heading": "El atardecer", "text": "Con el sol bajo, su luz atraviesa un espesor de atmósfera mucho mayor antes de llegarnos. En ese trayecto largo el azul se dispersa hasta agotarse y lo que queda en la línea directa es la parte roja y anaranjada. No es un fenómeno distinto: es la misma dispersión, con más camino recorrido." }
+      ],
+      "key_fact": "El cielo no es violeta pese a dispersarse más ese color porque el sol emite menos violeta y el ojo humano es menos sensible a él.",
+      "questions": [
+        { "q": "¿Por qué el cielo se ve azul?", "options": ["La luz azul se dispersa mucho más que la roja al chocar con las moléculas del aire", "La atmósfera contiene partículas de color azul", "El agua de los océanos refleja su color hacia arriba", "El azul es el color dominante en la emisión solar"], "correct": 0, "note": "La dispersión crece aproximadamente con la cuarta potencia inversa de la longitud de onda, lo que favorece con mucho a los tonos cortos." },
+        { "q": "¿Por qué el cielo no es violeta, si ese color se dispersa aún más?", "options": ["El sol emite menos violeta y el ojo humano es menos sensible a él", "El violeta es absorbido por la capa de ozono", "Las moléculas del aire no dispersan esa longitud de onda", "El violeta se dispersa solo en las capas altas"], "correct": 0, "note": "Son dos causas que se suman: la composición de la fuente y la respuesta del receptor." },
+        { "q": "¿Qué explica el color rojizo del atardecer?", "options": ["La luz atraviesa mucha más atmósfera y el azul se dispersa hasta agotarse", "El sol emite luz más roja al final del día", "El polvo en suspensión aumenta al anochecer", "La temperatura del aire modifica la longitud de onda"], "correct": 0, "note": "Es exactamente el mismo mecanismo que da el cielo azul, aplicado a un recorrido mucho más largo." },
+        { "q": "¿Qué condición cumplen las moléculas que producen esta dispersión?", "options": ["Son mucho más pequeñas que la longitud de onda de la luz", "Tienen carga eléctrica neta", "Se encuentran únicamente en la estratosfera", "Absorben la luz antes de reemitirla"], "correct": 0, "note": "Cuando las partículas son comparables o mayores, como las gotas de una nube, el resultado es distinto: dispersan todos los colores por igual y las nubes se ven blancas." }
+      ]
+    },
+    {
+      "id": "fis-0005",
+      "category": "fisica",
+      "title": "El eclipse de 1919 y la gravedad como forma del espacio",
+      "subtitle": "Einstein propuso que la masa curva la geometría. Hubo que esperar a un eclipse.",
+      "cover_image": { "query": "solar eclipse 1919 eddington", "wikipedia": "Relatividad general" },
+      "cards": [
+        { "heading": "Otra idea de gravedad", "text": "Para Newton la gravedad es una fuerza que actúa a distancia entre masas. Einstein propuso en 1915 algo distinto: la masa deforma el espacio y el tiempo a su alrededor, y los cuerpos simplemente siguen la trayectoria más recta posible en una geometría curvada. La manzana no es atraída: recorre un espacio deformado." },
+        { "heading": "Una predicción arriesgada", "text": "Si la geometría misma está curvada, también la luz debe seguir esa curvatura pese a no tener masa. La teoría predecía una desviación concreta para la luz de una estrella que pasara junto al Sol, y el valor era aproximadamente el doble del que cabría estimar con la física newtoniana. Un número distinto es lo que hace una teoría contrastable." },
+        { "heading": "El problema práctico", "text": "Ese efecto solo puede medirse observando estrellas cuya luz pasa rozando el Sol, y con el Sol brillando resultan invisibles. La única ocasión es un eclipse total. En mayo de 1919 dos expediciones británicas dirigidas por Arthur Eddington viajaron a la isla de Príncipe y a Sobral, en Brasil, para fotografiarlo." },
+        { "heading": "El resultado", "text": "Las medidas favorecieron la predicción de Einstein y el anuncio lo convirtió en una celebridad mundial casi de la noche a la mañana. Los datos originales fueron más ruidosos de lo que sugiere el relato heroico, y se ha discutido cuánto pesó el criterio de Eddington al descartar una de las series. Mediciones posteriores, mucho más precisas, han confirmado el resultado." }
+      ],
+      "key_fact": "La relatividad general predecía para la desviación de la luz aproximadamente el doble del valor estimable con física newtoniana: un número distinto que permitía decidir entre ambas.",
+      "questions": [
+        { "q": "¿Cómo describe la relatividad general la gravedad?", "options": ["Como la curvatura del espacio y el tiempo producida por la masa", "Como una fuerza instantánea entre cuerpos con masa", "Como un intercambio de partículas entre los cuerpos", "Como una propiedad emergente de la entropía"], "correct": 0, "note": "Los cuerpos no son atraídos: siguen la trayectoria más recta disponible en una geometría deformada." },
+        { "q": "¿Por qué hacía falta un eclipse total para contrastarla?", "options": ["Solo entonces son visibles las estrellas cuya luz pasa rozando el Sol", "La temperatura del Sol distorsiona las mediciones en días normales", "El eclipse amplifica el efecto de la curvatura", "La atmósfera es más transparente durante un eclipse"], "correct": 0, "note": "Sin eclipse, el brillo solar hace invisibles justamente las estrellas cuya posición aparente había que medir." },
+        { "q": "¿Qué hacía contrastable la predicción de Einstein?", "options": ["Daba un valor numérico distinto del estimable con física newtoniana", "Era la primera teoría que predecía desviación de la luz", "Podía comprobarse en laboratorio sin observación astronómica", "No requería instrumentos de precisión"], "correct": 0, "note": "Una teoría que predice lo mismo que la anterior no puede decidirse por experimento. La diferencia numérica es lo que permite elegir." },
+        { "q": "¿Qué matiz conviene mantener sobre el resultado de 1919?", "options": ["Los datos originales fueron ruidosos y se ha discutido el descarte de una serie", "Las mediciones contradijeron la teoría y se ocultaron", "El experimento nunca llegó a realizarse en Sobral", "Eddington trabajaba para refutar a Einstein"], "correct": 0, "note": "Mediciones posteriores mucho más precisas han confirmado la predicción, pero el episodio original fue menos limpio que su leyenda." }
+      ]
+    },
+    {
+      "id": "mat-0001",
+      "category": "matematicas",
+      "title": "Con veintitrés personas ya es más probable que coincidan",
+      "subtitle": "La paradoja del cumpleaños no es una curiosidad: es un error de intuición reproducible.",
+      "cover_image": { "query": "probability mathematics calculation", "wikipedia": "Paradoja del cumpleaños" },
+      "cards": [
+        { "heading": "El resultado", "text": "En un grupo de veintitrés personas, la probabilidad de que al menos dos compartan cumpleaños supera el cincuenta por ciento. Con cincuenta personas pasa del noventa y siete por ciento, y con setenta roza la certeza. Casi todo el mundo estima cifras muchísimo más altas al oír la pregunta por primera vez." },
+        { "heading": "Dónde falla la intuición", "text": "El error está en la pregunta que uno se hace sin darse cuenta. La intuición calcula la probabilidad de que alguien coincida conmigo, que efectivamente es pequeña. El enunciado pregunta otra cosa: si coincide alguna pareja del grupo, la que sea. Y el número de parejas crece mucho más deprisa que el de personas." },
+        { "heading": "La aritmética", "text": "Con veintitrés personas hay doscientas cincuenta y tres parejas posibles, porque cada una puede emparejarse con las demás. La forma cómoda de calcularlo es por el complementario: se obtiene la probabilidad de que nadie coincida, multiplicando las opciones que van quedando libres, y se resta de uno." },
+        { "heading": "Por qué importa", "text": "El mismo razonamiento gobierna la seguridad informática. Encontrar dos entradas distintas que produzcan el mismo resumen criptográfico es mucho más fácil que encontrar una que coincida con uno dado, y por ese motivo se llama ataque de cumpleaños. La longitud de las funciones hash se dimensiona contando parejas, no elementos." }
+      ],
+      "key_fact": "En un grupo de veintitrés personas hay doscientas cincuenta y tres parejas posibles. La intuición cuenta personas; el problema cuenta parejas.",
+      "questions": [
+        { "q": "¿Dónde está el error de intuición en la paradoja?", "options": ["Se calcula la probabilidad de coincidir con uno mismo, no la de que coincida alguna pareja", "Se olvida contar los años bisiestos", "Se supone que los nacimientos se reparten de forma uniforme", "Se confunde probabilidad con frecuencia observada"], "correct": 0, "note": "Son dos preguntas distintas, y la segunda tiene muchísimas más ocasiones de cumplirse." },
+        { "q": "¿Cuántas parejas posibles hay en un grupo de veintitrés personas?", "options": ["253", "23", "46", "529"], "correct": 0, "note": "Cada persona puede emparejarse con las otras veintidós, y se divide entre dos para no contar dos veces la misma pareja." },
+        { "q": "¿Cuál es la forma cómoda de calcular la probabilidad?", "options": ["Calcular la de que nadie coincida y restarla de uno", "Sumar las probabilidades individuales de cada persona", "Dividir el número de parejas entre 365", "Multiplicar la probabilidad individual por el número de personas"], "correct": 0, "note": "El complementario es un solo producto; contar directamente todos los casos favorables sería mucho más engorroso." },
+        { "q": "¿Qué aplicación tiene este razonamiento en seguridad informática?", "options": ["Dimensionar funciones hash frente a los llamados ataques de cumpleaños", "Generar contraseñas aleatorias más largas", "Cifrar comunicaciones mediante claves compartidas", "Detectar accesos simultáneos al mismo sistema"], "correct": 0, "note": "Hallar dos entradas con el mismo resumen es mucho más fácil que hallar una que iguale a un resumen dado." }
+      ]
+    },
+    {
+      "id": "mat-0002",
+      "category": "matematicas",
+      "title": "Los aviones que no volvieron: el sesgo de supervivencia",
+      "subtitle": "Abraham Wald resolvió el problema mirando los agujeros que faltaban.",
+      "cover_image": { "query": "world war two bomber aircraft", "wikipedia": "Sesgo de supervivencia" },
+      "cards": [
+        { "heading": "El encargo", "text": "Durante la Segunda Guerra Mundial, el mando aliado quería blindar mejor sus bombarderos sin añadir demasiado peso. Examinaron los aviones que volvían de las misiones y cartografiaron dónde tenían impactos. La conclusión aparente era clara: reforzar las zonas donde se concentraban los agujeros." },
+        { "heading": "La objeción", "text": "El matemático Abraham Wald, del grupo de investigación estadística de Columbia, señaló que la muestra estaba mal elegida. Solo se estaban examinando los aviones que habían regresado. Los impactos que mostraban eran, por definición, los daños compatibles con volver a casa." },
+        { "heading": "La inversión", "text": "Su recomendación fue la contraria: blindar precisamente las zonas donde los aviones supervivientes no presentaban impactos, como los motores. Si ninguno volvía con agujeros ahí, la explicación más razonable era que los que recibían impactos en esos puntos no volvían. La ausencia de datos era el dato." },
+        { "heading": "Dónde reaparece", "text": "El mismo sesgo asoma cada vez que se estudia solo a los que llegaron. Los consejos extraídos de empresas exitosas ignoran a las que aplicaron la misma receta y quebraron. Los fondos de inversión que se cierran desaparecen de las series históricas y elevan artificialmente la rentabilidad media del sector." }
+      ],
+      "key_fact": "Wald recomendó blindar las zonas sin impactos: si ningún avión volvía con agujeros ahí, era porque los que los recibían no volvían.",
+      "questions": [
+        { "q": "¿Qué error contenía el análisis original de los bombarderos?", "options": ["Examinaba solo los aviones que habían regresado", "Confundía impactos de metralla con daños de aterrizaje", "No distinguía entre modelos distintos de avión", "Sobrestimaba el peso del blindaje disponible"], "correct": 0, "note": "La muestra estaba filtrada por el propio fenómeno que se quería estudiar: sobrevivir." },
+        { "q": "¿Qué recomendó Wald?", "options": ["Blindar las zonas donde los supervivientes no mostraban impactos", "Reducir el blindaje para ganar velocidad", "Aumentar el número de misiones por avión", "Reforzar de forma uniforme toda la estructura"], "correct": 0, "note": "La ausencia de agujeros en los motores era informativa: señalaba dónde un impacto resultaba fatal." },
+        { "q": "¿Cómo afecta este sesgo a las series históricas de fondos de inversión?", "options": ["Los fondos cerrados desaparecen de la serie y elevan la rentabilidad media", "Los fondos nuevos distorsionan la volatilidad del conjunto", "Las comisiones no se descuentan de forma homogénea", "Los índices de referencia cambian de composición"], "correct": 0, "note": "Se conoce como sesgo del superviviente y puede inflar de forma apreciable el rendimiento aparente de una categoría." },
+        { "q": "¿Qué idea general resume el episodio?", "options": ["La ausencia de datos en una muestra filtrada es a menudo el dato relevante", "Las muestras grandes corrigen cualquier sesgo de selección", "Los datos militares requieren métodos estadísticos propios", "La observación directa es preferible al modelo teórico"], "correct": 0, "note": "Aumentar el tamaño de la muestra no arregla nada si el filtro que la genera sigue actuando." }
+      ]
+    },
+    {
+      "id": "mat-0003",
+      "category": "matematicas",
+      "title": "Un test fiable al 99 % que acierta una de cada diez veces",
+      "subtitle": "El teorema de Bayes explica por qué un positivo puede significar muy poco.",
+      "cover_image": { "query": "medical laboratory test tubes", "wikipedia": "Teorema de Bayes" },
+      "cards": [
+        { "heading": "El planteamiento", "text": "Imagina una enfermedad que afecta a una de cada mil personas y un test que detecta al noventa y nueve por ciento de los enfermos y solo se equivoca en el uno por ciento de los sanos. Das positivo. La pregunta natural es qué probabilidad tienes de estar enfermo, y la respuesta intuitiva suele ser noventa y nueve por ciento." },
+        { "heading": "El recuento", "text": "Conviene pensarlo con personas en lugar de porcentajes. En cien mil individuos habría cien enfermos, de los que el test detecta noventa y nueve. Pero también hay noventa y nueve mil novecientos sanos, y el uno por ciento de falsos positivos son novecientos noventa y nueve personas. Hay muchos más sanos equivocadamente positivos que enfermos correctamente detectados." },
+        { "heading": "El resultado", "text": "De los mil noventa y ocho positivos totales, solo noventa y nueve están realmente enfermos: alrededor de un nueve por ciento. El test no es malo. Lo que ocurre es que la enfermedad es tan poco frecuente que el grupo de sanos, aun equivocándose poco, aporta muchísimos más positivos en términos absolutos." },
+        { "heading": "La regla", "text": "Eso es el teorema de Bayes: la probabilidad después de una prueba depende de la probabilidad que había antes. Cuanto más rara es una condición, más positivos falsos genera cualquier test. Por eso el cribado masivo de enfermedades poco frecuentes exige una segunda prueba, y no porque la primera esté mal hecha." }
+      ],
+      "key_fact": "Con una prevalencia de uno por mil y un test que falla en el 1 % de los sanos, solo alrededor del 9 % de los positivos corresponde a personas realmente enfermas.",
+      "questions": [
+        { "q": "¿Por qué un test fiable produce tantos falsos positivos con enfermedades raras?", "options": ["El grupo de sanos es tan grande que su pequeño porcentaje de error supera al de verdaderos positivos", "La sensibilidad del test disminuye con la prevalencia", "Los enfermos tienden a dar negativo en enfermedades poco frecuentes", "El error se acumula con el número de pruebas realizadas"], "correct": 0, "note": "Un uno por ciento de noventa y nueve mil novecientas personas son muchas más que el noventa y nueve por ciento de cien." },
+        { "q": "¿Qué determina la probabilidad de estar enfermo tras un positivo?", "options": ["La probabilidad previa, es decir, la prevalencia de la enfermedad", "Solo la sensibilidad del test empleado", "El número de pruebas realizadas ese día", "La edad del paciente exclusivamente"], "correct": 0, "note": "Ese es el contenido del teorema de Bayes: el resultado actualiza una probabilidad anterior, no la sustituye." },
+        { "q": "¿Qué justifica exigir una segunda prueba en los cribados masivos?", "options": ["La baja prevalencia hace que la mayoría de positivos iniciales sean falsos", "Los laboratorios cometen errores de manipulación frecuentes", "El primer test suele tener sensibilidad reducida", "Las normativas sanitarias lo imponen sin fundamento estadístico"], "correct": 0, "note": "No es desconfianza en la técnica: es una consecuencia aritmética de aplicar un test a una población mayoritariamente sana." },
+        { "q": "En el ejemplo, ¿cuántos positivos totales aparecen entre cien mil personas?", "options": ["Unos 1.098, de los cuales 99 son enfermos reales", "Exactamente 100, todos ellos enfermos", "Unos 999, todos ellos falsos positivos", "Unos 10.000, con un 1 % de aciertos"], "correct": 0, "note": "Noventa y nueve verdaderos positivos más novecientos noventa y nueve falsos: la proporción resultante ronda el nueve por ciento." }
+      ]
+    },
+    {
+      "id": "mat-0004",
+      "category": "matematicas",
+      "title": "Cantor: hay infinitos más grandes que otros",
+      "subtitle": "Un argumento de una página demostró que no todos los conjuntos infinitos son iguales.",
+      "cover_image": { "query": "georg cantor mathematician portrait", "wikipedia": "Argumento diagonal de Cantor" },
+      "cards": [
+        { "heading": "Comparar sin contar", "text": "Para comparar dos conjuntos infinitos no sirve contarlos. Georg Cantor propuso emparejarlos: si se puede asociar cada elemento de uno con exactamente uno del otro sin que sobre ninguno, tienen el mismo tamaño. Con esa regla, los números pares son tantos como todos los naturales, porque cada natural se empareja con su doble." },
+        { "heading": "Sorpresas del método", "text": "El criterio da resultados chocantes que resultan ser correctos. Las fracciones también son tantas como los números naturales: se pueden ordenar en una lista que las recorra todas sin dejarse ninguna. Parece que cualquier conjunto infinito debería poder listarse de alguna manera, por ingeniosa que fuera." },
+        { "heading": "El argumento diagonal", "text": "Cantor demostró que con los números reales no se puede. Supón que alguien presenta una lista que los contiene todos. Se construye entonces un número nuevo tomando el primer decimal del primero y cambiándolo, el segundo del segundo y cambiándolo, y así sucesivamente. Ese número difiere de cada uno de la lista en al menos una posición, luego no estaba." },
+        { "heading": "Qué implica", "text": "Como el argumento vale para cualquier lista propuesta, ninguna puede contener todos los reales. Hay por tanto al menos dos tamaños distintos de infinito. El resultado fue combatido con dureza en su momento y hoy es un pilar de la teoría de conjuntos y de los límites de la computación." }
+      ],
+      "key_fact": "El argumento diagonal no refuta una lista concreta: refuta cualquier lista posible, porque construye un número que ninguna puede contener.",
+      "questions": [
+        { "q": "¿Cómo se comparan dos conjuntos infinitos según Cantor?", "options": ["Emparejando sus elementos uno a uno sin que sobre ninguno", "Contando cuántos elementos tiene cada uno", "Midiendo la densidad de sus elementos en la recta", "Comparando sus elementos mayor y menor"], "correct": 0, "note": "Es el único criterio que funciona cuando contar deja de tener sentido, y da resultados que la intuición no anticipa." },
+        { "q": "¿Qué demuestra el argumento diagonal?", "options": ["Que ninguna lista puede contener todos los números reales", "Que los números racionales no pueden ordenarse", "Que existen infinitos números primos", "Que los decimales periódicos son incontables"], "correct": 0, "note": "Los racionales sí pueden listarse, y precisamente por eso el contraste con los reales resulta significativo." },
+        { "q": "¿Por qué el argumento es concluyente y no solo un contraejemplo?", "options": ["Funciona para cualquier lista que alguien proponga, no para una en concreto", "Se ha comprobado computacionalmente con listas muy largas", "Se apoya en la existencia de números irracionales conocidos", "Deriva de la definición axiomática de infinito"], "correct": 0, "note": "Ahí está su fuerza: no refuta una lista, refuta la posibilidad misma de construirla." },
+        { "q": "¿Por qué los números pares son tantos como los naturales?", "options": ["Cada natural puede emparejarse con su doble sin que sobre ninguno", "Ambos conjuntos tienen la misma densidad en la recta", "La mitad de infinito sigue siendo infinito por definición", "Porque ambos son conjuntos ilimitados"], "correct": 0, "note": "Con conjuntos infinitos, una parte puede tener el mismo tamaño que el todo. Es contraintuitivo y es exactamente lo que el criterio establece." }
+      ]
+    },
+    {
+      "id": "mat-0005",
+      "category": "matematicas",
+      "title": "La ruleta no se acuerda de nada",
+      "subtitle": "La ley de los grandes números dice algo muy distinto de lo que el jugador cree.",
+      "cover_image": { "query": "roulette wheel casino", "wikipedia": "Falacia del jugador" },
+      "cards": [
+        { "heading": "Monte Carlo, 1913", "text": "En una ruleta del casino de Monte Carlo, la bola cayó en negro veintiséis veces seguidas. A partir de la decimoquinta, los jugadores empezaron a apostar cantidades crecientes al rojo convencidos de que la racha tenía que romperse. Perdieron sumas considerables mientras la serie continuaba." },
+        { "heading": "El error", "text": "La ruleta no conserva memoria. Cada giro es independiente y la probabilidad de rojo es la misma antes y después de veintiséis negros seguidos. Creer que un resultado se vuelve más probable porque lleva tiempo sin salir se conoce como falacia del jugador, y es uno de los errores de razonamiento mejor documentados." },
+        { "heading": "Qué dice la ley", "text": "La ley de los grandes números afirma que la proporción de rojos se acerca a su valor teórico cuando el número de tiradas crece mucho. No dice que la diferencia absoluta se corrija. Una racha desmedida no se compensa con una racha contraria: queda diluida por el enorme volumen de tiradas posteriores." },
+        { "heading": "La confusión de fondo", "text": "Convergencia y compensación no son lo mismo, y ahí está el nudo del asunto. Si tras cien tiradas hay veinte negros de más, ese desequilibrio no se cancela; simplemente pesa cada vez menos sobre el porcentaje total conforme se acumulan miles de tiradas. El sistema no repara nada, solo diluye." }
+      ],
+      "key_fact": "La ley de los grandes números no dice que las diferencias se corrijan, sino que quedan diluidas por el volumen creciente de repeticiones.",
+      "questions": [
+        { "q": "¿En qué consiste la falacia del jugador?", "options": ["Creer que un resultado se vuelve más probable porque lleva tiempo sin salir", "Apostar cantidades crecientes tras cada pérdida", "Confundir la probabilidad de un suceso con su frecuencia observada", "Suponer que la ruleta está trucada tras una racha larga"], "correct": 0, "note": "Aumentar la apuesta tras perder es un sistema distinto, con sus propios problemas, pero no es la falacia." },
+        { "q": "¿Qué afirma realmente la ley de los grandes números?", "options": ["Que la proporción se acerca al valor teórico al crecer el número de repeticiones", "Que las desviaciones acumuladas terminan cancelándose", "Que toda racha larga se compensa con una contraria", "Que la probabilidad varía según el historial de resultados"], "correct": 0, "note": "Habla de proporciones, no de diferencias absolutas, y esa distinción es exactamente lo que se malinterpreta." },
+        { "q": "¿Qué le ocurre a un desequilibrio de veinte negros de más tras cien tiradas?", "options": ["No se cancela: pesa cada vez menos sobre el porcentaje total", "Se compensa con veinte rojos de más en las siguientes tiradas", "Aumenta la probabilidad de rojo en las tiradas próximas", "Indica que la ruleta presenta un defecto mecánico"], "correct": 0, "note": "Convergencia y compensación son cosas distintas: el sistema diluye, no repara." },
+        { "q": "¿Por qué cada giro de la ruleta es independiente?", "options": ["El mecanismo no conserva información de los resultados anteriores", "Los crupieres alternan la dirección de lanzamiento", "La probabilidad se recalcula en cada tirada", "El número de casillas varía entre jugadas"], "correct": 0, "note": "La independencia es una propiedad física del dispositivo, y es lo que hace inútil cualquier sistema basado en el historial." }
+      ]
+    },
+    {
+      "id": "mit-0001",
+      "category": "mitologia",
+      "title": "El diluvio que ya estaba escrito antes de la Biblia",
+      "subtitle": "En 1872 un empleado del Museo Británico leyó una tablilla y se quedó sin palabras.",
+      "cover_image": { "query": "gilgamesh cuneiform tablet", "wikipedia": "Poema de Gilgamesh" },
+      "cards": [
+        { "heading": "El hallazgo", "text": "George Smith trabajaba clasificando tablillas mesopotámicas en el Museo Británico cuando en 1872 descifró un fragmento del poema de Gilgamesh. Contenía el relato de un diluvio universal, un hombre avisado por un dios que construye una embarcación, embarca animales y suelta aves para comprobar si las aguas han bajado." },
+        { "heading": "El paralelo", "text": "La coincidencia con el relato bíblico de Noé es demasiado estrecha para ser casual, y el texto mesopotámico es varios siglos anterior. Existen además versiones aún más antiguas en sumerio y acadio con el mismo esquema. Lo que la tablilla mostró es que el relato circulaba por la región mucho antes de quedar fijado en el Génesis." },
+        { "heading": "Qué explica la coincidencia", "text": "Hay dos lecturas y no se excluyen. Una es la transmisión: los pueblos de la zona compartieron narraciones durante milenios y las adaptaron a su propia teología. Otra es la experiencia común: las llanuras de Mesopotamia sufrían crecidas devastadoras del Tigris y el Éufrates, y un relato sobre el agua que lo arrasa todo tenía base local." },
+        { "heading": "Las diferencias importan", "text": "Comparar las versiones revela más que constatar el parecido. En la mesopotámica los dioses envían el diluvio porque la humanidad hace demasiado ruido y no los deja dormir, y luego se arrepienten al quedarse sin quien les haga ofrendas. El mismo armazón narrativo sostiene ideas de lo divino radicalmente distintas." }
+      ],
+      "key_fact": "En la versión mesopotámica los dioses envían el diluvio porque la humanidad hace demasiado ruido, y se arrepienten al quedarse sin quien les ofrende.",
+      "questions": [
+        { "q": "¿Qué descubrió George Smith en 1872?", "options": ["Un relato del diluvio en el poema de Gilgamesh, anterior al texto bíblico", "La tumba de un rey sumerio en Mesopotamia", "El sistema de escritura cuneiforme", "Un mapa babilónico del mundo conocido"], "correct": 0, "note": "El cuneiforme ya se descifraba desde décadas antes; lo nuevo era el contenido de esa tablilla concreta." },
+        { "q": "¿Qué explicaciones se dan al parecido entre ambos relatos?", "options": ["La transmisión cultural en la región y una experiencia común de grandes crecidas", "La existencia de un diluvio global documentado geológicamente", "La copia directa del texto bíblico por escribas mesopotámicos", "Una coincidencia estadística sin relación entre ambos"], "correct": 0, "note": "No se excluyen: el Tigris y el Éufrates producían inundaciones devastadoras que daban base local al relato." },
+        { "q": "¿Por qué envían el diluvio los dioses en la versión mesopotámica?", "options": ["La humanidad hace demasiado ruido y no los deja dormir", "Los humanos han dejado de realizar ofrendas", "Un dios rival pretende destruir su creación", "Los hombres han robado el secreto de la inmortalidad"], "correct": 0, "note": "Y se arrepienten después, al quedarse sin quien les rinda culto: una concepción de lo divino muy distinta de la bíblica." },
+        { "q": "¿Qué revela comparar las versiones más allá del parecido?", "options": ["Que un mismo armazón narrativo puede sostener ideas de lo divino muy distintas", "Que la versión más antigua es siempre la más fiable", "Que ambos relatos derivan de un original perdido", "Que los detalles narrativos carecen de valor histórico"], "correct": 0, "note": "Lo interesante no es el esqueleto compartido, sino qué decide cada cultura poner dentro de él." }
+      ]
+    },
+    {
+      "id": "mit-0002",
+      "category": "mitologia",
+      "title": "Prometeo: el castigo por dar algo que no era suyo",
+      "subtitle": "El fuego robado es la metáfora más duradera sobre el conocimiento y su precio.",
+      "cover_image": { "query": "prometheus greek mythology sculpture", "wikipedia": "Prometeo" },
+      "cards": [
+        { "heading": "El relato", "text": "Según Hesíodo, Prometeo era un titán que tomó partido por los humanos. Les robó el fuego a los dioses y se lo entregó escondido en una caña hueca. Zeus lo castigó encadenándolo a una roca, donde un águila le devoraba el hígado cada día, que volvía a crecer cada noche para que el suplicio no terminara nunca." },
+        { "heading": "Qué representa el fuego", "text": "El fuego no es solo calor. En el relato marca el paso de la condición animal a la técnica: cocinar, forjar metal, trabajar de noche. Es el conocimiento aplicado, y su carácter de robo indica que en aquella concepción no correspondía a los humanos por derecho, sino que se obtuvo contra la voluntad de los dioses." },
+        { "heading": "El segundo castigo", "text": "Zeus no castigó solo al titán. Hizo entregar a los humanos a Pandora con una jarra que contenía todos los males, y al abrirla se esparcieron por el mundo quedando dentro únicamente la esperanza. La lección del mito es doble: el progreso técnico llega acompañado de sufrimiento, y ambos proceden del mismo acto." },
+        { "heading": "Su recorrido posterior", "text": "La figura ha servido a lecturas opuestas. El romanticismo la convirtió en símbolo del rebelde que desafía a la autoridad por el bien común, y Mary Shelley subtituló Frankenstein como el moderno Prometeo, con un sentido de advertencia. Sigue apareciendo cada vez que se discute una tecnología que promete mucho y asusta a la vez." }
+      ],
+      "key_fact": "Mary Shelley subtituló Frankenstein como el moderno Prometeo: la misma figura sirve como héroe rebelde y como advertencia.",
+      "questions": [
+        { "q": "¿Qué representa el fuego en el mito?", "options": ["El conocimiento técnico que separa a los humanos de la condición animal", "El poder militar sobre otros pueblos", "La capacidad de comunicarse con los dioses", "La inmortalidad negada a los mortales"], "correct": 0, "note": "Cocinar, forjar metal y trabajar de noche son las consecuencias concretas de ese don." },
+        { "q": "¿Qué implica que el fuego fuera robado y no entregado?", "options": ["Que en esa concepción no correspondía a los humanos por derecho", "Que Prometeo actuó sin conocer sus consecuencias", "Que los dioses ignoraban su existencia", "Que su uso estaba limitado en el tiempo"], "correct": 0, "note": "El robo es la clave moral del relato: se obtiene contra la voluntad divina, y por eso acarrea castigo." },
+        { "q": "¿Cuál fue el castigo dirigido a los humanos?", "options": ["Pandora y la jarra con todos los males, de la que solo quedó dentro la esperanza", "La pérdida definitiva del fuego recibido", "La expulsión del monte Olimpo", "La reducción de su esperanza de vida"], "correct": 0, "note": "El mito vincula el progreso técnico y el sufrimiento humano como consecuencias del mismo acto." },
+        { "q": "¿Por qué la figura admite lecturas opuestas?", "options": ["Puede leerse como rebelde heroico o como advertencia sobre el conocimiento sin límite", "Existen dos versiones griegas contradictorias del mito", "Su castigo fue posteriormente anulado por Zeus", "Los textos clásicos no coinciden en su identidad"], "correct": 0, "note": "El romanticismo tomó la primera lectura; Mary Shelley, la segunda, y ambas siguen vivas." }
+      ]
+    },
+    {
+      "id": "mit-0003",
+      "category": "mitologia",
+      "title": "Ragnarök: la única mitología que planifica su propio final",
+      "subtitle": "Los dioses nórdicos saben cómo van a morir y salen igualmente a la batalla.",
+      "cover_image": { "query": "norse mythology viking carving", "wikipedia": "Ragnarök" },
+      "cards": [
+        { "heading": "La profecía", "text": "Las fuentes nórdicas, sobre todo la Edda poética, describen con detalle el fin del mundo. Vendrá un invierno de tres años sin verano, el lobo Fenrir se soltará de sus ataduras, la serpiente Jörmungandr saldrá del mar y el gigante Surt incendiará el mundo. Los dioses combatirán y morirán casi todos." },
+        { "heading": "Lo singular", "text": "Muchas tradiciones anuncian un juicio final, pero suele ser una advertencia moral o un premio para los justos. Aquí el final es un hecho ya determinado, conocido de antemano por los propios dioses, que además saben qué enemigo matará a cada uno. Odín sabe que morirá devorado por Fenrir y no puede evitarlo." },
+        { "heading": "Qué significa actuar así", "text": "Ese conocimiento cambia el sentido de la acción. Los dioses reúnen guerreros en el Valhalla para una batalla que tienen perdida de antemano. El valor no consiste en vencer sino en comportarse bien ante un desenlace inevitable, y es una idea coherente con una cultura donde la reputación sobrevivía a la persona." },
+        { "heading": "Después del final", "text": "El relato no termina en la destrucción. Del mar emerge una tierra nueva, sobreviven algunos dioses jóvenes y una pareja humana que se había refugiado, y el ciclo recomienza. Conviene tener presente que las fuentes se pusieron por escrito en época cristiana, así que cuánto de ese renacimiento es original sigue discutiéndose." }
+      ],
+      "key_fact": "Los dioses nórdicos conocen de antemano qué enemigo matará a cada uno y acuden igualmente a la batalla.",
+      "questions": [
+        { "q": "¿Qué distingue al Ragnarök de otros relatos de fin del mundo?", "options": ["Es un desenlace ya determinado que los propios dioses conocen y no pueden evitar", "Solo afecta a los seres humanos y no a los dioses", "Depende del comportamiento moral de los mortales", "Puede posponerse mediante sacrificios"], "correct": 0, "note": "Odín sabe que morirá devorado por Fenrir, y esa certeza es precisamente lo que da sentido al relato." },
+        { "q": "¿Qué concepción del valor implica esa certeza?", "options": ["Que el mérito está en comportarse bien ante un desenlace inevitable, no en vencer", "Que resistirse al destino es la única conducta admisible", "Que conviene evitar el combate si está perdido", "Que solo los mortales pueden alterar la profecía"], "correct": 0, "note": "Encaja con una cultura donde la reputación sobrevivía a la persona y era lo que quedaba tras la muerte." },
+        { "q": "¿Qué ocurre tras la destrucción?", "options": ["Emerge una tierra nueva y el ciclo recomienza con dioses jóvenes y una pareja humana", "El mundo queda vacío de forma definitiva", "Los dioses caídos regresan a gobernar", "Los gigantes ocupan el lugar de los dioses"], "correct": 0, "note": "El renacimiento es parte del relato tal como llegó hasta nosotros, aunque su origen se discuta." },
+        { "q": "¿Qué cautela conviene tener con las fuentes?", "options": ["Se pusieron por escrito en época cristiana, lo que complica saber qué es original", "Proceden de traducciones latinas tardías sin original conocido", "Fueron redactadas por autores ajenos a la cultura nórdica", "Contradicen sistemáticamente los hallazgos arqueológicos"], "correct": 0, "note": "El episodio del renacimiento posterior es donde más se discute la posible influencia cristiana." }
+      ]
+    },
+    {
+      "id": "mit-0004",
+      "category": "mitologia",
+      "title": "Quetzalcóatl y una leyenda que probablemente se inventó después",
+      "subtitle": "La serpiente emplumada es real. Que los aztecas confundieran a Cortés con ella, mucho menos.",
+      "cover_image": { "query": "quetzalcoatl feathered serpent temple", "wikipedia": "Quetzalcóatl" },
+      "cards": [
+        { "heading": "La figura", "text": "La serpiente emplumada aparece en Mesoamérica desde muy antiguo, con presencia destacada en Teotihuacán siglos antes de los aztecas. Combina la serpiente, ligada a la tierra, con las plumas del quetzal, ligadas al cielo. Se le asocian el viento, la sabiduría, la escritura y el calendario, y en varias versiones la creación de la humanidad actual." },
+        { "heading": "El dios y el gobernante", "text": "La cuestión se complica porque el nombre designa a la vez a una deidad y a un gobernante tolteca semilegendario, Ce Ácatl Topiltzin Quetzalcóatl. Los relatos cuentan que este último fue expulsado de Tula y marchó hacia el este prometiendo regresar. Distinguir en las fuentes qué corresponde a cada uno resulta a menudo imposible." },
+        { "heading": "El relato de la conquista", "text": "Es célebre la versión según la cual Moctezuma habría tomado a Cortés por el dios que volvía, lo que explicaría la escasa resistencia inicial. Es una historia ordenada y satisfactoria, y buena parte de los especialistas actuales la considera una construcción posterior a la conquista más que un hecho documentado." },
+        { "heading": "Por qué se sostuvo", "text": "El relato convenía a ambos lados. A los españoles les presentaba la victoria como algo escrito de antemano, y a las élites indígenas supervivientes les ofrecía una explicación de la derrota que no era simple incompetencia militar. Las fuentes que lo recogen son casi todas posteriores a los hechos y están escritas bajo dominio colonial." }
+      ],
+      "key_fact": "Las fuentes que recogen la identificación de Cortés con Quetzalcóatl son casi todas posteriores a la conquista y redactadas bajo dominio colonial.",
+      "questions": [
+        { "q": "¿Qué combina la figura de la serpiente emplumada?", "options": ["La serpiente ligada a la tierra y las plumas del quetzal ligadas al cielo", "El jaguar nocturno y el águila solar", "El maíz y la lluvia como fuerzas de fertilidad", "La guerra y el sacrificio ritual"], "correct": 0, "note": "Es una síntesis de opuestos, y a la figura se le asocian el viento, la sabiduría, la escritura y el calendario." },
+        { "q": "¿Por qué es difícil interpretar las fuentes sobre Quetzalcóatl?", "options": ["El nombre designa a la vez a una deidad y a un gobernante tolteca semilegendario", "Los textos solo se conservan en lenguas europeas", "No existen representaciones anteriores a los aztecas", "Las fuentes mesoamericanas carecen de contenido narrativo"], "correct": 0, "note": "La serpiente emplumada aparece en Teotihuacán siglos antes de los aztecas, lo que alarga aún más la cadena de reinterpretaciones." },
+        { "q": "¿Qué consideran hoy muchos especialistas sobre la identificación de Cortés con el dios?", "options": ["Que es probablemente una construcción posterior a la conquista", "Que está documentada en fuentes anteriores a 1519", "Que fue una invención exclusivamente española", "Que explica de forma suficiente el desenlace militar"], "correct": 0, "note": "Es una historia satisfactoria y bien construida, que es justamente lo que invita a examinar cuándo y por qué se escribió." },
+        { "q": "¿Por qué resultaba conveniente ese relato a ambos lados?", "options": ["Presentaba la victoria como algo escrito y ofrecía a los vencidos una explicación distinta de la incompetencia", "Permitía a los españoles justificar la evangelización forzosa", "Facilitaba la recaudación de tributos coloniales", "Legitimaba el poder de las élites toltecas supervivientes"], "correct": 0, "note": "Cuando un relato beneficia a todos los que lo transmiten, conviene mirar con atención de dónde procede." }
+      ]
+    },
+    {
+      "id": "mit-0005",
+      "category": "mitologia",
+      "title": "Anansi: la araña que cruzó el Atlántico en los barcos negreros",
+      "subtitle": "Un personaje de Ghana sobrevivió a la trata y se convirtió en otro en el Caribe.",
+      "cover_image": { "query": "west african spider folklore art", "wikipedia": "Anansi" },
+      "cards": [
+        { "heading": "El personaje", "text": "Anansi es una araña de la tradición akán, en la actual Ghana, y pertenece a un tipo de figura que aparece en muchas culturas: el embaucador. No vence por fuerza sino por astucia, engaña a animales mucho mayores y a menudo también fracasa por codicioso. Es un héroe imperfecto y esa ambigüedad es parte del atractivo." },
+        { "heading": "El dueño de los relatos", "text": "En una de las historias más conocidas, Anansi compra al dios del cielo la propiedad de todas las historias pagando un precio aparentemente imposible: capturar a una serpiente, unos avispones y un leopardo. Lo consigue con trampas, y desde entonces los cuentos llevan su nombre. Un relato sobre quién controla los relatos." },
+        { "heading": "La travesía", "text": "Con la trata transatlántica, millones de personas fueron deportadas a América y llevaron consigo estas narraciones, que sobrevivieron en Jamaica, en las Antillas, en Surinam y en el sur de Estados Unidos. Anansi se transformó en Anancy o en Aunt Nancy, y las historias se adaptaron a un contexto nuevo." },
+        { "heading": "Por qué encajaba", "text": "El embaucador que sobrevive burlando a los poderosos resultaba especialmente pertinente en un régimen esclavista. Los relatos podían contarse en voz alta sin que se leyeran como desafío, y transmitían una forma de resistencia basada en el ingenio. Es un ejemplo claro de por qué la cultura oral resulta tan difícil de suprimir." }
+      ],
+      "key_fact": "Anansi se transformó en Anancy y en Aunt Nancy al otro lado del Atlántico: el personaje viajó con las personas deportadas y se adaptó al contexto nuevo.",
+      "questions": [
+        { "q": "¿Qué tipo de figura mitológica es Anansi?", "options": ["Un embaucador que vence por astucia y también fracasa por codicioso", "Un héroe fundador de linajes reales", "Una deidad creadora del mundo", "Un espíritu protector de las cosechas"], "correct": 0, "note": "El embaucador aparece en muchas culturas, y su ambigüedad moral es parte esencial del tipo." },
+        { "q": "¿Qué obtiene Anansi del dios del cielo en su relato más conocido?", "options": ["La propiedad de todas las historias", "El don de tejer telas indestructibles", "El control de las lluvias estacionales", "La inmortalidad para su descendencia"], "correct": 0, "note": "Es un relato sobre quién controla los relatos, y explica por qué los cuentos llevan su nombre." },
+        { "q": "¿Cómo llegaron estas historias al Caribe?", "options": ["Con las personas deportadas por la trata transatlántica", "A través de comerciantes portugueses del siglo XVI", "Por misioneros que las recopilaron y difundieron", "Mediante la circulación de textos escritos en akán"], "correct": 0, "note": "Sobrevivieron en Jamaica, las Antillas, Surinam y el sur de Estados Unidos, adaptándose a cada contexto." },
+        { "q": "¿Por qué encajaba especialmente bien la figura en un régimen esclavista?", "options": ["El que burla a los poderosos podía contarse en voz alta sin leerse como desafío", "Los propietarios fomentaban su difusión como entretenimiento", "Coincidía con figuras de la tradición europea ya conocidas", "Su carácter religioso lo hacía intocable"], "correct": 0, "note": "Transmitía una forma de resistencia basada en el ingenio, y por eso la cultura oral resulta tan difícil de suprimir." }
+      ]
+    }
+  ]
+}

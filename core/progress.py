@@ -45,6 +45,7 @@ def progreso_vacio() -> dict[str, Any]:
         "categorias_activas": [c for c, v in CATEGORIES.items() if v["activa"]],
         "dominadas": [],
         "tema": "claro",
+        "max_por_dia": 0,
     }
 
 
@@ -190,6 +191,19 @@ def alternar_categoria(prog: dict, cat_id: str, activa: bool) -> dict:
     actuales = set(categorias_activas(prog))
     actuales.add(cat_id) if activa else actuales.discard(cat_id)
     prog["categorias_activas"] = [c for c in CATEGORIES if c in actuales]
+    return prog
+
+
+def max_por_dia(prog: dict) -> int:
+    """Tope de lecciones del paquete diario. 0 significa sin tope."""
+    try:
+        return max(0, int(prog.get("max_por_dia", 0)))
+    except (TypeError, ValueError):
+        return 0
+
+
+def fijar_max_por_dia(prog: dict, tope: int) -> dict:
+    prog["max_por_dia"] = max(0, int(tope))
     return prog
 
 

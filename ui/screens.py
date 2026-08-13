@@ -71,6 +71,33 @@ def sidebar(banco: dict, prog: dict, salud: dict) -> None:
             st.rerun()
 
         st.divider()
+        st.markdown("### Ritmo diario")
+        n_activas = len(prog_mod.categorias_activas(prog))
+        tope_actual = prog_mod.max_por_dia(prog)
+        tope = st.slider(
+            "Lecciones por día",
+            min_value=0,
+            max_value=max(n_activas, 1),
+            value=min(tope_actual, n_activas),
+            help="0 = todas las categorías activas cada día.",
+            key="tope_dia",
+        )
+        if tope != tope_actual:
+            prog_mod.fijar_max_por_dia(prog, tope)
+            persistir()
+            st.rerun()
+        if tope:
+            vueltas = -(-n_activas // tope)
+            st.caption(
+                f"{tope} de {n_activas} categorías al día, rotando: todas entran "
+                f"cada {vueltas} días. Unas {tope * 4} preguntas por jornada."
+            )
+        else:
+            st.caption(
+                f"Las {n_activas} categorías cada día, unas {n_activas * 4} preguntas."
+            )
+
+        st.divider()
         st.markdown("### Categorías")
         st.caption("Desactiva una y deja de aparecer en el paquete del día.")
 

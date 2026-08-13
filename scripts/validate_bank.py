@@ -183,7 +183,7 @@ def main() -> int:
     for cat, meta in sorted(CATEGORIES.items(), key=lambda kv: kv[1]["orden"]):
         n = por_categoria.get(cat, 0)
         barra = "█" * int(n / meta["objetivo"] * 24) if meta["objetivo"] else ""
-        print(f"  {meta['nombre']:<22} {n:>3}/{meta['objetivo']:<3} {barra}")
+        print(f"  {meta['nombre']:<26} {n:>3}/{meta['objetivo']:<3} {barra}")
 
     dist = Counter(p["correct"] for l in lecciones for p in l.get("questions", []))
     if dist:

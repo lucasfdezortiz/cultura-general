@@ -21,7 +21,19 @@ data/progress.json      →  la app lo escribe (local o Gist privado)
 El banco se amplía **desde Claude Code**, no desde la aplicación. Cuando el
 porcentaje de completado se acerca al 100 % o el sidebar avisa de que quedan
 menos de 15 días en alguna categoría, se le pide a Claude una tanda nueva y se
-añade al JSON.
+añade al JSON. El histórico se conserva íntegro entre ampliaciones.
+
+Once categorías, con un objetivo de **470 lecciones**:
+
+| Categoría | Objetivo | | Categoría | Objetivo |
+|---|---:|---|---|---:|
+| Geopolítica | 60 | | Claves del Presente | 40 |
+| Economía y Macro | 60 | | Mitología | 30 |
+| Historia | 60 | | Arte | 30 |
+| Ciencia | 40 | | Literatura | 30 |
+| Física | 40 | | | |
+| Matemáticas y Estadística | 40 | | | |
+| Filosofía | 40 | | | |
 
 La selección diaria es determinista: para cada categoría activa se toma la
 siguiente lección no vista según un orden estable derivado de un hash de
@@ -101,6 +113,7 @@ Los prefijos de `id` por categoría están en `config/categories.py`.
 ### 2. Validar
 
 ```bash
+python scripts/merge_batch.py data/tandas/tanda-04.json
 python scripts/validate_bank.py
 ```
 
@@ -115,7 +128,14 @@ python scripts/validate_bank.py --fix-shuffle
 Baraja las opciones de cada pregunta con una semilla derivada del `id`. **Esto
 hay que ejecutarlo siempre**: los modelos de lenguaje colocan la respuesta
 correcta en la primera posición mucho más a menudo de lo que saldría por azar.
-En el lote inicial el reparto era 100 % en la posición 0 y quedó en 17/27/30/27.
+En el lote inicial el reparto era 100 % en la posición 0.
+
+Es **idempotente**, y el detalle importa. Barajar el orden *actual* haría que
+una segunda ejecución aplicase la misma permutación dos veces, y una
+permutación al cuadrado tiende a la identidad: la respuesta correcta regresaría
+a su posición de origen y reaparecería el sesgo. Por eso se parte siempre de un
+orden canónico —las opciones ordenadas por el hash de su propio texto— y se
+permuta sobre él. Reejecutarlo no cambia nada.
 
 ### 3. Portadas
 
@@ -169,7 +189,8 @@ core/storage.py         Backend local o Gist
 ui/styles.py            CSS inyectado
 ui/components.py        Piezas visuales
 ui/screens.py           Pantallas: hoy, lección, quiz, resultado, historial
-scripts/                Validador y resolutor de portadas
+scripts/                Validador, fusión de tandas y resolutor de portadas
+data/tandas/            Una tanda por archivo, fusionadas con merge_batch.py
 data/                   Banco y progreso
 ```
 
@@ -182,6 +203,11 @@ con un script suelto sin levantar la app.
 
 Desde el sidebar, en caliente:
 
+- **Ritmo diario.** Con once categorías activas, el paquete completo son once
+  lecciones y unas cuarenta y cuatro preguntas. El control de *lecciones por
+  día* fija un tope y hace **rotar** las categorías: con un tope de seis, todas
+  entran en el paquete cada dos días. Bajar el tope recorta el día en curso al
+  momento, conservando siempre lo ya completado. Un tope de 0 significa todas.
 - **Tema claro u oscuro.** Dos paletas completas, no un filtro: cada una define
   sus propios colores de texto, bordes, fondos, verdes y rojos del quiz, y se
   aplican también a los componentes nativos de Streamlit (botones, pestañas,

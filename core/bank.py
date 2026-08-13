@@ -131,7 +131,7 @@ def informe_salud(salud: dict) -> str:
     for cat, d in sorted(salud["detalle"].items(), key=lambda kv: kv[1]["dias_restantes"]):
         marca = "!" if cat in salud["avisos"] else " "
         lineas.append(
-            f" {marca} {CATEGORIES[cat]['nombre']:<22} "
+            f" {marca} {CATEGORIES[cat]['nombre']:<26} "
             f"{d['pendientes']:>3} pendientes · {d['dias_restantes']:>3} días · "
             f"faltan {d['faltan_para_objetivo']:>3} para el objetivo"
         )
