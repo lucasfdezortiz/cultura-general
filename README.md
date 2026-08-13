@@ -54,16 +54,31 @@ streamlit run app.py
 
 ## Usarla en el móvil
 
-### Opción rápida: red local
+### En casa: ya está funcionando sola
 
-Doble clic en **`abrir-en-movil.command`**. Muestra en pantalla una dirección
-del tipo `http://192.168.1.34:8511`; ábrela en el móvil estando en la misma
-wifi. El Mac debe quedarse encendido y con esa ventana abierta.
+La app corre permanentemente como agente de macOS
+(`~/Library/LaunchAgents/com.lfglobalcapital.app.plist`): arranca al iniciar
+sesión y se relanza sola si se cae. No hay que abrir nada.
+
+Desde el móvil, en la misma wifi: `http://<ip-del-mac>:8511`. Si no recuerdas la
+IP, doble clic en **`abrir-en-movil.command`**, que la muestra y de paso
+comprueba que responde.
 
 En iPhone, con la página abierta: **Compartir → Añadir a pantalla de inicio**.
 Queda como un icono y se abre a pantalla completa, sin barra del navegador.
 
-Sirve para esta noche, pero solo funciona en casa y con el ordenador encendido.
+Para pararla o quitarla del arranque:
+
+```bash
+launchctl bootout gui/$(id -u)/com.lfglobalcapital.app          # parar ahora
+rm ~/Library/LaunchAgents/com.lfglobalcapital.app.plist          # no arrancar más
+```
+
+**El proyecto vive en `~/lf-global-capital`, no en el Escritorio** (hay un acceso
+directo). macOS impide que los procesos en segundo plano lean el Escritorio, así
+que el agente no podía arrancar desde allí.
+
+Limitación: solo funciona en casa y con el Mac encendido.
 
 ### Opción definitiva: desplegar
 
@@ -79,7 +94,7 @@ depender del Mac, y es igualmente gratis.
 2. Conéctalo y sube el contenido:
 
    ```bash
-   cd ~/Desktop/sophia-lf
+   cd ~/lf-global-capital
    git remote add origin https://github.com/lucasfdezortiz/NOMBRE-DEL-REPO.git
    git push -u origin main
    ```

@@ -1,41 +1,52 @@
 #!/bin/bash
-# Doble clic en este archivo para levantar la app en la red local.
-# Después ábrela desde el móvil con la dirección que aparece en pantalla.
-# El Mac tiene que quedarse encendido y en la misma wifi mientras la uses.
+# La app arranca sola con el Mac (agente launchd com.lfglobalcapital.app).
+# Este archivo solo sirve para consultar la dirección y comprobar que responde.
+# Si estuviera parada, la vuelve a levantar.
 
-cd "$(dirname "$0")" || exit 1
-
-IP=$(ipconfig getifaddr en0 2>/dev/null || ipconfig getifaddr en1 2>/dev/null)
+AGENTE="com.lfglobalcapital.app"
 PUERTO=8511
+IP=$(ipconfig getifaddr en0 2>/dev/null || ipconfig getifaddr en1 2>/dev/null)
+
+clear
+echo ""
+echo "  LF Global Capital"
+echo ""
 
 if [ -z "$IP" ]; then
-  echo "No se detecta una conexión de red. Conéctate a la wifi y vuelve a intentarlo."
-  read -r -p "Pulsa Enter para cerrar."
+  echo "  No hay conexión de red. Conéctate a la wifi y vuelve a abrir esto."
+  echo ""
+  read -r -p "  Pulsa Enter para cerrar."
   exit 1
 fi
 
-# Si ya había una instancia levantada, se cierra para no ocupar el puerto.
-pkill -f "streamlit run app.py" 2>/dev/null
-sleep 1
+estado=$(curl -s -o /dev/null -w "%{http_code}" --max-time 4 "http://127.0.0.1:$PUERTO")
 
-clear
-cat <<BANNER
+if [ "$estado" != "200" ]; then
+  echo "  La app no responde. Reiniciándola..."
+  launchctl bootout "gui/$(id -u)/$AGENTE" 2>/dev/null
+  sleep 1
+  launchctl bootstrap "gui/$(id -u)" "$HOME/Library/LaunchAgents/$AGENTE.plist" 2>/dev/null
+  for _ in $(seq 1 15); do
+    sleep 1
+    estado=$(curl -s -o /dev/null -w "%{http_code}" --max-time 2 "http://127.0.0.1:$PUERTO")
+    [ "$estado" = "200" ] && break
+  done
+fi
 
-  LF Global Capital
+if [ "$estado" = "200" ]; then
+  echo "  Funcionando. Ábrela en el móvil, estando en la misma wifi:"
+  echo ""
+  echo "      http://$IP:$PUERTO"
+  echo ""
+  echo "  En iPhone: Compartir → Añadir a pantalla de inicio."
+  echo "  Queda como un icono y se abre a pantalla completa."
+  echo ""
+  echo "  No hace falta dejar esta ventana abierta: la app arranca sola"
+  echo "  con el Mac y se relanza si se cae."
+else
+  echo "  No arranca. Revisa el registro:"
+  echo "      ~/lf-global-capital/data/servidor.log"
+fi
 
-  Abre esta dirección en el móvil:
-
-      http://$IP:$PUERTO
-
-  En iPhone, con la página abierta: Compartir → Añadir a pantalla de inicio.
-  Queda como un icono y se abre a pantalla completa, sin barra del navegador.
-
-  Deja esta ventana abierta mientras uses la app.
-  Para cerrarla: Control + C
-
-BANNER
-
-exec python3 -m streamlit run app.py \
-  --server.port "$PUERTO" \
-  --server.address 0.0.0.0 \
-  --server.headless true
+echo ""
+read -r -p "  Pulsa Enter para cerrar."

@@ -9,7 +9,7 @@ todas las tandas futuras**.
 ## 1. Procedimiento de una tanda
 
 ```bash
-cd ~/Desktop/sophia-lf
+cd ~/lf-global-capital
 
 # 1. Ver qué categorías van más justas
 python3 -c "
