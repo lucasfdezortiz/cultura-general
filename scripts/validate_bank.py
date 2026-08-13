@@ -121,22 +121,30 @@ def validar_leccion(lec: dict, idx: int) -> list[str]:
 
 
 def barajar_opciones(banco: dict) -> int:
-    """Reordena las opciones de cada pregunta de forma determinista.
+    """Reordena las opciones de cada pregunta de forma determinista e idempotente.
 
     Los modelos de lenguaje colocan la respuesta correcta en la primera posición
-    más a menudo de lo que debería salir por azar. Barajar aquí, con una semilla
-    derivada del id, elimina el sesgo y es reproducible.
+    mucho más a menudo de lo que saldría por azar, así que hay que barajar.
+
+    La sutileza está en la idempotencia. Si se baraja el orden *actual*, volver a
+    ejecutar el script aplica la misma permutación por segunda vez, y una
+    permutación al cuadrado tiende a la identidad: la respuesta correcta regresa
+    a su posición de origen y reaparece el sesgo. La solución es partir siempre
+    de un orden canónico —las opciones ordenadas por el hash de su propio
+    texto— y aplicar la permutación sobre él. Así el resultado depende solo del
+    contenido, no de cuántas veces se haya ejecutado.
     """
     cambiadas = 0
     for lec in banco["lecciones"]:
         for j, p in enumerate(lec.get("questions", [])):
+            correcta = p["options"][p["correct"]]
+            # Orden canónico: independiente de cómo estuvieran antes.
+            opciones = sorted(p["options"], key=lambda o: hashlib.md5(o.encode()).hexdigest())
             semilla = int(hashlib.md5(f"{lec['id']}:{j}".encode()).hexdigest()[:8], 16)
-            opciones = list(p["options"])
-            correcta = opciones[p["correct"]]
             random.Random(semilla).shuffle(opciones)
-            nuevo = opciones.index(correcta)
-            if opciones != p["options"] or nuevo != p["correct"]:
-                p["options"], p["correct"] = opciones, nuevo
+            indice = opciones.index(correcta)
+            if opciones != p["options"] or indice != p["correct"]:
+                p["options"], p["correct"] = opciones, indice
                 cambiadas += 1
     return cambiadas
 

@@ -1,0 +1,485 @@
+{
+  "tanda": 2,
+  "lecciones": [
+    {
+      "id": "geo-0003",
+      "category": "geopolitica",
+      "title": "Panamá: cómo se inventa un país para abrir un canal",
+      "subtitle": "En 1903 Estados Unidos necesitaba una firma y creó al firmante.",
+      "cover_image": { "query": "panama canal locks ship", "wikipedia": "Canal de Panamá" },
+      "cards": [
+        { "heading": "El fracaso francés", "text": "La primera tentativa fue de Ferdinand de Lesseps, el constructor de Suez, que empezó en 1881 con un canal a nivel del mar. La fiebre amarilla y la malaria mataron a miles de trabajadores y la empresa quebró en 1889. El error de partida fue trasladar a la selva tropical una solución diseñada para el desierto." },
+        { "heading": "Colombia dice no", "text": "Estados Unidos retomó el proyecto y negoció con Colombia, entonces soberana del istmo. El senado colombiano rechazó las condiciones del tratado en 1903 por considerarlas lesivas. La respuesta estadounidense no fue mejorar la oferta sino cambiar de interlocutor." },
+        { "heading": "Una independencia asistida", "text": "En noviembre de 1903 estalló en Panamá una insurrección separatista. Buques estadounidenses impidieron el desembarco de tropas colombianas, Washington reconoció al nuevo país en cuestión de días y firmó el tratado con un representante panameño que era, de hecho, un ingeniero francés con intereses en la operación." },
+        { "heading": "La franja y su reversión", "text": "El acuerdo cedía a Estados Unidos una franja a ambos lados del canal a perpetuidad. Esa cláusula fue el foco de la tensión durante el siglo XX hasta los tratados Torrijos-Carter de 1977, que fijaron la entrega. El canal pasó a manos panameñas el 31 de diciembre de 1999." }
+      ],
+      "key_fact": "El tratado que cedía la zona del canal a perpetuidad lo firmó por Panamá un ingeniero francés con intereses económicos en la operación, no un panameño.",
+      "questions": [
+        { "q": "¿Por qué fracasó el intento francés de construir el canal?", "options": ["Aplicó un diseño pensado para el desierto en un entorno tropical, con enorme mortalidad por enfermedad", "Colombia revocó la concesión a mitad de las obras", "La roca del istmo resultó imposible de perforar con la técnica disponible", "Se agotó el crédito internacional tras la quiebra de Suez"], "correct": 0, "note": "De Lesseps insistió en un canal a nivel del mar, como en Suez. El sistema de esclusas que finalmente funcionó es una respuesta al relieve y al clima del istmo." },
+        { "q": "¿Qué hizo Estados Unidos cuando Colombia rechazó el tratado?", "options": ["Apoyar la separación de Panamá y firmar con el nuevo Estado", "Elevar la oferta económica hasta lograr la ratificación", "Recurrir al arbitraje internacional", "Desplazar el proyecto a la ruta de Nicaragua"], "correct": 0, "note": "La ruta nicaragüense sí se estudió seriamente y quedó descartada. La vía elegida fue crear un interlocutor dispuesto a firmar." },
+        { "q": "¿Qué cláusula concentró el conflicto durante el siglo XX?", "options": ["La cesión a perpetuidad de una franja de territorio a ambos lados del canal", "El reparto de los ingresos por peaje", "La prohibición de que Panamá tuviera ejército propio", "La obligación de emplear mano de obra estadounidense"], "correct": 0, "note": "Una franja de soberanía extranjera partiendo el país en dos resultó políticamente insostenible mucho antes de que expirara." },
+        { "q": "¿Cuándo pasó el canal a control panameño?", "options": ["El 31 de diciembre de 1999, según los tratados de 1977", "En 1977, con la firma de los tratados Torrijos-Carter", "En 1989, tras la invasión estadounidense", "En 1914, al inaugurarse la vía"], "correct": 0, "note": "Los tratados de 1977 fijaron el calendario; la entrega efectiva llegó veintidós años después." }
+      ]
+    },
+    {
+      "id": "geo-0004",
+      "category": "geopolitica",
+      "title": "La línea de nueve puntos y un laudo que nadie ejecuta",
+      "subtitle": "El mar de China Meridional enseña qué pasa cuando el derecho gana y no manda.",
+      "cover_image": { "query": "south china sea islands aerial", "wikipedia": "Mar de China Meridional" },
+      "cards": [
+        { "heading": "Qué hay en juego", "text": "Por el mar de China Meridional pasa una porción enorme del comercio marítimo mundial, y bajo él hay reservas de hidrocarburos y algunos de los caladeros más productivos de Asia. Lo reclaman total o parcialmente China, Vietnam, Filipinas, Malasia, Brunéi y Taiwán, con reivindicaciones que se solapan entre sí." },
+        { "heading": "Una línea heredada", "text": "China sustenta su reclamación en una línea discontinua trazada en mapas de mediados del siglo XX que abarca la mayor parte del mar. Nunca se ha definido con coordenadas precisas ni se ha explicado si delimita islas, aguas o derechos históricos. Esa ambigüedad es funcional: una línea imprecisa es difícil de refutar punto por punto." },
+        { "heading": "El laudo de 2016", "text": "Filipinas llevó el asunto a un tribunal arbitral constituido bajo la convención del mar. El laudo de 2016 concluyó que la línea carecía de base jurídica y que varias formaciones ocupadas no generaban derecho a zona económica exclusiva. China no participó en el proceso y rechazó el resultado." },
+        { "heading": "Hechos sobre el agua", "text": "Mientras el pleito avanzaba, se construyeron islas artificiales sobre arrecifes, con pistas de aterrizaje e instalaciones portuarias. El sistema internacional no dispone de un mecanismo para ejecutar un laudo contra una potencia con veto en el Consejo de Seguridad, así que la posesión efectiva pesa más que la sentencia." }
+      ],
+      "key_fact": "El laudo de 2016 dictaminó que la línea de nueve puntos carecía de base jurídica. No existe mecanismo internacional capaz de ejecutar esa decisión.",
+      "questions": [
+        { "q": "¿Por qué resulta funcional la imprecisión de la línea de nueve puntos?", "options": ["Una reclamación sin coordenadas ni fundamento explícito es difícil de refutar punto por punto", "Permite modificar el trazado sin notificarlo a Naciones Unidas", "Evita el pago de tasas de delimitación marítima", "Impide que otros Estados presenten reclamaciones propias"], "correct": 0, "note": "Los demás reclamantes tienen reivindicaciones perfectamente formuladas; la ambigüedad es una elección, no una carencia técnica." },
+        { "q": "¿Qué concluyó el laudo arbitral de 2016?", "options": ["Que la línea carecía de base jurídica y varias formaciones no generan zona económica exclusiva", "Que el mar debía repartirse en partes iguales entre los seis reclamantes", "Que las islas artificiales debían ser desmanteladas en un plazo fijo", "Que la convención del mar no era aplicable a la región"], "correct": 0, "note": "El tribunal se pronunció sobre la base jurídica y sobre el estatuto de las formaciones, no sobre a quién pertenece cada isla." },
+        { "q": "¿Por qué el laudo no ha cambiado la situación sobre el terreno?", "options": ["No existe mecanismo para ejecutarlo frente a una potencia con veto en el Consejo de Seguridad", "El tribunal carecía de competencia reconocida por Filipinas", "El fallo fue posteriormente anulado en apelación", "Las partes acordaron suspender su aplicación diez años"], "correct": 0, "note": "El derecho internacional dice quién tiene razón; carece de una fuerza pública propia que lo imponga." },
+        { "q": "¿Qué estrategia ha resultado más eficaz en la práctica?", "options": ["Construir instalaciones permanentes que consoliden la posesión efectiva", "Multiplicar las reclamaciones ante tribunales internacionales", "Firmar acuerdos bilaterales de explotación conjunta", "Recurrir a la mediación de potencias externas a la región"], "correct": 0, "note": "Una pista de aterrizaje sobre un arrecife es un hecho difícil de revertir, sea cual sea su calificación jurídica." }
+      ]
+    },
+    {
+      "id": "geo-0005",
+      "category": "geopolitica",
+      "title": "El Ártico: un océano que se vuelve navegable",
+      "subtitle": "El deshielo no crea recursos nuevos, pero sí hace accesibles los que ya estaban.",
+      "cover_image": { "query": "arctic sea ice icebreaker", "wikipedia": "Ártico" },
+      "cards": [
+        { "heading": "Rutas que se abren", "text": "El retroceso del hielo marino está alargando la temporada navegable de dos corredores: la ruta del mar del Norte, a lo largo de la costa siberiana, y el paso del Noroeste, por el archipiélago canadiense. Un trayecto entre el norte de Europa y Asia oriental por el Ártico puede recortar miles de kilómetros frente a la ruta de Suez." },
+        { "heading": "Lo que hay debajo", "text": "Bajo la plataforma ártica hay reservas relevantes de hidrocarburos y minerales, además de caladeros que se desplazan hacia el norte con el calentamiento del agua. No son yacimientos nuevos: eran conocidos y resultaban inaccesibles. Lo que cambia no es la existencia del recurso sino su coste de extracción." },
+        { "heading": "Quién decide", "text": "Cinco Estados tienen litoral ártico: Rusia, Canadá, Estados Unidos, Noruega y Dinamarca a través de Groenlandia. El reparto se dirime mediante la convención del mar, que permite extender derechos sobre el fondo marino demostrando la prolongación geológica de la plataforma continental. De ahí que haya expediciones cartografiando el lecho del océano." },
+        { "heading": "Asimetría de capacidades", "text": "Aprovechar esas rutas exige rompehielos, puertos de aguas profundas y capacidad de rescate a miles de kilómetros de cualquier ciudad. Rusia parte con la flota de rompehielos más numerosa y con infraestructura costera heredada del periodo soviético, lo que le da ventaja operativa con independencia de cómo se resuelva el reparto jurídico." }
+      ],
+      "key_fact": "La convención del mar permite extender derechos sobre el fondo marino demostrando la prolongación geológica de la plataforma continental: por eso se cartografía el lecho ártico.",
+      "questions": [
+        { "q": "¿Qué cambia realmente el deshielo respecto a los recursos árticos?", "options": ["Su coste de extracción y transporte, no su existencia", "La cantidad total de hidrocarburos disponibles", "La titularidad jurídica de los yacimientos", "La composición mineral de la plataforma continental"], "correct": 0, "note": "Los yacimientos eran conocidos desde hacía décadas. Lo que se mueve es el umbral a partir del cual explotarlos resulta rentable." },
+        { "q": "¿Sobre qué base puede un Estado ampliar sus derechos en el fondo marino ártico?", "options": ["Demostrando que la plataforma continental es prolongación geológica de su territorio", "Acreditando presencia militar continuada en la zona", "Registrando la reclamación ante el Consejo Ártico", "Ejerciendo actividad pesquera durante veinte años"], "correct": 0, "note": "Es un criterio geológico verificable, y explica por qué el pleito se libra con campañas de cartografía submarina." },
+        { "q": "¿Qué da a Rusia ventaja operativa en la región?", "options": ["Su flota de rompehielos y la infraestructura costera heredada del periodo soviético", "Su condición de único Estado con litoral en el océano Ártico", "El reconocimiento internacional de su reclamación sobre el polo", "El control exclusivo del paso del Noroeste"], "correct": 0, "note": "El paso del Noroeste discurre por el archipiélago canadiense, y hay cinco Estados con litoral ártico." },
+        { "q": "¿Cuál es el atractivo comercial de la ruta del mar del Norte?", "options": ["Acorta miles de kilómetros entre el norte de Europa y Asia oriental frente a la ruta de Suez", "Permite navegar sin seguro marítimo", "Está exenta de tasas de tránsito internacional", "Es transitable todo el año sin asistencia de rompehielos"], "correct": 0, "note": "La temporada navegable se alarga, pero sigue sin ser un corredor abierto de forma continua ni exento de riesgo." }
+      ]
+    },
+    {
+      "id": "eco-0003",
+      "category": "economia",
+      "title": "El mal holandés: cuando encontrar un tesoro empobrece",
+      "subtitle": "Groninga descubrió gas en 1959 y la industria neerlandesa lo pagó.",
+      "cover_image": { "query": "natural gas platform north sea", "wikipedia": "Enfermedad holandesa" },
+      "cards": [
+        { "heading": "El caso que da nombre", "text": "En 1959 se descubrió en Groninga uno de los mayores yacimientos de gas natural del mundo. Los Países Bajos empezaron a exportarlo masivamente y, en la década siguiente, su sector manufacturero perdió competitividad de forma acusada. La revista The Economist bautizó el fenómeno en 1977 como enfermedad holandesa." },
+        { "heading": "El mecanismo", "text": "Exportar mucha materia prima obliga a los compradores extranjeros a adquirir la moneda del país exportador, que se aprecia. Con una moneda más cara, todo lo demás que ese país produce se encarece fuera y pierde mercados. El recurso no compite con la industria: la desplaza a través del tipo de cambio." },
+        { "heading": "El segundo efecto", "text": "Hay un canal adicional. El sector extractivo paga salarios altos y atrae capital y trabajadores cualificados desde la manufactura y los servicios. Cuando el precio de la materia prima cae, la industria que se abandonó no está esperando intacta para recuperar el relevo: recomponer capacidades industriales lleva años." },
+        { "heading": "Qué distingue a quien lo evita", "text": "No es una fatalidad. Noruega canaliza los ingresos del petróleo a un fondo que invierte fuera del país, lo que amortigua la apreciación de la moneda y separa el gasto público del vaivén del precio del crudo. La diferencia no está en el subsuelo sino en las instituciones que administran lo que sale de él." }
+      ],
+      "key_fact": "Noruega invierte los ingresos del petróleo fuera del país precisamente para que no aprecien su moneda ni aten el gasto público al precio del crudo.",
+      "questions": [
+        { "q": "¿Cuál es el mecanismo principal del mal holandés?", "options": ["La apreciación de la moneda encarece el resto de exportaciones del país", "El precio de la materia prima se desploma por exceso de oferta", "El Estado deja de recaudar impuestos sobre la industria", "Los costes de extracción superan a los ingresos por venta"], "correct": 0, "note": "El daño no lo causa el recurso en sí, sino el efecto de sus divisas sobre el tipo de cambio." },
+        { "q": "¿Por qué es difícil recuperar la industria cuando cae el precio de la materia prima?", "options": ["Las capacidades industriales abandonadas tardan años en reconstruirse", "Los mercados internacionales prohíben el reingreso de exportadores", "La maquinaria queda obsoleta por regulación ambiental", "El tipo de cambio permanece apreciado de forma permanente"], "correct": 0, "note": "El capital humano y las cadenas de proveedores se disuelven, y rehacerlos no es cuestión de volver a encender las máquinas." },
+        { "q": "¿Qué hace Noruega para amortiguar el efecto?", "options": ["Invertir los ingresos del petróleo en un fondo que coloca el dinero fuera del país", "Limitar por ley el volumen anual de extracción", "Fijar el tipo de cambio de su moneda frente al euro", "Nacionalizar el conjunto del sector manufacturero"], "correct": 0, "note": "Invertir fuera evita que esas divisas presionen al alza la corona y desconecta el gasto público del ciclo del crudo." },
+        { "q": "¿Qué determina que un país con recursos abundantes sufra o no este problema?", "options": ["La calidad de las instituciones que administran los ingresos", "El volumen absoluto de las reservas", "La proximidad a los mercados de destino", "El tipo de materia prima extraída"], "correct": 0, "note": "Países con dotaciones parecidas muestran trayectorias opuestas, lo que apunta a la gestión y no a la geología." }
+      ]
+    },
+    {
+      "id": "eco-0004",
+      "category": "economia",
+      "title": "La regla del 72 y por qué el tiempo pesa más que el interés",
+      "subtitle": "Una división mental que revela la forma real del crecimiento compuesto.",
+      "cover_image": { "query": "compound interest growth chart", "wikipedia": "Interés compuesto" },
+      "cards": [
+        { "heading": "La cuenta", "text": "Divide 72 entre el tipo de interés anual expresado en porcentaje y obtienes, aproximadamente, los años que tarda una cantidad en duplicarse. Al 6 %, doce años. Al 9 %, ocho. Es una aproximación de la fórmula del interés compuesto, y su precisión es razonable en el rango de tipos habituales." },
+        { "heading": "Lo que revela", "text": "La utilidad no está en el cálculo sino en lo que hace visible. La intuición humana proyecta en línea recta: si algo crece un 7 % al año, tendemos a suponer que en veinte años habrá crecido un 140 %. La regla muestra que se habrá multiplicado por cuatro, porque cada duplicación parte de una base mayor." },
+        { "heading": "El tiempo domina", "text": "De los dos factores, el que más pesa no es el tipo sino el plazo. Quien invierte durante cuarenta años al 5 % termina por encima de quien invierte durante veinte al 8 %, aunque el segundo obtenga mejor rendimiento anual. Las duplicaciones finales mueven cantidades absolutas mucho mayores que las primeras." },
+        { "heading": "También funciona al revés", "text": "La misma regla sirve para la erosión. Con una inflación del 3 % anual, el poder adquisitivo del dinero guardado se reduce a la mitad en unos veinticuatro años. Una comisión anual del 2 % sobre una cartera se lleva, en horizontes largos, una fracción del patrimonio final muy superior a lo que sugiere ese número." }
+      ],
+      "key_fact": "Con una inflación del 3 % anual, el poder adquisitivo del dinero guardado se reduce a la mitad en unos veinticuatro años.",
+      "questions": [
+        { "q": "Según la regla del 72, ¿cuántos años tarda en duplicarse una cantidad al 6 % anual?", "options": ["Doce", "Seis", "Dieciocho", "Veinticuatro"], "correct": 0, "note": "72 dividido entre 6. La regla es una aproximación, pero es fiable en el rango de tipos que se manejan habitualmente." },
+        { "q": "¿Qué error de intuición corrige la regla?", "options": ["Proyectar el crecimiento en línea recta en lugar de por duplicaciones sucesivas", "Confundir el interés nominal con el real", "Ignorar el efecto de los impuestos sobre el rendimiento", "Suponer que los tipos se mantienen constantes"], "correct": 0, "note": "Cada duplicación parte de una base mayor, así que el efecto se acelera con el plazo aunque el porcentaje no cambie." },
+        { "q": "Entre plazo y rentabilidad, ¿cuál pesa más en horizontes largos?", "options": ["El plazo, porque las últimas duplicaciones mueven cantidades mucho mayores", "La rentabilidad, porque afecta a cada periodo por igual", "Ambos por igual, ya que son factores simétricos", "Depende del importe inicial invertido"], "correct": 0, "note": "Cuarenta años al 5 % superan a veinte años al 8 %, pese a que la rentabilidad anual sea peor." },
+        { "q": "¿Qué muestra aplicar la regla a una comisión anual del 2 %?", "options": ["Que en horizontes largos se lleva una fracción del patrimonio final muy superior a ese número", "Que su efecto es despreciable frente a la rentabilidad bruta", "Que solo importa si supera la inflación", "Que se compensa con la reinversión de dividendos"], "correct": 0, "note": "La comisión no se resta una vez: se aplica sobre un capital que iba a componerse. Lo que se pierde es todo el crecimiento futuro de esa parte." }
+      ]
+    },
+    {
+      "id": "eco-0005",
+      "category": "economia",
+      "title": "Ventaja comparativa: por qué conviene comerciar con quien es peor en todo",
+      "subtitle": "El argumento de Ricardo de 1817 sigue siendo el más contraintuitivo de la economía.",
+      "cover_image": { "query": "cargo container port trade", "wikipedia": "Ventaja comparativa" },
+      "cards": [
+        { "heading": "El problema", "text": "Si un país produce todo mejor y más barato que otro, parece que no tiene nada que ganar comerciando con él. David Ricardo demostró en 1817 que esa conclusión es falsa, y lo hizo con un ejemplo de paño y vino entre Inglaterra y Portugal que sigue siendo el estándar para explicarlo." },
+        { "heading": "Coste de oportunidad", "text": "La clave no es cuánto cuesta producir algo, sino a qué se renuncia para producirlo. Un país que es excelente fabricando aviones y solo bueno fabricando camisetas pierde mucho cada hora que dedica a las camisetas. A otro país que sea mediocre en ambas le cuesta menos, en términos de lo que sacrifica, fabricar las camisetas." },
+        { "heading": "La consecuencia", "text": "Cada uno se especializa en aquello en lo que su desventaja es menor, y ambos terminan con más bienes de los que tendrían aislados. La ganancia no exige que nadie sea el mejor en nada: solo que las relaciones internas de coste sean distintas entre los dos países." },
+        { "heading": "Lo que el argumento no dice", "text": "Ricardo demuestra que el conjunto gana, no que gane cada persona. Los trabajadores del sector que deja de ser competitivo soportan un coste real y concentrado, mientras el beneficio se reparte de forma difusa entre consumidores. Buena parte del debate político sobre comercio no discute el teorema sino ese reparto." }
+      ],
+      "key_fact": "El argumento demuestra que el conjunto gana, no que gane cada persona: el coste es concentrado y el beneficio, difuso.",
+      "questions": [
+        { "q": "¿Qué determina en qué debe especializarse un país según Ricardo?", "options": ["Aquello a lo que renuncia menos por producirlo, es decir, su coste de oportunidad", "El bien que produce con menor coste absoluto", "El sector con mayor número de trabajadores", "El producto con más demanda internacional"], "correct": 0, "note": "Esa es la diferencia entre ventaja absoluta y comparativa, y es el punto donde falla la intuición." },
+        { "q": "¿Puede haber ganancia si un país es peor produciendo todo?", "options": ["Sí, siempre que sus relaciones internas de coste difieran de las del otro país", "No, necesita ser mejor al menos en un bien", "Solo si recibe compensación arancelaria", "Solo si ambos países tienen tamaño similar"], "correct": 0, "note": "Basta con que los costes relativos difieran. Es justamente lo que hace el resultado contraintuitivo." },
+        { "q": "¿Qué limitación tiene el teorema como argumento político?", "options": ["Demuestra que el conjunto gana, pero no que ganen todos los individuos", "Solo se cumple con dos países y dos bienes", "Requiere que no existan costes de transporte", "Fue refutado empíricamente en el siglo XX"], "correct": 0, "note": "El modelo original es de dos países y dos bienes, pero el resultado se generaliza. La objeción de fondo es distributiva." },
+        { "q": "¿Por qué el debate político sobre comercio rara vez discute el teorema?", "options": ["Porque lo que se discute es el reparto de costes y beneficios, no la ganancia agregada", "Porque el teorema es demasiado técnico para el debate público", "Porque los datos no permiten contrastarlo", "Porque los tratados comerciales lo excluyen expresamente"], "correct": 0, "note": "Quien pierde el empleo soporta un coste concreto e identificable; quien gana lo hace en forma de precios algo más bajos que nadie atribuye al comercio." }
+      ]
+    },
+    {
+      "id": "his-0003",
+      "category": "historia",
+      "title": "Gutenberg: el invento que nadie pudo controlar",
+      "subtitle": "Hacia 1450 los tipos móviles convirtieron la copia en una industria.",
+      "cover_image": { "query": "gutenberg printing press movable type", "wikipedia": "Imprenta de tipos móviles" },
+      "cards": [
+        { "heading": "Qué inventó exactamente", "text": "Los tipos móviles ya existían en Asia oriental desde siglos antes. La aportación de Johannes Gutenberg, en Maguncia hacia 1450, fue un sistema completo: una aleación que permitía fundir miles de piezas idénticas y reutilizables, una tinta grasa que se adhería al metal y una prensa adaptada del prensado de uva." },
+        { "heading": "El cambio de escala", "text": "Un copista producía un libro en meses. Un taller de imprenta producía cientos de ejemplares idénticos en semanas. Antes de que terminara el siglo XV había talleres en más de doscientas ciudades europeas y circulaban millones de volúmenes. La copia dejó de ser un trabajo artesanal y pasó a ser una industria." },
+        { "heading": "El efecto imprevisto", "text": "La imprenta no solo difundió más deprisa: hizo la difusión difícil de detener. Cuando Lutero publicó sus tesis en 1517, los talleres las reprodujeron por toda Alemania antes de que ninguna autoridad pudiera reaccionar. La Reforma fue el primer conflicto en el que la velocidad de reproducción de un texto resultó decisiva." },
+        { "heading": "Estandarizar el conocimiento", "text": "Hay un efecto menos visible y quizá mayor. Todos los ejemplares de una edición son idénticos, así que por primera vez dos personas en ciudades distintas podían discutir sobre la misma página del mismo libro. Eso hizo posible la ciencia acumulativa: corregir a un autor exige que ambos lean exactamente el mismo texto." }
+      ],
+      "key_fact": "Los tipos móviles existían en Asia oriental desde siglos antes. Lo que Gutenberg resolvió fue el sistema completo: aleación, tinta grasa y prensa.",
+      "questions": [
+        { "q": "¿Cuál fue la aportación específica de Gutenberg?", "options": ["Un sistema completo de aleación, tinta grasa y prensa, no el tipo móvil en sí", "La invención del tipo móvil, desconocido hasta entonces", "La fabricación industrial de papel barato", "La creación del primer alfabeto tipográfico"], "correct": 0, "note": "Los tipos móviles se usaban en Asia oriental mucho antes. El cuello de botella estaba en los materiales y en la mecánica." },
+        { "q": "¿Qué papel tuvo la imprenta en la Reforma?", "options": ["Permitió reproducir los textos de Lutero más rápido de lo que las autoridades podían reaccionar", "Permitió imprimir biblias en latín por primera vez", "Facilitó la convocatoria del Concilio de Trento", "Sustituyó la predicación oral en las iglesias"], "correct": 0, "note": "El factor decisivo fue la velocidad: la difusión superó a la capacidad de respuesta institucional." },
+        { "q": "¿Qué consecuencia menos visible tuvo la identidad entre ejemplares?", "options": ["Hizo posible la ciencia acumulativa, al permitir discutir sobre exactamente el mismo texto", "Redujo el precio del papel de forma permanente", "Obligó a unificar la ortografía en toda Europa", "Eliminó los errores de contenido en los libros"], "correct": 0, "note": "Las erratas no desaparecieron; de hecho se propagaban en toda la tirada. Lo decisivo fue poder citar una página concreta y que el otro viera lo mismo." },
+        { "q": "¿Qué cambió en la escala de producción?", "options": ["De un libro en meses por copista a cientos de ejemplares idénticos en semanas", "De copias manuscritas a ediciones ilustradas en color", "De textos religiosos a literatura de consumo", "De bibliotecas monásticas a bibliotecas públicas"], "correct": 0, "note": "Ese salto de magnitud es lo que convierte un oficio artesanal en una industria con economías de escala." }
+      ]
+    },
+    {
+      "id": "his-0004",
+      "category": "historia",
+      "title": "Mansa Musa y el hombre que hundió el precio del oro",
+      "subtitle": "En 1324 una peregrinación desde Malí desajustó la economía de Egipto.",
+      "cover_image": { "query": "mali empire djenne mosque", "wikipedia": "Mansa Musa" },
+      "cards": [
+        { "heading": "El imperio", "text": "El Imperio de Malí dominó en el siglo XIV una extensa franja de África occidental y controlaba el comercio transahariano de oro y sal. La sal se cambiaba por oro en proporciones que hoy sorprenden, porque en un clima cálido la sal es una necesidad fisiológica y el oro solo un metal apreciado." },
+        { "heading": "La peregrinación", "text": "En 1324 el emperador Mansa Musa emprendió la peregrinación a La Meca acompañado de una comitiva inmensa y de una cantidad extraordinaria de oro. A su paso por El Cairo lo repartió y lo gastó con tal profusión que el precio del metal en la ciudad se desplomó y tardó años en recuperarse." },
+        { "heading": "Una lección económica involuntaria", "text": "El episodio ilustra sin proponérselo un principio básico: el valor de un medio de intercambio depende de su escasez relativa, no de sus propiedades. Introducir de golpe una cantidad enorme de oro en un mercado tiene el mismo efecto que emitir dinero sin contrapartida. Es inflación, aunque el material sea metal precioso." },
+        { "heading": "Aparecer en el mapa", "text": "El viaje también cambió la percepción europea de África occidental. El Atlas catalán de 1375 representa a Mansa Musa sentado con una pepita en la mano, y durante generaciones Malí figuró en la cartografía europea como una potencia. El relato del viaje hizo por su visibilidad más que cualquier embajada." }
+      ],
+      "key_fact": "El gasto de oro de la comitiva en El Cairo hundió el precio del metal en la ciudad, que tardó años en recuperarse.",
+      "questions": [
+        { "q": "¿Qué principio económico ilustra el efecto en El Cairo?", "options": ["El valor de un medio de intercambio depende de su escasez relativa", "El oro conserva su valor con independencia de la cantidad en circulación", "Los mercados premium se recuperan con rapidez de los excesos de oferta", "El comercio transahariano fijaba precios de forma centralizada"], "correct": 0, "note": "Introducir una cantidad enorme de golpe produce el mismo efecto que emitir dinero sin contrapartida, aunque el soporte sea metal precioso." },
+        { "q": "¿Por qué la sal se intercambiaba por oro en proporciones altas?", "options": ["En un clima cálido es una necesidad fisiológica, no un artículo de lujo", "Era más difícil de extraer que el oro", "Su transporte estaba gravado con aranceles elevados", "Se usaba como moneda oficial del imperio"], "correct": 0, "note": "El valor sigue a la necesidad y a la escasez local, no a la nobleza del material." },
+        { "q": "¿Qué efecto tuvo la peregrinación en la cartografía europea?", "options": ["Malí pasó a figurar durante generaciones como una potencia en los mapas", "Se corrigieron los errores sobre el curso del Níger", "Se cartografió por primera vez el Sáhara occidental", "Se establecieron rutas comerciales directas con Europa"], "correct": 0, "note": "El Atlas catalán de 1375 lo representa sentado con una pepita en la mano, imagen que fijó la reputación del imperio." },
+        { "q": "¿Sobre qué comercio se sostenía el poder del Imperio de Malí?", "options": ["El transahariano de oro y sal", "El marítimo de especias con Asia", "El de esclavos con el Mediterráneo oriental", "El de marfil con los reinos del sur"], "correct": 0, "note": "El control de las rutas que cruzaban el desierto era el fundamento material del imperio." }
+      ]
+    },
+    {
+      "id": "his-0005",
+      "category": "historia",
+      "title": "Haití: la revolución que nadie quería que existiera",
+      "subtitle": "La única revuelta de esclavizados que terminó fundando un Estado.",
+      "cover_image": { "query": "haitian revolution historical painting", "wikipedia": "Revolución haitiana" },
+      "cards": [
+        { "heading": "La colonia más rentable", "text": "Saint-Domingue, la parte francesa de La Española, era a finales del siglo XVIII la colonia más lucrativa del mundo. Producía una porción enorme del azúcar y el café que consumía Europa, sostenida por un régimen esclavista de mortalidad extrema que requería importación constante de personas cautivas." },
+        { "heading": "La contradicción", "text": "La revolución francesa proclamó en 1789 derechos universales sin resolver qué significaban en las colonias. La insurrección estalló en 1791. Durante trece años los sublevados combatieron sucesivamente a las tropas francesas, a las británicas y a las españolas, y derrotaron incluso al cuerpo expedicionario que Napoleón envió para restablecer la esclavitud." },
+        { "heading": "La independencia", "text": "En enero de 1804 se proclamó la independencia de Haití. Fue el primer Estado surgido de una revuelta de personas esclavizadas y el segundo país independiente del continente americano. Toussaint Louverture, su figura militar más notable, murió preso en Francia el año anterior sin verlo." },
+        { "heading": "La factura", "text": "El nuevo país quedó aislado por las potencias esclavistas, que temían el contagio. En 1825 Francia condicionó el reconocimiento diplomático al pago de una indemnización a los antiguos propietarios por la pérdida de su propiedad, que eran las propias personas liberadas. Haití estuvo pagando esa deuda durante más de un siglo." }
+      ],
+      "key_fact": "Francia condicionó el reconocimiento de Haití al pago de una indemnización por la pérdida de propiedad, es decir, por las personas que se habían liberado a sí mismas.",
+      "questions": [
+        { "q": "¿Qué hace singular a la revolución haitiana?", "options": ["Fue la única revuelta de personas esclavizadas que terminó fundando un Estado", "Fue la primera independencia lograda sin conflicto armado", "Fue la única apoyada militarmente por Francia", "Fue la primera en abolir la esclavitud en el Caribe británico"], "correct": 0, "note": "Hubo numerosas revueltas en el continente americano; ninguna otra culminó en la creación de un país." },
+        { "q": "¿Qué exigió Francia en 1825 a cambio del reconocimiento diplomático?", "options": ["Una indemnización a los antiguos propietarios por la pérdida de su propiedad", "La devolución de la parte oriental de la isla", "La renuncia a comerciar con Estados Unidos", "El restablecimiento del régimen de plantación"], "correct": 0, "note": "La propiedad indemnizada eran las propias personas liberadas. Haití arrastró el pago durante más de un siglo." },
+        { "q": "¿Por qué las potencias de la época aislaron al nuevo Estado?", "options": ["Temían que el ejemplo se extendiera a sus propias colonias esclavistas", "No reconocían la validez de su constitución", "Rechazaban su forma de gobierno monárquica", "Consideraban ilegal la salida unilateral del imperio francés"], "correct": 0, "note": "El aislamiento fue una decisión defensiva de los sistemas esclavistas del entorno." },
+        { "q": "¿Qué contradicción abrió el proceso revolucionario francés?", "options": ["Proclamó derechos universales sin definir su alcance en las colonias", "Abolió la esclavitud sin abolir la trata", "Concedió la ciudadanía a los colonos pero no a los metropolitanos", "Prohibió la propiedad privada en ultramar"], "correct": 0, "note": "Esa ambigüedad fue exactamente el terreno sobre el que se levantó la insurrección de 1791." }
+      ]
+    },
+    {
+      "id": "cie-0003",
+      "category": "ciencia",
+      "title": "Wegener tenía razón y aun así lo rechazaron",
+      "subtitle": "La deriva continental tardó medio siglo en aceptarse por faltarle un motor.",
+      "cover_image": { "query": "continental drift pangaea map", "wikipedia": "Deriva continental" },
+      "cards": [
+        { "heading": "La observación", "text": "En 1912 el meteorólogo Alfred Wegener propuso que los continentes se habían desplazado. Sus indicios eran sólidos: el encaje de las costas de África y Sudamérica, fósiles idénticos separados por océanos, formaciones geológicas que continuaban de un continente a otro y restos de glaciación en regiones hoy tropicales." },
+        { "heading": "La objeción", "text": "La comunidad geológica lo rechazó durante décadas, y no por prejuicio arbitrario. Wegener no sabía explicar qué fuerza podía mover masas continentales enteras a través de la corteza oceánica. Sus propuestas al respecto eran físicamente insuficientes, y los críticos tenían razón en ese punto concreto." },
+        { "heading": "La pieza que faltaba", "text": "La respuesta llegó en los años sesenta con la cartografía del fondo marino. Se descubrió que el lecho oceánico se crea continuamente en las dorsales y se destruye en las fosas, y que el registro magnético de las rocas guardaba franjas simétricas a ambos lados de las dorsales. Los continentes no surcan la corteza: viajan sobre ella." },
+        { "heading": "Qué enseña el episodio", "text": "Wegener murió en 1930 en una expedición a Groenlandia, treinta años antes de la vindicación. El caso suele contarse como una historia de terquedad académica, pero es más interesante que eso: una teoría con buenas evidencias y sin mecanismo plausible es, con razón, incompleta. Lo que faltaba no era apertura mental sino un dato." }
+      ],
+      "key_fact": "Lo que faltaba a la deriva continental no era evidencia sino mecanismo: sin una fuerza capaz de mover los continentes, la teoría estaba incompleta.",
+      "questions": [
+        { "q": "¿Por qué rechazó la comunidad geológica la propuesta de Wegener?", "options": ["No podía explicar qué fuerza movía los continentes", "Sus datos fósiles resultaron ser falsificaciones", "El encaje de las costas se atribuyó a la erosión", "Contradecía la datación radiométrica de la época"], "correct": 0, "note": "La objeción era técnica y estaba fundada: las fuerzas que Wegener propuso eran físicamente insuficientes." },
+        { "q": "¿Qué descubrimiento resolvió el problema del mecanismo?", "options": ["La expansión del fondo oceánico, con creación en las dorsales y destrucción en las fosas", "La medición directa del desplazamiento continental por satélite", "El hallazgo de fósiles comunes en la Antártida", "La determinación de la edad del núcleo terrestre"], "correct": 0, "note": "Los continentes no atraviesan la corteza oceánica: se desplazan solidariamente con ella." },
+        { "q": "¿Qué evidencia magnética apoyó la expansión del fondo oceánico?", "options": ["Franjas de polaridad simétricas a ambos lados de las dorsales", "La orientación uniforme del campo en toda la corteza oceánica", "La ausencia de magnetismo en las fosas abisales", "La inversión periódica del campo cada mil años"], "correct": 0, "note": "La simetría es la firma: la roca nueva registra el campo del momento en que se solidifica, a un lado y otro por igual." },
+        { "q": "¿Qué lección metodológica deja el caso?", "options": ["Una teoría con buena evidencia pero sin mecanismo plausible está justificadamente incompleta", "La comunidad científica tiende a rechazar por sistema las ideas nuevas", "Los datos observacionales bastan para establecer una teoría", "Las disciplinas ajenas al campo no deben proponer hipótesis"], "correct": 0, "note": "Wegener era meteorólogo, no geólogo, pero esa no fue la razón de fondo del rechazo: el hueco era el motor." }
+      ]
+    },
+    {
+      "id": "cie-0004",
+      "category": "ciencia",
+      "title": "La penicilina y el mérito de fijarse en un accidente",
+      "subtitle": "Fleming vio el moho en 1928, pero el medicamento llegó doce años después.",
+      "cover_image": { "query": "penicillin mould petri dish", "wikipedia": "Penicilina" },
+      "cards": [
+        { "heading": "El accidente", "text": "En 1928 Alexander Fleming volvió de vacaciones y encontró una de sus placas de cultivo de estafilococos contaminada por un moho. Alrededor de la mancha había un halo limpio: las bacterias habían muerto. Placas contaminadas se descartan a diario en cualquier laboratorio, y lo relevante fue mirar antes de tirarla." },
+        { "heading": "El estancamiento", "text": "Fleming publicó el hallazgo en 1929 y el artículo pasó casi inadvertido. La sustancia era inestable y difícil de purificar, y él no disponía de los medios químicos para aislarla en cantidad útil. Durante una década la penicilina fue una curiosidad de laboratorio y no un tratamiento." },
+        { "heading": "El trabajo que faltaba", "text": "A partir de 1939, un equipo de Oxford dirigido por Howard Florey y Ernst Chain resolvió el problema difícil: purificar la sustancia, demostrar su eficacia en animales y después en pacientes, y desarrollar un método de producción a escala. El Nobel de 1945 fue compartido entre los tres." },
+        { "heading": "La advertencia", "text": "En su discurso de aceptación Fleming avisó de que dosis insuficientes podían seleccionar bacterias resistentes, porque sobrevivirían las menos sensibles. Formuló el problema de la resistencia a los antibióticos el mismo año en que el medicamento empezaba a producirse en masa." }
+      ],
+      "key_fact": "Fleming advirtió del riesgo de bacterias resistentes en su discurso del Nobel de 1945, el mismo año en que empezaba la producción masiva.",
+      "questions": [
+        { "q": "¿Por qué la penicilina tardó doce años en convertirse en medicamento?", "options": ["Era inestable y difícil de purificar, y faltaba el trabajo químico y de producción a escala", "No se encontró un moho productivo hasta 1939", "La comunidad médica rechazó el hallazgo por implausible", "Las patentes bloquearon su desarrollo durante una década"], "correct": 0, "note": "El descubrimiento fue el principio. Lo laborioso fue purificar, ensayar y fabricar en cantidad." },
+        { "q": "¿Qué aportó el equipo de Oxford?", "options": ["Purificación, ensayos clínicos y un método de producción a escala", "La identificación de la especie de moho responsable", "La demostración de que las bacterias mueren en presencia del moho", "La primera publicación científica sobre la sustancia"], "correct": 0, "note": "El Nobel de 1945 se repartió entre Fleming, Florey y Chain, reconociendo las dos mitades del trabajo." },
+        { "q": "¿Qué advirtió Fleming al recibir el Nobel?", "options": ["Que las dosis insuficientes seleccionarían bacterias resistentes", "Que el medicamento provocaría reacciones alérgicas graves", "Que la producción no podría cubrir la demanda mundial", "Que su uso debía restringirse a heridas de guerra"], "correct": 0, "note": "Sobreviven las bacterias menos sensibles, que son las que se reproducen. El mecanismo estaba descrito desde el principio." },
+        { "q": "¿Qué distingue la observación de Fleming de un simple golpe de suerte?", "options": ["Examinar una placa contaminada en lugar de descartarla, como se hace de rutina", "Haber diseñado el experimento para detectar antibióticos", "Haber cultivado deliberadamente el moho junto a las bacterias", "Haber repetido el accidente de forma controlada"], "correct": 0, "note": "La contaminación es un suceso trivial y frecuente. Lo infrecuente fue tratarla como un dato en vez de como un error." }
+      ]
+    },
+    {
+      "id": "cie-0005",
+      "category": "ciencia",
+      "title": "La doble rendija: el experimento que no admite explicación intuitiva",
+      "subtitle": "Partículas individuales que dibujan, una a una, un patrón de onda.",
+      "cover_image": { "query": "double slit interference pattern", "wikipedia": "Experimento de la doble rendija" },
+      "cards": [
+        { "heading": "El montaje clásico", "text": "Se hace pasar luz por dos rendijas paralelas muy próximas y se recoge el resultado en una pantalla. Aparecen franjas alternas claras y oscuras. Es el comportamiento característico de las ondas: donde dos crestas coinciden se refuerzan, donde una cresta encuentra un valle se cancelan. Thomas Young lo hizo en 1801." },
+        { "heading": "Una partícula cada vez", "text": "El resultado se vuelve extraño al repetirlo con electrones lanzados de uno en uno, con intervalos suficientes para que nunca haya dos a la vez en el aparato. Cada electrón deja un impacto puntual, como corresponde a una partícula. Pero al acumular miles de impactos, la distribución que emerge es el patrón de franjas." },
+        { "heading": "El detector lo cambia todo", "text": "Si se instala un detector para determinar por qué rendija pasa cada electrón, el patrón de franjas desaparece y queda la distribución que cabría esperar de proyectiles. Y basta con retirar el detector para que las franjas vuelvan. Lo decisivo no es perturbar la partícula sino que la información sobre su trayectoria exista." },
+        { "heading": "Lo que se puede y no se puede decir", "text": "El formalismo predice los resultados con una precisión extraordinaria y no hay discusión sobre los números. Lo que sigue abierto es qué está pasando: si la partícula recorre ambos caminos, si la descripción es solo una herramienta de cálculo, o si conviene abstenerse de preguntarlo. Hay interpretaciones rivales y ningún experimento las separa." }
+      ],
+      "key_fact": "Basta con que exista información sobre la trayectoria para que el patrón de interferencia desaparezca; retirar el detector lo restaura.",
+      "questions": [
+        { "q": "¿Qué ocurre al lanzar electrones de uno en uno?", "options": ["Cada uno deja un impacto puntual, pero la acumulación dibuja el patrón de franjas", "Los impactos se distribuyen uniformemente por la pantalla", "Solo una fracción atraviesa las rendijas y no se forma patrón", "El patrón aparece únicamente si se lanzan simultáneamente"], "correct": 0, "note": "Ahí está la anomalía: el patrón de interferencia no puede provenir de electrones interfiriendo entre sí, porque nunca coinciden en el aparato." },
+        { "q": "¿Qué efecto tiene instalar un detector en las rendijas?", "options": ["El patrón de interferencia desaparece y reaparece al retirarlo", "El patrón se intensifica y define mejor", "Los electrones dejan de atravesar las rendijas", "Las franjas se desplazan pero conservan su forma"], "correct": 0, "note": "La reversibilidad es lo llamativo: no es un daño permanente causado a la partícula." },
+        { "q": "¿Qué indica que el patrón de franjas es un fenómeno ondulatorio?", "options": ["La alternancia de refuerzo y cancelación según coincidan crestas o valles", "La intensidad decreciente hacia los bordes de la pantalla", "La dependencia del resultado respecto a la distancia entre rendijas", "La necesidad de un medio material para propagarse"], "correct": 0, "note": "La interferencia constructiva y destructiva es la firma característica de una onda, y se conocía desde el experimento de Young en 1801." },
+        { "q": "¿Cuál es la situación actual respecto a su interpretación?", "options": ["Las predicciones no se discuten, pero conviven interpretaciones rivales que ningún experimento separa", "Existe consenso pleno sobre qué ocurre físicamente", "El experimento se considera un artefacto de los instrumentos", "La cuestión quedó resuelta con la teoría de campos"], "correct": 0, "note": "Es una separación poco habitual: acuerdo total sobre qué se va a medir y desacuerdo persistente sobre qué significa." }
+      ]
+    },
+    {
+      "id": "fil-0003",
+      "category": "filosofia",
+      "title": "El tranvía: cinco vidas, una palanca y una incomodidad persistente",
+      "subtitle": "Philippa Foot planteó en 1967 un caso que separa dos formas de juzgar.",
+      "cover_image": { "query": "railway track switch junction", "wikipedia": "Dilema del tranvía" },
+      "cards": [
+        { "heading": "El caso", "text": "Un tranvía sin frenos avanza hacia cinco personas atrapadas en la vía. Puedes accionar una palanca y desviarlo a un ramal donde hay una sola persona. Preguntada así, la mayoría de la gente responde que accionaría la palanca: cinco vidas pesan más que una." },
+        { "heading": "La variante", "text": "Ahora estás en un puente sobre la vía junto a una persona corpulenta. Empujarla haría descarrilar el tranvía y salvaría a las cinco. La aritmética es idéntica, pero casi nadie responde que empujaría. La diferencia entre ambas respuestas es el objeto real del experimento." },
+        { "heading": "Qué está midiendo", "text": "La divergencia separa dos criterios. Uno atiende solo a las consecuencias: si el saldo de vidas es el mismo, ambos casos deben juzgarse igual. Otro atiende a la naturaleza del acto: usar a alguien como instrumento para salvar a otros es distinto de causarle un daño colateral que no se buscaba." },
+        { "heading": "Por qué importa fuera del aula", "text": "El dilema dejó de ser un ejercicio abstracto cuando hubo que programar vehículos autónomos, asignar respiradores en una saturación hospitalaria o fijar reglas de bombardeo. En esos contextos alguien tiene que escribir el criterio de antemano, y las dos intuiciones dan instrucciones incompatibles." }
+      ],
+      "key_fact": "Ante la misma aritmética de vidas, la mayoría acciona la palanca y casi nadie empuja. Esa discrepancia es el objeto del experimento, no un error de razonamiento.",
+      "questions": [
+        { "q": "¿Qué mide realmente el dilema?", "options": ["La divergencia entre juzgar por consecuencias y juzgar por la naturaleza del acto", "La capacidad de calcular rápido un saldo de vidas", "La disposición individual a asumir responsabilidad legal", "El grado de empatía hacia víctimas identificables"], "correct": 0, "note": "El interés no está en la respuesta a cada caso sino en por qué las respuestas difieren siendo idéntico el resultado." },
+        { "q": "¿Qué distingue moralmente empujar de accionar la palanca, según la segunda intuición?", "options": ["Empujar usa a la persona como instrumento; la palanca causa un daño no buscado", "Empujar implica contacto físico y por eso es peor", "La palanca deja abierta la posibilidad de que nadie muera", "Empujar tiene menor probabilidad de éxito"], "correct": 0, "note": "La distinción es entre daño como medio y daño como efecto colateral, no entre tocar o no tocar." },
+        { "q": "¿Por qué el dilema dejó de ser un ejercicio abstracto?", "options": ["Porque hay que fijar criterios de antemano en vehículos autónomos o triajes hospitalarios", "Porque se documentaron accidentes ferroviarios con esa configuración", "Porque los tribunales lo adoptaron como criterio de imputación", "Porque los experimentos de laboratorio confirmaron una respuesta correcta"], "correct": 0, "note": "Cuando la decisión hay que escribirla antes del suceso, la ambigüedad deja de ser tolerable." },
+        { "q": "¿Qué respondería alguien que juzga exclusivamente por consecuencias?", "options": ["Que ambos casos deben resolverse igual porque el saldo de vidas es el mismo", "Que ninguna intervención es admisible", "Que solo cabe actuar si se conoce la identidad de las víctimas", "Que la decisión depende de quién sea responsable del fallo del tranvía"], "correct": 0, "note": "La coherencia del criterio consecuencialista es a la vez su fuerza y lo que resulta difícil de aceptar en la variante del puente." }
+      ]
+    },
+    {
+      "id": "fil-0004",
+      "category": "filosofia",
+      "title": "La banalidad del mal: una expresión mal entendida desde 1963",
+      "subtitle": "Arendt no dijo que el mal fuera trivial, sino que su ejecutor podía serlo.",
+      "cover_image": { "query": "hannah arendt portrait", "wikipedia": "Banalidad del mal" },
+      "cards": [
+        { "heading": "El juicio", "text": "En 1961 Hannah Arendt cubrió para una revista el proceso a Adolf Eichmann en Jerusalén, uno de los organizadores de la deportación de judíos a los campos de exterminio. Su crónica, publicada como libro en 1963, esperaba encontrar a un monstruo y describió a un funcionario." },
+        { "heading": "Qué observó", "text": "Lo que la impresionó fue la vulgaridad del acusado: un hombre preocupado por su carrera, hábil con los procedimientos, que se expresaba en fórmulas administrativas y parecía incapaz de considerar los hechos desde la perspectiva de sus víctimas. No detectó odio ideológico excepcional, sino ausencia de pensamiento propio." },
+        { "heading": "El malentendido", "text": "La expresión se lee a menudo como si Arendt hubiese minimizado los crímenes. Su tesis es la contraria y más inquietante: los crímenes eran de magnitud extrema y no requerían ejecutores excepcionales. Lo banal no es el mal sino quien lo administra, y eso amplía enormemente el conjunto de personas capaces de participar." },
+        { "heading": "La discusión abierta", "text": "Documentación posterior mostró a un Eichmann bastante más ideologizado de lo que dejaba ver en el juicio, lo que ha llevado a discutir si Arendt fue engañada por la estrategia defensiva del acusado. El debate sigue vivo, aunque el concepto ha resultado fértil para analizar la participación en atrocidades burocráticas." }
+      ],
+      "key_fact": "La tesis no es que los crímenes fueran menores, sino que su ejecución no requería ejecutores excepcionales.",
+      "questions": [
+        { "q": "¿Qué sostiene realmente la expresión banalidad del mal?", "options": ["Que crímenes de magnitud extrema pueden ser ejecutados por personas corrientes", "Que el mal cometido fue de escasa importancia histórica", "Que los responsables actuaron sin conocer las consecuencias", "Que la burocracia exime de responsabilidad individual"], "correct": 0, "note": "Es una tesis sobre el perfil del ejecutor, no sobre la gravedad del hecho. El malentendido invierte exactamente su sentido." },
+        { "q": "¿Qué observó Arendt en Eichmann durante el juicio?", "options": ["Un funcionario preocupado por su carrera y sin capacidad de ver los hechos desde la perspectiva ajena", "Un ideólogo brillante y consciente de su papel histórico", "Un hombre arrepentido y colaborador con el tribunal", "Un acusado incapaz de comprender los cargos"], "correct": 0, "note": "Lo que describe es ausencia de pensamiento propio, no falta de inteligencia ni de capacidad procesal." },
+        { "q": "¿Qué objeción posterior se ha planteado a su análisis?", "options": ["Documentación posterior sugiere un Eichmann más ideologizado de lo que mostró en el juicio", "Se demostró que Arendt no asistió al proceso", "Los tribunales invalidaron las actas que utilizó", "El concepto resultó inaplicable a otros casos históricos"], "correct": 0, "note": "La discusión es si la imagen del funcionario gris fue en parte una estrategia defensiva eficaz." },
+        { "q": "¿Por qué la tesis resulta más inquietante que la del monstruo excepcional?", "options": ["Amplía enormemente el conjunto de personas capaces de participar", "Reduce la responsabilidad penal de los ejecutores", "Sugiere que los crímenes fueron inevitables", "Implica que la ideología es irrelevante en la historia"], "correct": 0, "note": "Un monstruo excepcional es tranquilizador porque es raro. Un funcionario diligente no lo es." }
+      ]
+    },
+    {
+      "id": "fil-0005",
+      "category": "filosofia",
+      "title": "El barco de Teseo y el problema de seguir siendo uno mismo",
+      "subtitle": "Si sustituyes cada tabla, ¿en qué momento deja de ser el mismo barco?",
+      "cover_image": { "query": "ancient greek wooden ship", "wikipedia": "Paradoja de Teseo" },
+      "cards": [
+        { "heading": "El planteamiento", "text": "Plutarco cuenta que los atenienses conservaron el barco de Teseo durante siglos, reemplazando las tablas podridas por otras nuevas a medida que se estropeaban. Llegó un punto en que ninguna pieza original permanecía. La pregunta que los filósofos discutían era si seguía siendo el mismo barco." },
+        { "heading": "La vuelta de tuerca", "text": "Hobbes añadió una variante que agrava el problema. Supón que alguien va guardando cada tabla retirada y al final construye con todas ellas un segundo barco. Ahora hay dos: el que mantuvo la continuidad de uso y el que conserva la materia original. Los dos tienen un argumento razonable para reclamar la identidad." },
+        { "heading": "Dos criterios en conflicto", "text": "El dilema separa dos formas de entender qué hace que algo siga siendo lo mismo. Una atiende a la continuidad material: es el mismo objeto si está hecho de la misma sustancia. Otra atiende a la continuidad de forma y función: es el mismo si mantiene su estructura y su papel sin interrupción." },
+        { "heading": "Por qué no es un juego", "text": "El problema es literal en el caso humano: las células del cuerpo se renuevan casi por completo, y la memoria reconstruye los recuerdos cada vez que los evoca. También aparece en el derecho de sociedades y en la restauración de patrimonio, donde hay que decidir cuánta sustitución tolera un edificio antes de ser una réplica." }
+      ],
+      "key_fact": "En la variante de Hobbes coexisten dos barcos: uno con la continuidad de uso y otro con la materia original. Ambos tienen argumento para reclamar la identidad.",
+      "questions": [
+        { "q": "¿Qué añade la variante de Hobbes al planteamiento original?", "options": ["Un segundo barco reconstruido con las tablas retiradas, que también reclama la identidad", "La posibilidad de que ninguna tabla llegue a sustituirse", "La destrucción del barco original en un naufragio", "La existencia de un registro documental de propiedad"], "correct": 0, "note": "Con un solo barco cabe elegir un criterio; con dos, cada criterio señala a un objeto distinto." },
+        { "q": "¿Qué dos criterios de identidad enfrenta la paradoja?", "options": ["La continuidad material y la continuidad de forma y función", "La antigüedad y el valor económico", "La propiedad legal y el uso efectivo", "La intención del constructor y la del propietario"], "correct": 0, "note": "Ambos criterios son razonables por separado; el problema es que aquí apuntan a cosas distintas." },
+        { "q": "¿En qué sentido es literal el problema aplicado a las personas?", "options": ["Las células se renuevan casi por completo y los recuerdos se reconstruyen al evocarlos", "La personalidad cambia radicalmente cada década", "El nombre legal puede modificarse a voluntad", "El cuerpo humano carece de estructura estable"], "correct": 0, "note": "No es una analogía: la sustitución material efectivamente ocurre, igual que en el barco." },
+        { "q": "¿En qué ámbito práctico reaparece la cuestión?", "options": ["En la restauración de patrimonio, al decidir cuánta sustitución tolera un edificio", "En la tasación de obras de arte contemporáneo", "En el registro de patentes industriales", "En la clasificación de especies biológicas"], "correct": 0, "note": "También en el derecho de sociedades: qué queda de una empresa tras cambiar dueños, sede, plantilla y actividad." }
+      ]
+    },
+    {
+      "id": "pre-0003",
+      "category": "presente",
+      "title": "Por qué un chip depende de una sola máquina holandesa",
+      "subtitle": "La cadena de semiconductores tiene cuellos de botella donde solo hay un proveedor.",
+      "cover_image": { "query": "semiconductor wafer cleanroom", "wikipedia": "Circuito integrado" },
+      "cards": [
+        { "heading": "Una cadena muy larga", "text": "Fabricar un chip avanzado implica diseño, fabricación, encapsulado y pruebas, y esas fases suelen ocurrir en países distintos. El diseño se concentra en unas pocas empresas, y la fabricación de los chips más avanzados se concentra todavía más: una porción abrumadora sale de un puñado de plantas en Asia oriental." },
+        { "heading": "El cuello más estrecho", "text": "El paso crítico es la litografía, que dibuja los circuitos sobre la oblea de silicio. Las máquinas de litografía ultravioleta extrema, imprescindibles para los nodos más avanzados, las produce una sola empresa en los Países Bajos. No hay segundo proveedor, y desarrollarlo llevaría años y una inversión enorme." },
+        { "heading": "Concentración y riesgo", "text": "Esa arquitectura es eficiente y frágil a la vez. La especialización extrema abarata el producto, pero convierte cada eslabón único en un punto de fallo del sistema entero. Un terremoto, una sequía que afecte al suministro de agua ultrapura o una crisis política pueden detener la producción mundial." },
+        { "heading": "Una palanca política", "text": "Cuando un insumo tiene un solo proveedor, controlar su exportación equivale a controlar quién puede fabricar. De ahí que los semiconductores hayan pasado de ser un asunto industrial a formar parte de la negociación entre Estados, con restricciones a la venta de equipos y programas de subvención para relocalizar plantas." }
+      ],
+      "key_fact": "Las máquinas de litografía ultravioleta extrema, imprescindibles para los chips más avanzados, las fabrica una sola empresa en el mundo.",
+      "questions": [
+        { "q": "¿Cuál es el paso más crítico de la fabricación de chips avanzados?", "options": ["La litografía, que dibuja los circuitos sobre la oblea de silicio", "El encapsulado final del componente", "La purificación del silicio en bruto", "El diseño lógico del circuito"], "correct": 0, "note": "Es donde se define la escala del circuito, y donde la tecnología disponible marca el límite físico de lo fabricable." },
+        { "q": "¿Por qué la especialización extrema hace frágil la cadena?", "options": ["Cada eslabón único se convierte en punto de fallo del sistema entero", "Encarece el producto final para el consumidor", "Impide mejorar la tecnología entre generaciones", "Obliga a mantener inventarios excesivos"], "correct": 0, "note": "Es el reverso de la eficiencia: optimizar cada fase por separado elimina la redundancia que absorbía los golpes." },
+        { "q": "¿Por qué los semiconductores son un asunto de negociación entre Estados?", "options": ["Controlar la exportación de un insumo sin sustituto equivale a decidir quién puede fabricar", "Su fabricación genera residuos regulados internacionalmente", "Los tratados de comercio los excluyen de la cláusula de nación más favorecida", "Su precio lo fija un cártel de productores"], "correct": 0, "note": "Un monopolio técnico es una palanca política aunque no se haya creado con esa intención." },
+        { "q": "¿Cuánto tardaría en desarrollarse un proveedor alternativo de litografía avanzada?", "options": ["Años y una inversión enorme, porque no existe un segundo proveedor", "Meses, mediante licencias cruzadas de patentes", "El tiempo de construir una planta, unos seis meses", "No es posible por restricciones legales internacionales"], "correct": 0, "note": "El obstáculo es acumulativo: décadas de conocimiento técnico y una cadena propia de proveedores especializados." }
+      ]
+    },
+    {
+      "id": "pre-0004",
+      "category": "presente",
+      "title": "La patente: un monopolio temporal a cambio de contarlo todo",
+      "subtitle": "El sistema no premia la invención, compra su publicación.",
+      "cover_image": { "query": "patent document blueprint drawing", "wikipedia": "Patente" },
+      "cards": [
+        { "heading": "El trato", "text": "Una patente concede al titular el derecho a impedir que otros fabriquen o vendan su invención durante un plazo limitado, típicamente veinte años desde la solicitud. A cambio, el solicitante debe describir públicamente cómo funciona con detalle suficiente para que un experto pueda reproducirla." },
+        { "heading": "Qué problema resuelve", "text": "Sin patentes, quien invierte años en desarrollar algo puede ver cómo un competidor lo copia sin haber asumido ese coste, y el incentivo a investigar se debilita. La alternativa de guardar el secreto tampoco sirve al conjunto: el conocimiento no circula y otros repiten el mismo trabajo." },
+        { "heading": "La divulgación es el punto", "text": "Por eso la publicación es la contrapartida esencial y no un trámite. La sociedad no paga por la invención sino por conocerla. Cuando la patente expira, cualquiera puede fabricarla, y mientras tanto los competidores pueden leerla y desarrollar mejoras alrededor, cosa que el secreto industrial impide." },
+        { "heading": "Dónde se rompe", "text": "El equilibrio falla si se conceden patentes sobre ideas demasiado vagas o ya conocidas, o si se acumulan carteras enteras con fines defensivos. También plantea un conflicto agudo en medicamentos, donde el precio de monopolio determina quién puede acceder a un tratamiento durante los años de vigencia." }
+      ],
+      "key_fact": "La contrapartida del monopolio temporal es la publicación detallada: la sociedad no paga por la invención, paga por conocerla.",
+      "questions": [
+        { "q": "¿Cuál es la contrapartida que exige el sistema de patentes?", "options": ["Describir públicamente la invención con detalle suficiente para reproducirla", "Fabricar el producto en el país que concede la patente", "Ceder una parte de los beneficios al Estado", "Renovar el registro cada cinco años"], "correct": 0, "note": "Sin ese requisito el sistema sería solo un privilegio; la divulgación es lo que lo justifica." },
+        { "q": "¿Qué problema resuelve frente al secreto industrial?", "options": ["Que el conocimiento circule en lugar de perderse, evitando trabajo duplicado", "Que el inventor obtenga ingresos más altos", "Que el Estado controle qué tecnologías se desarrollan", "Que se acorte el plazo de comercialización"], "correct": 0, "note": "El secreto protege igual de bien al inventor, pero deja al resto repitiendo investigaciones ya hechas." },
+        { "q": "¿Cuánto suele durar la protección?", "options": ["Unos veinte años desde la solicitud", "Toda la vida del inventor", "Cincuenta años desde la concesión", "Diez años prorrogables indefinidamente"], "correct": 0, "note": "El plazo corre desde la solicitud, no desde la comercialización, lo que reduce la vigencia efectiva en sectores de desarrollo lento." },
+        { "q": "¿En qué caso resulta más agudo el conflicto del sistema?", "options": ["En medicamentos, donde el precio de monopolio condiciona el acceso al tratamiento", "En programas informáticos de uso doméstico", "En procesos industriales de bajo valor añadido", "En diseños ornamentales de consumo"], "correct": 0, "note": "El coste del monopolio deja de ser económico y pasa a medirse en acceso a la salud." }
+      ]
+    },
+    {
+      "id": "pre-0005",
+      "category": "presente",
+      "title": "Por qué un cártel se rompe solo",
+      "subtitle": "La OPEP lleva desde 1960 lidiando con el mismo problema estructural.",
+      "cover_image": { "query": "oil refinery pipelines industrial", "wikipedia": "Organización de Países Exportadores de Petróleo" },
+      "cards": [
+        { "heading": "Qué es y para qué nace", "text": "La OPEP se fundó en Bagdad en 1960 con cinco países para coordinar la política petrolera de sus miembros frente a las grandes compañías internacionales. Su instrumento principal es el reparto de cuotas de producción: si el grupo bombea menos, el precio sube para todos." },
+        { "heading": "El incentivo a incumplir", "text": "Ahí está la contradicción interna. Una vez que el grupo ha recortado y el precio ha subido, a cada miembro individual le conviene producir algo más de lo pactado: vende más barriles al precio alto que sostienen los demás. Si todos siguen ese razonamiento, la producción no baja y el precio no sube." },
+        { "heading": "Por qué a veces funciona", "text": "Un cártel se sostiene cuando el incumplimiento es detectable y hay forma de castigarlo, y cuando algún miembro es lo bastante grande como para ajustar su propia producción y sostener el precio en solitario. La producción petrolera es razonablemente observable, lo que explica que la coordinación no se derrumbe del todo." },
+        { "heading": "Los de fuera", "text": "Un cártel que no controla toda la oferta se enfrenta a un límite adicional: al sostener precios altos vuelve rentables a productores externos con costes mayores. Es lo que ocurrió con el petróleo de esquisto estadounidense, cuya expansión obligó a la organización a replantear si defender el precio o defender su cuota de mercado." }
+      ],
+      "key_fact": "Al sostener precios altos, un cártel vuelve rentables a los productores externos con costes más elevados, erosionando su propia cuota.",
+      "questions": [
+        { "q": "¿Cuál es la contradicción interna de un cártel?", "options": ["A cada miembro le conviene producir de más una vez que los demás han recortado", "Los acuerdos de cuota son ilegales en derecho internacional", "El precio alto reduce la demanda hasta anular el beneficio", "Los miembros no pueden medir su propia producción"], "correct": 0, "note": "El beneficio del incumplimiento es individual e inmediato; el coste se reparte entre todos." },
+        { "q": "¿Qué condiciones ayudan a sostener un cártel?", "options": ["Que el incumplimiento sea detectable y castigable, y que algún miembro pueda ajustar en solitario", "Que todos los miembros tengan el mismo tamaño", "Que exista un tratado internacional que lo respalde", "Que la demanda del producto sea creciente"], "correct": 0, "note": "La observabilidad de la producción petrolera es precisamente lo que impide que la coordinación se derrumbe por completo." },
+        { "q": "¿Qué efecto tiene sobre productores ajenos al cártel?", "options": ["Los precios altos vuelven rentable su producción, aunque tengan costes mayores", "Quedan excluidos del mercado por acuerdos de exclusividad", "Se ven obligados a incorporarse a la organización", "Deben vender a través de los miembros del cártel"], "correct": 0, "note": "El cártel financia involuntariamente a sus competidores: sostiene el precio que los hace viables." },
+        { "q": "¿Cuál es el instrumento principal de la OPEP?", "options": ["El reparto de cuotas de producción entre sus miembros", "La fijación directa del precio de venta al público", "El control de las rutas de transporte marítimo", "La adquisición conjunta de tecnología de extracción"], "correct": 0, "note": "El precio no se decreta: se intenta influir en él a través de la cantidad ofertada." }
+      ]
+    },
+    {
+      "id": "art-0003",
+      "category": "arte",
+      "title": "Guernica: un encargo que se convirtió en denuncia",
+      "subtitle": "Picasso tenía que entregar un mural y entregó una noticia.",
+      "cover_image": { "query": "guernica picasso mural", "wikipedia": "Guernica (Picasso)" },
+      "cards": [
+        { "heading": "El encargo y el hecho", "text": "La República española encargó a Picasso un mural para su pabellón en la Exposición Internacional de París de 1937. Llevaba meses sin decidir el tema cuando, el 26 de abril de ese año, la aviación alemana e italiana bombardeó la localidad vizcaína de Guernica. Empezó a trabajar pocos días después." },
+        { "heading": "Las decisiones formales", "text": "El cuadro renuncia al color: solo negros, blancos y grises, lo que remite a la fotografía de prensa que difundía la noticia. Mide casi ocho metros de largo y compone las figuras en un espacio comprimido y sin profundidad, de modo que todo se agolpa en un mismo plano y no hay dónde apartar la vista." },
+        { "heading": "Lo que no explica", "text": "No hay aviones, ni bombas, ni uniformes. Hay un toro, un caballo herido, una madre con su hijo muerto, una lámpara y un brazo con un candil. Al no identificar al agresor ni la fecha, la obra dejó de referirse solo a un bombardeo concreto y pudo funcionar en cualquier otro." },
+        { "heading": "Un exilio de cuarenta años", "text": "Tras la exposición el cuadro recorrió el mundo recaudando fondos y quedó depositado en Nueva York. Picasso condicionó su entrega a España al restablecimiento de las libertades públicas. Llegó en 1981, seis años después de la muerte de Franco y ocho después de la del propio pintor." }
+      ],
+      "key_fact": "En el cuadro no hay aviones, bombas ni uniformes: al no identificar al agresor, la obra pudo aplicarse a cualquier otro bombardeo.",
+      "questions": [
+        { "q": "¿Por qué renuncia el cuadro al color?", "options": ["Remite a la fotografía de prensa que difundía la noticia", "Picasso disponía de un presupuesto limitado para materiales", "El pabellón exigía obras monocromas", "Era la técnica habitual en los murales de la época"], "correct": 0, "note": "La gama de grises ancla la obra en el registro de la noticia y no en el de la pintura de historia." },
+        { "q": "¿Qué efecto tiene la ausencia de referencias explícitas al agresor?", "options": ["La obra deja de referirse solo a ese bombardeo y funciona en cualquier otro", "Impidió su exhibición durante la guerra", "Dificulta identificar el episodio histórico representado", "Permitió venderla a coleccionistas neutrales"], "correct": 0, "note": "Es lo que convierte un cuadro de circunstancias en una imagen reutilizable indefinidamente." },
+        { "q": "¿Qué condición puso Picasso para el traslado del cuadro a España?", "options": ["El restablecimiento de las libertades públicas", "La construcción de un museo específico para albergarlo", "El pago del encargo original pendiente", "La celebración de una exposición retrospectiva"], "correct": 0, "note": "Llegó en 1981, seis años después de la muerte de Franco y ocho después de la del propio pintor." },
+        { "q": "¿Qué consigue la composición sin profundidad?", "options": ["Agolpar todas las figuras en un mismo plano, sin lugar donde apartar la vista", "Facilitar la lectura narrativa de izquierda a derecha", "Destacar la figura central sobre las demás", "Reproducir la perspectiva de un observador situado en el suelo"], "correct": 0, "note": "La compresión espacial es una decisión deliberada: el cuadro no ofrece descanso visual." }
+      ]
+    },
+    {
+      "id": "art-0004",
+      "category": "arte",
+      "title": "El tubo de pintura que sacó a los pintores del taller",
+      "subtitle": "Una innovación de 1841 explica buena parte del impresionismo.",
+      "cover_image": { "query": "impressionist plein air painting", "wikipedia": "Impresionismo" },
+      "cards": [
+        { "heading": "Antes del tubo", "text": "Hasta mediados del siglo XIX los pintores o sus ayudantes molían los pigmentos y los mezclaban con aceite cada jornada. La pintura preparada se secaba pronto y era difícil de transportar: se guardaba en vejigas de animal que había que perforar y que no volvían a cerrarse bien. Pintar fuera del taller era impracticable." },
+        { "heading": "La innovación", "text": "En 1841 el pintor estadounidense John Goffe Rand patentó un tubo de estaño plegable con tapón de rosca. Conservaba la pintura utilizable durante meses, permitía dosificar y cabía en una caja portátil. Poco después llegaron pigmentos sintéticos que ampliaron la gama de colores intensos disponibles." },
+        { "heading": "Pintar la luz que cambia", "text": "Eso hizo viable trabajar al aire libre y terminar el cuadro allí mismo. Y trabajar del natural obliga a pintar rápido, porque la luz se mueve. De ahí la pincelada suelta y visible, los colores puestos uno junto a otro sin mezclar en la paleta y el interés por el instante concreto antes que por la escena compuesta." },
+        { "heading": "Cómo pesa la técnica", "text": "Sería excesivo decir que el tubo causó el impresionismo: hacían falta también un mercado de arte independiente del salón oficial y una intención estética previa. Pero conviene registrar que un cambio de estilo puede depender de un avance material tanto como de una idea. Renoir dijo que sin los tubos no habría habido impresionismo." }
+      ],
+      "key_fact": "Antes del tubo de estaño la pintura se guardaba en vejigas de animal que había que perforar y no volvían a cerrarse bien.",
+      "questions": [
+        { "q": "¿Por qué era impracticable pintar fuera del taller antes de 1841?", "options": ["La pintura se preparaba a diario y se conservaba mal en vejigas de animal", "Estaba prohibido por los reglamentos del salón oficial", "Los lienzos de gran formato no eran transportables", "No existían pigmentos resistentes a la luz solar"], "correct": 0, "note": "El obstáculo era logístico: sin envase estanco, la pintura no sobrevivía al traslado ni a la jornada." },
+        { "q": "¿Qué relación hay entre trabajar del natural y la pincelada suelta?", "options": ["La luz cambia, lo que obliga a pintar deprisa", "El aire libre impide usar pinceles finos", "Los pigmentos sintéticos no admiten capas superpuestas", "La normativa de los salones exigía acabados rápidos"], "correct": 0, "note": "La técnica responde a una restricción temporal real: hay que fijar el instante antes de que la luz se mueva." },
+        { "q": "¿Qué matiz conviene mantener sobre el papel del tubo de pintura?", "options": ["Fue condición material necesaria, pero hicieron falta también un mercado independiente y una intención estética", "Fue irrelevante frente a los cambios en la formación académica", "Solo afectó a los pintores de paisaje", "Retrasó la adopción de la pintura al óleo"], "correct": 0, "note": "Renoir llegó a decir que sin los tubos no habría habido impresionismo, lo que señala la importancia sin agotar la explicación." },
+        { "q": "¿Qué otra innovación material acompañó al tubo?", "options": ["Pigmentos sintéticos que ampliaron la gama de colores intensos", "Lienzos preparados industrialmente en rollo continuo", "Barnices de secado instantáneo", "Caballetes metálicos plegables"], "correct": 0, "note": "La paleta impresionista es reconocible en parte por colores que sencillamente no estaban disponibles antes." }
+      ]
+    },
+    {
+      "id": "art-0005",
+      "category": "arte",
+      "title": "Japonismo: cuando Europa aprendió a componer de otra manera",
+      "subtitle": "Las estampas ukiyo-e llegaron como envoltorio y cambiaron la pintura occidental.",
+      "cover_image": { "query": "ukiyo-e japanese woodblock print", "wikipedia": "Japonismo" },
+      "cards": [
+        { "heading": "La llegada", "text": "Japón mantuvo durante siglos un régimen de contacto exterior muy restringido que terminó a mediados del siglo XIX. A partir de entonces empezaron a circular por Europa estampas ukiyo-e, grabados xilográficos de consumo popular producidos en grandes tiradas. Parte llegó como material de embalaje de porcelana, sin ninguna consideración artística." },
+        { "heading": "Otra manera de componer", "text": "Aquellas estampas resolvían la imagen con reglas distintas: superficies planas de color sin modelado, contornos marcados, perspectivas elevadas o descentradas, y figuras cortadas por el borde como si la escena continuara fuera. Nada de eso obedecía al punto de fuga único que organizaba la pintura europea desde el Renacimiento." },
+        { "heading": "La apropiación", "text": "Manet, Degas, Monet, Van Gogh y Toulouse-Lautrec incorporaron esos recursos. El encuadre descentrado y el corte brusco de las figuras en las escenas de Degas, o los planos de color de los carteles de Toulouse-Lautrec, provienen de ahí. El japonismo dio permiso para abandonar una convención que llevaba cuatro siglos vigente." },
+        { "heading": "La ironía del caso", "text": "En Japón el ukiyo-e era producción comercial barata, no arte elevado. En Europa se leyó como una revelación estética. Es un recordatorio de que la jerarquía entre lo popular y lo culto es local y móvil, y de que las influencias más fértiles suelen llegar por la puerta de servicio." }
+      ],
+      "key_fact": "Parte de las estampas llegó a Europa como material de embalaje de porcelana, sin ninguna consideración artística.",
+      "questions": [
+        { "q": "¿Qué recursos compositivos aportaron las estampas ukiyo-e?", "options": ["Superficies planas de color, contornos marcados y encuadres descentrados o cortados", "El claroscuro y el modelado volumétrico", "La perspectiva de punto de fuga único", "La representación anatómica precisa"], "correct": 0, "note": "Justamente lo contrario de las convenciones que organizaban la pintura europea desde el Renacimiento." },
+        { "q": "¿Qué consideración tenía el ukiyo-e en el Japón de la época?", "options": ["Producción comercial barata, no arte elevado", "Objeto ceremonial reservado a la corte", "Género académico enseñado en escuelas oficiales", "Material prohibido por el gobierno"], "correct": 0, "note": "En Europa se leyó como revelación estética lo que en origen era consumo popular masivo." },
+        { "q": "¿En qué obra europea se reconoce con claridad esa influencia?", "options": ["En los encuadres descentrados y las figuras cortadas de Degas", "En los retratos de corte de Velázquez", "En los paisajes románticos de Turner", "En los frescos religiosos del Quattrocento"], "correct": 0, "note": "También en los planos de color de los carteles de Toulouse-Lautrec, otro préstamo directo." },
+        { "q": "¿Qué idea general ilustra el episodio?", "options": ["Que la jerarquía entre lo popular y lo culto es local y móvil", "Que las influencias artísticas requieren contacto diplomático formal", "Que las técnicas de grabado son universales", "Que el arte comercial carece de valor formal"], "correct": 0, "note": "Lo que en un sitio es envoltorio, en otro puede ser el permiso para romper una convención de cuatro siglos." }
+      ]
+    },
+    {
+      "id": "lit-0003",
+      "category": "literatura",
+      "title": "La Odisea y las palabras que sirven para improvisar",
+      "subtitle": "Los epítetos repetidos no son adorno: son la máquina de un poema oral.",
+      "cover_image": { "query": "ancient greek vase odysseus", "wikipedia": "Odisea" },
+      "cards": [
+        { "heading": "La repetición sospechosa", "text": "Quien lee la Odisea nota enseguida que ciertas fórmulas vuelven una y otra vez: la aurora de rosados dedos, el astuto Odiseo, el mar color de vino. Durante siglos se atribuyó a convención estilística o a un gusto de época por la solemnidad." },
+        { "heading": "La explicación de Parry", "text": "En los años treinta, el filólogo Milman Parry propuso otra lectura y se fue a comprobarla al terreno. Estudió a bardos de los Balcanes que aún componían poemas extensos de forma oral y observó que usaban exactamente el mismo recurso: bloques fijos de palabras, ajustados a la medida del verso, que se encajan según lo que hace falta." },
+        { "heading": "Para qué sirven", "text": "El epíteto resuelve un problema técnico. Un poeta que compone mientras recita no puede detenerse a buscar la palabra exacta, así que dispone de un repertorio de fórmulas de distinta longitud métrica para el mismo personaje. Elige la que completa el verso. No adorna: sostiene la ejecución en tiempo real." },
+        { "heading": "Qué implica para la autoría", "text": "Si el poema procede de una tradición oral, la pregunta por quién fue Homero cambia de sentido. Podría designar a un compositor que fijó por escrito un material heredado, a un nombre atribuido después, o a toda una tradición. La cuestión sigue discutida y probablemente no admita una respuesta única." }
+      ],
+      "key_fact": "Parry contrastó su hipótesis sobre Homero estudiando a bardos balcánicos que todavía componían poemas extensos de forma oral.",
+      "questions": [
+        { "q": "¿Qué función cumplen los epítetos formulares?", "options": ["Permiten completar el verso mientras se compone en tiempo real", "Ayudan al oyente a memorizar la trama", "Señalan cambios de escena dentro del relato", "Indican el estatus social de cada personaje"], "correct": 0, "note": "Son bloques de distinta medida métrica para el mismo personaje: el poeta elige el que encaja en el verso." },
+        { "q": "¿Cómo contrastó Parry su hipótesis?", "options": ["Estudiando a bardos balcánicos que aún componían oralmente poemas extensos", "Comparando manuscritos medievales de la Odisea", "Analizando la métrica con métodos estadísticos", "Excavando yacimientos micénicos"], "correct": 0, "note": "Buscó una tradición oral viva donde poder observar el mecanismo en funcionamiento, en lugar de inferirlo del texto." },
+        { "q": "¿Qué implicación tiene esta lectura para la cuestión de la autoría?", "options": ["El nombre de Homero podría designar a un compositor, una atribución posterior o una tradición entera", "Demuestra que la Odisea tuvo un único autor identificable", "Prueba que el texto se escribió varios siglos después de los hechos", "Invalida la atribución de la Ilíada al mismo autor"], "correct": 0, "note": "La cuestión sigue discutida y probablemente no admita una respuesta única." },
+        { "q": "¿Cómo se interpretaban las fórmulas antes de Parry?", "options": ["Como convención estilística o gusto de época por la solemnidad", "Como errores de transmisión de los copistas", "Como marcas rituales de origen religioso", "Como añadidos de época helenística"], "correct": 0, "note": "La explicación funcional resulta más simple y además es verificable observando tradiciones orales vivas." }
+      ]
+    },
+    {
+      "id": "lit-0004",
+      "category": "literatura",
+      "title": "Kafka: la obra que existe porque un amigo desobedeció",
+      "subtitle": "El autor pidió que quemaran sus manuscritos. Max Brod los publicó.",
+      "cover_image": { "query": "franz kafka portrait prague", "wikipedia": "Franz Kafka" },
+      "cards": [
+        { "heading": "La instrucción", "text": "Franz Kafka murió en 1924 con poco publicado en vida. Dejó indicaciones a su amigo y albacea Max Brod para que quemara sin leer todos sus manuscritos, cartas y diarios. Brod se negó y editó lo que tenía: El proceso apareció en 1925, El castillo en 1926 y América en 1927." },
+        { "heading": "Un dilema real", "text": "Brod había advertido a Kafka en vida de que no cumpliría ese encargo, lo que ha llevado a discutir si la instrucción era del todo firme. Aun así, el caso plantea sin adornos hasta dónde llega la voluntad de un autor sobre lo que escribió y quién decide qué se debe a la posteridad." },
+        { "heading": "Qué significa kafkiano", "text": "El adjetivo suele usarse como sinónimo de absurdo o burocrático, y se queda corto. Lo característico en Kafka es una lógica impecable aplicada a una premisa que nunca se explica: el proceso tiene procedimientos, instancias y plazos, pero jamás se dice de qué se acusa al protagonista. No es caos, es orden sin fundamento." },
+        { "heading": "La forma inacabada", "text": "Las novelas quedaron sin terminar y Brod tomó decisiones de ordenación de capítulos que ediciones posteriores han revisado. Que el lector no llegue nunca a una resolución encaja tan bien con el asunto de los libros que resulta difícil separar lo que es intención de lo que es accidente." }
+      ],
+      "key_fact": "Brod había avisado a Kafka en vida de que no destruiría sus manuscritos, lo que complica saber cuán firme era la instrucción.",
+      "questions": [
+        { "q": "¿Qué pidió Kafka a Max Brod?", "options": ["Que quemara sin leer todos sus manuscritos, cartas y diarios", "Que publicara su obra únicamente en checo", "Que completara las novelas que dejaba inacabadas", "Que donara sus manuscritos a una biblioteca pública"], "correct": 0, "note": "Brod se negó y publicó El proceso, El castillo y América entre 1925 y 1927." },
+        { "q": "¿Qué caracteriza propiamente lo kafkiano?", "options": ["Una lógica impecable aplicada a una premisa que nunca se explica", "La acumulación de hechos absurdos sin conexión", "La sátira explícita de la administración austrohúngara", "La ausencia de estructura narrativa"], "correct": 0, "note": "No es caos: el sistema funciona con precisión, y lo inquietante es que su fundamento nunca se enuncia." },
+        { "q": "¿Qué complica juzgar la desobediencia de Brod?", "options": ["Había advertido a Kafka en vida de que no cumpliría el encargo", "El testamento no estaba firmado ante notario", "Los manuscritos pertenecían legalmente a la familia", "Kafka había publicado ya la mayor parte de su obra"], "correct": 0, "note": "Si el autor sabía que su albacea no obedecería, cabe preguntarse qué buscaba realmente al dejar esa instrucción." },
+        { "q": "¿Qué relación hay entre el estado inacabado de las novelas y su contenido?", "options": ["La falta de resolución encaja con el asunto de los libros, lo que dificulta separar intención de accidente", "El inacabamiento fue una decisión deliberada del autor", "Brod añadió los finales que faltaban", "Las novelas se publicaron completas y se fragmentaron después"], "correct": 0, "note": "Brod ordenó los capítulos según su criterio, y ediciones posteriores han revisado esas decisiones." }
+      ]
+    },
+    {
+      "id": "lit-0005",
+      "category": "literatura",
+      "title": "Murasaki Shikibu y una novela escrita hacia el año mil",
+      "subtitle": "El Genji monogatari es anterior en siglos a lo que Europa llamó novela.",
+      "cover_image": { "query": "tale of genji japanese scroll painting", "wikipedia": "La historia de Genji" },
+      "cards": [
+        { "heading": "La obra", "text": "Hacia comienzos del siglo XI, una dama de la corte japonesa conocida como Murasaki Shikibu escribió el Genji monogatari, un relato extenso sobre la vida del hijo de un emperador y su entorno. Recorre décadas, sigue a decenas de personajes y continúa después de la muerte del protagonista." },
+        { "heading": "Por qué se le llama novela", "text": "Lo que la separa del relato cortesano previo es el tratamiento de la interioridad. Los personajes tienen motivaciones ambiguas, cambian con los años, se engañan a sí mismos y sienten cosas contradictorias a la vez. Esa atención a la vida interior es lo que Europa asociaría a la novela ochocientos años después." },
+        { "heading": "Escrito en la lengua de las mujeres", "text": "Hay un detalle social decisivo. La prosa culta masculina se escribía en chino clásico, mientras las mujeres de la corte usaban la escritura silábica japonesa, considerada menor. Al quedar apartadas de la lengua de prestigio, desarrollaron en la propia una literatura psicológica que no tenía equivalente." },
+        { "heading": "El problema de leerla hoy", "text": "El texto llega en copias posteriores y el japonés del periodo Heian está muy alejado del actual, así que incluso los lectores japoneses acceden por traducción. El original evita nombrar a los personajes por su nombre, siguiendo la etiqueta cortesana: se los designa por su cargo o por su residencia, y esos cargos cambian." }
+      ],
+      "key_fact": "La prosa culta masculina se escribía en chino clásico; las mujeres de la corte, apartadas de esa lengua, desarrollaron en japonés una literatura psicológica sin equivalente.",
+      "questions": [
+        { "q": "¿Qué rasgo acerca al Genji monogatari a lo que hoy llamamos novela?", "options": ["El tratamiento de la interioridad: personajes ambiguos que cambian y se contradicen", "La división en capítulos numerados", "La existencia de un narrador omnisciente", "El uso de diálogos en estilo directo"], "correct": 0, "note": "La atención a la vida interior es justamente lo que Europa asociaría al género ochocientos años más tarde." },
+        { "q": "¿Por qué escribían las mujeres de la corte en japonés y no en chino?", "options": ["El chino clásico era la lengua de prestigio reservada a la prosa culta masculina", "El japonés escrito era más rápido de aprender", "La corte prohibía el uso del chino fuera de la administración", "Los manuscritos en chino no se conservaban"], "correct": 0, "note": "La exclusión de la lengua de prestigio acabó produciendo, en la lengua vernácula, una literatura que el prestigio no alcanzó." },
+        { "q": "¿Por qué incluso los lectores japoneses acceden a la obra por traducción?", "options": ["El japonés del periodo Heian está muy alejado del actual", "El original se perdió y solo hay versiones chinas", "El texto se escribió en un dialecto regional extinto", "La obra circuló únicamente de forma oral"], "correct": 0, "note": "A eso se añade que el texto llega en copias posteriores, no en manuscrito original." },
+        { "q": "¿Qué dificultad añade la etiqueta cortesana del original?", "options": ["Los personajes se designan por cargo o residencia, y esos cargos cambian", "Los capítulos carecen de orden establecido", "Los diálogos se transcriben sin indicar quién habla", "Las fechas se expresan en un calendario en desuso"], "correct": 0, "note": "Nombrar directamente a alguien de rango era una descortesía, así que la identificación es indirecta y móvil." }
+      ]
+    }
+  ]
+}
