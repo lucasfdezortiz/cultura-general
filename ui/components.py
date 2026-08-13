@@ -31,7 +31,7 @@ def fecha_larga(d: date) -> str:
 def cabecera(hoy: date) -> None:
     st.markdown(
         f"""<div class="cabecera">
-              <div class="marca">Sophia <em>LF</em></div>
+              <div class="marca">LF <em>Global Capital</em></div>
               <div class="fecha">{_e(fecha_larga(hoy))}</div>
             </div>""",
         unsafe_allow_html=True,
@@ -178,6 +178,29 @@ def marcador(aciertos: int, total: int) -> None:
               <div class="num">{aciertos}</div>
               <div class="de">de {total} respuestas correctas</div>
               <div class="frase">{_e(frases.get(aciertos, ''))}</div>
+            </div>""",
+        unsafe_allow_html=True,
+    )
+
+
+def opcion_revelada(texto: str, estado: str) -> None:
+    """estado: 'ok' (correcta) | 'ko' (elegida y errónea) | 'neutra'."""
+    marca = {"ok": "✓", "ko": "✕"}.get(estado, "·")
+    st.markdown(
+        f'<div class="opcion-rev {estado}">{marca}&nbsp;&nbsp;{_e(texto)}</div>',
+        unsafe_allow_html=True,
+    )
+
+
+def cabecera_categoria(cat_id: str, hechas: int, total: int, accuracy: float | None) -> None:
+    """Separador de sección para el historial agrupado por tema."""
+    detalle = f"{hechas} de {total}"
+    if accuracy is not None:
+        detalle += f" · acierto {accuracy:.0f}%"
+    st.markdown(
+        f"""<div class="hist-cabecera">
+              <div class="nom"><i>{icono(cat_id)}</i> {_e(nombre(cat_id))}</div>
+              <div class="cif">{detalle}</div>
             </div>""",
         unsafe_allow_html=True,
     )

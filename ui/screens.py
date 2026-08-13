@@ -17,6 +17,7 @@ from core import bank as bank_mod
 from core import progress as prog_mod
 from core import selection
 from ui import components as c
+from ui.styles import TEMAS, tema_valido
 
 
 # --------------------------------------------------------------------------
@@ -52,6 +53,24 @@ def persistir() -> None:
 
 def sidebar(banco: dict, prog: dict, salud: dict) -> None:
     with st.sidebar:
+        st.markdown("### Apariencia")
+        claves = list(TEMAS.keys())
+        actual = tema_valido(prog.get("tema"))
+        elegido = st.radio(
+            "Tema",
+            claves,
+            index=claves.index(actual),
+            format_func=lambda k: TEMAS[k]["nombre"],
+            horizontal=True,
+            label_visibility="collapsed",
+            key="tema_radio",
+        )
+        if elegido != actual:
+            prog_mod.fijar_tema(prog, elegido)
+            persistir()
+            st.rerun()
+
+        st.divider()
         st.markdown("### Categorías")
         st.caption("Desactiva una y deja de aparecer en el paquete del día.")
 
@@ -289,15 +308,12 @@ def pantalla_quiz(banco: dict, prog: dict, hoy: date) -> None:
         correcta = pregunta["correct"]
         for i, opcion in enumerate(pregunta["options"]):
             if i == correcta:
-                marca, estilo = "✓", "color:#2F6B4F;font-weight:600"
+                estado = "ok"
             elif i == elegida:
-                marca, estilo = "✕", "color:#9C3B34;text-decoration:line-through"
+                estado = "ko"
             else:
-                marca, estilo = "·", "color:#8A909C"
-            st.markdown(
-                f'<div style="padding:.42rem .2rem;{estilo}">{marca}&nbsp;&nbsp;{c._e(opcion)}</div>',
-                unsafe_allow_html=True,
-            )
+                estado = "neutra"
+            c.opcion_revelada(opcion, estado)
 
         c.veredicto(elegida == correcta, pregunta.get("note", ""), pregunta["options"][correcta])
 
@@ -390,35 +406,33 @@ def tab_historial(banco: dict, prog: dict) -> None:
         return
 
     stats = bank_mod.estadisticas(banco, completadas)
+    grupos = prog_mod.historial_por_categoria(prog, banco)
 
     c.rotulo("Avance por categoría")
     for cat_id, meta in categorias_ordenadas():
         s = stats["por_categoria"].get(cat_id, {})
         if not s.get("total"):
             continue
-        aciertos = [
-            prog["lecciones"][i]
-            for i in banco["por_categoria"][cat_id]
-            if i in prog["lecciones"]
-        ]
-        if aciertos:
-            pct_acierto = sum(r["aciertos"] for r in aciertos) / sum(
-                r["total"] for r in aciertos
-            ) * 100
-            sufijo = f" · acierto {pct_acierto:.0f}%"
-        else:
-            sufijo = ""
+        acc = prog_mod.accuracy_categoria(grupos.get(cat_id, []))
+        sufijo = f" · acierto {acc:.0f}%" if acc is not None else ""
         c.medidor(f"{icono(cat_id)} {meta['nombre']}", s["completadas"], s["total"], sufijo)
 
-    c.rotulo("Lecciones completadas")
-    recientes = sorted(
-        (
-            (banco["lecciones"][i], prog["lecciones"][i])
-            for i in completadas
-            if i in banco["lecciones"]
-        ),
-        key=lambda par: par[1].get("fecha", ""),
-        reverse=True,
-    )
-    for leccion, resultado in recientes[:60]:
-        c.fila_historial(leccion, resultado)
+    c.rotulo("Lecciones completadas, por tema")
+
+    # El histórico se agrupa por categoría y sobrevive a las ampliaciones del
+    # banco: se conserva por id, no por posición.
+    hubo_alguna = False
+    for cat_id, _meta in categorias_ordenadas():
+        entradas = grupos.get(cat_id, [])
+        if not entradas:
+            continue
+        hubo_alguna = True
+        en_banco = len(banco["por_categoria"].get(cat_id, []))
+        c.cabecera_categoria(
+            cat_id, len(entradas), en_banco, prog_mod.accuracy_categoria(entradas)
+        )
+        for leccion, resultado in entradas:
+            c.fila_historial(leccion, resultado)
+
+    if not hubo_alguna:
+        c.vacio("Todavía no has completado ninguna lección.")

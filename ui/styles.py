@@ -1,43 +1,102 @@
-"""CSS inyectado. Todo el aspecto de la app vive aquí.
+"""CSS inyectado y sistema de temas.
 
-Paleta: papel envejecido, tinta navy, bronce. Serif para títulos, sans para
-cuerpo. El objetivo es que no se reconozca como una app de Streamlit.
+Dos paletas completas: `claro` (papel envejecido, tinta navy, bronce) y
+`oscuro` (pizarra azulada, tinta cálida, bronce). Todo el CSS se escribe contra
+variables, así que cambiar de tema solo cambia los valores de `:root` — no hay
+reglas duplicadas por tema.
+
+Se estilan también los componentes propios de Streamlit (botones, sidebar,
+pestañas, avisos, barra de progreso, controles) porque de lo contrario en tema
+oscuro conservarían su fondo claro.
 """
+
+from __future__ import annotations
 
 import streamlit as st
 
-PALETA = {
-    "papel": "#F4F1EA",
-    "papel_alto": "#FBF9F5",
-    "papel_hundido": "#EBE6DA",
-    "tinta": "#1B2A41",
-    "tinta_suave": "#5A6474",
-    "tinta_tenue": "#8A909C",
-    "bronce": "#A67C3D",
-    "bronce_claro": "#C9A24B",
-    "borde": "#DED7C7",
-    "verde": "#2F6B4F",
-    "rojo": "#9C3B34",
+TEMAS = {
+    "claro": {
+        "nombre": "Claro",
+        "papel": "#F4F1EA",
+        "papel_alto": "#FBF9F5",
+        "papel_hund": "#EBE6DA",
+        "tinta": "#1B2A41",
+        "tinta_suave": "#5A6474",
+        "tinta_tenue": "#8A909C",
+        "bronce": "#A67C3D",
+        "bronce_claro": "#C9A24B",
+        "borde": "#DED7C7",
+        "verde": "#2F6B4F",
+        "verde_fondo": "rgba(47,107,79,.09)",
+        "rojo": "#9C3B34",
+        "rojo_fondo": "rgba(156,59,52,.08)",
+        "sombra": "rgba(27,42,65,.045)",
+        "velo_1": ".22",
+        "velo_2": ".60",
+        "velo_3": ".94",
+        "primario": "#1B2A41",
+        "sobre_primario": "#FBF9F5",
+    },
+    "oscuro": {
+        "nombre": "Oscuro",
+        "papel": "#141A22",
+        "papel_alto": "#1D2530",
+        "papel_hund": "#0F141A",
+        "tinta": "#E9E3D6",
+        "tinta_suave": "#A6AEBB",
+        "tinta_tenue": "#7A8391",
+        "bronce": "#D2A65A",
+        "bronce_claro": "#E6C588",
+        "borde": "#2E3743",
+        "verde": "#7FC6A0",
+        "verde_fondo": "rgba(127,198,160,.12)",
+        "rojo": "#E39A93",
+        "rojo_fondo": "rgba(227,154,147,.12)",
+        "sombra": "rgba(0,0,0,.28)",
+        "velo_1": ".30",
+        "velo_2": ".66",
+        "velo_3": ".95",
+        "primario": "#D2A65A",
+        "sobre_primario": "#16202E",
+    },
 }
 
-CSS = """
+TEMA_POR_DEFECTO = "claro"
+
+
+def _variables(tema: dict) -> str:
+    return f"""
+  --papel:        {tema['papel']};
+  --papel-alto:   {tema['papel_alto']};
+  --papel-hund:   {tema['papel_hund']};
+  --tinta:        {tema['tinta']};
+  --tinta-suave:  {tema['tinta_suave']};
+  --tinta-tenue:  {tema['tinta_tenue']};
+  --bronce:       {tema['bronce']};
+  --bronce-claro: {tema['bronce_claro']};
+  --borde:        {tema['borde']};
+  --verde:        {tema['verde']};
+  --verde-fondo:  {tema['verde_fondo']};
+  --rojo:         {tema['rojo']};
+  --rojo-fondo:   {tema['rojo_fondo']};
+  --sombra:       {tema['sombra']};
+  --velo-1:       {tema['velo_1']};
+  --velo-2:       {tema['velo_2']};
+  --velo-3:       {tema['velo_3']};
+  --primario:       {tema['primario']};
+  --sobre-primario: {tema['sobre_primario']};
+"""
+
+
+PLANTILLA = """
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap');
 
 :root {
-  --papel:        #F4F1EA;
-  --papel-alto:   #FBF9F5;
-  --papel-hund:   #EBE6DA;
-  --tinta:        #1B2A41;
-  --tinta-suave:  #5A6474;
-  --tinta-tenue:  #8A909C;
-  --bronce:       #A67C3D;
-  --bronce-claro: #C9A24B;
-  --borde:        #DED7C7;
-  --verde:        #2F6B4F;
-  --rojo:         #9C3B34;
+__VARS__
   --serif: 'Fraunces', Georgia, 'Times New Roman', serif;
   --sans:  'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color-scheme: __SCHEME__;
 }
 
 /* ---- Chrome de Streamlit fuera ---- */
@@ -46,14 +105,23 @@ CSS = """
 [data-testid="stStatusWidget"] { display: none !important; }
 
 /* ---- Lienzo ---- */
-.stApp { background: var(--papel); }
-.block-container {
-  max-width: 780px;
-  padding: 1.6rem 1.4rem 5rem;
+/* html y body también: config.toml fija un backgroundColor claro que asomaría
+   por debajo del contenedor cuando el tema es oscuro. */
+html, body, .stApp,
+[data-testid="stAppViewContainer"], [data-testid="stMain"],
+[data-testid="stBottomBlockContainer"] {
+  background: var(--papel) !important;
 }
-html, body, [class*="css"] { font-family: var(--sans); color: var(--tinta); }
-
-h1, h2, h3, h4 { font-family: var(--serif) !important; color: var(--tinta) !important; letter-spacing: -0.015em; }
+.block-container { max-width: 780px; padding: 1.6rem 1.4rem 5rem; }
+html, body, [class*="css"], .stApp, p, li, span, label, div {
+  font-family: var(--sans);
+  color: var(--tinta);
+}
+h1, h2, h3, h4 {
+  font-family: var(--serif) !important; color: var(--tinta) !important;
+  letter-spacing: -0.015em;
+}
+a { color: var(--bronce); }
 
 /* ---- Cabecera ---- */
 .cabecera {
@@ -62,19 +130,17 @@ h1, h2, h3, h4 { font-family: var(--serif) !important; color: var(--tinta) !impo
   border-bottom: 1px solid var(--borde);
 }
 .marca {
-  font-family: var(--serif); font-size: 1.32rem; font-weight: 600;
-  letter-spacing: -0.02em; color: var(--tinta);
+  font-family: var(--serif); font-size: 1.3rem; font-weight: 600;
+  letter-spacing: -0.02em; color: var(--tinta); line-height: 1.15;
 }
 .marca em { font-style: italic; color: var(--bronce); }
 .fecha {
-  font-size: .74rem; text-transform: uppercase; letter-spacing: .13em;
+  font-size: .72rem; text-transform: uppercase; letter-spacing: .13em;
   color: var(--tinta-tenue); font-weight: 500; white-space: nowrap;
 }
 
 /* ---- Sellos de racha ---- */
-/* Streamlit inyecta reglas sobre los div hijos de un bloque markdown, así que
-   las medidas del sello van con !important para que no las estire. */
-.sellos { display: flex; gap: .48rem; align-items: center; margin: .9rem 0 .2rem; }
+.sellos { display: flex; gap: .48rem; align-items: center; margin: .9rem 0 .2rem; flex-wrap: wrap; }
 .sellos .sello {
   width: 28px !important; height: 28px !important;
   min-width: 28px !important; max-width: 28px !important;
@@ -87,15 +153,15 @@ h1, h2, h3, h4 { font-family: var(--serif) !important; color: var(--tinta) !impo
   border: 1.5px solid var(--borde); color: var(--tinta-tenue);
   background: transparent;
 }
-.sello.parcial {
+.sellos .sello.parcial {
   border-color: var(--bronce); color: var(--bronce);
-  background: linear-gradient(180deg, transparent 50%, rgba(166,124,61,.22) 50%);
+  background: linear-gradient(180deg, transparent 50%, var(--bronce) 50%);
 }
-.sello.completo {
-  border-color: var(--bronce); background: var(--bronce); color: var(--papel-alto);
-  box-shadow: 0 0 0 3px rgba(166,124,61,.14);
+.sellos .sello.completo {
+  border-color: var(--bronce); background: var(--bronce); color: var(--papel);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--bronce) 20%, transparent);
 }
-.sello.hoy { outline: 1px dashed var(--bronce); outline-offset: 3px; }
+.sellos .sello.hoy { outline: 1px dashed var(--bronce); outline-offset: 3px; }
 .racha-txt {
   margin-left: .6rem; font-size: .78rem; color: var(--tinta-suave);
   font-variant-numeric: tabular-nums;
@@ -106,11 +172,11 @@ h1, h2, h3, h4 { font-family: var(--serif) !important; color: var(--tinta) !impo
 .medidor { margin: 1.1rem 0 1.15rem; }
 .medidor-fila {
   display: flex; justify-content: space-between; align-items: baseline;
-  font-size: .74rem; color: var(--tinta-suave); margin-bottom: .35rem;
+  font-size: .74rem; color: var(--tinta-suave); margin-bottom: .35rem; gap: 1rem;
 }
 .medidor-fila .etiq { text-transform: uppercase; letter-spacing: .11em; font-weight: 500; }
-.medidor-fila .cifra { font-variant-numeric: tabular-nums; color: var(--tinta); font-weight: 600; }
-.pista { height: 6px; background: var(--papel-hund); border-radius: 3px; overflow: hidden; }
+.medidor-fila .cifra { font-variant-numeric: tabular-nums; color: var(--tinta); font-weight: 600; white-space: nowrap; }
+.pista { height: 6px; background: var(--papel-hund); border-radius: 3px; overflow: hidden; border: 1px solid var(--borde); }
 .relleno { height: 100%; background: linear-gradient(90deg, var(--bronce), var(--bronce-claro)); border-radius: 3px; }
 
 /* ---- Rejilla de portadas ---- */
@@ -127,30 +193,30 @@ h1, h2, h3, h4 { font-family: var(--serif) !important; color: var(--tinta) !impo
 .tarjeta-portada::after {
   content: ""; position: absolute; inset: 0;
   background: linear-gradient(180deg,
-    rgba(27,42,65,.22) 0%, rgba(27,42,65,.60) 45%, rgba(27,42,65,.94) 100%);
+    rgba(10,14,20,var(--velo-1)) 0%, rgba(10,14,20,var(--velo-2)) 45%, rgba(10,14,20,var(--velo-3)) 100%);
 }
 .tarjeta-portada.hecha::after {
   background: linear-gradient(180deg,
-    rgba(27,42,65,.62) 0%, rgba(27,42,65,.82) 45%, rgba(27,42,65,.96) 100%);
+    rgba(10,14,20,.66) 0%, rgba(10,14,20,.84) 45%, rgba(10,14,20,.96) 100%);
 }
-.tp-titulo, .tp-eyebrow { text-shadow: 0 1px 3px rgba(0,0,0,.45); }
 .tp-cuerpo { position: relative; z-index: 2; padding: .85rem .9rem; }
 .tp-eyebrow {
   font-size: .62rem; text-transform: uppercase; letter-spacing: .15em;
-  font-weight: 600; color: var(--bronce-claro); margin-bottom: .3rem;
+  font-weight: 600; color: #E6C588; margin-bottom: .3rem;
   display: flex; align-items: center; gap: .35rem;
 }
 .tp-titulo {
   font-family: var(--serif); font-size: .96rem; line-height: 1.25;
-  color: #FBF9F5; font-weight: 600;
+  color: #F7F3EA; font-weight: 600;
 }
+.tp-titulo, .tp-eyebrow { text-shadow: 0 1px 3px rgba(0,0,0,.55); }
 .tp-estado {
   position: absolute; top: .6rem; right: .7rem; z-index: 3;
   font-size: .6rem; letter-spacing: .1em; text-transform: uppercase;
   padding: .16rem .45rem; border-radius: 20px; font-weight: 600;
 }
-.tp-estado.pendiente { background: rgba(251,249,245,.9); color: var(--tinta); }
-.tp-estado.hecha { background: var(--bronce); color: #FBF9F5; }
+.tp-estado.pendiente { background: rgba(250,247,240,.92); color: #16202E; }
+.tp-estado.hecha { background: var(--bronce); color: #16202E; }
 
 /* ---- Lección ---- */
 .eyebrow {
@@ -159,7 +225,7 @@ h1, h2, h3, h4 { font-family: var(--serif) !important; color: var(--tinta) !impo
 }
 .leccion-titulo {
   font-family: var(--serif); font-size: 1.86rem; line-height: 1.16;
-  font-weight: 600; letter-spacing: -0.02em; margin: 0 0 .45rem;
+  font-weight: 600; letter-spacing: -0.02em; margin: 0 0 .45rem; color: var(--tinta);
 }
 .leccion-subtitulo {
   font-family: var(--serif); font-style: italic; font-size: 1.03rem;
@@ -169,16 +235,13 @@ h1, h2, h3, h4 { font-family: var(--serif) !important; color: var(--tinta) !impo
   width: 100%; height: 216px; object-fit: cover; border-radius: 10px;
   border: 1px solid var(--borde); display: block;
 }
-.credito {
-  font-size: .65rem; color: var(--tinta-tenue); margin: .35rem 0 1.3rem;
-  text-align: right;
-}
+.credito { font-size: .65rem; color: var(--tinta-tenue); margin: .35rem 0 1.3rem; text-align: right; }
 .credito a { color: var(--tinta-tenue); text-decoration: underline; }
 
 .tarjeta {
   background: var(--papel-alto); border: 1px solid var(--borde);
   border-radius: 10px; padding: 1.5rem 1.6rem; min-height: 190px;
-  box-shadow: 0 1px 2px rgba(27,42,65,.045);
+  box-shadow: 0 1px 2px var(--sombra);
 }
 .tarjeta-heading {
   font-family: var(--serif); font-size: 1.16rem; font-weight: 600;
@@ -190,16 +253,15 @@ h1, h2, h3, h4 { font-family: var(--serif) !important; color: var(--tinta) !impo
 .punto.on { background: var(--bronce); transform: scale(1.28); }
 
 .dato-clave {
-  border-left: 3px solid var(--bronce); background: rgba(166,124,61,.075);
+  border-left: 3px solid var(--bronce);
+  background: color-mix(in srgb, var(--bronce) 11%, transparent);
   border-radius: 0 8px 8px 0; padding: 1rem 1.15rem; margin: 1.6rem 0;
 }
 .dato-clave .etiq {
   font-size: .63rem; text-transform: uppercase; letter-spacing: .15em;
   color: var(--bronce); font-weight: 700; margin-bottom: .38rem;
 }
-.dato-clave .txt {
-  font-family: var(--serif); font-size: 1.05rem; line-height: 1.5; color: var(--tinta);
-}
+.dato-clave .txt { font-family: var(--serif); font-size: 1.05rem; line-height: 1.5; color: var(--tinta); }
 
 /* ---- Quiz ---- */
 .quiz-cuenta {
@@ -208,11 +270,15 @@ h1, h2, h3, h4 { font-family: var(--serif) !important; color: var(--tinta) !impo
 }
 .quiz-pregunta {
   font-family: var(--serif); font-size: 1.24rem; line-height: 1.42;
-  font-weight: 600; margin: .3rem 0 1.15rem;
+  font-weight: 600; margin: .3rem 0 1.15rem; color: var(--tinta);
 }
+.opcion-rev { padding: .42rem .2rem; font-size: .95rem; }
+.opcion-rev.ok { color: var(--verde); font-weight: 600; }
+.opcion-rev.ko { color: var(--rojo); text-decoration: line-through; }
+.opcion-rev.neutra { color: var(--tinta-tenue); }
 .veredicto { border-radius: 9px; padding: .95rem 1.1rem; margin: .3rem 0 .2rem; }
-.veredicto.bien { background: rgba(47,107,79,.09); border-left: 3px solid var(--verde); }
-.veredicto.mal  { background: rgba(156,59,52,.08); border-left: 3px solid var(--rojo); }
+.veredicto.bien { background: var(--verde-fondo); border-left: 3px solid var(--verde); }
+.veredicto.mal  { background: var(--rojo-fondo);  border-left: 3px solid var(--rojo); }
 .veredicto .cabeza {
   font-size: .68rem; text-transform: uppercase; letter-spacing: .14em;
   font-weight: 700; margin-bottom: .35rem;
@@ -223,43 +289,40 @@ h1, h2, h3, h4 { font-family: var(--serif) !important; color: var(--tinta) !impo
 
 /* ---- Resultado ---- */
 .marcador { text-align: center; padding: 1.6rem 0 .4rem; }
-.marcador .num {
-  font-family: var(--serif); font-size: 3.6rem; font-weight: 700;
-  line-height: 1; color: var(--bronce);
-}
+.marcador .num { font-family: var(--serif); font-size: 3.6rem; font-weight: 700; line-height: 1; color: var(--bronce); }
 .marcador .de { font-size: 1.05rem; color: var(--tinta-tenue); margin-top: .3rem; }
-.marcador .frase {
-  font-family: var(--serif); font-style: italic; font-size: 1.06rem;
-  color: var(--tinta-suave); margin-top: .9rem;
-}
+.marcador .frase { font-family: var(--serif); font-style: italic; font-size: 1.06rem; color: var(--tinta-suave); margin-top: .9rem; }
 
 /* ---- Historial ---- */
-.fila-hist {
-  display: flex; align-items: center; gap: .8rem; padding: .62rem 0;
+.hist-cabecera {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 1rem; margin: 1.7rem 0 .3rem; padding-bottom: .4rem;
   border-bottom: 1px solid var(--borde);
 }
+.hist-cabecera .nom {
+  font-family: var(--serif); font-size: 1.02rem; font-weight: 600; color: var(--tinta);
+  display: flex; align-items: center; gap: .45rem;
+}
+.hist-cabecera .nom i { font-style: normal; color: var(--bronce); }
+.hist-cabecera .cif {
+  font-size: .72rem; color: var(--tinta-tenue); font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.fila-hist { display: flex; align-items: center; gap: .8rem; padding: .62rem 0; border-bottom: 1px solid var(--borde); }
 .fila-hist img, .fila-hist .ph {
   width: 50px; height: 38px; border-radius: 5px; object-fit: cover;
   border: 1px solid var(--borde); flex-shrink: 0;
 }
 .fila-hist .ph { background: var(--papel-hund); display: grid; place-items: center; color: var(--tinta-tenue); }
 .fila-hist .meta { flex: 1; min-width: 0; }
-.fila-hist .t {
-  font-family: var(--serif); font-size: .93rem; font-weight: 600;
-  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-}
+.fila-hist .t { font-family: var(--serif); font-size: .93rem; font-weight: 600; color: var(--tinta); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .fila-hist .s { font-size: .7rem; color: var(--tinta-tenue); }
-.fila-hist .sc {
-  font-variant-numeric: tabular-nums; font-size: .85rem;
-  font-weight: 600; color: var(--bronce); white-space: nowrap;
-}
+.fila-hist .sc { font-variant-numeric: tabular-nums; font-size: .85rem; font-weight: 600; color: var(--bronce); white-space: nowrap; }
 
-.vacio {
-  text-align: center; padding: 2.6rem 1rem; color: var(--tinta-tenue);
-  font-family: var(--serif); font-style: italic; font-size: 1.02rem;
-}
+.vacio { text-align: center; padding: 2.6rem 1rem; color: var(--tinta-tenue); font-family: var(--serif); font-style: italic; font-size: 1.02rem; }
 .aviso-banco {
-  background: rgba(166,124,61,.09); border: 1px solid rgba(166,124,61,.3);
+  background: color-mix(in srgb, var(--bronce) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--bronce) 34%, transparent);
   border-radius: 8px; padding: .8rem 1rem; margin: 1rem 0;
   font-size: .84rem; color: var(--tinta); line-height: 1.55;
 }
@@ -269,50 +332,102 @@ h1, h2, h3, h4 { font-family: var(--serif) !important; color: var(--tinta) !impo
 .stButton > button {
   font-family: var(--sans); font-size: .875rem; font-weight: 500;
   border-radius: 8px; border: 1px solid var(--borde);
-  background: var(--papel-alto); color: var(--tinta);
+  background: var(--papel-alto) !important; color: var(--tinta) !important;
   padding: .55rem 1rem; transition: all .13s ease; width: 100%;
 }
-.stButton > button:hover {
-  border-color: var(--bronce); color: var(--bronce); background: var(--papel-alto);
-}
-.stButton > button:focus:not(:active) { color: var(--bronce); border-color: var(--bronce); }
+.stButton > button p { color: var(--tinta) !important; }
+.stButton > button:hover { border-color: var(--bronce); background: var(--papel-alto) !important; }
+.stButton > button:hover p, .stButton > button:hover { color: var(--bronce) !important; }
+.stButton > button:focus:not(:active) { border-color: var(--bronce); }
 .stButton > button[kind="primary"] {
-  background: var(--tinta); color: var(--papel-alto); border-color: var(--tinta);
+  background: var(--primario) !important; border-color: var(--primario);
+}
+.stButton > button[kind="primary"], .stButton > button[kind="primary"] p {
+  color: var(--sobre-primario) !important;
 }
 .stButton > button[kind="primary"]:hover {
-  background: var(--bronce); border-color: var(--bronce); color: var(--papel-alto);
+  background: var(--bronce) !important; border-color: var(--bronce);
 }
-.stButton > button:disabled { opacity: .42; }
+.stButton > button[kind="primary"]:hover, .stButton > button[kind="primary"]:hover p {
+  color: __SOBRE_BRONCE__ !important;
+}
+.stButton > button:disabled, .stButton > button:disabled p { opacity: .42; }
 
 /* ---- Sidebar ---- */
 section[data-testid="stSidebar"] {
-  background: var(--papel-hund); border-right: 1px solid var(--borde);
+  background: var(--papel-hund) !important; border-right: 1px solid var(--borde);
 }
+section[data-testid="stSidebar"] * { color: var(--tinta); }
 section[data-testid="stSidebar"] .block-container { padding-top: 2rem; }
 section[data-testid="stSidebar"] h2, section[data-testid="stSidebar"] h3 { font-size: .96rem !important; }
+[data-testid="stCaptionContainer"], [data-testid="stCaptionContainer"] p { color: var(--tinta-tenue) !important; }
+
+/* ---- Controles ---- */
+[data-testid="stWidgetLabel"] p, .stRadio label p, .stCheckbox label p { color: var(--tinta) !important; }
+[data-baseweb="checkbox"] div[role="checkbox"] { border-color: var(--borde) !important; }
+.stRadio [role="radiogroup"] { gap: .4rem; }
+
+/* ---- Barra de progreso nativa ----
+   La pista real cuelga tres niveles por debajo de stProgress y toma su color
+   de secondaryBackgroundColor en config.toml, que es fijo. Hay que apuntar al
+   elemento exacto para que siga al tema. */
+[data-testid="stProgress"] div[role="progressbar"] > div > div {
+  background: var(--papel-hund) !important;
+}
+[data-testid="stProgress"] div[role="progressbar"] > div > div > div {
+  background: var(--bronce) !important;
+}
+
+/* ---- Avisos ---- */
+[data-testid="stAlert"], [data-testid="stNotification"], .stAlert {
+  background: var(--papel-alto) !important; border: 1px solid var(--borde) !important;
+  border-radius: 9px; color: var(--tinta) !important;
+}
+[data-testid="stAlert"] p, [data-testid="stNotification"] p, .stAlert p {
+  color: var(--tinta) !important; font-size: .9rem;
+}
+[data-testid="stAlert"] svg, [data-testid="stNotification"] svg { fill: var(--bronce) !important; }
 
 /* ---- Tabs ---- */
-.stTabs [data-baseweb="tab-list"] { gap: 1.4rem; border-bottom: 1px solid var(--borde); }
+.stTabs [data-baseweb="tab-list"] { gap: 1.4rem; border-bottom: 1px solid var(--borde); background: transparent; }
 .stTabs [data-baseweb="tab"] {
   font-family: var(--sans); font-size: .78rem; font-weight: 600;
   text-transform: uppercase; letter-spacing: .12em;
-  color: var(--tinta-tenue); background: transparent; padding: .4rem 0;
+  color: var(--tinta-tenue) !important; background: transparent; padding: .4rem 0;
 }
-.stTabs [aria-selected="true"] { color: var(--bronce) !important; }
+.stTabs [data-baseweb="tab"] p { color: var(--tinta-tenue) !important; font-size: .78rem; font-weight: 600; }
+.stTabs [aria-selected="true"], .stTabs [aria-selected="true"] p { color: var(--bronce) !important; }
 .stTabs [data-baseweb="tab-highlight"] { background: var(--bronce); }
+.stTabs [data-baseweb="tab-border"] { background: var(--borde); }
 
-hr { border-color: var(--borde); margin: 1.5rem 0; }
-[data-testid="stExpander"] { border-color: var(--borde); border-radius: 8px; }
+hr, [data-testid="stDivider"] hr { border-color: var(--borde) !important; margin: 1.5rem 0; }
+[data-testid="stExpander"] { border-color: var(--borde) !important; border-radius: 8px; background: var(--papel-alto) !important; }
 
 @media (max-width: 640px) {
   .block-container { padding: 1.1rem .9rem 4rem; }
   .leccion-titulo { font-size: 1.5rem; }
   .portada-grande { height: 168px; }
   .tarjeta { padding: 1.2rem 1.1rem; min-height: 170px; }
+  .cabecera { flex-direction: column; align-items: flex-start; gap: .2rem; }
 }
 </style>
 """
 
 
-def inyectar() -> None:
-    st.markdown(CSS, unsafe_allow_html=True)
+def tema_valido(nombre: str | None) -> str:
+    return nombre if nombre in TEMAS else TEMA_POR_DEFECTO
+
+
+def inyectar(nombre_tema: str = TEMA_POR_DEFECTO) -> None:
+    clave = tema_valido(nombre_tema)
+    tema = TEMAS[clave]
+    # Sustitución por tokens y no con %-formatting: el CSS está lleno de
+    # porcentajes literales (width: 100%) que romperían el formateo.
+    css = (
+        PLANTILLA.replace("__VARS__", _variables(tema))
+        .replace("__SCHEME__", "dark" if clave == "oscuro" else "light")
+        # Sobre el bronce hace falta un texto con contraste suficiente en
+        # ambos temas: el navy oscuro funciona en los dos.
+        .replace("__SOBRE_BRONCE__", "#16202E")
+    )
+    st.markdown(css, unsafe_allow_html=True)

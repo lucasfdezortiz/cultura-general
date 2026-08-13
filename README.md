@@ -1,4 +1,4 @@
-# Sophia LF
+# LF Global Capital
 
 Banco de conocimiento diario. Cada día sirve una lección por categoría activa:
 portada, tres a cinco tarjetas de contenido, un dato clave y un quiz de cuatro
@@ -125,16 +125,24 @@ python scripts/fetch_images.py --only historia
 python scripts/fetch_images.py --force    # rehacer todas
 ```
 
-Resuelve la imagen desde el artículo de Wikipedia indicado, o buscando por
-`query` en Wikipedia y después en Wikimedia Commons. Guarda la URL, la autoría,
-la licencia y el enlace a la ficha del archivo, que es lo que exige la
-atribución. Si no encuentra nada, la app pinta un degradado con el color de la
-categoría.
+Resuelve la imagen en cuatro pasos, deteniéndose en el primero que acierte:
 
-**Wikimedia limita las peticiones.** El script hace una pausa de un segundo
-entre llamadas y reintenta con espera creciente ante un `429`. Es idempotente y
-guarda cada diez lecciones, así que si se corta basta con volver a lanzarlo.
-Para un lote de 360 lecciones cuenta con unos 20-30 minutos desatendidos.
+1. Imagen principal del artículo de Wikipedia indicado en `cover_image.wikipedia`.
+2. Búsqueda por `query` en Wikipedia (español y luego inglés).
+3. Búsqueda por `query` en Wikimedia Commons.
+4. Búsqueda por `query` en Openverse, que suele cubrir los conceptos abstractos
+   donde las anteriores fallan.
+
+Guarda la URL, la autoría, la licencia y el enlace a la ficha del archivo, que
+es lo que exige la atribución. Si ninguna vía acierta, la app pinta un degradado
+con el color de la categoría; nunca se rompe por una imagen ausente.
+
+**Wikimedia limita las peticiones por segundo, no el total.** No hay techo en
+el tamaño del banco: pedir 360 portadas solo tarda más que pedir 16. El script
+hace una pausa de un segundo entre llamadas y reintenta con espera creciente
+ante un `429`. Es idempotente y guarda cada diez lecciones, así que si se corta
+basta con volver a lanzarlo. Para 360 lecciones cuenta con 20-30 minutos
+desatendidos.
 
 ### 4. Salud del banco
 
@@ -174,6 +182,11 @@ con un script suelto sin levantar la app.
 
 Desde el sidebar, en caliente:
 
+- **Tema claro u oscuro.** Dos paletas completas, no un filtro: cada una define
+  sus propios colores de texto, bordes, fondos, verdes y rojos del quiz, y se
+  aplican también a los componentes nativos de Streamlit (botones, pestañas,
+  avisos, barra de progreso). La elección se guarda en el progreso, así que
+  persiste entre sesiones.
 - Activar o desactivar categorías. Una categoría desactivada deja de aparecer
   en el paquete del día.
 - Marcar una categoría como **dominada**: sigue apareciendo, pero al final del
@@ -199,3 +212,8 @@ Desde `config/categories.py`, editando el archivo:
   perdida no puede dejar el contador desincronizado.
 - **Las lecciones "extra"** (las de *Seguir aprendiendo*, más allá del paquete
   diario) suman al porcentaje de completado pero no afectan al sello de racha.
+- **El historial sobrevive a las ampliaciones del banco.** Se guarda por id de
+  lección, no por posición, y se agrupa por tema al mostrarlo. Añadir una tanda
+  nueva al banco no toca nada de lo ya completado; incluso si una lección se
+  retirase del banco, su registro seguiría contando en el histórico y en el
+  porcentaje.

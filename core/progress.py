@@ -26,10 +26,14 @@ from __future__ import annotations
 from datetime import date, timedelta
 from typing import Any
 
-from config.categories import CATEGORIES
+from config.categories import CATEGORIES, PREFIJOS
 from core.storage import obtener_backend
 
 VERSION = 1
+
+# prefijo de id -> categoría, para recuperar la categoría de un registro
+# huérfano cuya lección ya no está en el banco.
+_PREFIJO_A_CAT = {prefijo: cat for cat, prefijo in PREFIJOS.items()}
 
 
 def progreso_vacio() -> dict[str, Any]:
@@ -40,6 +44,7 @@ def progreso_vacio() -> dict[str, Any]:
         "racha_maxima": 0,
         "categorias_activas": [c for c, v in CATEGORIES.items() if v["activa"]],
         "dominadas": [],
+        "tema": "claro",
     }
 
 
@@ -186,6 +191,47 @@ def alternar_categoria(prog: dict, cat_id: str, activa: bool) -> dict:
     actuales.add(cat_id) if activa else actuales.discard(cat_id)
     prog["categorias_activas"] = [c for c in CATEGORIES if c in actuales]
     return prog
+
+
+def fijar_tema(prog: dict, tema: str) -> dict:
+    prog["tema"] = tema
+    return prog
+
+
+def historial_por_categoria(prog: dict, banco: dict) -> dict[str, list[tuple[dict, dict]]]:
+    """Lecciones completadas agrupadas por categoría, cada grupo por fecha desc.
+
+    Tolera lecciones que ya no estén en el banco: conserva la entrada con los
+    datos mínimos para que ampliar o reordenar el banco nunca borre histórico.
+    """
+    grupos: dict[str, list[tuple[dict, dict]]] = {c: [] for c in CATEGORIES}
+
+    for leccion_id, resultado in prog["lecciones"].items():
+        leccion = banco["lecciones"].get(leccion_id)
+        if leccion is None:
+            # Registro huérfano: la lección salió del banco pero el histórico
+            # sigue siendo válido y debe seguir contando.
+            cat = _PREFIJO_A_CAT.get(leccion_id.split("-")[0])
+            if cat is None:
+                continue
+            leccion = {
+                "id": leccion_id,
+                "category": cat,
+                "title": "(lección retirada del banco)",
+                "cover_image": {},
+            }
+        grupos.setdefault(leccion["category"], []).append((leccion, resultado))
+
+    for lista in grupos.values():
+        lista.sort(key=lambda par: par[1].get("fecha", ""), reverse=True)
+    return grupos
+
+
+def accuracy_categoria(entradas: list[tuple[dict, dict]]) -> float | None:
+    total = sum(r.get("total", 0) for _, r in entradas)
+    if not total:
+        return None
+    return sum(r.get("aciertos", 0) for _, r in entradas) / total * 100
 
 
 def alternar_dominada(prog: dict, cat_id: str, dominada: bool) -> dict:

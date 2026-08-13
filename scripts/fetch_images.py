@@ -161,6 +161,36 @@ def buscar_en_commons(consulta: str) -> tuple[str, str] | None:
     return None
 
 
+def buscar_en_openverse(consulta: str) -> dict[str, str] | None:
+    """Tercera vía: Openverse (WordPress). Sin clave, solo material con licencia.
+
+    Se usa cuando ni el artículo de Wikipedia ni Commons dan una imagen, cosa
+    que pasa sobre todo con conceptos abstractos.
+    """
+    datos = _get(
+        "https://api.openverse.org/v1/images/",
+        {
+            "q": consulta,
+            "page_size": 5,
+            "license_type": "all-cc,commercial",
+            "size": "large",
+            "mature": "false",
+        },
+    )
+    for item in (datos or {}).get("results", []):
+        url = item.get("url")
+        if not url or (item.get("width") or 0) < ANCHO_MIN:
+            continue
+        autor = item.get("creator") or item.get("source") or "Openverse"
+        return {
+            "url": url,
+            "credit": autor,
+            "license": (item.get("license") or "cc").upper(),
+            "source_url": item.get("foreign_landing_url") or url,
+        }
+    return None
+
+
 def metadatos_commons(archivo: str) -> dict[str, str]:
     """Autoría, licencia y enlace a la ficha del archivo (requisito de atribución)."""
     datos = _get(
@@ -218,6 +248,11 @@ def resolver_portada(cover: dict) -> dict | None:
             candidatos.append(hit)
 
     if not candidatos:
+        # Última vía antes de la portada de categoría.
+        if consulta:
+            time.sleep(PAUSA)
+            if datos := buscar_en_openverse(consulta):
+                return datos
         return None
 
     url, archivo = candidatos[0]

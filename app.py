@@ -11,7 +11,7 @@ from datetime import date
 import streamlit as st
 
 st.set_page_config(
-    page_title="Sophia LF",
+    page_title="LF Global Capital",
     page_icon="◆",
     layout="centered",
     initial_sidebar_state="collapsed",
@@ -21,7 +21,7 @@ from core import bank as bank_mod  # noqa: E402
 from core import progress as prog_mod  # noqa: E402
 from ui import components as c  # noqa: E402
 from ui import screens  # noqa: E402
-from ui.styles import inyectar  # noqa: E402
+from ui.styles import inyectar, tema_valido  # noqa: E402
 
 ESTADO_INICIAL = {
     "pantalla": "hoy",
@@ -47,11 +47,13 @@ def inicializar() -> None:
 
 
 def main() -> None:
-    inyectar()
     inicializar()
 
-    banco = cargar_banco_cacheado()
     prog = st.session_state.prog
+    # El tema se resuelve antes de pintar nada: así no hay parpadeo claro→oscuro.
+    inyectar(tema_valido(prog.get("tema")))
+
+    banco = cargar_banco_cacheado()
     hoy = date.today()
 
     if not banco["lecciones"]:
