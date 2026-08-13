@@ -5,3 +5,4 @@ venv/
 .DS_Store
 .streamlit/secrets.toml
 data/progress.json.tmp
+data/servidor.log

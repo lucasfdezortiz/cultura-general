@@ -109,10 +109,24 @@ class GistBackend:
             return False
 
 
+# Streamlit busca los secrets en el directorio de trabajo y en el home. En
+# Streamlit Cloud el directorio de trabajo es el del repo, así que las tres
+# rutas cubren tanto el local como el despliegue.
 RUTAS_SECRETS = (
     Path.home() / ".streamlit" / "secrets.toml",
     Path(__file__).resolve().parent.parent / ".streamlit" / "secrets.toml",
+    Path.cwd() / ".streamlit" / "secrets.toml",
 )
+
+
+def en_streamlit_cloud() -> bool:
+    """Detecta Streamlit Community Cloud, que despliega bajo /mount/src.
+
+    Importa porque allí el disco es efímero: si la app corre en la nube y el
+    backend acaba siendo el local, el progreso se pierde en cada reinicio sin
+    dar ningún aviso. La interfaz usa esto para señalarlo de forma visible.
+    """
+    return Path("/mount/src").exists()
 
 
 def _hay_secrets() -> bool:

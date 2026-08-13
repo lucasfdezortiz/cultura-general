@@ -145,15 +145,24 @@ def sidebar(banco: dict, prog: dict, salud: dict) -> None:
             faltan = ", ".join(CATEGORIES[x]["nombre"] for x in salud["avisos"])
             st.warning(f"Recargar: {faltan}")
 
-        from core.storage import obtener_backend
+        from core.storage import en_streamlit_cloud, obtener_backend
 
         backend = obtener_backend().nombre
-        st.caption(
-            "Progreso guardado en Gist privado."
-            if backend == "gist"
-            else "Progreso en archivo local. Añade `github_token` y `gist_id` "
-            "a los secrets para que sobreviva a los reinicios."
-        )
+        if backend == "gist":
+            st.caption("Progreso guardado en Gist privado.")
+        elif en_streamlit_cloud():
+            # Disco efímero y sin Gist: el progreso se perderá en el próximo
+            # reinicio. Hay que decirlo alto, no en un pie de página gris.
+            st.error(
+                "**El progreso NO se está guardando.** La app corre en "
+                "Streamlit Cloud, donde el disco se borra al reiniciarse. "
+                "Añade `github_token` y `gist_id` en Settings → Secrets.",
+            )
+        else:
+            st.caption(
+                "Progreso en archivo local. Añade `github_token` y `gist_id` "
+                "a los secrets para que sobreviva a los reinicios."
+            )
 
 
 # --------------------------------------------------------------------------
