@@ -403,12 +403,44 @@ section[data-testid="stSidebar"] h2, section[data-testid="stSidebar"] h3 { font-
 hr, [data-testid="stDivider"] hr { border-color: var(--borde) !important; margin: 1.5rem 0; }
 [data-testid="stExpander"] { border-color: var(--borde) !important; border-radius: 8px; background: var(--papel-alto) !important; }
 
+.contador-tarjeta {
+  text-align: center; font-size: .76rem; color: var(--tinta-tenue);
+  padding-top: .55rem; white-space: nowrap;
+}
+
+/* Streamlit apila las columnas por debajo de ~640px poniendo
+   min-width: calc(100% - 24px) en cada una. Para la fila de navegación de
+   tarjetas eso deja el botón "Siguiente" a dos pantallas de distancia, así que
+   se anula solo en esa fila, localizada por el marcador .nav-compacta. */
+[data-testid="stHorizontalBlock"]:has(.nav-compacta) {
+  flex-wrap: nowrap !important;
+  gap: .5rem !important;
+  align-items: center;
+}
+[data-testid="stHorizontalBlock"]:has(.nav-compacta) > div {
+  min-width: 0 !important;
+  width: auto !important;
+  flex: 1 1 0 !important;
+}
+
 @media (max-width: 640px) {
-  .block-container { padding: 1.1rem .9rem 4rem; }
-  .leccion-titulo { font-size: 1.5rem; }
+  .block-container { padding: .9rem .85rem 3rem; }
+  .cabecera { flex-direction: column; align-items: flex-start; gap: .1rem; padding-bottom: .5rem; }
+  .marca { font-size: 1.15rem; }
+  .fecha { font-size: .64rem; }
+  .leccion-titulo { font-size: 1.42rem; }
+  .leccion-subtitulo { font-size: .96rem; margin-bottom: 1rem; }
   .portada-grande { height: 168px; }
-  .tarjeta { padding: 1.2rem 1.1rem; min-height: 170px; }
-  .cabecera { flex-direction: column; align-items: flex-start; gap: .2rem; }
+  .tarjeta { padding: 1.15rem 1.05rem; min-height: 0; }
+  .tarjeta-texto { font-size: .97rem; line-height: 1.62; }
+  .rotulo { margin: 1.3rem 0 .6rem; }
+  .medidor { margin: .9rem 0 .9rem; }
+  .quiz-pregunta { font-size: 1.1rem; }
+  .stButton > button { padding: .62rem .8rem; }
+  /* El botón de volver no necesita ocupar todo el ancho en móvil. */
+  [data-testid="stHorizontalBlock"]:has(.nav-compacta) .stButton > button {
+    padding: .62rem .4rem; font-size: .82rem;
+  }
 }
 </style>
 """

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "dias": {
+    "2026-08-13": {
+      "paquete": [
+        "geo-0003",
+        "eco-0002",
+        "his-0003",
+        "cie-0003",
+        "fis-0003",
+        "mat-0002",
+        "fil-0002",
+        "pre-0004",
+        "mit-0004",
+        "art-0004",
+        "lit-0004"
+      ],
+      "completadas": []
+    }
+  },
+  "lecciones": {},
+  "racha_maxima": 0,
+  "categorias_activas": [
+    "geopolitica",
+    "economia",
+    "historia",
+    "ciencia",
+    "filosofia",
+    "presente",
+    "fisica",
+    "matematicas",
+    "mitologia",
+    "arte",
+    "literatura"
+  ],
+  "dominadas": [],
+  "tema": "claro",
+  "max_por_dia": 0
+}

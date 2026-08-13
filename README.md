@@ -52,11 +52,45 @@ streamlit run app.py
 
 ---
 
+## Usarla en el móvil
+
+### Opción rápida: red local
+
+Doble clic en **`abrir-en-movil.command`**. Muestra en pantalla una dirección
+del tipo `http://192.168.1.34:8511`; ábrela en el móvil estando en la misma
+wifi. El Mac debe quedarse encendido y con esa ventana abierta.
+
+En iPhone, con la página abierta: **Compartir → Añadir a pantalla de inicio**.
+Queda como un icono y se abre a pantalla completa, sin barra del navegador.
+
+Sirve para esta noche, pero solo funciona en casa y con el ordenador encendido.
+
+### Opción definitiva: desplegar
+
+Ver la sección siguiente. Da una dirección accesible desde cualquier sitio, sin
+depender del Mac, y es igualmente gratis.
+
+---
+
 ## Desplegar en Streamlit Community Cloud
 
-1. Sube el repo a GitHub.
-2. En share.streamlit.io: **New app** → elige el repo → archivo principal `app.py`.
-3. Despliega. No hace falta configurar nada más para que funcione.
+1. Crea un repositorio **privado** vacío en <https://github.com/new>. No añadas
+   README ni `.gitignore`: el repo local ya los tiene.
+2. Conéctalo y sube el contenido:
+
+   ```bash
+   cd ~/Desktop/sophia-lf
+   git remote add origin https://github.com/lucasfdezortiz/NOMBRE-DEL-REPO.git
+   git push -u origin main
+   ```
+
+3. En <https://share.streamlit.io>: **New app** → elige el repo → archivo
+   principal `app.py` → Deploy.
+4. Abre la dirección resultante en el móvil y añádela a la pantalla de inicio.
+
+Streamlit Cloud lee de GitHub, así que **para que las lecciones nuevas lleguen a
+la app desplegada hay que hacer `git push`** después de cada tanda. La tarea
+semanal programada no lo hace por sí sola: commitea en local y nada más.
 
 ### Que el progreso sobreviva a los reinicios
 

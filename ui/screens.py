@@ -267,9 +267,10 @@ def pantalla_leccion(banco: dict, prog: dict) -> None:
             st.session_state.tarjeta_idx = idx - 1
             st.rerun()
     with centro:
+        # La clase 'nav-compacta' es el gancho que usa el CSS para impedir que
+        # esta fila se apile en móvil (ver ui/styles.py).
         st.markdown(
-            f'<div style="text-align:center;font-size:.76rem;color:#8A909C;'
-            f'padding-top:.55rem">{idx + 1} de {len(tarjetas)}</div>',
+            f'<div class="nav-compacta contador-tarjeta">{idx + 1} de {len(tarjetas)}</div>',
             unsafe_allow_html=True,
         )
     with der:
