@@ -104,31 +104,57 @@ __VARS__
    Streamlit el botón que abre la barra lateral vive dentro de ella, y
    ocultarla dejaba la app desplegada sin acceso a los ajustes. Se vacía
    visualmente y se fuerza la visibilidad de ese botón. */
-#MainMenu, footer { display: none !important; }
-[data-testid="stToolbar"], [data-testid="stDecoration"] { display: none !important; }
-[data-testid="stStatusWidget"], [data-testid="stAppDeployButton"] { display: none !important; }
+/* stToolbar NO se oculta: desde Streamlit 1.5x el botón que despliega la barra
+   lateral vive dentro de ella. Se ocultan sus piezas una a una. */
+#MainMenu, footer, [data-testid="stDecoration"] { display: none !important; }
+[data-testid="stStatusWidget"], [data-testid="stAppDeployButton"],
+[data-testid="stMainMenu"] { display: none !important; }
+[data-testid="stToolbar"] {
+  display: flex !important; background: transparent !important;
+  visibility: visible !important;
+}
+/* La cabecera se hace transparente pero NO se le quita la altura: el botón que
+   abre la barra lateral vive dentro, y colapsarla lo dejaba en 0x0. El nombre
+   del testid cambia entre versiones de Streamlit (collapsedControl ->
+   stSidebarCollapsedControl -> stExpandSidebarButton), así que se apunta a los
+   tres. */
 header[data-testid="stHeader"] {
   background: transparent !important;
-  height: 0 !important; min-height: 0 !important;
   box-shadow: none !important; border: 0 !important;
-  z-index: 900;
 }
+[data-testid="stExpandSidebarButton"],
 [data-testid="stSidebarCollapsedControl"],
 [data-testid="collapsedControl"] {
   display: flex !important; visibility: visible !important; opacity: 1 !important;
-  top: .45rem !important; left: .45rem !important; z-index: 950 !important;
+  width: auto !important; height: auto !important;
+  min-width: 2.2rem !important; min-height: 2.2rem !important;
+  z-index: 950 !important;
 }
+[data-testid="stExpandSidebarButton"] button,
 [data-testid="stSidebarCollapsedControl"] button,
 [data-testid="collapsedControl"] button,
 [data-testid="stSidebarCollapseButton"] button {
-  color: var(--tinta-tenue) !important;
+  color: var(--tinta) !important;
   background: var(--papel-alto) !important;
   border: 1px solid var(--borde) !important;
   border-radius: 8px !important;
+  width: auto !important; height: auto !important;
 }
+[data-testid="stExpandSidebarButton"] svg,
 [data-testid="stSidebarCollapsedControl"] svg,
 [data-testid="collapsedControl"] svg,
-[data-testid="stSidebarCollapseButton"] svg { fill: var(--tinta) !important; color: var(--tinta) !important; }
+[data-testid="stSidebarCollapseButton"] svg {
+  fill: var(--tinta) !important; color: var(--tinta) !important;
+}
+
+/* La barra lateral es <section> en versiones antiguas y <div> en las nuevas. */
+[data-testid="stSidebar"] {
+  background: var(--papel-hund) !important; border-right: 1px solid var(--borde);
+}
+[data-testid="stSidebar"] * { color: var(--tinta); }
+[data-testid="stSidebarContent"], [data-testid="stSidebarUserContent"] {
+  background: transparent !important;
+}
 
 /* ---- Lienzo ---- */
 /* html y body también: config.toml fija un backgroundColor claro que asomaría
@@ -138,7 +164,7 @@ html, body, .stApp,
 [data-testid="stBottomBlockContainer"] {
   background: var(--papel) !important;
 }
-.block-container { max-width: 780px; padding: 1.6rem 1.4rem 5rem; }
+.block-container { max-width: 780px; padding: .4rem 1.4rem 5rem; }
 html, body, [class*="css"], .stApp, p, li, span, label, div {
   font-family: var(--sans);
   color: var(--tinta);
@@ -397,10 +423,14 @@ section[data-testid="stSidebar"] h2, section[data-testid="stSidebar"] h3 { font-
    La pista real cuelga tres niveles por debajo de stProgress y toma su color
    de secondaryBackgroundColor en config.toml, que es fijo. Hay que apuntar al
    elemento exacto para que siga al tema. */
-[data-testid="stProgress"] div[role="progressbar"] > div > div {
+/* Streamlit 1.5x+: la pista tiene testid propio. */
+[data-testid="stProgressBarTrack"] { background: var(--papel-hund) !important; }
+[data-testid="stProgressBarTrack"] > div { background: var(--bronce) !important; }
+/* Streamlit 1.3x: la pista es un div sin testid. */
+[data-testid="stProgress"] div[role="progressbar"] > div:not([data-testid]) {
   background: var(--papel-hund) !important;
 }
-[data-testid="stProgress"] div[role="progressbar"] > div > div > div {
+[data-testid="stProgress"] div[role="progressbar"] > div:not([data-testid]) > div {
   background: var(--bronce) !important;
 }
 
@@ -450,7 +480,7 @@ hr, [data-testid="stDivider"] hr { border-color: var(--borde) !important; margin
 }
 
 @media (max-width: 640px) {
-  .block-container { padding: .9rem .85rem 3rem; }
+  .block-container { padding: .2rem .85rem 3rem; }
   .cabecera { flex-direction: column; align-items: flex-start; gap: .1rem; padding-bottom: .5rem; }
   .marca { font-size: 1.15rem; }
   .fecha { font-size: .64rem; }

@@ -45,7 +45,9 @@ def progreso_vacio() -> dict[str, Any]:
         "categorias_activas": [c for c, v in CATEGORIES.items() if v["activa"]],
         "dominadas": [],
         "tema": "claro",
-        "max_por_dia": 0,
+        # Con 11 categorias, servirlas todas cada dia son 44 preguntas y unos
+        # 35 minutos. Seis es un dia sostenible; se ajusta desde el sidebar.
+        "max_por_dia": 6,
     }
 
 

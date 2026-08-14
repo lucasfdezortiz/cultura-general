@@ -1,7 +1,7 @@
-# Versión fijada a propósito. Con `streamlit>=1.37`, Streamlit Cloud instalaba
-# la última publicada, que no es la que se prueba en local: el CSS que oculta
-# la cabecera dejó la barra lateral inaccesible en el despliegue sin que nada
-# lo avisara. Fijándola, lo que se verifica es lo que se sirve.
-# Para subir de versión: cambiarla aquí, probar en local y volver a desplegar.
-streamlit==1.37.1
+# Fijada a la misma version que Streamlit Cloud trae preinstalada, para que lo
+# que se prueba en local sea exactamente lo que se sirve. Ojo: fijar una version
+# MAS ANTIGUA que la de Cloud rompe el despliegue, porque pip intenta degradarla
+# y el instalador falla. Igualar hacia arriba, nunca hacia abajo.
+# Para subir de version: cambiarla aqui, recrear .venv, probar y desplegar.
+streamlit==1.61.1
 requests>=2.31,<3

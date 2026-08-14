@@ -6,3 +6,5 @@ venv/
 .streamlit/secrets.toml
 data/progress.json.tmp
 data/servidor.log
+data/progress.json
+.venv/
