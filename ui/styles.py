@@ -113,6 +113,12 @@ __VARS__
   display: flex !important; background: transparent !important;
   visibility: visible !important;
 }
+/* Streamlit Cloud añade aquí su botón de Fork y el icono de GitHub. En lugar
+   de adivinar sus identificadores, se oculta todo lo que cuelga de la barra
+   salvo la rama que contiene el botón de la barra lateral. */
+[data-testid="stToolbar"] > *:not(:has([data-testid="stExpandSidebarButton"])):not([data-testid="stExpandSidebarButton"]) {
+  display: none !important;
+}
 /* La cabecera se hace transparente pero NO se le quita la altura: el botón que
    abre la barra lateral vive dentro, y colapsarla lo dejaba en 0x0. El nombre
    del testid cambia entre versiones de Streamlit (collapsedControl ->
@@ -164,7 +170,7 @@ html, body, .stApp,
 [data-testid="stBottomBlockContainer"] {
   background: var(--papel) !important;
 }
-.block-container { max-width: 780px; padding: .4rem 1.4rem 5rem; }
+.block-container { max-width: 780px; padding: 3.1rem 1.4rem 5rem; }
 html, body, [class*="css"], .stApp, p, li, span, label, div {
   font-family: var(--sans);
   color: var(--tinta);
@@ -480,7 +486,7 @@ hr, [data-testid="stDivider"] hr { border-color: var(--borde) !important; margin
 }
 
 @media (max-width: 640px) {
-  .block-container { padding: .2rem .85rem 3rem; }
+  .block-container { padding: 2.9rem .85rem 3rem; }
   .cabecera { flex-direction: column; align-items: flex-start; gap: .1rem; padding-bottom: .5rem; }
   .marca { font-size: 1.15rem; }
   .fecha { font-size: .64rem; }

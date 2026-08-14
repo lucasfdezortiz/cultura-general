@@ -136,6 +136,21 @@ sidebar indica en todo momento qué backend está en uso.
 
 ---
 
+## Actualizar el contenido de la app desplegada
+
+Streamlit Cloud sirve la app desde GitHub, así que una tanda nueva no llega al
+móvil hasta que se sube. El flujo es:
+
+1. El domingo, la tarea programada escribe la tanda y **deja el commit hecho**.
+2. Abres **GitHub Desktop** y pulsas **Push origin**.
+3. Streamlit Cloud redespliega solo en unos minutos.
+
+Deliberadamente no se automatiza el `push`: hacerlo exigiría guardar un token
+en el llavero, y dos clics semanales salen más baratos que gestionar una
+credencial.
+
+---
+
 ## Ampliar el banco
 
 El flujo es: escribir lecciones → validar → resolver portadas → commit.
