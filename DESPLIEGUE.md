@@ -51,47 +51,69 @@ siguiente.
 ## 3 · Que el progreso no se borre  ·  ~5 min
 
 Streamlit Cloud **borra el disco cada vez que la app se duerme o se
-redespliega**. Sin esto perderías la racha y el porcentaje cada pocos días.
+redespliega**, y cada push provoca un redespliegue. Sin esto pierdes la racha y
+el porcentaje constantemente. Es el paso que falta.
 
-### 3a. Crear el Gist
+### 3a. Crear el Gist  (1 min)
 
 1. Entra en <https://gist.github.com>.
-2. Nombre del archivo: `progress.json`
-3. Contenido: `{}`  (dos llaves, nada más)
-4. Botón **Create secret gist** (secret, no público).
-5. Copia el **id** de la URL: en
-   `https://gist.github.com/lucasfdezortiz/a1b2c3d4e5f6...`
-   el id es `a1b2c3d4e5f6...`
+2. **Gist description**: `progreso lf global capital` (da igual).
+3. **Filename including extension**: `progress.json` ← el nombre importa, tiene
+   que ser exactamente ese.
+4. En el cuadro de contenido escribe dos llaves: `{}`
+5. Despliega el botón verde de abajo y elige **Create secret gist**
+   (secreto, no público).
+6. Mira la URL. Será algo así:
+   `https://gist.github.com/lucasfdezortiz/`**`4f3a9b2c1d8e7f6a5b4c3d2e1f0a9b8c`**
+   Copia esa última parte: ese es el **gist_id**.
 
-### 3b. Crear el token
+### 3b. Crear el token  (2 min)
 
-1. Entra en <https://github.com/settings/tokens?type=beta> →
-   **Generate new token**.
-2. Token name: `lf-global-capital`
-3. Expiration: **No expiration** (si no, tendrás que rehacerlo cada pocos meses).
-4. Repository access: **Public Repositories (read-only)** basta.
-5. En **Account permissions**, busca **Gists** y ponlo en **Read and write**.
-   Es el único permiso que necesita.
-6. **Generate token** y copia el valor. Solo se muestra una vez.
+Usa un token **clásico**, no uno de los nuevos de acceso preciso: para Gists es
+un solo permiso y funciona seguro.
 
-### 3c. Pegarlos en Streamlit
+1. Entra en <https://github.com/settings/tokens/new>
+2. **Note**: `lf global capital`
+3. **Expiration**: `No expiration`
+   (si pones caducidad, el día que expire dejará de guardarse el progreso)
+4. En la lista de permisos marca **solo la casilla `gist`**. Nada más.
+   No hace falta `repo` ni ningún otro.
+5. Abajo del todo: **Generate token**.
+6. Copia el valor que aparece. Empieza por `ghp_` y **solo se muestra una vez**.
 
-1. En <https://share.streamlit.io>, en tu app: **⋮ → Settings → Secrets**.
-2. Pega exactamente esto, sustituyendo los valores:
+### 3c. Pegarlos en Streamlit  (2 min)
+
+1. Entra en <https://share.streamlit.io>, busca tu app y pulsa los tres puntos
+   **⋮ → Settings → Secrets**.
+2. Pega esto tal cual, cambiando los dos valores por los tuyos:
 
    ```toml
-   github_token = "github_pat_TU_TOKEN_AQUI"
-   gist_id = "TU_GIST_ID_AQUI"
+   github_token = "ghp_loquesea"
+   gist_id = "4f3a9b2c1d8e7f6a5b4c3d2e1f0a9b8c"
    ```
 
-3. **Save**. La app se reinicia sola.
+   Con comillas dobles, un espacio a cada lado del `=`, y sin nada más.
+3. **Save**. La app se reinicia sola en unos segundos.
 
-Comprobación: el aviso rojo desaparece y la barra lateral dice
-*"Progreso guardado en Gist privado"*.
+### Comprobar que ha funcionado
 
-> Ese token es tuyo y no debe salir de ahí. No lo pegues en el repositorio ni me
-> lo mandes por chat: `.gitignore` ya bloquea `.streamlit/secrets.toml` para que
-> no se suba por accidente.
+Recarga la app. **El aviso rojo debe desaparecer.** Si abres la barra lateral y
+bajas del todo, dirá *"Progreso guardado en Gist privado"*.
+
+Prueba definitiva: completa una lección, recarga la página y comprueba que
+sigue marcada como completada.
+
+### Si sigue saliendo el aviso
+
+| Qué pasa | Qué mirar |
+|---|---|
+| Sigue el aviso rojo | Los nombres de las claves: `github_token` y `gist_id`, en minúscula y tal cual |
+| Sigue el aviso rojo | Que guardaste con **Save** y la app terminó de reiniciarse |
+| Avisa de que no pudo guardar | El token no tiene el permiso `gist`, o caducó |
+| Avisa de que no pudo guardar | El `gist_id` está mal copiado, o el Gist se creó sin el archivo `progress.json` |
+
+> El token es tuyo y no debe salir de los ajustes de Streamlit. No lo pegues en
+> el repositorio ni me lo mandes por chat: no lo necesito para nada.
 
 ---
 

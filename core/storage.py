@@ -87,7 +87,9 @@ class GistBackend:
                 raw.raise_for_status()
                 return json.loads(raw.text)
             return json.loads(entrada["content"])
-        except (requests.RequestException, json.JSONDecodeError, KeyError):
+        except Exception:
+            # Persistir nunca debe tumbar la app: ante cualquier fallo se cae
+            # al espejo local y la interfaz avisa de que no se está guardando.
             return self._espejo.load()
 
     def save(self, data: dict[str, Any]) -> bool:
@@ -105,7 +107,7 @@ class GistBackend:
             )
             r.raise_for_status()
             return True
-        except requests.RequestException:
+        except Exception:
             return False
 
 
