@@ -71,6 +71,24 @@ def main() -> None:
 
     c.cabecera(hoy)
 
+    # El aviso de persistencia va en la pantalla principal, no solo en el
+    # sidebar: si el progreso no se está guardando hay que verlo sin tener que
+    # abrir nada, porque cada redespliegue borraría la racha.
+    from core.storage import en_streamlit_cloud, obtener_backend
+
+    if en_streamlit_cloud() and obtener_backend().nombre != "gist":
+        st.error(
+            "**El progreso no se está guardando.** Esta app corre en Streamlit "
+            "Cloud, cuyo disco se borra en cada reinicio o actualización. "
+            "Configura `github_token` y `gist_id` en Settings → Secrets "
+            "(instrucciones en DESPLIEGUE.md, paso 3).",
+        )
+    elif st.session_state.get("guardado_ok") is False:
+        st.warning(
+            "**No se ha podido guardar el último avance.** Revisa que el token "
+            "del Gist siga siendo válido y tenga permiso de Gists.",
+        )
+
     pantalla = st.session_state.pantalla
     if pantalla == "leccion":
         screens.pantalla_leccion(banco, prog)

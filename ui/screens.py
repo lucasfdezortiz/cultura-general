@@ -44,7 +44,12 @@ def abrir_leccion(leccion_id: str, extra: bool = False) -> None:
 
 
 def persistir() -> None:
-    prog_mod.guardar(st.session_state.prog)
+    """Guarda el progreso y deja constancia si el guardado falla.
+
+    Sin esto, un Gist inaccesible o un token caducado harían perder la lección
+    recién completada sin que nada lo indicara.
+    """
+    st.session_state.guardado_ok = prog_mod.guardar(st.session_state.prog)
 
 
 # --------------------------------------------------------------------------
@@ -119,15 +124,19 @@ def sidebar(banco: dict, prog: dict, salud: dict) -> None:
                 prog_mod.alternar_categoria(prog, cat_id, activa)
                 cambio = True
 
+            # La casilla se renderiza SIEMPRE, deshabilitada si la categoría
+            # está apagada. Si se deja de dibujar al desactivarla, Streamlit
+            # 1.6x lanza KeyError sobre el widget huérfano al siguiente rerun.
+            dom = st.checkbox(
+                "Dominada (baja prioridad)",
+                value=cat_id in dominadas,
+                key=f"dom_{cat_id}",
+                disabled=not activa,
+            )
+            if activa and dom != (cat_id in dominadas):
+                prog_mod.alternar_dominada(prog, cat_id, dom)
+                cambio = True
             if activa:
-                dom = st.checkbox(
-                    "Dominada (baja prioridad)",
-                    value=cat_id in dominadas,
-                    key=f"dom_{cat_id}",
-                )
-                if dom != (cat_id in dominadas):
-                    prog_mod.alternar_dominada(prog, cat_id, dom)
-                    cambio = True
                 st.caption(f"{pendientes} pendientes · {en_banco}/{meta['objetivo']} en banco")
             st.markdown("")
 
