@@ -114,13 +114,6 @@ class GistBackend:
 # Streamlit busca los secrets en el directorio de trabajo y en el home. En
 # Streamlit Cloud el directorio de trabajo es el del repo, así que las tres
 # rutas cubren tanto el local como el despliegue.
-RUTAS_SECRETS = (
-    Path.home() / ".streamlit" / "secrets.toml",
-    Path(__file__).resolve().parent.parent / ".streamlit" / "secrets.toml",
-    Path.cwd() / ".streamlit" / "secrets.toml",
-)
-
-
 def en_streamlit_cloud() -> bool:
     """Detecta Streamlit Community Cloud, que despliega bajo /mount/src.
 
@@ -131,26 +124,25 @@ def en_streamlit_cloud() -> bool:
     return Path("/mount/src").exists()
 
 
-def _hay_secrets() -> bool:
-    """Comprueba el archivo antes de tocar st.secrets.
-
-    Acceder a `st.secrets` sin archivo pinta un aviso en la interfaz, y como el
-    backend se consulta varias veces por render aparecería repetido. Mirar el
-    disco primero evita el aviso por completo.
-    """
-    return any(p.exists() for p in RUTAS_SECRETS)
-
-
 def _leer_secret(clave: str) -> str | None:
-    if not _hay_secrets():
-        return None
+    """Lee un secret preguntándole a Streamlit, no mirando el disco.
+
+    Antes se comprobaba primero si existía un secrets.toml en unas rutas
+    concretas, para evitar un aviso en la interfaz al arrancar sin secrets.
+    Era frágil: Streamlit Cloud inyecta los secrets donde le conviene, y si no
+    coincidía con esas rutas nunca se llegaba a consultarlos, de modo que la
+    app se quedaba sin persistencia por mucho que estuvieran bien puestos.
+
+    Preguntar directamente funciona en todos los entornos: cuando no hay
+    secrets, Streamlit lanza una excepción corriente que se captura aquí.
+    """
     try:
         import streamlit as st
 
-        valor = st.secrets.get(clave)
-        return str(valor) if valor else None
+        valor = st.secrets[clave]
     except Exception:
         return None
+    return str(valor) if valor else None
 
 
 _BACKEND: Backend | None = None
