@@ -1,2 +1,7 @@
-streamlit>=1.37
-requests>=2.31
+# Versión fijada a propósito. Con `streamlit>=1.37`, Streamlit Cloud instalaba
+# la última publicada, que no es la que se prueba en local: el CSS que oculta
+# la cabecera dejó la barra lateral inaccesible en el despliegue sin que nada
+# lo avisara. Fijándola, lo que se verifica es lo que se sirve.
+# Para subir de versión: cambiarla aquí, probar en local y volver a desplegar.
+streamlit==1.37.1
+requests>=2.31,<3

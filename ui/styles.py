@@ -99,10 +99,36 @@ __VARS__
   color-scheme: __SCHEME__;
 }
 
-/* ---- Chrome de Streamlit fuera ---- */
-#MainMenu, footer, header[data-testid="stHeader"] { display: none !important; }
+/* ---- Chrome de Streamlit fuera ----
+   La cabecera NO se oculta con display:none. En las versiones recientes de
+   Streamlit el botón que abre la barra lateral vive dentro de ella, y
+   ocultarla dejaba la app desplegada sin acceso a los ajustes. Se vacía
+   visualmente y se fuerza la visibilidad de ese botón. */
+#MainMenu, footer { display: none !important; }
 [data-testid="stToolbar"], [data-testid="stDecoration"] { display: none !important; }
-[data-testid="stStatusWidget"] { display: none !important; }
+[data-testid="stStatusWidget"], [data-testid="stAppDeployButton"] { display: none !important; }
+header[data-testid="stHeader"] {
+  background: transparent !important;
+  height: 0 !important; min-height: 0 !important;
+  box-shadow: none !important; border: 0 !important;
+  z-index: 900;
+}
+[data-testid="stSidebarCollapsedControl"],
+[data-testid="collapsedControl"] {
+  display: flex !important; visibility: visible !important; opacity: 1 !important;
+  top: .45rem !important; left: .45rem !important; z-index: 950 !important;
+}
+[data-testid="stSidebarCollapsedControl"] button,
+[data-testid="collapsedControl"] button,
+[data-testid="stSidebarCollapseButton"] button {
+  color: var(--tinta-tenue) !important;
+  background: var(--papel-alto) !important;
+  border: 1px solid var(--borde) !important;
+  border-radius: 8px !important;
+}
+[data-testid="stSidebarCollapsedControl"] svg,
+[data-testid="collapsedControl"] svg,
+[data-testid="stSidebarCollapseButton"] svg { fill: var(--tinta) !important; color: var(--tinta) !important; }
 
 /* ---- Lienzo ---- */
 /* html y body también: config.toml fija un backgroundColor claro que asomaría
