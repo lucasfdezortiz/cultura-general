@@ -17,6 +17,7 @@ from typing import Any
 
 from config.categories import CATEGORIES
 from core import progress as prog_mod
+from core.fechas import hoy as hoy_local
 
 
 def _siguiente_pendiente(
@@ -82,7 +83,7 @@ def paquete_del_dia(banco: dict, prog: dict, hoy: str | None = None) -> tuple[li
     `cambio` indica si hubo que escribir en el progreso, para que la capa de UI
     sepa si toca persistir.
     """
-    hoy = hoy or date.today().isoformat()
+    hoy = hoy or hoy_local().isoformat()
     dia = prog["dias"].get(hoy)
 
     if dia and dia.get("paquete"):
@@ -135,7 +136,7 @@ def siguiente_extra(banco: dict, prog: dict, hoy: str | None = None) -> str | No
     no esté ya en el paquete de hoy. Cuenta para el % de completado pero no
     para el sello de racha.
     """
-    hoy = hoy or date.today().isoformat()
+    hoy = hoy or hoy_local().isoformat()
     completadas = prog_mod.ids_completadas(prog)
     del_dia = set(prog["dias"].get(hoy, {}).get("paquete", []))
     activas = sorted(prog_mod.categorias_activas(prog), key=lambda c: CATEGORIES[c]["orden"])
@@ -154,7 +155,7 @@ def siguiente_pendiente_del_paquete(prog: dict, paquete: list[str]) -> str | Non
 
 
 def estado_paquete(prog: dict, paquete: list[str], hoy: str | None = None) -> dict[str, Any]:
-    hoy = hoy or date.today().isoformat()
+    hoy = hoy or hoy_local().isoformat()
     completadas = prog_mod.ids_completadas(prog)
     hechas = [i for i in paquete if i in completadas]
     return {

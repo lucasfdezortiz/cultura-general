@@ -27,6 +27,7 @@ from datetime import date, timedelta
 from typing import Any
 
 from config.categories import CATEGORIES, PREFIJOS
+from core.fechas import hoy as hoy_local
 from core.storage import obtener_backend
 
 VERSION = 1
@@ -112,7 +113,7 @@ def racha_actual(prog: dict, hoy: date | None = None) -> int:
     Se admite que hoy esté a medias sin romper la racha: mientras el usuario
     tenga el día en curso, la racha cuenta hasta ayer.
     """
-    hoy = hoy or date.today()
+    hoy = hoy or hoy_local()
     if estado_dia(prog, hoy.isoformat()) == "completo":
         cursor = hoy
     else:
@@ -140,7 +141,7 @@ def racha_maxima(prog: dict, hoy: date | None = None) -> int:
 
 def ultimos_dias(prog: dict, n: int = 7, hoy: date | None = None) -> list[tuple[str, str]]:
     """(fecha_iso, estado) para los últimos n días, del más antiguo al de hoy."""
-    hoy = hoy or date.today()
+    hoy = hoy or hoy_local()
     salida = []
     for i in range(n - 1, -1, -1):
         f = (hoy - timedelta(days=i)).isoformat()

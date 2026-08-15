@@ -6,7 +6,6 @@ y escribe el progreso. El banco se amplía desde Claude Code, no desde aquí.
 
 from __future__ import annotations
 
-from datetime import date
 
 import streamlit as st
 
@@ -18,6 +17,7 @@ st.set_page_config(
 )
 
 from core import bank as bank_mod  # noqa: E402
+from core.fechas import hoy as hoy_local  # noqa: E402
 from core import progress as prog_mod  # noqa: E402
 from ui import components as c  # noqa: E402
 from ui import screens  # noqa: E402
@@ -54,7 +54,7 @@ def main() -> None:
     inyectar(tema_valido(prog.get("tema")))
 
     banco = cargar_banco_cacheado()
-    hoy = date.today()
+    hoy = hoy_local()
 
     if not banco["lecciones"]:
         c.cabecera(hoy)
