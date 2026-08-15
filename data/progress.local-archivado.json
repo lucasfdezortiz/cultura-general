@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "dias": {
+    "2026-08-14": {
+      "paquete": [
+        "fis-0003",
+        "mat-0002",
+        "fil-0002",
+        "pre-0004",
+        "mit-0004",
+        "art-0004"
+      ],
+      "completadas": [
+        "fis-0003",
+        "mat-0002",
+        "pre-0004",
+        "fil-0002",
+        "mit-0004",
+        "art-0004"
+      ]
+    }
+  },
+  "lecciones": {
+    "fis-0003": {
+      "fecha": "2026-08-14",
+      "aciertos": 4,
+      "total": 4,
+      "respuestas": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "extra": false
+    },
+    "mat-0002": {
+      "fecha": "2026-08-14",
+      "aciertos": 4,
+      "total": 4,
+      "respuestas": [
+        2,
+        2,
+        3,
+        2
+      ],
+      "extra": false
+    },
+    "pre-0004": {
+      "fecha": "2026-08-14",
+      "aciertos": 4,
+      "total": 4,
+      "respuestas": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "extra": false
+    },
+    "fil-0002": {
+      "fecha": "2026-08-14",
+      "aciertos": 4,
+      "total": 4,
+      "respuestas": [
+        1,
+        3,
+        1,
+        3
+      ],
+      "extra": false
+    },
+    "mit-0004": {
+      "fecha": "2026-08-14",
+      "aciertos": 3,
+      "total": 4,
+      "respuestas": [
+        2,
+        1,
+        1,
+        3
+      ],
+      "extra": false
+    },
+    "art-0004": {
+      "fecha": "2026-08-14",
+      "aciertos": 4,
+      "total": 4,
+      "respuestas": [
+        1,
+        3,
+        1,
+        0
+      ],
+      "extra": false
+    }
+  },
+  "racha_maxima": 1,
+  "categorias_activas": [
+    "geopolitica",
+    "economia",
+    "historia",
+    "ciencia",
+    "filosofia",
+    "presente",
+    "fisica",
+    "matematicas",
+    "mitologia",
+    "arte",
+    "literatura"
+  ],
+  "dominadas": [],
+  "tema": "oscuro",
+  "max_por_dia": 6
+}

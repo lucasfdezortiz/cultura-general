@@ -54,85 +54,22 @@ streamlit run app.py
 
 ## Usarla en el móvil
 
-### En casa: ya está funcionando sola
+**Una sola app: la desplegada en Streamlit.** Abre su dirección en el iPhone y
+usa *Compartir → Añadir a pantalla de inicio*.
 
-La app corre permanentemente como agente de macOS
-(`~/Library/LaunchAgents/com.lfglobalcapital.app.plist`): arranca al iniciar
-sesión y se relanza sola si se cae. No hay que abrir nada.
-
-Desde el móvil, en la misma wifi: `http://<ip-del-mac>:8511`. Si no recuerdas la
-IP, doble clic en **`abrir-en-movil.command`**, que la muestra y de paso
-comprueba que responde.
-
-En iPhone, con la página abierta: **Compartir → Añadir a pantalla de inicio**.
-Queda como un icono y se abre a pantalla completa, sin barra del navegador.
-
-Para pararla o quitarla del arranque:
+Hubo también una versión corriendo en el Mac para la red local, desactivada a
+propósito. Convivían dos apps con almacenes de progreso independientes y desde
+el móvil eran un icono idéntico: era cuestión de tiempo completar lecciones en
+una y buscarlas en la otra. Si alguna vez hace falta recuperarla:
 
 ```bash
-launchctl bootout gui/$(id -u)/com.lfglobalcapital.app          # parar ahora
-rm ~/Library/LaunchAgents/com.lfglobalcapital.app.plist          # no arrancar más
+mv ~/Library/LaunchAgents/com.lfglobalcapital.app.plist.desactivado \
+   ~/Library/LaunchAgents/com.lfglobalcapital.app.plist
+launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.lfglobalcapital.app.plist
 ```
 
-**El proyecto vive en `~/lf-global-capital`, no en el Escritorio** (hay un acceso
-directo). macOS impide que los procesos en segundo plano lean el Escritorio, así
-que el agente no podía arrancar desde allí.
-
-Limitación: solo funciona en casa y con el Mac encendido.
-
-### Opción definitiva: desplegar
-
-Ver la sección siguiente. Da una dirección accesible desde cualquier sitio, sin
-depender del Mac, y es igualmente gratis.
-
----
-
-## Desplegar en Streamlit Community Cloud
-
-1. Crea un repositorio **privado** vacío en <https://github.com/new>. No añadas
-   README ni `.gitignore`: el repo local ya los tiene.
-2. Conéctalo y sube el contenido:
-
-   ```bash
-   cd ~/lf-global-capital
-   git remote add origin https://github.com/lucasfdezortiz/NOMBRE-DEL-REPO.git
-   git push -u origin main
-   ```
-
-3. En <https://share.streamlit.io>: **New app** → elige el repo → archivo
-   principal `app.py` → Deploy.
-4. Abre la dirección resultante en el móvil y añádela a la pantalla de inicio.
-
-Streamlit Cloud lee de GitHub, así que **para que las lecciones nuevas lleguen a
-la app desplegada hay que hacer `git push`** después de cada tanda. La tarea
-semanal programada no lo hace por sí sola: commitea en local y nada más.
-
-### Que el progreso sobreviva a los reinicios
-
-El disco de Streamlit Cloud es **efímero**: cuando la app se duerme por
-inactividad o se redespliega, `data/progress.json` vuelve al estado del último
-commit y se pierden la racha y el avance.
-
-Para evitarlo, la app usa un Gist privado si encuentra las credenciales. Es
-gratis y son cinco minutos:
-
-1. Crea un Gist **privado** en <https://gist.github.com> con un archivo llamado
-   exactamente `progress.json` y contenido `{}`. Apunta el id (la parte final
-   de la URL).
-2. Crea un token en <https://github.com/settings/tokens> con el permiso `gist`
-   y nada más.
-3. En la app desplegada: **Settings → Secrets**, y pega:
-
-   ```toml
-   github_token = "ghp_tu_token"
-   gist_id = "el_id_del_gist"
-   ```
-
-Sin esos secrets la app funciona igual, pero guardando en disco local. El
-sidebar indica en todo momento qué backend está en uso.
-
-> El token es tuyo y no debe compartirse ni subirse al repo. `.gitignore` ya
-> excluye `.streamlit/secrets.toml`.
+Antes de hacerlo, apúntala al mismo Gist creando `.streamlit/secrets.toml` con
+las mismas claves que hay en Streamlit Cloud. Sin eso vuelven a divergir.
 
 ---
 

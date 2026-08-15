@@ -31,6 +31,35 @@ class Backend(Protocol):
     def save(self, data: dict[str, Any]) -> bool: ...
 
 
+def fusionar_progreso(remoto: dict | None, local: dict) -> dict:
+    """Une dos progresos sin perder lo completado en ninguno de los dos.
+
+    El progreso solo crece: una lección no se descompleta nunca. Por eso la
+    unión es segura y evita que una pestaña con datos viejos borre lo que otra
+    acaba de terminar, que es como se pierde el trabajo de una tarde.
+    """
+    if not remoto:
+        return local
+
+    salida = dict(local)
+    salida["lecciones"] = {**remoto.get("lecciones", {}), **local.get("lecciones", {})}
+
+    dias: dict = {}
+    for fuente in (remoto.get("dias", {}), local.get("dias", {})):
+        for fecha, dia in fuente.items():
+            actual = dias.setdefault(fecha, {"paquete": [], "completadas": []})
+            if dia.get("paquete"):
+                actual["paquete"] = dia["paquete"]
+            actual["completadas"] = sorted(
+                set(actual["completadas"]) | set(dia.get("completadas", []))
+            )
+    salida["dias"] = dias
+    salida["racha_maxima"] = max(
+        remoto.get("racha_maxima", 0) or 0, local.get("racha_maxima", 0) or 0
+    )
+    return salida
+
+
 class LocalBackend:
     nombre = "local"
 
@@ -94,6 +123,15 @@ class GistBackend:
 
     def save(self, data: dict[str, Any]) -> bool:
         self._espejo.save(data)
+
+        # Se relee el Gist y se fusiona antes de escribir. Sin esto, una
+        # sesión abierta con datos viejos sobrescribe lo que otra acabe de
+        # completar: "el último que guarda, gana".
+        try:
+            data = fusionar_progreso(self.load(), data)
+        except Exception:
+            pass
+
         cuerpo = {
             "files": {
                 NOMBRE_ARCHIVO_GIST: {
