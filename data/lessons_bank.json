@@ -4346,6 +4346,1744 @@
           "note": "Transmitía una forma de resistencia basada en el ingenio, y por eso la cultura oral resulta tan difícil de suprimir."
         }
       ]
+    },
+    {
+      "id": "geo-0006",
+      "category": "geopolitica",
+      "title": "La Gran Presa etíope y la disputa por el agua del Nilo",
+      "subtitle": "Un embalse en las tierras altas de Etiopía y cien millones de egipcios que dependen del mismo río.",
+      "cover_image": {
+        "query": "blue nile ethiopia dam",
+        "wikipedia": "Gran Presa del Renacimiento",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Flag_of_Ethiopia.svg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Drawn by User:SKopp",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Ethiopia.svg"
+      },
+      "cards": [
+        {
+          "heading": "Un río, tres países",
+          "text": "En 2011 Etiopía inició la construcción de la Gran Presa del Renacimiento sobre el Nilo Azul, el afluente que aporta la mayor parte del agua que llega a Egipto. La obra, la mayor hidroeléctrica de África, busca dar electricidad a un país donde una gran parte de la población todavía no la tenía."
+        },
+        {
+          "heading": "El miedo egipcio",
+          "text": "Egipto depende del Nilo para más del 90% de su agua dulce y ya vive bajo presión demográfica creciente. Desde El Cairo se teme que el llenado del embalse etíope, de decenas de miles de millones de metros cúbicos, reduzca el caudal disponible en los años de sequía, sobre todo si se completa sin coordinación previa."
+        },
+        {
+          "heading": "Un tratado incompleto",
+          "text": "Los acuerdos que repartían el agua del Nilo, firmados en 1929 y 1959 entre Egipto, Sudán y la antigua potencia colonial británica, no contaban con Etiopía, donde nace la mayor parte del caudal del Nilo Azul. Etiopía nunca se consideró obligada por tratados en los que no participó, y ese vacío es el núcleo del conflicto."
+        },
+        {
+          "heading": "Negociación sin cerrar",
+          "text": "Las rondas mediadas por la Unión Africana y, en distintos momentos, por Estados Unidos, no han producido un tratado vinculante sobre el ritmo de llenado ni sobre qué ocurre en una sequía prolongada. Etiopía ha seguido llenando el embalse por fases mientras las conversaciones continúan, y Egipto ha calificado el asunto de cuestión de seguridad nacional."
+        }
+      ],
+      "key_fact": "El Nilo Azul aporta la mayor parte del agua que llega a Egipto y nace enteramente en territorio etíope, fuera de los tratados de 1929 y 1959.",
+      "questions": [
+        {
+          "q": "¿Por qué los tratados de 1929 y 1959 no resuelven la disputa actual sobre el Nilo?",
+          "options": [
+            "Porque solo regulaban la navegación, no el reparto del agua",
+            "Porque se firmaron sin la participación de Etiopía, donde nace el Nilo Azul",
+            "Porque fueron anulados por la Unión Africana en los años noventa",
+            "Porque Sudán se retiró unilateralmente de ambos acuerdos en 2011"
+          ],
+          "correct": 1,
+          "note": "Etiopía no fue parte firmante de ninguno de los dos tratados, así que no se considera vinculada por un reparto que no negoció."
+        },
+        {
+          "q": "¿Cuál es la razón principal de que Egipto vea la presa como una amenaza existencial?",
+          "options": [
+            "Egipto financió parte de la obra y teme no recuperar la inversión",
+            "Perdería el control de la navegación comercial por el río",
+            "La presa reduciría el turismo en Asuán",
+            "Depende del Nilo para la práctica totalidad de su agua dulce"
+          ],
+          "correct": 3,
+          "note": "Egipto es un país prácticamente desértico fuera del valle del Nilo, de ahí que cualquier variación seria del caudal se trate como asunto de seguridad nacional."
+        },
+        {
+          "q": "¿Qué hace que el caso etíope sea distinto al de otros ríos compartidos con tratados más estables?",
+          "options": [
+            "Etiopía carece de acceso al mar y depende del río para el comercio",
+            "El río cruza una frontera marítima en lugar de terrestre",
+            "El país donde nace la mayor parte del caudal quedó fuera del reparto original",
+            "No existe ningún organismo internacional que medie en la disputa"
+          ],
+          "correct": 2,
+          "note": "Cuando el reparto histórico excluye al país de cabecera de cuenca, el tratado pierde legitimidad para esa parte en cuanto adquiere capacidad de construir infraestructura propia."
+        },
+        {
+          "q": "¿Qué papel ha tenido la mediación internacional en el conflicto hasta ahora?",
+          "options": [
+            "Logró que Etiopía cediera la gestión del embalse a un organismo tripartito",
+            "Impuso un calendario de llenado que ambas partes respetan",
+            "Determinó que el caudal se repartiera a partes iguales entre los tres países",
+            "Ha facilitado conversaciones pero no un tratado vinculante sobre el llenado"
+          ],
+          "correct": 3,
+          "note": "La Unión Africana y otros mediadores han mantenido el diálogo abierto, pero ningún acuerdo con fuerza legal ha sustituido a los tratados de 1929 y 1959."
+        }
+      ]
+    },
+    {
+      "id": "geo-0007",
+      "category": "geopolitica",
+      "title": "Kaliningrado: el enclave ruso que separa a la OTAN de sí misma",
+      "subtitle": "Un trozo de Rusia entre Polonia y Lituania, a cientos de kilómetros de la Rusia continental.",
+      "cover_image": {
+        "query": "kaliningrad baltic sea map",
+        "wikipedia": "Óblast de Kaliningrado",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Kaliningrad_05-2017_img09_Kant_Island.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "A.Savin",
+        "license": "FAL",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Kaliningrad_05-2017_img09_Kant_Island.jpg"
+      },
+      "cards": [
+        {
+          "heading": "De Königsberg a Kaliningrado",
+          "text": "Hasta 1945 la ciudad se llamaba Königsberg y era el centro histórico de Prusia Oriental, alemana durante siglos. Tras la Segunda Guerra Mundial, la Conferencia de Potsdam la asignó a la Unión Soviética, la población alemana fue expulsada casi en su totalidad y la zona se repobló con colonos soviéticos. Pasó a llamarse Kaliningrado en 1946."
+        },
+        {
+          "heading": "Un territorio sin frontera propia",
+          "text": "Con la disolución de la URSS en 1991, Lituania y Bielorrusia se independizaron y Kaliningrado quedó separado del resto de Rusia por territorio de otros dos países. Hoy limita solo con Polonia y Lituania, ambos miembros de la Unión Europea y de la OTAN, y su acceso terrestre depende de un corredor que atraviesa territorio lituano."
+        },
+        {
+          "heading": "El corredor de Suwalki",
+          "text": "La franja fronteriza entre Polonia y Lituania, de apenas cien kilómetros, es la única vía terrestre de la OTAN entre los países bálticos y el resto de la alianza. Un bloqueo ruso de esa franja aislaría a Estonia, Letonia y Lituania por tierra, lo que convierte a esa zona en uno de los puntos más vigilados militarmente de Europa."
+        },
+        {
+          "heading": "Una base militar permanente",
+          "text": "Kaliningrado alberga la Flota del Báltico rusa y, según distintas fuentes de inteligencia occidentales, sistemas de misiles Iskander con capacidad para alcanzar buena parte de Europa central. Su valor no es solo simbólico: funciona como una plataforma militar avanzada dentro del propio espacio que la OTAN considera su flanco oriental."
+        }
+      ],
+      "key_fact": "Kaliningrado quedó separado del resto de Rusia en 1991, cuando Lituania se independizó y dejó al enclave rodeado de territorio de la OTAN y la Unión Europea.",
+      "questions": [
+        {
+          "q": "¿Por qué Kaliningrado quedó aislado del resto de Rusia?",
+          "options": [
+            "Porque la independencia de Lituania en 1991 interpuso territorio ajeno entre ambos",
+            "Porque la ONU impuso una zona neutral entre ambos territorios en 1991",
+            "Porque Polonia anexionó el corredor terrestre que unía Kaliningrado con Rusia",
+            "Porque Alemania recuperó parte de Prusia Oriental tras la reunificación de 1990"
+          ],
+          "correct": 0,
+          "note": "Mientras la URSS existió, Kaliningrado no era un enclave real: solo se convirtió en uno cuando Lituania se independizó y dejó ese trozo de territorio ruso separado por tierra."
+        },
+        {
+          "q": "¿Qué hace estratégicamente sensible al corredor de Suwalki?",
+          "options": [
+            "Concentra la mayor parte de las reservas de ámbar del Báltico",
+            "Es la ruta principal del gas ruso hacia Alemania",
+            "Es zona desmilitarizada por un tratado de 1994 aún vigente",
+            "Es la única conexión terrestre entre los países bálticos y el resto de la OTAN"
+          ],
+          "correct": 3,
+          "note": "Si esa franja quedara cortada, Estonia, Letonia y Lituania perderían su enlace terrestre con el resto de los aliados, de ahí la vigilancia militar constante sobre la zona."
+        },
+        {
+          "q": "¿Qué consecuencia tuvo la expulsión de la población alemana de Königsberg tras 1945?",
+          "options": [
+            "La Unión Soviética devolvió el territorio a Alemania Oriental en 1949",
+            "Prusia Oriental pasó a formar parte de Polonia en su totalidad",
+            "La ciudad quedó despoblada durante más de una década",
+            "Se rompió la continuidad histórica y cultural previa de la región"
+          ],
+          "correct": 3,
+          "note": "El repoblamiento con colonos soviéticos convirtió una región de siglos de historia germánica en un territorio ruso sin vínculo demográfico con su pasado prusiano."
+        },
+        {
+          "q": "¿Por qué la presencia de misiles Iskander en Kaliningrado preocupa especialmente a la OTAN?",
+          "options": [
+            "Son el único sistema de ese tipo que posee Rusia en toda Europa",
+            "Su alcance se limita al propio territorio de Kaliningrado",
+            "Están emplazados dentro del propio territorio que la alianza considera su flanco oriental",
+            "Solo pueden usarse contra objetivos navales en el mar Báltico"
+          ],
+          "correct": 2,
+          "note": "No es un despliegue en la retaguardia rusa, sino en un punto ya rodeado por territorio aliado, lo que reduce el tiempo de reacción frente a cualquier lanzamiento."
+        }
+      ]
+    },
+    {
+      "id": "geo-0008",
+      "category": "geopolitica",
+      "title": "Cachemira: la frontera que nunca se trazó del todo",
+      "subtitle": "Tres ejércitos, dos líneas de alto el fuego y una región dividida desde la partición de 1947.",
+      "cover_image": {
+        "query": "kashmir valley himalayas",
+        "wikipedia": "Cachemira",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Kashmir_border.JPG?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Kashmir_map.svg: w:user:Planemad\nderivative work:   Opus88888",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Kashmir_border.JPG"
+      },
+      "cards": [
+        {
+          "heading": "Una partición sin resolver",
+          "text": "En 1947, al independizarse de Reino Unido, el subcontinente se dividió en India y Pakistán, y cada uno de los cientos de principados debía elegir a qué país unirse. Cachemira, con población de mayoría musulmana pero gobernada por un marajá hindú, no eligió a tiempo: una invasión de milicias respaldadas por Pakistán forzó su adhesión a India."
+        },
+        {
+          "heading": "Una línea, no una frontera",
+          "text": "La guerra de 1947-48 terminó con un alto el fuego mediado por la ONU que dejó a India con cerca de dos tercios del territorio y a Pakistán con el resto, separados por la llamada Línea de Control. Nunca se convirtió en frontera internacional reconocida, y ambos países reclaman la totalidad de la región en sus mapas oficiales."
+        },
+        {
+          "heading": "Un tercer actor",
+          "text": "China ocupa desde 1962 la región de Aksai Chin, en el extremo oriental de Cachemira, tras derrotar a India en una guerra fronteriza breve. India nunca ha aceptado esa ocupación, lo que convierte a Cachemira en una disputa de tres partes y no de dos, con China vigilando de cerca cualquier movimiento entre India y Pakistán."
+        },
+        {
+          "heading": "El estatus especial revocado",
+          "text": "Desde 1950, la Constitución india otorgaba a Jammu y Cachemira un estatuto de autonomía especial, con su propia constitución y restricciones a la compra de tierras por no residentes. En 2019 el gobierno de Narendra Modi lo revocó por decreto, dividió el territorio en dos y lo puso bajo administración directa de Delhi, en medio de fuertes protestas."
+        }
+      ],
+      "key_fact": "La Línea de Control que divide Cachemira desde 1948 nunca se convirtió en frontera internacional reconocida: India, Pakistán y China reclaman partes distintas del mismo territorio.",
+      "questions": [
+        {
+          "q": "¿Por qué Cachemira terminó siendo un territorio disputado tras la partición de 1947?",
+          "options": [
+            "Su población de mayoría musulmana convivía con un gobernante hindú que debía decidir la adhesión",
+            "El Reino Unido se negó a otorgarle la independencia junto al resto de principados",
+            "India y Pakistán acordaron dividirlo en tres partes iguales desde el inicio",
+            "Fue el único territorio administrado directamente por la ONU tras 1947"
+          ],
+          "correct": 0,
+          "note": "El desajuste entre la mayoría religiosa de la población y la religión del gobernante es precisamente lo que dejó la decisión de adhesión abierta a disputa."
+        },
+        {
+          "q": "¿Qué diferencia a la Línea de Control de una frontera internacional convencional?",
+          "options": [
+            "Solo divide la parte de Cachemira bajo control chino",
+            "Surgió de un alto el fuego y nunca fue reconocida como límite definitivo por ambas partes",
+            "Cambia de trazado cada década según acuerdos bilaterales",
+            "Fue trazada por un tribunal internacional de arbitraje en 1948"
+          ],
+          "correct": 1,
+          "note": "Un alto el fuego congela posiciones militares, pero no equivale a un tratado de fronteras: por eso India y Pakistán siguen reclamando la totalidad del territorio."
+        },
+        {
+          "q": "¿Qué hace que el papel de China en Cachemira sea distinto al de un simple observador regional?",
+          "options": [
+            "Ocupa y administra directamente una parte del territorio disputado desde 1962",
+            "Financia la reconstrucción de la región bajo un mandato multilateral",
+            "Solo mantiene tropas en la frontera sin reclamar soberanía sobre el territorio",
+            "Actúa como mediador oficial designado por la ONU entre India y Pakistán"
+          ],
+          "correct": 0,
+          "note": "Aksai Chin no es zona de paso ni de mediación: es territorio bajo administración china efectiva y reclamado por India, lo que la convierte en parte interesada, no árbitro."
+        },
+        {
+          "q": "¿Cuál fue el efecto directo de la revocación del artículo que daba a Cachemira su estatuto especial en 2019?",
+          "options": [
+            "Cachemira obtuvo representación propia en Naciones Unidas",
+            "Pakistán recuperó el control de la parte administrada por India",
+            "Se convocó un referéndum de autodeterminación supervisado internacionalmente",
+            "El territorio pasó a depender de la administración directa del gobierno central indio"
+          ],
+          "correct": 3,
+          "note": "La revocación eliminó la autonomía legislativa y las restricciones a la propiedad de tierras que llevaban vigentes desde 1950, y dejó el territorio bajo Delhi."
+        }
+      ]
+    },
+    {
+      "id": "eco-0006",
+      "category": "economia",
+      "title": "El efecto tequila: cómo una devaluación mexicana contagió a medio continente",
+      "subtitle": "México 1994: deuda a corto plazo en dólares, fuga de capitales y un peso que no aguantó.",
+      "cover_image": {
+        "query": "mexico peso banknotes 1994",
+        "wikipedia": "Efecto tequila",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Second_serie_5%2C_10%2C_20%2C_50_Euro_banknotes.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Santeri Viinamäki",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Second_serie_5,_10,_20,_50_Euro_banknotes.jpg"
+      },
+      "cards": [
+        {
+          "heading": "Una deuda con truco",
+          "text": "A comienzos de los años noventa México financió buena parte de su gasto con tesobonos, bonos del Tesoro denominados en dólares pero pagaderos en pesos. Mientras los inversores confiaban en el peso, la fórmula funcionaba; en cuanto empezaron a dudar, esos bonos se convirtieron en una obligación que el banco central no podía cubrir sin agotar sus reservas."
+        },
+        {
+          "heading": "La devaluación de diciembre",
+          "text": "En diciembre de 1994, el gobierno de Ernesto Zedillo, con las reservas en dólares casi agotadas, dejó que el peso se depreciara frente al dólar de forma abrupta tras meses de defenderlo con intervenciones. La pérdida de confianza fue inmediata: los inversores extranjeros retiraron capital a toda velocidad, agravando la propia crisis que buscaban evitar."
+        },
+        {
+          "heading": "El rescate financiero más grande",
+          "text": "Estados Unidos, junto al FMI y otros organismos, organizó un paquete de ayuda de decenas de miles de millones de dólares, el mayor rescate financiero internacional hasta entonces. Washington actuó en parte por interés propio: la integración comercial reciente con México a través del TLCAN hacía que una crisis mexicana prolongada golpeara también a la economía estadounidense."
+        },
+        {
+          "heading": "El nombre del efecto",
+          "text": "La crisis no se quedó en México: inversores que habían tratado a los mercados emergentes como un bloque homogéneo retiraron capital también de Argentina y Brasil, sin que estos países compartieran los mismos desequilibrios. Ese contagio, basado más en percepción que en fundamentos económicos propios, dio nombre al fenómeno y anticipó dinámicas que se repetirían en Asia en 1997."
+        }
+      ],
+      "key_fact": "El rescate liderado por Estados Unidos y el FMI tras la devaluación del peso de 1994 fue, en su momento, el mayor paquete de ayuda financiera internacional de la historia.",
+      "questions": [
+        {
+          "q": "¿Por qué los tesobonos resultaron tan peligrosos para México?",
+          "options": [
+            "Obligaban a pagar en dólares una deuda que dependía de la confianza en el peso",
+            "Solo podían adquirirlos inversores mexicanos, lo que limitaba la liquidez",
+            "Eran deuda emitida por bancos privados sin respaldo del gobierno",
+            "No tenían fecha de vencimiento y se acumulaban indefinidamente"
+          ],
+          "correct": 0,
+          "note": "En cuanto los inversores dudaron del peso, el gobierno tuvo que cubrir esas obligaciones con reservas de dólares que se agotaron con rapidez."
+        },
+        {
+          "q": "¿Qué papel jugó la fuga de capitales en el agravamiento de la crisis?",
+          "options": [
+            "No tuvo relación directa con el desplome del peso",
+            "Se limitó a inversores mexicanos que retiraron ahorros de bancos locales",
+            "Aceleró la pérdida de reservas y forzó una devaluación más brusca de la prevista",
+            "Fue consecuencia de la devaluación, no una causa previa"
+          ],
+          "correct": 2,
+          "note": "La salida de capital y la caída del peso se retroalimentaron: cada devaluación parcial alimentaba más fuga, en un círculo que el banco central no pudo cortar."
+        },
+        {
+          "q": "¿Por qué Estados Unidos tenía un interés directo en frenar la crisis mexicana?",
+          "options": [
+            "México era en ese momento su principal acreedor internacional",
+            "Un tratado previo obligaba a Washington a intervenir automáticamente",
+            "La reciente integración comercial mediante el TLCAN exponía a su propia economía",
+            "El dólar estadounidense estaba formalmente vinculado al peso mexicano"
+          ],
+          "correct": 2,
+          "note": "El TLCAN, en vigor desde 1994, había estrechado el comercio entre ambos países, así que una recesión mexicana prolongada amenazaba también a empresas y empleo estadounidenses."
+        },
+        {
+          "q": "¿Qué característica define al contagio conocido como efecto tequila?",
+          "options": [
+            "Solo afectó a países con déficit fiscal idéntico al mexicano",
+            "Fue provocado por un acuerdo formal entre bancos centrales latinoamericanos",
+            "Se limitó exclusivamente a México y no cruzó fronteras",
+            "Inversores retiraron capital de países con fundamentos distintos al tratarlos como un bloque"
+          ],
+          "correct": 3,
+          "note": "Argentina y Brasil no compartían los mismos desequilibrios que México, pero sufrieron salidas de capital por la percepción generalizada de riesgo en los mercados emergentes."
+        }
+      ]
+    },
+    {
+      "id": "eco-0007",
+      "category": "economia",
+      "title": "1997: la crisis que empezó en Tailandia y recorrió Asia entera",
+      "subtitle": "Un tipo de cambio fijo, deuda privada en dólares y un contagio regional en meses.",
+      "cover_image": {
+        "query": "bangkok skyline 1997",
+        "wikipedia": "Crisis financiera asiática",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Asian_Financial_Crisis_EN_vector.svg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "User:Weaveravel",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Asian_Financial_Crisis_EN_vector.svg"
+      },
+      "cards": [
+        {
+          "heading": "Un ataque al baht",
+          "text": "Durante años Tailandia mantuvo el baht prácticamente fijado al dólar, lo que animó a bancos y empresas locales a endeudarse en dólares a tipos más bajos que en moneda propia. En julio de 1997, tras meses de ataques especulativos y con las reservas del banco central casi agotadas, Tailandia se vio obligada a dejar flotar el baht, que se desplomó de inmediato."
+        },
+        {
+          "heading": "El contagio regional",
+          "text": "La devaluación tailandesa disparó las dudas sobre otras economías con el mismo patrón: tipo de cambio semifijo y empresas endeudadas en dólares. Indonesia, Corea del Sur, Malasia y Filipinas sufrieron fugas de capital y devaluaciones en cascada durante los meses siguientes, y lo que empezó como un problema tailandés se convirtió en una crisis de toda la región."
+        },
+        {
+          "heading": "El descalce cambiario",
+          "text": "El mecanismo común era el descalce de monedas: empresas que ganaban ingresos en moneda local pero debían devolver préstamos en dólares. Cuando la moneda local se devaluaba, la deuda en dólares se multiplicaba en términos reales de un día para otro, y muchas empresas solventes en teoría quebraron por ese desajuste cambiario, no por mala gestión de su negocio."
+        },
+        {
+          "heading": "El rescate del FMI",
+          "text": "El FMI organizó paquetes de rescate para Tailandia, Indonesia y Corea del Sur a cambio de reformas estructurales y disciplina fiscal, condiciones que muchos economistas consideraron excesivamente duras para el tipo de crisis que se enfrentaba. La región tardó varios años en recuperar el nivel de renta previo, y el episodio impulsó a varios países asiáticos a acumular después grandes reservas de divisas propias."
+        }
+      ],
+      "key_fact": "El mecanismo central de la crisis de 1997 fue el descalce de monedas: deuda privada en dólares respaldada por ingresos en moneda local que se devaluó de golpe.",
+      "questions": [
+        {
+          "q": "¿Por qué el tipo de cambio fijo del baht resultó ser una vulnerabilidad?",
+          "options": [
+            "Impedía a Tailandia exportar productos a precios competitivos",
+            "Incentivó a empresas y bancos a endeudarse en dólares sin cubrirse ante una devaluación",
+            "Generaba inflación descontrolada en la economía tailandesa",
+            "Obligaba al gobierno a mantener tipos de interés negativos"
+          ],
+          "correct": 1,
+          "note": "Mientras el tipo pareció estable, endeudarse en dólares resultaba más barato; en cuanto el peg se rompió, esa deuda se volvió mucho más cara de golpe."
+        },
+        {
+          "q": "¿Qué explica que la crisis se extendiera de Tailandia a otros países asiáticos?",
+          "options": [
+            "El FMI impuso una devaluación conjunta a toda la región",
+            "Todos ellos formaban parte de una unión monetaria con Tailandia",
+            "Compartían el mismo patrón de tipo de cambio fijo y deuda privada en dólares",
+            "Sus bancos centrales habían firmado un pacto de intervención cambiaria común"
+          ],
+          "correct": 2,
+          "note": "Los inversores identificaron la misma vulnerabilidad estructural en Indonesia, Corea del Sur y otros países, y retiraron capital de forma preventiva antes de que la crisis llegara realmente."
+        },
+        {
+          "q": "¿Por qué el descalce de monedas hacía quebrar a empresas que eran solventes antes de la crisis?",
+          "options": [
+            "Su deuda en dólares se encareció en términos locales mientras sus ingresos seguían en moneda propia",
+            "Sus activos fueron confiscados como parte del rescate del FMI",
+            "El gobierno les obligó a asumir deuda pública adicional",
+            "Perdieron acceso a materias primas importadas por el embargo comercial"
+          ],
+          "correct": 0,
+          "note": "El problema no era la gestión del negocio, sino un desajuste cambiario: ingresar en una moneda y deber en otra que se había encarecido de repente."
+        },
+        {
+          "q": "¿Qué consecuencia estructural dejó la crisis en varios países asiáticos años después?",
+          "options": [
+            "Empezaron a acumular grandes reservas propias de divisas como protección futura",
+            "Se integraron en una unión monetaria regional con el yen japonés",
+            "Prohibieron por ley el endeudamiento privado en moneda extranjera",
+            "Adoptaron el dólar como moneda oficial de forma permanente"
+          ],
+          "correct": 0,
+          "note": "La experiencia de depender de rescates externos condicionados llevó a varias economías asiáticas a priorizar la autosuficiencia en reservas de divisas en las décadas siguientes."
+        }
+      ]
+    },
+    {
+      "id": "eco-0008",
+      "category": "economia",
+      "title": "Zimbabue y la hiperinflación que se medía en billones",
+      "subtitle": "Cuando un banco central imprime para pagar sus deudas, el dinero deja de significar nada.",
+      "cover_image": {
+        "query": "zimbabwe trillion dollar note",
+        "wikipedia": "Hiperinflación en Zimbabue",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Zimbabwe_Hyperinflation_2008_notes.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "en:User:Discott",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Zimbabwe_Hyperinflation_2008_notes.jpg"
+      },
+      "cards": [
+        {
+          "heading": "El origen fiscal",
+          "text": "A partir de 2000, la reforma agraria de Zimbabue redistribuyó tierras de granjeros comerciales, en su mayoría de origen europeo, hacia nuevos propietarios sin experiencia agrícola equivalente. La producción agrícola de exportación se desplomó, los ingresos del Estado cayeron y el gobierno cubrió el déficit resultante emitiendo cada vez más moneda en lugar de recortar gasto o pedir crédito."
+        },
+        {
+          "heading": "Cuando imprimir deja de funcionar",
+          "text": "Emitir dinero sin respaldo en producción real no crea riqueza: diluye el valor de cada unidad monetaria ya existente. A medida que los precios subían, el gobierno respondía imprimiendo aún más para cubrir el mismo gasto en términos reales, lo que aceleraba la subida de precios en un ciclo que se retroalimentaba cada vez más rápido."
+        },
+        {
+          "heading": "El billete de cien billones",
+          "text": "En noviembre de 2008 la inflación alcanzó, según estimaciones del economista Steve Hanke, una tasa que se duplicaba en cuestión de horas. El banco central llegó a emitir un billete de cien billones de dólares zimbabuenses, insuficiente en la práctica para cubrir necesidades básicas por mucho tiempo, y los precios se actualizaban varias veces al día en los comercios."
+        },
+        {
+          "heading": "Abandonar la moneda propia",
+          "text": "En 2009 Zimbabue dejó de emitir su propia moneda y adoptó un sistema multidivisa basado sobre todo en el dólar estadounidense, lo que detuvo la hiperinflación casi de inmediato. El país recuperaría más adelante una moneda propia, pero el episodio quedó como uno de los ejemplos de manual sobre los límites de financiar el gasto público con la imprenta."
+        }
+      ],
+      "key_fact": "En noviembre de 2008 el banco central de Zimbabue llegó a emitir un billete de cien billones de dólares zimbabuenses en plena hiperinflación.",
+      "questions": [
+        {
+          "q": "¿Qué desencadenó originalmente la crisis fiscal que llevó a la hiperinflación en Zimbabue?",
+          "options": [
+            "Una devaluación forzada por el Fondo Monetario Internacional",
+            "El impago de la deuda externa contraída en los años ochenta",
+            "La caída de ingresos del Estado tras el colapso de la producción agrícola de exportación",
+            "Un embargo comercial impuesto por la Unión Europea en 1998"
+          ],
+          "correct": 2,
+          "note": "La reforma agraria redujo drásticamente la producción exportable, y el gobierno cubrió el déficit resultante con emisión monetaria en lugar de otras fuentes de financiación."
+        },
+        {
+          "q": "¿Por qué imprimir más dinero no resolvió el problema fiscal de Zimbabue?",
+          "options": [
+            "Provocó una apreciación artificial del dólar zimbabuense",
+            "El Fondo Monetario Internacional bloqueó la circulación de los nuevos billetes",
+            "Diluyó el valor de la moneda existente y aceleró aún más la subida de precios",
+            "La nueva moneda impresa solo podía usarse fuera del país"
+          ],
+          "correct": 2,
+          "note": "Emitir moneda sin respaldo en producción real no genera riqueza nueva: reparte el mismo valor económico entre más unidades monetarias, y cada una vale menos."
+        },
+        {
+          "q": "¿Qué medida detuvo la hiperinflación de forma casi inmediata en 2009?",
+          "options": [
+            "Una intervención militar que sustituyó al gobierno",
+            "La adopción de un sistema multidivisa basado principalmente en el dólar estadounidense",
+            "Un préstamo de emergencia del Banco Mundial condicionado a reformas",
+            "La congelación de precios decretada por ley"
+          ],
+          "correct": 1,
+          "note": "Al dejar de emitir su propia moneda, Zimbabue eliminó la fuente directa de la hiperinflación, aunque perdió la capacidad de aplicar política monetaria propia."
+        },
+        {
+          "q": "¿Qué relación existe entre el déficit fiscal y la hiperinflación en un caso como el de Zimbabue?",
+          "options": [
+            "El déficit se cubrió con emisión monetaria en vez de con deuda o recorte de gasto",
+            "La hiperinflación fue previa al déficit y lo provocó directamente",
+            "El déficit se financió íntegramente con inversión extranjera directa",
+            "No existió relación causal entre ambos fenómenos"
+          ],
+          "correct": 0,
+          "note": "No todo déficit fiscal termina en hiperinflación: el mecanismo específico fue elegir la imprenta como vía de financiación en lugar de otras alternativas menos destructivas."
+        }
+      ]
+    },
+    {
+      "id": "his-0006",
+      "category": "historia",
+      "title": "La rebelión Taiping y la guerra civil más mortífera del siglo XIX",
+      "subtitle": "Un hombre que se creyó hermano de Jesucristo estuvo a punto de derrocar a la dinastía Qing.",
+      "cover_image": {
+        "query": "taiping rebellion nanjing",
+        "wikipedia": "Rebelión Taiping",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Qing_ambush_Taiping_Army_at_Wangjiakou_1854.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Unknown. Probably commisioned by Tianjing merchants as a souvenir to Prince Sanga Rinsing[1]",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Qing_ambush_Taiping_Army_at_Wangjiakou_1854.jpg"
+      },
+      "cards": [
+        {
+          "heading": "Un profeta improbable",
+          "text": "Hong Xiuquan, un aspirante a funcionario que había suspendido varias veces los exámenes imperiales chinos, tuvo tras una enfermedad una serie de visiones que interpretó, con la ayuda de textos cristianos traducidos, como la revelación de que era el hermano menor de Jesucristo, enviado a purgar China de la dinastía manchú y del confucianismo tradicional."
+        },
+        {
+          "heading": "El Reino Celestial",
+          "text": "En 1851 Hong proclamó el Reino Celestial de la Gran Paz y, al frente de un movimiento que mezclaba cristianismo heterodoxo con reformas sociales radicales, como la abolición de la propiedad privada de la tierra y una relativa igualdad entre sexos, conquistó Nanjing en 1853 y la convirtió en su capital durante más de una década."
+        },
+        {
+          "heading": "Una guerra de proporciones extremas",
+          "text": "El conflicto entre el Reino Celestial y las fuerzas Qing, estas últimas reforzadas por ejércitos regionales chinos y, en su fase final, con apoyo logístico y algo de asesoramiento militar occidental, se prolongó hasta 1864. Las estimaciones de muertos, entre combate, hambruna y epidemias asociadas, superan los veinte millones de personas."
+        },
+        {
+          "heading": "El colapso final",
+          "text": "Hong murió en 1864, probablemente por enfermedad, poco antes de que las tropas Qing recuperaran Nanjing tras un largo asedio. La rebelión dejó a la dinastía Qing debilitada de forma duradera, con las provincias del sur devastadas económicamente, y sentó un precedente de movimiento de masas contra el poder imperial que resonaría en revueltas posteriores."
+        }
+      ],
+      "key_fact": "La rebelión Taiping, liderada por un hombre que se creía hermano de Jesucristo, causó más de veinte millones de muertos entre 1850 y 1864.",
+      "questions": [
+        {
+          "q": "¿Qué combinación ideológica caracterizó al movimiento liderado por Hong Xiuquan?",
+          "options": [
+            "Restauración estricta del confucianismo clásico frente a las reformas Qing",
+            "Nacionalismo han moderado sin componente religioso",
+            "Cristianismo heterodoxo mezclado con reformas sociales radicales contra el orden confuciano",
+            "Budismo reformado combinado con lealtad a la dinastía manchú"
+          ],
+          "correct": 2,
+          "note": "Hong no buscaba restaurar una tradición previa, sino imponer un orden nuevo basado en su propia revelación religiosa y en cambios sociales como la redistribución de tierras."
+        },
+        {
+          "q": "¿Por qué la dinastía Qing tardó más de una década en derrotar a los Taiping?",
+          "options": [
+            "La rebelión contaba con superioridad tecnológica militar sobre las tropas imperiales",
+            "El ejército Qing se negó a combatir por motivos religiosos",
+            "Las potencias occidentales apoyaron militarmente al Reino Celestial durante todo el conflicto",
+            "El movimiento había conquistado y fortificado una capital propia con apoyo popular amplio"
+          ],
+          "correct": 3,
+          "note": "Nanjing, capital del Reino Celestial desde 1853, funcionó durante años como una base fortificada y administrada, no como una simple revuelta dispersa y fácil de sofocar."
+        },
+        {
+          "q": "¿Qué consecuencia estructural dejó la rebelión Taiping en el poder Qing incluso tras su derrota?",
+          "options": [
+            "Recuperó control total y una estabilidad que duraría otro siglo",
+            "Fortaleció su legitimidad religiosa ante la población china",
+            "Se disolvió inmediatamente después de recuperar Nanjing en 1864",
+            "Salió debilitada de forma duradera, con el sur del país devastado económicamente"
+          ],
+          "correct": 3,
+          "note": "Aunque la dinastía sobrevivió formalmente hasta 1911, el coste humano y económico de la guerra dejó a las provincias del sur arruinadas y al poder central muy debilitado."
+        },
+        {
+          "q": "¿Qué papel tuvieron los ejércitos regionales chinos, distintos del ejército imperial regular, en la derrota de los Taiping?",
+          "options": [
+            "Fueron disueltos por orden imperial al inicio de la guerra",
+            "Se aliaron con Hong Xiuquan contra la dinastía manchú",
+            "Permanecieron neutrales durante todo el conflicto",
+            "Reforzaron de forma decisiva la capacidad militar Qing frente a la rebelión"
+          ],
+          "correct": 3,
+          "note": "Milicias organizadas por notables regionales, al margen del ejército imperial regular, resultaron claves para revertir el avance Taiping en los años finales de la guerra."
+        }
+      ]
+    },
+    {
+      "id": "his-0007",
+      "category": "historia",
+      "title": "La caída de Tombuctú: cuando la pólvora venció al número",
+      "subtitle": "En 1591 un ejército marroquí, muy inferior en tamaño, acabó con el Imperio songhai.",
+      "cover_image": {
+        "query": "timbuktu mali ancient city",
+        "wikipedia": "Imperio songhai",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Donkeys%2C_Timbuktu.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Flickr user: Emilio Labrador Santiago de Chile https://www.flickr.com/people/3059349393/",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Donkeys,_Timbuktu.jpg"
+      },
+      "cards": [
+        {
+          "heading": "El heredero de Malí",
+          "text": "Tras el declive del Imperio de Malí, del que Mansa Musa había sido su gobernante más célebre, el Imperio songhai ocupó su lugar como potencia dominante de África occidental. Bajo gobernantes como Askia Muhammad, controló las rutas comerciales del oro y la sal a través del Sahara y convirtió Tombuctú en un centro de comercio y erudición islámica reconocido en todo el mundo musulmán."
+        },
+        {
+          "heading": "Una expedición casi suicida",
+          "text": "En 1590 el sultán saadí de Marruecos, Ahmad al-Mansur, envió a través del desierto del Sahara una fuerza de apenas unos pocos miles de hombres, muchos de ellos mercenarios europeos convertidos, para atacar un imperio cuyos ejércitos superaban con creces esa cifra. La travesía del desierto por sí sola diezmó a buena parte de la expedición antes del primer combate."
+        },
+        {
+          "heading": "La batalla de Tondibi",
+          "text": "En la batalla de Tondibi, en 1591, la fuerza marroquí, equipada con arcabuces y algunos cañones, derrotó a un ejército songhai varias veces superior en número pero armado sobre todo con lanzas, arcos y caballería tradicional. La diferencia tecnológica en armas de fuego resultó decisiva frente a una ventaja numérica que en otras batallas anteriores había bastado para ganar."
+        },
+        {
+          "heading": "El fin del imperio",
+          "text": "Tombuctú cayó poco después, y aunque la ciudad conservó parte de su prestigio intelectual, el imperio songhai se fragmentó en reinos menores incapaces de controlar las rutas comerciales que antes garantizaban su riqueza. El comercio transahariano, ya golpeado por el auge de las rutas atlánticas europeas, no volvería a tener el mismo peso en la región."
+        }
+      ],
+      "key_fact": "En la batalla de Tondibi de 1591, una fuerza marroquí de unos pocos miles de hombres armados con arcabuces derrotó a un ejército songhai muy superior en número.",
+      "questions": [
+        {
+          "q": "¿Qué factor resultó decisivo en la derrota songhai frente a la expedición marroquí en Tondibi?",
+          "options": [
+            "El apoyo de tribus locales rebeldes al gobierno songhai",
+            "La superioridad en armas de fuego frente a un ejército armado de forma tradicional",
+            "La traición de generales songhai sobornados por Marruecos",
+            "Una epidemia que había diezmado previamente al ejército songhai"
+          ],
+          "correct": 1,
+          "note": "El arcabuz y el cañón cambiaron el cálculo bélico habitual, donde el número solía decidir el resultado frente a armas de corto alcance como lanzas y arcos."
+        },
+        {
+          "q": "¿Por qué la expedición marroquí, pese a ser numéricamente pequeña, se consideró un riesgo asumido deliberadamente por el sultán saadí?",
+          "options": [
+            "Contaba de antemano con el apoyo de la mitad del ejército songhai",
+            "Cruzar el Sahara ya suponía pérdidas severas antes de cualquier combate",
+            "Iba acompañada de una flota de apoyo por el río Níger",
+            "Tenía garantizada la rendición songhai por un acuerdo previo"
+          ],
+          "correct": 1,
+          "note": "La travesía del desierto reducía por sí sola la fuerza disponible, así que enviar la expedición implicaba aceptar pérdidas logísticas severas incluso antes de entrar en combate."
+        },
+        {
+          "q": "¿Qué distingue al declive songhai del final de otros imperios de África occidental como Malí?",
+          "options": [
+            "Su colapso se debió a una derrota militar puntual frente a una tecnología superior",
+            "Fue conquistado por una potencia europea con base costera",
+            "Desapareció por una crisis religiosa interna sin intervención externa",
+            "Se disolvió gradualmente por el agotamiento de sus minas de oro"
+          ],
+          "correct": 0,
+          "note": "A diferencia de declives más graduales, el songhai se derrumbó tras una sola batalla decisiva frente a un enemigo tecnológicamente superior, no por un desgaste prolongado."
+        },
+        {
+          "q": "¿Qué ocurrió con el papel comercial de la región tras la caída del Imperio songhai?",
+          "options": [
+            "Tombuctú se convirtió en el nuevo centro administrativo del imperio marroquí en África",
+            "El comercio del oro se trasladó por completo a manos songhai en el exilio",
+            "Las rutas transaharianas perdieron peso frente a las rutas atlánticas europeas en expansión",
+            "Las rutas del Sahara se cerraron por completo durante dos siglos"
+          ],
+          "correct": 2,
+          "note": "La fragmentación política songhai coincidió con el auge del comercio atlántico europeo, que fue desplazando gradualmente el peso económico de las rutas terrestres del Sahara."
+        }
+      ]
+    },
+    {
+      "id": "his-0008",
+      "category": "historia",
+      "title": "La Revolución Gloriosa: una invasión que se llamó restauración",
+      "subtitle": "En 1688 un príncipe holandés desembarcó en Inglaterra y el Parlamento salió reforzado para siglos.",
+      "cover_image": {
+        "query": "william of orange landing england",
+        "wikipedia": "Revolución Gloriosa",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/William_of_Orange_III_and_his_Dutch_army_land_in_Brixham%2C_1688.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Johan Herman Isings",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:William_of_Orange_III_and_his_Dutch_army_land_in_Brixham,_1688.jpg"
+      },
+      "cards": [
+        {
+          "heading": "Un rey desconfiado",
+          "text": "Jacobo II, católico en un reino mayoritariamente protestante, gobernaba con un estilo cada vez más autoritario y había reforzado el ejército permanente sin contar con el Parlamento, además de nombrar católicos para cargos clave pese a las leyes que se lo prohibían. El nacimiento de un heredero varón católico en 1688 convirtió el descontento de la elite protestante en urgencia."
+        },
+        {
+          "heading": "Una invitación al yerno",
+          "text": "Un grupo de nobles y obispos protestantes invitó en secreto a Guillermo de Orange, gobernante de las Provincias Unidas y casado con María, hija protestante de Jacobo II, a intervenir militarmente. Guillermo desembarcó en el suroeste de Inglaterra en noviembre de 1688 al frente de una fuerza considerable, y buena parte del ejército y la nobleza de Jacobo II lo abandonaron sin apenas resistencia."
+        },
+        {
+          "heading": "Una revolución casi sin sangre",
+          "text": "Jacobo II huyó a Francia sin librar una batalla decisiva, lo que permitió a los vencedores describir el episodio como una restauración pacífica del orden legítimo y no como lo que también fue: una invasión extranjera exitosa. Guillermo y María fueron proclamados monarcas conjuntos en 1689, bajo condiciones que el propio Parlamento impuso por escrito."
+        },
+        {
+          "heading": "La Declaración de Derechos",
+          "text": "El Bill of Rights de 1689 prohibió al monarca suspender leyes o mantener un ejército permanente sin consentimiento parlamentario, y estableció elecciones y debates libres en el Parlamento. No instauró una democracia moderna, pero fijó el principio de que la autoridad real quedaba subordinada a la ley y al consentimiento parlamentario, un precedente citado después en otras revoluciones."
+        }
+      ],
+      "key_fact": "El Bill of Rights de 1689, resultado de la Revolución Gloriosa, prohibió al monarca inglés mantener un ejército permanente o suspender leyes sin consentimiento del Parlamento.",
+      "questions": [
+        {
+          "q": "¿Qué llevó a un grupo de nobles y obispos ingleses a invitar a Guillermo de Orange a intervenir en 1688?",
+          "options": [
+            "Una revuelta popular espontánea que exigía la abdicación real",
+            "Un tratado previo que obligaba a Guillermo a intervenir si el rey moría sin herederos",
+            "El nacimiento de un heredero católico que perpetuaría una dinastía cada vez más autoritaria",
+            "La derrota militar de Jacobo II frente a Francia"
+          ],
+          "correct": 2,
+          "note": "Mientras Jacobo II no tuviera heredero varón, sus hijas protestantes garantizaban una sucesión aceptable; el nacimiento de 1688 rompió esa expectativa y precipitó la invitación."
+        },
+        {
+          "q": "¿Por qué el episodio se recuerda como 'gloriosa' pese a tratarse de una invasión militar extranjera?",
+          "options": [
+            "Guillermo de Orange renunció al trono inmediatamente después de desembarcar",
+            "Fue aprobada por unanimidad en un referéndum previo",
+            "Jacobo II abdicó voluntariamente antes de que Guillermo llegara a Inglaterra",
+            "Se libró sin una batalla decisiva y se presentó como restauración del orden legítimo"
+          ],
+          "correct": 3,
+          "note": "La ausencia de combate decisivo permitió a los vencedores narrar el episodio como una restauración pacífica, aunque implicó una fuerza militar extranjera desembarcando en territorio inglés."
+        },
+        {
+          "q": "¿Qué cambio estructural introdujo el Bill of Rights de 1689 en la relación entre el monarca y el Parlamento?",
+          "options": [
+            "Trasladó la capacidad legislativa exclusivamente a la Corona",
+            "Subordinó la autoridad real a la ley y al consentimiento parlamentario en materias clave",
+            "Eliminó por completo la figura de la monarquía en Inglaterra",
+            "Otorgó al monarca poder de veto absoluto sobre cualquier ley"
+          ],
+          "correct": 1,
+          "note": "El documento no abolió la monarquía, pero fijó límites legales concretos, como la prohibición de mantener un ejército permanente sin aprobación parlamentaria."
+        },
+        {
+          "q": "¿Qué papel jugó el propio ejército de Jacobo II en el desenlace de la Revolución Gloriosa?",
+          "options": [
+            "Resistió varios meses antes de rendirse en una batalla decisiva",
+            "Buena parte de sus oficiales y tropas lo abandonaron al llegar Guillermo de Orange",
+            "Se dividió en dos facciones que combatieron entre sí",
+            "Permaneció leal y forzó a Guillermo a retirarse temporalmente"
+          ],
+          "correct": 1,
+          "note": "La deserción generalizada, más que la derrota militar, explica por qué Jacobo II optó por huir a Francia en lugar de intentar sostener su trono por la fuerza."
+        }
+      ]
+    },
+    {
+      "id": "cie-0006",
+      "category": "ciencia",
+      "title": "Mendeléyev y los huecos que dejó a propósito en la tabla periódica",
+      "subtitle": "En 1869 predijo elementos que nadie había visto nunca, y acertó con sus propiedades.",
+      "cover_image": {
+        "query": "periodic table 1869 mendeleev",
+        "wikipedia": "Dmitri Mendeléyev",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Mendeleev_Photographische_Gesellschaft_3.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Е.Л. Мрозовская",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Mendeleev_Photographische_Gesellschaft_3.jpg"
+      },
+      "cards": [
+        {
+          "heading": "Ordenar por peso y comportamiento",
+          "text": "En 1869 el químico ruso Dmitri Mendeléyev organizó los sesenta y tantos elementos conocidos en una tabla según su masa atómica y sus propiedades químicas recurrentes. A diferencia de otros intentos previos de clasificación, se dio cuenta de que ciertos patrones se repetían a intervalos regulares, lo que hoy llamamos periodicidad química."
+        },
+        {
+          "heading": "Los huecos deliberados",
+          "text": "Cuando el patrón se rompía, en lugar de forzar un elemento conocido en el lugar equivocado, Mendeléyev dejó casillas vacías, convencido de que correspondían a elementos aún no descubiertos. Llegó incluso a predecir con notable precisión el peso atómico y las propiedades físicas y químicas de tres de esos elementos ausentes."
+        },
+        {
+          "heading": "Las predicciones se cumplen",
+          "text": "Entre 1875 y 1886 se descubrieron el galio, el escandio y el germanio, cuyas propiedades coincidían de forma sorprendente con las que Mendeléyev había anticipado años antes para las casillas vacías de su tabla. Esa capacidad predictiva convenció a la comunidad científica de que el ordenamiento no era una casualidad estadística sino una ley física real."
+        },
+        {
+          "heading": "Una tabla que sigue viva",
+          "text": "La tabla periódica se ha reorganizado varias veces desde entonces, sobre todo tras el descubrimiento del número atómico como criterio de ordenación más preciso que el peso atómico, y ha incorporado gases nobles y elementos sintéticos que Mendeléyev no pudo prever. Pero el principio de fondo, la periodicidad de las propiedades químicas, sigue siendo el mismo."
+        }
+      ],
+      "key_fact": "Mendeléyev predijo en 1869 las propiedades de elementos que aún no se habían descubierto, como el galio y el germanio, dejando huecos deliberados en su tabla.",
+      "questions": [
+        {
+          "q": "¿Qué hizo que la tabla de Mendeléyev fuera distinta de otros intentos previos de clasificar los elementos?",
+          "options": [
+            "Fue la primera en ordenar los elementos alfabéticamente",
+            "Se basó únicamente en el color de los elementos en su estado puro",
+            "Dejó huecos deliberados para elementos aún no descubiertos en lugar de forzar los conocidos",
+            "Ignoró por completo el peso atómico como criterio de orden"
+          ],
+          "correct": 2,
+          "note": "Otros químicos habían intentado ordenaciones similares, pero la disposición de Mendeléyev se distinguió por asumir que los huecos indicaban elementos pendientes de descubrir, no errores del sistema."
+        },
+        {
+          "q": "¿Por qué el descubrimiento del galio en 1875 resultó tan significativo para validar la tabla de Mendeléyev?",
+          "options": [
+            "Sus propiedades coincidieron con las que él había predicho años antes para esa casilla vacía",
+            "Confirmó que el peso atómico no tenía relación con las propiedades químicas",
+            "Permitió completar la tabla sin dejar ninguna casilla vacía restante",
+            "Fue el primer elemento sintetizado artificialmente en un laboratorio"
+          ],
+          "correct": 0,
+          "note": "No bastaba con llenar un hueco: la coincidencia entre las propiedades predichas y las observadas fue lo que convenció a la comunidad científica de que el sistema reflejaba una ley real."
+        },
+        {
+          "q": "¿Qué criterio sustituyó después al peso atómico como base de ordenación de la tabla periódica?",
+          "options": [
+            "El punto de fusión de cada elemento en condiciones estándar",
+            "El número atómico, que resultó ser más preciso para explicar la periodicidad",
+            "El año de descubrimiento de cada elemento",
+            "La abundancia relativa de cada elemento en la corteza terrestre"
+          ],
+          "correct": 1,
+          "note": "El peso atómico funcionaba como aproximación razonable en la mayoría de los casos, pero el número atómico explica de forma más exacta por qué se repiten las propiedades químicas."
+        },
+        {
+          "q": "¿Qué demuestra sobre el método científico el hecho de que Mendeléyev dejara casillas vacías en lugar de completarlas a la fuerza?",
+          "options": [
+            "Que la tabla periódica original era incorrecta en su mayor parte",
+            "Que la clasificación de elementos no admite predicciones fiables",
+            "Que los huecos se debían a errores de medición de la época",
+            "Que reconocer los límites de la evidencia disponible puede ser más productivo que forzar un ajuste"
+          ],
+          "correct": 3,
+          "note": "Aceptar la incertidumbre, en vez de rellenar el patrón con datos forzados, fue justamente lo que permitió que las predicciones posteriores pudieran confirmarse o refutarse con claridad."
+        }
+      ]
+    },
+    {
+      "id": "cie-0007",
+      "category": "ciencia",
+      "title": "La viruela: la única enfermedad humana erradicada del planeta",
+      "subtitle": "Una campaña de vacunación en anillo, y no la vacunación masiva, la eliminó en poco más de una década.",
+      "cover_image": {
+        "query": "smallpox vaccination campaign",
+        "wikipedia": "Erradicación de la viruela",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Plaza_Roma%2C_Intramuros%2C_Manila%2C_February_2023.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Ralff Nestor Nacor",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Plaza_Roma,_Intramuros,_Manila,_February_2023.jpg"
+      },
+      "cards": [
+        {
+          "heading": "Una vacuna con historia",
+          "text": "En 1796 el médico británico Edward Jenner comprobó que las personas expuestas a la viruela bovina, una infección leve del ganado, quedaban protegidas frente a la viruela humana, mucho más letal. Ese hallazgo dio origen a la vacunación tal como se entiende hoy, y la palabra vacuna proviene precisamente del término latino para vaca."
+        },
+        {
+          "heading": "El plan de la OMS",
+          "text": "En 1967, cuando la viruela seguía matando a millones de personas al año en distintos países, la Organización Mundial de la Salud lanzó un programa intensivo de erradicación. En lugar de vacunar a poblaciones enteras, un objetivo poco realista con los recursos disponibles, el programa se centró en detectar brotes con rapidez y vacunar de forma concentrada alrededor de cada caso."
+        },
+        {
+          "heading": "La vacunación en anillo",
+          "text": "Esa estrategia, llamada vacunación en anillo, consistía en identificar a los contactos cercanos de cada persona infectada y vacunarlos a ellos y a sus propios contactos, creando un cinturón de inmunidad que aislaba el brote antes de que se extendiera más. Resultó mucho más eficiente que intentar vacunar a toda la población de un país con recursos limitados."
+        },
+        {
+          "heading": "El último caso natural",
+          "text": "El último caso de viruela contraído de forma natural se registró en Somalia en 1977, en un cocinero de hospital llamado Ali Maow Maalin, que sobrevivió a la infección. Tras dos años de vigilancia sin nuevos casos, la Organización Mundial de la Salud declaró la enfermedad oficialmente erradicada en 1980, la única vez que esto se ha logrado con una enfermedad humana."
+        }
+      ],
+      "key_fact": "La viruela es la única enfermedad humana erradicada del planeta: el último caso natural se registró en Somalia en 1977 y la OMS certificó su erradicación en 1980.",
+      "questions": [
+        {
+          "q": "¿Por qué la vacunación en anillo resultó más eficaz que intentar vacunar a poblaciones enteras?",
+          "options": [
+            "Evitaba por completo la necesidad de detectar los brotes activos",
+            "Requería vacunar a toda la población mundial de forma simultánea",
+            "Concentraba los recursos disponibles alrededor de cada brote en lugar de dispersarlos",
+            "Era la única técnica de vacunación que existía en los años sesenta"
+          ],
+          "correct": 2,
+          "note": "Con recursos limitados, aislar cada brote mediante un cinturón de inmunidad a su alrededor resultó más viable que perseguir una cobertura universal difícil de sostener."
+        },
+        {
+          "q": "¿Qué papel tuvo el descubrimiento de Edward Jenner en 1796 en la historia de la erradicación de la viruela?",
+          "options": [
+            "Demostró que la viruela bovina y la humana eran la misma enfermedad",
+            "Sentó la base científica de la vacunación que se emplearía casi dos siglos después",
+            "Fue ignorado por la medicina hasta el siglo XX",
+            "Permitió erradicar la enfermedad de forma inmediata en toda Europa"
+          ],
+          "correct": 1,
+          "note": "El hallazgo de Jenner no erradicó la enfermedad por sí solo, pero proporcionó el principio biológico sobre el que se construyó, generaciones después, la campaña mundial de la OMS."
+        },
+        {
+          "q": "¿Qué distingue el caso de la viruela de otras enfermedades que hoy siguen sin erradicarse?",
+          "options": [
+            "Desapareció de forma espontánea sin intervención médica organizada",
+            "Nunca tuvo una vacuna disponible antes de su desaparición",
+            "Combinó una vacuna eficaz con una estrategia de vigilancia y contención muy específica",
+            "Afectaba solo a una región geográfica limitada del planeta"
+          ],
+          "correct": 2,
+          "note": "Muchas enfermedades cuentan con vacuna sin haber sido erradicadas: la clave adicional fue una estrategia de contención capaz de cortar la cadena de transmisión brote a brote."
+        },
+        {
+          "q": "¿Por qué el caso de Ali Maow Maalin en Somalia en 1977 se considera un hito en la historia médica?",
+          "options": [
+            "Marcó el inicio de la campaña de erradicación de la OMS",
+            "Demostró que la vacuna de Jenner ya no era eficaz",
+            "Fue el último caso conocido de viruela contraída de forma natural",
+            "Fue el primer caso documentado de la enfermedad en el continente africano"
+          ],
+          "correct": 2,
+          "note": "Tras su caso, dos años de vigilancia epidemiológica sin nuevos contagios permitieron a la OMS certificar en 1980 la erradicación completa de la enfermedad."
+        }
+      ]
+    },
+    {
+      "id": "fil-0006",
+      "category": "filosofia",
+      "title": "La habitación china: seguir las reglas no es lo mismo que entender",
+      "subtitle": "Un experimento mental de 1980 que sigue en el centro del debate sobre la inteligencia artificial.",
+      "cover_image": {
+        "query": "chinese room thought experiment",
+        "wikipedia": "Habitación china",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Pensador.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "No machine-readable author provided. Zahualli assumed (based on copyright claims).",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Pensador.jpg"
+      },
+      "cards": [
+        {
+          "heading": "El experimento de Searle",
+          "text": "En 1980 el filósofo John Searle propuso imaginar a una persona encerrada en una habitación, sin conocimiento alguno de chino, que recibe mensajes escritos en ese idioma y dispone de un manual de instrucciones en su propia lengua para responder combinando símbolos según reglas puramente formales, sin entender su significado."
+        },
+        {
+          "heading": "Una conversación perfecta desde fuera",
+          "text": "Si el manual es lo bastante completo, las respuestas que salen de la habitación pueden resultar indistinguibles de las de un hablante nativo de chino para quien las lea desde fuera. La persona dentro, sin embargo, no ha entendido ni una palabra: solo ha manipulado símbolos siguiendo instrucciones sintácticas, sin acceso a ningún significado."
+        },
+        {
+          "heading": "El objetivo del argumento",
+          "text": "Searle usó el experimento para cuestionar la llamada inteligencia artificial fuerte, la idea de que un programa capaz de manipular símbolos de forma adecuada posee por ello una mente que entiende y piensa. Su conclusión fue que la manipulación sintáctica de símbolos, por sofisticada que sea, no genera por sí sola comprensión semántica real."
+        },
+        {
+          "heading": "Una discusión sin cerrar",
+          "text": "Los críticos del argumento, entre ellos defensores de lo que llaman la respuesta de sistemas, sostienen que aunque la persona dentro de la habitación no entienda chino, el sistema completo, formado por la persona, el manual y las reglas, sí podría considerarse que entiende en algún sentido relevante. Searle rechazó esa réplica, y el debate sigue abierto."
+        }
+      ],
+      "key_fact": "El experimento de la habitación china, propuesto por John Searle en 1980, distingue entre manipular símbolos según reglas y comprender realmente su significado.",
+      "questions": [
+        {
+          "q": "¿Qué distinción central plantea el experimento de la habitación china?",
+          "options": [
+            "Entre programar un ordenador y repararlo físicamente",
+            "Entre la inteligencia humana y la memoria a corto plazo",
+            "Entre hablar chino y hablar inglés con fluidez nativa",
+            "Entre seguir reglas sintácticas para manipular símbolos y comprender su significado real"
+          ],
+          "correct": 3,
+          "note": "Searle no discute si el sistema produce respuestas correctas, sino si producirlas siguiendo reglas formales equivale a entender de verdad lo que esas respuestas significan."
+        },
+        {
+          "q": "¿Por qué las respuestas de la persona dentro de la habitación pueden parecer las de un hablante nativo?",
+          "options": [
+            "Porque el manual de instrucciones puede ser lo bastante completo para cubrir cualquier mensaje",
+            "Porque un traductor externo corrige las respuestas antes de enviarlas",
+            "Porque la persona aprende chino progresivamente durante el experimento",
+            "Porque los mensajes que recibe están ya traducidos previamente"
+          ],
+          "correct": 0,
+          "note": "El experimento asume un manual hipotéticamente exhaustivo: la calidad aparente de las respuestas depende solo de la completitud de las reglas, no de ninguna comprensión real."
+        },
+        {
+          "q": "¿Qué objetivo filosófico perseguía Searle al plantear este experimento mental?",
+          "options": [
+            "Cuestionar que un programa capaz de manipular símbolos correctamente posea comprensión real",
+            "Probar que el chino es un idioma imposible de traducir automáticamente",
+            "Defender que las máquinas nunca podrán realizar cálculos complejos",
+            "Demostrar que ningún ordenador podría jugar al ajedrez mejor que un humano"
+          ],
+          "correct": 0,
+          "note": "El blanco del argumento es la llamada inteligencia artificial fuerte: la idea de que ejecutar el programa adecuado basta, por sí sola, para generar una mente que entiende."
+        },
+        {
+          "q": "¿En qué consiste la llamada respuesta de sistemas frente al argumento de Searle?",
+          "options": [
+            "Niega que el experimento sea lógicamente coherente",
+            "Propone sustituir a la persona por un diccionario bilingüe impreso",
+            "Afirma que la persona dentro de la habitación en realidad sí aprende chino con el tiempo",
+            "Sostiene que el conjunto completo, no la persona sola, podría considerarse que entiende"
+          ],
+          "correct": 3,
+          "note": "Esta réplica traslada la pregunta de la comprensión desde la persona individual hacia el sistema en su conjunto, algo que Searle consideró una forma de eludir el problema planteado."
+        }
+      ]
+    },
+    {
+      "id": "fil-0007",
+      "category": "filosofia",
+      "title": "Confucio y la rectificación de los nombres",
+      "subtitle": "Si las palabras no corresponden a la realidad, sostenía, ningún gobierno puede funcionar bien.",
+      "cover_image": {
+        "query": "confucius analects ancient china",
+        "wikipedia": "Confucio",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/NLC892-411999014898-36857_%E6%96%87%E5%AD%90.pdf?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:NLC892-411999014898-36857_%E6%96%87%E5%AD%90.pdf"
+      },
+      "cards": [
+        {
+          "heading": "Una pregunta directa",
+          "text": "Según recogen las Analectas, cuando un discípulo preguntó a Confucio qué haría primero si un gobernante lo pusiera al frente de un Estado, este respondió que empezaría por rectificar los nombres, es decir, por asegurarse de que las palabras usadas para describir cargos, roles y relaciones correspondieran de verdad a la realidad que designaban."
+        },
+        {
+          "heading": "El argumento de fondo",
+          "text": "Confucio sostenía que si los nombres no son correctos, el lenguaje no se corresponde con las cosas, y si el lenguaje no se corresponde con las cosas, los asuntos no pueden llevarse a buen término. Para él, llamar a alguien padre, gobernante o ministro sin que actuara conforme a lo que ese nombre exige generaba una confusión que corrompía después toda la administración."
+        },
+        {
+          "heading": "Más que un problema lingüístico",
+          "text": "La idea no era meramente lingüística: en el contexto de una China fragmentada en estados rivales, con gobernantes que ejercían el poder sin comportarse conforme a la función que ocupaban, Confucio veía en esa distancia entre el título y la conducta real la raíz del desorden social y político de su época."
+        },
+        {
+          "heading": "Un eco en debates contemporáneos",
+          "text": "El principio se ha usado después para pensar problemas muy distintos: desde la precisión terminológica en el derecho hasta la forma en que el lenguaje político puede distorsionar la percepción pública de la realidad cuando las palabras dejan de corresponder a los hechos que describen. La idea de que el lenguaje impreciso genera consecuencias prácticas reales trasciende su contexto original."
+        }
+      ],
+      "key_fact": "Confucio sostenía que rectificar los nombres, hacer que las palabras correspondan a la realidad, era el primer paso necesario para que cualquier gobierno funcionara.",
+      "questions": [
+        {
+          "q": "¿Qué quería decir Confucio con la expresión 'rectificar los nombres'?",
+          "options": [
+            "Que el idioma chino necesitaba una reforma ortográfica completa",
+            "Que había que cambiar los nombres propios de los funcionarios corruptos",
+            "Que las palabras usadas para cargos y relaciones deben corresponder a la realidad que describen",
+            "Que los templos debían renombrarse según nuevas normas religiosas"
+          ],
+          "correct": 2,
+          "note": "No se trataba de cambiar palabras por otras nuevas, sino de que quien ocupara un cargo o rol actuara conforme a lo que ese nombre implicaba realmente."
+        },
+        {
+          "q": "¿Por qué Confucio consideraba que la falta de correspondencia entre nombres y realidad afectaba al gobierno?",
+          "options": [
+            "Porque debilitaba el ejército frente a estados rivales",
+            "Porque reducía la producción agrícola del territorio",
+            "Porque generaba una confusión que impedía llevar los asuntos públicos a buen término",
+            "Porque encarecía los impuestos recaudados por el Estado"
+          ],
+          "correct": 2,
+          "note": "Su razonamiento seguía una cadena: sin nombres correctos, el lenguaje pierde precisión, y sin lenguaje preciso, la administración de los asuntos se vuelve errática."
+        },
+        {
+          "q": "¿En qué contexto histórico formuló Confucio esta idea?",
+          "options": [
+            "Un imperio unificado y estable bajo una sola dinastía",
+            "Un periodo de ocupación extranjera del territorio chino",
+            "Una China fragmentada en estados rivales, con gobernantes que no actuaban conforme a su cargo",
+            "Una etapa posterior a la unificación imperial de Qin Shi Huang"
+          ],
+          "correct": 2,
+          "note": "Confucio vivió en el llamado periodo de Primaveras y Otoños, marcado por la fragmentación política, lo que explica su preocupación por la brecha entre título y conducta real."
+        },
+        {
+          "q": "¿Qué distingue el principio confuciano de la rectificación de los nombres de una simple discusión sobre vocabulario?",
+          "options": [
+            "Se limita a corregir errores gramaticales en documentos oficiales",
+            "Vincula la precisión del lenguaje con consecuencias prácticas concretas sobre el orden social",
+            "Buscaba estandarizar la escritura china en todos los territorios",
+            "Solo se aplicaba a la poesía y no a la administración pública"
+          ],
+          "correct": 1,
+          "note": "El argumento conecta el uso correcto del lenguaje con la posibilidad misma de que las instituciones funcionen, no con una preocupación puramente estilística o gramatical."
+        }
+      ]
+    },
+    {
+      "id": "pre-0006",
+      "category": "presente",
+      "title": "Qué es un fondo soberano y para qué sirve realmente",
+      "subtitle": "Convertir un recurso que se agota en un patrimonio financiero que no debería hacerlo.",
+      "cover_image": {
+        "query": "sovereign wealth fund building",
+        "wikipedia": "Fondo soberano de inversión",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Oil_platform_in_the_North_Sea.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Erik Christensen",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Oil_platform_in_the_North_Sea.jpg"
+      },
+      "cards": [
+        {
+          "heading": "El problema que resuelven",
+          "text": "Un país cuyos ingresos dependen en gran medida de un recurso natural finito, como el petróleo o el gas, afronta un riesgo doble: ese ingreso puede agotarse con el tiempo y, mientras dura, tiende a fluctuar con violencia según el precio internacional de la materia prima. Un fondo soberano nace para amortiguar ambos problemas a la vez."
+        },
+        {
+          "heading": "Cómo funciona el mecanismo",
+          "text": "El Estado aparta una parte de esos ingresos extraordinarios en un vehículo de inversión gestionado con criterios distintos a los del presupuesto anual, y lo invierte en activos diversificados, acciones, bonos, inmuebles o participaciones empresariales, en distintos países y sectores. La idea es que ese patrimonio genere rendimiento incluso cuando el recurso original se agote."
+        },
+        {
+          "heading": "De Kuwait a Noruega",
+          "text": "El fondo soberano más antiguo del mundo es el de Kuwait, creado en 1953, antes incluso de que el país lograra su independencia. El más grande en la actualidad es el fondo noruego, alimentado por los ingresos petroleros del Mar del Norte, que invierte en miles de empresas cotizadas en todo el mundo bajo criterios éticos explícitos y públicos."
+        },
+        {
+          "heading": "Usos más allá del ahorro",
+          "text": "No todos los fondos soberanos persiguen el mismo objetivo: algunos, como el noruego, priorizan el ahorro intergeneracional y la estabilidad macroeconómica, mientras que otros, como el fondo público de inversión saudí, se usan de forma más activa como herramienta de política industrial, financiando directamente proyectos estratégicos dentro del propio país."
+        }
+      ],
+      "key_fact": "El fondo soberano de Kuwait, creado en 1953, es el más antiguo del mundo; el de Noruega, alimentado por el petróleo del Mar del Norte, es hoy el más grande.",
+      "questions": [
+        {
+          "q": "¿Qué doble problema busca resolver un fondo soberano de inversión?",
+          "options": [
+            "El déficit comercial crónico de un país con sus vecinos",
+            "El agotamiento futuro de un recurso natural y la volatilidad de sus ingresos actuales",
+            "La inflación generada por la emisión de moneda nacional",
+            "La necesidad de financiar directamente el gasto militar anual"
+          ],
+          "correct": 1,
+          "note": "Un recurso finito plantea dos riesgos distintos y simultáneos: que se acabe algún día y que, mientras dure, su precio varíe de forma impredecible en los mercados."
+        },
+        {
+          "q": "¿En qué se diferencia la gestión de un fondo soberano de la del presupuesto público anual?",
+          "options": [
+            "Se financia exclusivamente con impuestos sobre la renta de los ciudadanos",
+            "Invierte con criterios de largo plazo en activos diversificados, no en gasto corriente inmediato",
+            "Su gestión depende directamente del banco central y no del gobierno",
+            "No puede invertir en ningún activo fuera del propio país"
+          ],
+          "correct": 1,
+          "note": "Mientras el presupuesto cubre necesidades del año en curso, el fondo soberano busca generar rendimiento sostenido en el tiempo mediante una cartera diversificada de activos."
+        },
+        {
+          "q": "¿Qué distingue el enfoque del fondo saudí frente al modelo noruego?",
+          "options": [
+            "Se usa de forma más activa para financiar proyectos estratégicos dentro del propio país",
+            "Invierte exclusivamente en deuda pública de otros países",
+            "No permite ningún tipo de inversión en empresas privadas",
+            "Se limita a gestionar las reservas de divisas del banco central"
+          ],
+          "correct": 0,
+          "note": "El modelo noruego prioriza la diversificación internacional y el ahorro a largo plazo, mientras que el saudí combina ese objetivo con un uso más directo como herramienta de desarrollo interno."
+        },
+        {
+          "q": "¿Por qué un fondo soberano depende en su origen de ingresos extraordinarios y no del presupuesto ordinario del Estado?",
+          "options": [
+            "Porque su creación exige siempre la aprobación de un organismo internacional",
+            "Porque los ingresos ordinarios están legalmente reservados para el gasto social",
+            "Porque el Estado no puede invertir directamente en mercados financieros",
+            "Porque nace precisamente del excedente generado por un recurso natural cuyo precio fluctúa"
+          ],
+          "correct": 3,
+          "note": "Si el fondo se nutriera del presupuesto ordinario, competiría con el gasto corriente; su función específica es capturar el excedente asociado a un recurso natural concreto."
+        }
+      ]
+    },
+    {
+      "id": "pre-0007",
+      "category": "presente",
+      "title": "Qué es el nearshoring y por qué las cadenas de suministro se acortan",
+      "subtitle": "Fabricar cerca de donde se vende, aunque cueste más, empieza a pesar más que fabricar barato y lejos.",
+      "cover_image": {
+        "query": "factory supply chain logistics",
+        "wikipedia": "Deslocalización",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/RepRisk-logo.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Luziazabala",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:RepRisk-logo.png"
+      },
+      "cards": [
+        {
+          "heading": "El modelo que se cuestiona",
+          "text": "Durante las últimas décadas del siglo XX, muchas empresas trasladaron su producción a países con mano de obra más barata, sobre todo en Asia, y confiaron en cadenas de suministro largas y ajustadas para minimizar costes e inventarios. Ese modelo dependía de una condición implícita: que el transporte y las fronteras siguieran funcionando sin fricciones relevantes."
+        },
+        {
+          "heading": "Cuando la fricción aparece",
+          "text": "La pandemia de 2020 y el bloqueo del canal de Suez en 2021 mostraron cuánto podía paralizarse la producción mundial cuando un solo eslabón de esas cadenas largas fallaba. A ello se sumaron las tensiones comerciales entre Estados Unidos y China, que añadieron un riesgo político a un modelo pensado sobre todo para minimizar el riesgo de coste."
+        },
+        {
+          "heading": "Acercar la producción",
+          "text": "El nearshoring consiste en trasladar la producción a países más cercanos geográfica o políticamente al mercado final, aunque la mano de obra allí resulte más cara que en el origen previo. Para empresas que venden en Estados Unidos, eso ha significado en muchos casos trasladar fábricas de China hacia México, que en 2023 superó a China como principal socio comercial estadounidense."
+        },
+        {
+          "heading": "Un cálculo distinto",
+          "text": "La decisión ya no se basa solo en minimizar el coste unitario de producción, sino en un cálculo más amplio que incluye el riesgo de interrupción, el tiempo de respuesta ante cambios de demanda y la exposición a tensiones geopolíticas. Ese cambio de prioridad no elimina la deslocalización, pero sí está redibujando el mapa de dónde se fabrica lo que se consume."
+        }
+      ],
+      "key_fact": "En 2023 México superó a China como principal socio comercial de Estados Unidos, un cambio impulsado en buena parte por el nearshoring.",
+      "questions": [
+        {
+          "q": "¿Qué condición implícita sostenía al modelo tradicional de cadenas de suministro largas?",
+          "options": [
+            "Que ningún gobierno impondría aranceles a los productos importados",
+            "Que las materias primas necesarias estarían siempre disponibles localmente",
+            "Que los salarios en Asia se mantendrían siempre por debajo de los occidentales",
+            "Que el transporte y las fronteras seguirían funcionando sin fricciones importantes"
+          ],
+          "correct": 3,
+          "note": "El modelo minimizaba costes asumiendo fluidez constante en el transporte internacional, un supuesto que episodios como la pandemia o el bloqueo de Suez pusieron en duda."
+        },
+        {
+          "q": "¿Qué distingue al nearshoring de la simple búsqueda de menores costes laborales?",
+          "options": [
+            "Prioriza la cercanía y la reducción de riesgo frente al coste unitario más bajo posible",
+            "Consiste en fabricar exclusivamente dentro de las fronteras del propio país",
+            "Se aplica únicamente a productos tecnológicos de alto valor añadido",
+            "Elimina por completo la necesidad de importar materias primas"
+          ],
+          "correct": 0,
+          "note": "Una fábrica más cercana puede tener costes laborales más altos que una lejana, pero el cálculo empresarial ahora pondera también el riesgo de interrupción y el tiempo de respuesta."
+        },
+        {
+          "q": "¿Qué papel jugaron episodios como el bloqueo del canal de Suez en 2021 en el impulso del nearshoring?",
+          "options": [
+            "Provocaron la prohibición legal de importar desde Asia en varios países",
+            "Redujeron de forma permanente el coste del transporte marítimo",
+            "Evidenciaron la vulnerabilidad de las cadenas de suministro largas ante un solo punto de fallo",
+            "No tuvieron relación directa con las decisiones posteriores de las empresas"
+          ],
+          "correct": 2,
+          "note": "Un solo buque encallado paralizó una parte relevante del comercio mundial durante días, una demostración práctica de lo frágil que puede ser una cadena de suministro muy extendida."
+        },
+        {
+          "q": "¿Qué significa que México superara a China como principal socio comercial de Estados Unidos en 2023?",
+          "options": [
+            "Significa que México sustituyó a China en todos los sectores productivos",
+            "Fue resultado exclusivo de un tratado arancelario firmado ese mismo año",
+            "Refleja un desplazamiento real de producción hacia países más cercanos al mercado estadounidense",
+            "Indica que China dejó de exportar productos manufacturados por completo"
+          ],
+          "correct": 2,
+          "note": "El dato es un indicador agregado del cambio de tendencia, no de una sustitución total: refleja que una parte creciente de la producción se ha trasladado más cerca del mercado final."
+        }
+      ]
+    },
+    {
+      "id": "fis-0006",
+      "category": "fisica",
+      "title": "El principio de incertidumbre: un límite del mundo, no del instrumento",
+      "subtitle": "Werner Heisenberg demostró en 1927 que ciertos pares de magnitudes no pueden conocerse a la vez con precisión total.",
+      "cover_image": {
+        "query": "heisenberg uncertainty principle quantum",
+        "wikipedia": "Principio de incertidumbre",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Indeterminacy_principle.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "credit": "Thierry Dugnolle",
+        "license": "CC0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Indeterminacy_principle.gif"
+      },
+      "cards": [
+        {
+          "heading": "Un malentendido común",
+          "text": "Suele explicarse el principio de incertidumbre diciendo que medir la posición de una partícula perturba inevitablemente su velocidad, como si el problema fuera solo la torpeza del instrumento de medida. Esa versión simplificada no es del todo errónea, pero oculta algo más profundo: el límite existe incluso en un experimento mental con instrumentos de precisión perfecta."
+        },
+        {
+          "heading": "Lo que formuló Heisenberg",
+          "text": "El físico alemán Werner Heisenberg estableció que existe un límite matemático fundamental a la precisión con la que pueden conocerse simultáneamente ciertos pares de magnitudes físicas, como la posición y el momento de una partícula. Cuanto con más exactitud se determina una, mayor es necesariamente la incertidumbre en la otra, y esa relación no depende de la calidad del aparato usado."
+        },
+        {
+          "heading": "Propiedad del sistema cuántico",
+          "text": "La formulación moderna del principio se deriva directamente de la naturaleza ondulatoria de las partículas cuánticas, descrita por la ecuación de Schrödinger, y no de ninguna perturbación causada por el acto de medir. Una partícula cuántica, en un sentido físico riguroso, simplemente no posee una posición y un momento perfectamente definidos al mismo tiempo."
+        },
+        {
+          "heading": "Consecuencias que sí son medibles",
+          "text": "El principio no es una curiosidad teórica sin efecto práctico: explica fenómenos como la estabilidad de los átomos, que de otro modo colapsarían según la física clásica, y pone límites reales a tecnologías de medición de altísima precisión, como los detectores de ondas gravitacionales, que deben diseñarse teniendo en cuenta ese límite cuántico inevitable."
+        }
+      ],
+      "key_fact": "El principio de incertidumbre de Heisenberg no describe una limitación del instrumento de medida, sino una propiedad matemática intrínseca de los sistemas cuánticos.",
+      "questions": [
+        {
+          "q": "¿Por qué la explicación de que 'medir perturba lo medido' resulta incompleta para describir el principio de incertidumbre?",
+          "options": [
+            "Esa explicación solo se aplica a partículas cargadas eléctricamente",
+            "El principio solo afecta a mediciones realizadas a temperaturas extremadamente bajas",
+            "Heisenberg nunca mencionó la perturbación del instrumento en su formulación original",
+            "El límite existe incluso en un experimento mental con instrumentos de precisión perfecta"
+          ],
+          "correct": 3,
+          "note": "La versión rigurosa del principio se deriva de la naturaleza ondulatoria de la materia, no de ninguna imperfección técnica del aparato usado para medir."
+        },
+        {
+          "q": "¿Qué relación establece el principio de incertidumbre entre pares de magnitudes como posición y momento?",
+          "options": [
+            "Ambas pueden medirse con precisión absoluta si el instrumento es suficientemente avanzado",
+            "Solo se aplica quando la partícula se mueve a la velocidad de la luz",
+            "Determina que ambas magnitudes son siempre iguales entre sí",
+            "Cuanto más precisa es la determinación de una, mayor es necesariamente la incertidumbre de la otra"
+          ],
+          "correct": 3,
+          "note": "No se trata de una dificultad técnica superable con mejor tecnología, sino de una relación matemática inversa entre la precisión posible de ambas magnitudes."
+        },
+        {
+          "q": "¿Qué papel juega la naturaleza ondulatoria de las partículas cuánticas en la explicación moderna del principio?",
+          "options": [
+            "Fue descartada por Heisenberg en su formulación original de 1927",
+            "Explica por qué el principio deja de aplicarse a escalas microscópicas",
+            "Es irrelevante para el principio, que se basa solo en la relatividad especial",
+            "Es la base física de la que se deriva matemáticamente el límite de incertidumbre"
+          ],
+          "correct": 3,
+          "note": "La descripción ondulatoria implica que una partícula no tiene, en sentido estricto, una posición y un momento perfectamente definidos de forma simultánea."
+        },
+        {
+          "q": "¿Qué consecuencia práctica tiene el principio de incertidumbre más allá de la física teórica?",
+          "options": [
+            "Solo tiene relevancia en condiciones de gravedad extrema, como cerca de un agujero negro",
+            "Impide que los ordenadores cuánticos puedan construirse en la práctica",
+            "Determina el punto de fusión de los materiales metálicos",
+            "Explica la estabilidad de los átomos y limita la precisión de instrumentos como los detectores de ondas gravitacionales"
+          ],
+          "correct": 3,
+          "note": "Lejos de ser solo una curiosidad matemática, el principio impone límites reales en el diseño de instrumentos de medición de altísima sensibilidad y explica por qué los átomos no colapsan."
+        }
+      ]
+    },
+    {
+      "id": "fis-0007",
+      "category": "fisica",
+      "title": "Superconductividad: cuando la resistencia eléctrica desaparece del todo",
+      "subtitle": "En 1911, enfriado casi al cero absoluto, un metal dejó de oponer resistencia alguna a la corriente.",
+      "cover_image": {
+        "query": "superconductor magnetic levitation",
+        "wikipedia": "Superconductividad",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Supraleitung.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Supraleitung.jpg"
+      },
+      "cards": [
+        {
+          "heading": "Un hallazgo accidental de laboratorio",
+          "text": "En 1911 el físico neerlandés Heike Kamerlingh Onnes, que investigaba el comportamiento de los metales a temperaturas extremadamente bajas, observó que la resistencia eléctrica del mercurio caía abruptamente a cero al enfriarlo por debajo de unos 4 grados sobre el cero absoluto. No se trataba de una resistencia muy baja, sino de una resistencia exactamente nula."
+        },
+        {
+          "heading": "Por qué eso resulta extraño",
+          "text": "En un conductor eléctrico normal, la resistencia disipa energía en forma de calor y disminuye con el frío pero nunca llega a cero de forma completa. En un superconductor, por debajo de una temperatura crítica propia de cada material, una corriente eléctrica puede circular en un circuito cerrado indefinidamente sin perder energía, algo imposible según la física de los conductores ordinarios."
+        },
+        {
+          "heading": "El efecto Meissner",
+          "text": "En 1933 se descubrió que los superconductores no solo dejan pasar corriente sin resistencia, sino que expulsan activamente los campos magnéticos de su interior, un fenómeno llamado efecto Meissner. Ese comportamiento es lo que permite la levitación magnética visible en demostraciones de laboratorio, y distingue a un superconductor real de un simple conductor perfecto hipotético."
+        },
+        {
+          "heading": "Hacia temperaturas más altas",
+          "text": "Durante décadas la superconductividad solo se lograba cerca del cero absoluto, lo que limitaba mucho su uso práctico fuera de aplicaciones costosas como los imanes de los escáneres de resonancia magnética. El descubrimiento en 1986 de materiales cerámicos superconductores a temperaturas bastante más altas, aunque siguen siendo extremadamente frías, abrió una nueva línea de investigación que continúa hoy."
+        }
+      ],
+      "key_fact": "En un superconductor, por debajo de una temperatura crítica, la resistencia eléctrica no disminuye: desaparece por completo y una corriente puede circular sin perder energía.",
+      "questions": [
+        {
+          "q": "¿Qué observó Kamerlingh Onnes en 1911 que resultó tan inesperado?",
+          "options": [
+            "El mercurio se volvía magnético de forma permanente al enfriarse",
+            "El mercurio dejaba de conducir electricidad por completo al enfriarse",
+            "La resistencia eléctrica del mercurio caía a cero exacto por debajo de cierta temperatura",
+            "La temperatura del mercurio aumentaba espontáneamente al aplicar corriente"
+          ],
+          "correct": 2,
+          "note": "Lo sorprendente no era que la resistencia bajara, algo esperable con el frío, sino que llegara a un valor exactamente nulo, sin ningún residuo medible."
+        },
+        {
+          "q": "¿Qué distingue a un superconductor de un conductor eléctrico ordinario muy eficiente?",
+          "options": [
+            "Solo conduce electricidad en una dirección",
+            "Una corriente puede circular en él indefinidamente sin perder energía en forma de calor",
+            "Pierde su capacidad conductora si se expone a la luz",
+            "Necesita una fuente de energía externa constante para mantener la corriente"
+          ],
+          "correct": 1,
+          "note": "Un conductor muy eficiente sigue disipando algo de energía como calor; un superconductor, por debajo de su temperatura crítica, no disipa ninguna en absoluto."
+        },
+        {
+          "q": "¿Qué papel cumple el efecto Meissner en la identificación de un verdadero superconductor?",
+          "options": [
+            "Indica que la temperatura crítica del material ha bajado respecto a la esperada",
+            "Confirma que el material ha perdido toda propiedad magnética de forma permanente",
+            "Demuestra que el material expulsa activamente los campos magnéticos de su interior",
+            "Prueba que el material conduce electricidad solo en su superficie"
+          ],
+          "correct": 2,
+          "note": "Un conductor perfecto hipotético dejaría pasar la corriente sin resistencia, pero solo un superconductor real expulsa además los campos magnéticos, lo que explica la levitación observada."
+        },
+        {
+          "q": "¿Por qué el descubrimiento de superconductores cerámicos en 1986 se consideró un avance relevante pese a seguir requiriendo temperaturas muy frías?",
+          "options": [
+            "Demostró que cualquier material cerámico es superconductor de forma natural",
+            "Eliminó por completo la necesidad de enfriamiento para lograr superconductividad",
+            "Sustituyó al mercurio como único material superconductor conocido",
+            "Permitió alcanzar la superconductividad a temperaturas más altas que las necesarias hasta entonces"
+          ],
+          "correct": 3,
+          "note": "Aunque las temperaturas seguían siendo extremadamente bajas en términos absolutos, resultaban más accesibles que las cercanas al cero absoluto que exigían los superconductores anteriores."
+        }
+      ]
+    },
+    {
+      "id": "mat-0006",
+      "category": "matematicas",
+      "title": "La paradoja de Simpson: cuando la tendencia se invierte al juntar los datos",
+      "subtitle": "Un grupo puede ganar en cada categoría por separado y perder en el total combinado.",
+      "cover_image": {
+        "query": "simpson paradox statistics data",
+        "wikipedia": "Paradoja de Simpson",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Figure_4-_Average_Eighth_Grade_Geography_Test_Scores_by_Race%2C_1994_%E2%80%93_2014_%2821892609174%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "credit": "U.S. Government Accountability Office from Washington, DC, United States",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Figure_4-_Average_Eighth_Grade_Geography_Test_Scores_by_Race,_1994_%E2%80%93_2014_(21892609174).jpg"
+      },
+      "cards": [
+        {
+          "heading": "Un resultado que parece imposible",
+          "text": "La paradoja de Simpson describe una situación estadística en la que una tendencia aparece de forma consistente en varios grupos de datos separados, pero se invierte por completo cuando esos grupos se combinan en un único total. No es un error de cálculo: es una consecuencia matemática legítima de cómo se agregan las proporciones."
+        },
+        {
+          "heading": "Un ejemplo célebre",
+          "text": "En un estudio real sobre admisiones universitarias en la Universidad de California en Berkeley en 1973, las mujeres tenían una tasa de admisión global menor que los hombres, lo que sugería discriminación. Sin embargo, al analizar departamento por departamento, las mujeres eran admitidas con la misma o mayor tasa que los hombres en la mayoría de ellos."
+        },
+        {
+          "heading": "Dónde estaba el truco",
+          "text": "Las mujeres solicitaban en mayor proporción a departamentos muy competitivos, con tasas de admisión bajas para todos los candidatos, mientras que los hombres solicitaban más a departamentos con tasas de admisión altas en general. La variable oculta, a qué departamento se postulaba cada persona, distorsionaba por completo la lectura del dato agregado."
+        },
+        {
+          "heading": "Más allá de la estadística",
+          "text": "La paradoja de Simpson aparece con frecuencia en estudios médicos, económicos y de políticas públicas cuando se agregan datos de grupos con tamaños o composiciones muy distintas. Ignorar esa posibilidad puede llevar a conclusiones opuestas a la realidad, y detectarla exige revisar siempre si existe una variable oculta que explique la diferencia entre el dato agregado y el desagregado."
+        }
+      ],
+      "key_fact": "En Berkeley en 1973 las mujeres tenían una tasa de admisión global menor que los hombres, pero igual o mayor en la mayoría de departamentos analizados por separado.",
+      "questions": [
+        {
+          "q": "¿Qué caracteriza a la paradoja de Simpson?",
+          "options": [
+            "Un fenómeno que solo ocurre con muestras estadísticamente insuficientes",
+            "Un error de cálculo que aparece al sumar porcentajes de forma incorrecta",
+            "Una contradicción lógica que invalida cualquier análisis estadístico posterior",
+            "Una tendencia se invierte al combinar en un total datos que por separado la muestran de forma consistente"
+          ],
+          "correct": 3,
+          "note": "No se trata de un error, sino de un efecto matemático real: agregar datos de grupos con distinta composición puede producir un resultado global contrario al de cada grupo por separado."
+        },
+        {
+          "q": "¿Qué variable oculta explicaba la aparente discriminación en las admisiones de Berkeley en 1973?",
+          "options": [
+            "Las mujeres presentaban solicitudes con menor antelación que los hombres",
+            "Los departamentos exigían distintos requisitos académicos según el género del solicitante",
+            "Las mujeres solicitaban en mayor proporción a departamentos con tasas de admisión más bajas",
+            "El número total de plazas disponibles variaba cada año según el departamento"
+          ],
+          "correct": 2,
+          "note": "La diferencia no estaba en el trato dentro de cada departamento, sino en a qué departamentos, más o menos competitivos, se dirigían mayoritariamente hombres y mujeres."
+        },
+        {
+          "q": "¿Por qué el dato agregado de Berkeley resultaba engañoso sin el desglose por departamento?",
+          "options": [
+            "Porque el total de solicitudes había sido calculado de forma incorrecta",
+            "Porque los departamentos con tasas más altas no se incluyeron en el cálculo",
+            "Porque el estudio original excluyó a la mitad de los solicitantes",
+            "Combinaba grupos con tasas de admisión y composición muy distintas en un solo número"
+          ],
+          "correct": 3,
+          "note": "Un total agregado puede ocultar diferencias reales de composición entre subgrupos, que son precisamente las que explican por qué el resultado global no refleja lo que ocurre en cada parte."
+        },
+        {
+          "q": "¿Qué lección práctica se extrae de la paradoja de Simpson para interpretar estadísticas agregadas?",
+          "options": [
+            "La paradoja demuestra que las estadísticas nunca deben desagregarse",
+            "Conviene comprobar si existe una variable oculta que distorsione la comparación entre grupos",
+            "Los datos agregados son siempre más fiables que los desagregados",
+            "Solo es relevante en estudios sobre admisiones universitarias"
+          ],
+          "correct": 1,
+          "note": "El caso de Berkeley se volvió un ejemplo de referencia precisamente porque anima a preguntarse, ante cualquier dato agregado sorprendente, qué variable de composición podría estar detrás."
+        }
+      ]
+    },
+    {
+      "id": "mat-0007",
+      "category": "matematicas",
+      "title": "El problema de Monty Hall: cambiar de puerta duplica las opciones de ganar",
+      "subtitle": "Un concurso de televisión de los años setenta generó una de las disputas matemáticas más ruidosas del siglo XX.",
+      "cover_image": {
+        "query": "three doors game show",
+        "wikipedia": "Problema de Monty Hall",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Charles_Frederick_Lindauer_I_%281836-1921%29_named_by_the_Lexow_Commission_for_being_in_the_numbers_game_or_policy_racket.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "credit": "AnonymousUnknown author",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Charles_Frederick_Lindauer_I_(1836-1921)_named_by_the_Lexow_Commission_for_being_in_the_numbers_game_or_policy_racket.gif"
+      },
+      "cards": [
+        {
+          "heading": "El planteamiento",
+          "text": "En un concurso hay tres puertas: detrás de una hay un premio y detrás de las otras dos, nada. El concursante elige una puerta sin abrirla. El presentador, que sabe dónde está el premio, abre entonces una de las otras dos puertas que no lo contiene, y le ofrece al concursante la opción de cambiar su elección original por la puerta restante."
+        },
+        {
+          "heading": "La intuición engañosa",
+          "text": "La mayoría de las personas asume que, quedando solo dos puertas cerradas, la probabilidad de ganar es del cincuenta por ciento con cualquiera de las dos, así que cambiar o mantener la elección daría igual. Esa intuición, muy extendida incluso entre personas con formación matemática, resulta incorrecta."
+        },
+        {
+          "heading": "Por qué cambiar conviene",
+          "text": "La puerta elegida al principio tenía una probabilidad de un tercio de contener el premio, y esa probabilidad no cambia por la acción posterior del presentador. Como la probabilidad total debe sumar uno, la puerta restante, la que el concursante no eligió, concentra ahora los dos tercios de probabilidad que antes se repartían entre las dos puertas no elegidas."
+        },
+        {
+          "heading": "Una polémica pública real",
+          "text": "En 1990 la columnista estadounidense Marilyn vos Savant publicó la solución correcta en una revista, y recibió miles de cartas de lectores, muchos de ellos con doctorados en matemáticas, asegurando que estaba equivocada. Simulaciones posteriores, tanto por ordenador como con estudiantes repitiendo el experimento cientos de veces, confirmaron sin ambigüedad que cambiar de puerta duplica las probabilidades de ganar."
+        }
+      ],
+      "key_fact": "Cambiar de puerta en el problema de Monty Hall duplica la probabilidad de ganar, de un tercio a dos tercios, aunque la intuición sugiera que da igual.",
+      "questions": [
+        {
+          "q": "¿Por qué la probabilidad de la puerta elegida inicialmente no cambia cuando el presentador abre otra puerta vacía?",
+          "options": [
+            "Porque las tres puertas se reabren y se vuelve a repartir la probabilidad desde cero",
+            "Porque el premio cambia de puerta cada vez que se abre una de ellas",
+            "Porque el concursante puede volver a elegir en cualquier momento del concurso",
+            "Porque el presentador actúa con información previa y nunca abre la puerta con el premio"
+          ],
+          "correct": 3,
+          "note": "El presentador conoce dónde está el premio y elige deliberadamente una puerta vacía entre las no seleccionadas, así que su acción no aporta información nueva sobre la puerta original."
+        },
+        {
+          "q": "¿Qué explica que la puerta restante concentre dos tercios de probabilidad tras la revelación del presentador?",
+          "options": [
+            "El presentador transfiere manualmente la mitad de la probabilidad a esa puerta",
+            "La puerta restante contiene el premio con certeza absoluta",
+            "Las probabilidades se recalculan de forma aleatoria tras cada apertura",
+            "La probabilidad total debe sumar uno, y la puerta original conserva su tercio inicial"
+          ],
+          "correct": 3,
+          "note": "Si la puerta elegida al principio mantiene un tercio y una de las otras dos queda descartada con certeza, todo el dos tercios restante recae necesariamente sobre la puerta no elegida."
+        },
+        {
+          "q": "¿Por qué el caso de Marilyn vos Savant en 1990 se volvió un ejemplo célebre del problema?",
+          "options": [
+            "Mostró que incluso especialistas con formación matemática rechazaron inicialmente la solución correcta",
+            "Demostró que el problema no tenía solución matemática definitiva",
+            "Confirmó que cambiar de puerta no aportaba ninguna ventaja real",
+            "Provocó que el concurso televisivo original fuera cancelado"
+          ],
+          "correct": 0,
+          "note": "La reacción de lectores con doctorados que insistían en que vos Savant se equivocaba ilustra lo profundamente contraintuitivo que resulta el resultado, incluso para expertos."
+        },
+        {
+          "q": "¿Qué papel tuvieron las simulaciones por ordenador en la resolución de la controversia sobre el problema de Monty Hall?",
+          "options": [
+            "Mostraron que la probabilidad real era del cincuenta por ciento, como sugería la intuición",
+            "Confirmaron empíricamente que cambiar de puerta duplica la probabilidad de ganar",
+            "Revelaron que el resultado dependía del número de participantes en el concurso",
+            "Demostraron que la solución de vos Savant era incorrecta en la práctica"
+          ],
+          "correct": 1,
+          "note": "Repetir el experimento miles de veces, ya fuera por ordenador o con personas, eliminó cualquier duda: la frecuencia de victorias al cambiar de puerta se acercó siempre a los dos tercios previstos."
+        }
+      ]
+    },
+    {
+      "id": "mit-0006",
+      "category": "mitologia",
+      "title": "Amaterasu: la diosa solar de la que dice descender la casa imperial japonesa",
+      "subtitle": "Un mito shintoísta que sigue teniendo peso simbólico en la monarquía japonesa actual.",
+      "cover_image": {
+        "query": "amaterasu sun goddess shinto",
+        "wikipedia": "Amaterasu",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Amaterasu_cave_crop.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Utagawa Kunisada (歌川国貞; b. 1786, d. 1865)",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Amaterasu_cave_crop.jpg"
+      },
+      "cards": [
+        {
+          "heading": "La diosa del sol",
+          "text": "En la mitología sintoísta japonesa, Amaterasu es la diosa del sol y una de las deidades principales del panteón, nacida, según el relato tradicional recogido en textos como el Kojiki del siglo VIII, del ojo izquierdo del dios primordial Izanagi mientras este se purificaba tras un viaje al inframundo."
+        },
+        {
+          "heading": "El episodio de la cueva",
+          "text": "Uno de los mitos más conocidos sobre ella narra cómo, ofendida por el comportamiento destructivo de su hermano Susanoo, dios de las tormentas, se refugió en una cueva y sumió al mundo en la oscuridad total. Otros dioses, para hacerla salir, organizaron una celebración ruidosa frente a la entrada, con música y una danza provocativa, hasta despertar su curiosidad."
+        },
+        {
+          "heading": "El espejo de la cueva",
+          "text": "Cuando Amaterasu se asomó a ver qué ocurría, otro dios le mostró un espejo colocado frente a la cueva, y al ver reflejado su propio brillo, sorprendida, salió por completo, devolviendo la luz al mundo. Ese espejo, junto con una espada y una joya, forma parte de los tres tesoros sagrados asociados tradicionalmente a la legitimidad imperial japonesa."
+        },
+        {
+          "heading": "Un mito con función política",
+          "text": "Según la mitología oficial recogida en las crónicas imperiales, la línea de emperadores de Japón desciende directamente de Amaterasu a través de su nieto Ninigi. Aunque esa genealogía divina perdió su estatus legal tras la Segunda Guerra Mundial, cuando el emperador Hirohito renunció públicamente a su condición divina en 1946, el vínculo simbólico con la diosa sigue presente en ceremonias imperiales actuales."
+        }
+      ],
+      "key_fact": "Según la mitología oficial japonesa, la línea imperial desciende de la diosa solar Amaterasu, un vínculo simbólico que persiste pese a que el emperador renunció a su divinidad legal en 1946.",
+      "questions": [
+        {
+          "q": "¿Qué llevó a Amaterasu, según el mito, a esconderse en una cueva y sumir al mundo en oscuridad?",
+          "options": [
+            "La pérdida de uno de los tres tesoros sagrados imperiales",
+            "El rechazo de los demás dioses a reconocerla como divinidad solar",
+            "El comportamiento destructivo de su hermano Susanoo, dios de las tormentas",
+            "Una disputa directa con el dios primordial Izanagi, su padre"
+          ],
+          "correct": 2,
+          "note": "El conflicto entre ambos hermanos, con Susanoo actuando de forma caótica y destructiva, es el detonante narrativo que explica por qué Amaterasu decide retirarse del mundo."
+        },
+        {
+          "q": "¿Qué papel cumplió el espejo en el mito de la cueva de Amaterasu?",
+          "options": [
+            "La atrajo a salir al mostrarle su propio reflejo brillante",
+            "Sirvió para sellar la entrada de la cueva permanentemente",
+            "Permitió a los demás dioses comunicarse con ella dentro de la cueva",
+            "Fue el arma usada para derrotar a Susanoo"
+          ],
+          "correct": 0,
+          "note": "Al ver su propio brillo reflejado y no reconocerlo de inmediato, la curiosidad la hizo asomarse lo suficiente para que los demás dioses la sacaran del todo de la cueva."
+        },
+        {
+          "q": "¿Qué relación establece la mitología oficial japonesa entre Amaterasu y la casa imperial?",
+          "options": [
+            "Los emperadores japoneses debían casarse con una descendiente directa de la diosa",
+            "La línea de emperadores desciende directamente de ella a través de su nieto Ninigi",
+            "Amaterasu fue la primera emperatriz humana de Japón",
+            "La diosa eligió personalmente a cada emperador mediante un oráculo"
+          ],
+          "correct": 1,
+          "note": "La genealogía mítica conecta a la familia imperial con lo divino a través de una línea de descendencia que comienza en Amaterasu y llega hasta Ninigi, su nieto."
+        },
+        {
+          "q": "¿Qué cambio formal ocurrió en 1946 respecto a la relación entre el emperador japonés y su supuesto origen divino?",
+          "options": [
+            "Se prohibió legalmente cualquier mención a Amaterasu en ceremonias oficiales",
+            "Se abolió por completo la figura del emperador en Japón",
+            "La Constitución japonesa reconoció por primera vez el origen divino imperial",
+            "El emperador Hirohito renunció públicamente a su condición divina"
+          ],
+          "correct": 3,
+          "note": "Tras la derrota japonesa en la Segunda Guerra Mundial, Hirohito hizo una declaración pública renunciando a su estatus de divinidad viviente, aunque el vínculo simbólico con Amaterasu no desapareció del todo."
+        }
+      ]
+    },
+    {
+      "id": "art-0006",
+      "category": "arte",
+      "title": "Frida Kahlo y el autorretrato como diario del propio cuerpo",
+      "subtitle": "De sus cerca de doscientos cuadros, más de una cuarta parte son retratos de sí misma.",
+      "cover_image": {
+        "query": "frida kahlo self portrait painting",
+        "wikipedia": "Frida Kahlo",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Frida_Kahlo%2C_by_Guillermo_Kahlo.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Guillermo Kahlo",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Frida_Kahlo,_by_Guillermo_Kahlo.jpg"
+      },
+      "cards": [
+        {
+          "heading": "El accidente que la definió",
+          "text": "En 1925, a los dieciocho años, Frida Kahlo sufrió un grave accidente de autobús en Ciudad de México que le fracturó la columna vertebral, la pelvis y varios huesos más. Pasó largos periodos de convalecencia inmovilizada, y fue durante esas etapas, con un espejo colocado sobre la cama, cuando empezó a pintarse a sí misma de forma sistemática."
+        },
+        {
+          "heading": "Pintar el propio dolor",
+          "text": "A lo largo de su vida, Kahlo se sometió a más de una treintena de intervenciones quirúrgicas relacionadas con las secuelas del accidente y con otros problemas de salud. Muchos de sus autorretratos incorporan referencias directas a ese sufrimiento físico, con imágenes de corsés ortopédicos, heridas abiertas o elementos médicos integrados en la composición del cuadro."
+        },
+        {
+          "heading": "Una iconografía muy personal",
+          "text": "Kahlo desarrolló un repertorio simbólico propio y reconocible: vestidos tradicionales tehuanos, monos y otros animales como compañía, plantas y espinas que enmarcan su rostro, y referencias explícitas a la cultura mexicana precolonial e indígena, en un contexto artístico mexicano que buscaba entonces afirmar una identidad nacional propia tras la Revolución."
+        },
+        {
+          "heading": "Reconocimiento tardío y reivindicación posterior",
+          "text": "Durante buena parte de su vida, la obra de Kahlo quedó eclipsada por la fama de su marido, el muralista Diego Rivera. Su reconocimiento internacional como figura central del arte del siglo XX, y no solo como esposa de otro artista, creció sobre todo décadas después de su muerte en 1954, impulsado en parte por movimientos feministas y de reivindicación cultural latinoamericana."
+        }
+      ],
+      "key_fact": "Tras un accidente de autobús en 1925 que la dejó inmovilizada, Frida Kahlo empezó a pintarse a sí misma frente a un espejo colocado sobre su cama de convalecencia.",
+      "questions": [
+        {
+          "q": "¿Qué llevó a Frida Kahlo a empezar a pintar autorretratos de forma sistemática?",
+          "options": [
+            "Un encargo específico del gobierno mexicano para documentar su recuperación",
+            "La imposibilidad de conseguir otros modelos para pintar durante la Revolución",
+            "Los largos periodos de inmovilización tras un grave accidente de autobús en 1925",
+            "Un viaje de formación artística en París donde adoptó esa técnica"
+          ],
+          "correct": 2,
+          "note": "Convaleciente e inmovilizada, con un espejo colocado sobre la cama, encontró en su propio reflejo el modelo disponible más constante durante esos periodos de recuperación."
+        },
+        {
+          "q": "¿De qué manera se refleja el sufrimiento físico de Kahlo en buena parte de su obra?",
+          "options": [
+            "Incorporando elementos como corsés ortopédicos o heridas abiertas dentro de la composición",
+            "Pintando exclusivamente paisajes que sustituían la representación de su dolor",
+            "Delegando esas escenas a otros artistas que trabajaban junto a ella",
+            "Evitando por completo cualquier referencia visual a su propio cuerpo"
+          ],
+          "correct": 0,
+          "note": "Lejos de ocultar las secuelas de sus operaciones e intervenciones médicas, Kahlo las convirtió en parte explícita y reconocible de la iconografía visual de sus cuadros."
+        },
+        {
+          "q": "¿Qué función cumplían elementos como los vestidos tehuanos o las referencias precoloniales en su obra?",
+          "options": [
+            "Reflejaban una moda internacional ajena a la cultura mexicana",
+            "Servían únicamente como decoración sin relación con el contexto histórico",
+            "Fueron impuestos por su marido Diego Rivera en las composiciones",
+            "Afirmaban una identidad cultural mexicana propia en el contexto posrevolucionario"
+          ],
+          "correct": 3,
+          "note": "El uso de esa iconografía se enmarca en un movimiento artístico mexicano más amplio que buscaba reivindicar una identidad nacional propia tras la Revolución de 1910."
+        },
+        {
+          "q": "¿Por qué el reconocimiento de Kahlo como figura central del arte del siglo XX llegó en buena medida décadas después de su muerte?",
+          "options": [
+            "Sus cuadros permanecieron perdidos hasta los años ochenta",
+            "Le fue prohibido exponer en México durante toda su vida",
+            "No empezó a pintar autorretratos hasta el final de su carrera",
+            "Su obra quedó durante mucho tiempo eclipsada por la fama de Diego Rivera"
+          ],
+          "correct": 3,
+          "note": "Durante su vida se la conocía en buena medida como esposa del célebre muralista; su reivindicación como artista propia, impulsada después por movimientos feministas, fue en gran parte póstuma."
+        }
+      ]
+    },
+    {
+      "id": "lit-0006",
+      "category": "literatura",
+      "title": "Chinua Achebe y la novela que respondió a la mirada colonial sobre África",
+      "subtitle": "'Todo se desmorona' contó la llegada del colonialismo desde dentro de un pueblo igbo, no desde fuera.",
+      "cover_image": {
+        "query": "chinua achebe nigerian writer",
+        "wikipedia": "Chinua Achebe",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Chinua_Achebe_-_Buffalo_25Sep2008_crop.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Stuart C. Shapiro",
+        "license": "CC BY 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Chinua_Achebe_-_Buffalo_25Sep2008_crop.jpg"
+      },
+      "cards": [
+        {
+          "heading": "Una respuesta literaria",
+          "text": "El escritor nigeriano Chinua Achebe publicó en 1958 'Todo se desmorona', una novela que narra la vida de Okonkwo, un hombre respetado en su comunidad igbo, y cómo la llegada de misioneros y administradores coloniales británicos transforma de manera irreversible el orden social en el que había vivido siempre."
+        },
+        {
+          "heading": "Una crítica a Conrad",
+          "text": "Años después, Achebe formuló una crítica influyente a 'El corazón de las tinieblas' de Joseph Conrad, señalando que la célebre novela reducía a los africanos a un fondo mudo y sin interioridad frente a los personajes europeos. 'Todo se desmorona' puede leerse como el reverso deliberado de esa mirada: una sociedad africana descrita desde dentro, con su propia complejidad social y moral."
+        },
+        {
+          "heading": "Una sociedad con estructura propia",
+          "text": "La novela dedica buena parte de sus primeros capítulos a mostrar las costumbres, la religión, la justicia y la organización social del pueblo igbo antes de la llegada colonial, precisamente para que el lector comprenda después la magnitud de lo que se pierde con la ruptura, y no dé por hecho que ese orden previo era simple o carente de estructura."
+        },
+        {
+          "heading": "Una obra fundacional",
+          "text": "'Todo se desmorona' se convirtió en una de las novelas más vendidas de la literatura africana en lengua inglesa, traducida a más de cincuenta idiomas, y en texto de referencia en programas escolares de numerosos países. Su publicación por la editorial Heinemann impulsó además la creación de una colección dedicada específicamente a escritores africanos, que abrió camino a generaciones posteriores."
+        }
+      ],
+      "key_fact": "'Todo se desmorona', de Chinua Achebe, se ha traducido a más de cincuenta idiomas y se considera una de las novelas fundacionales de la literatura africana moderna en inglés.",
+      "questions": [
+        {
+          "q": "¿Qué crítica formuló Achebe sobre 'El corazón de las tinieblas' de Joseph Conrad?",
+          "options": [
+            "Que Conrad nunca había visitado África antes de escribirla",
+            "Que la novela ignoraba por completo el continente africano",
+            "Que el libro defendía abiertamente el colonialismo belga",
+            "Que reducía a los personajes africanos a un fondo sin interioridad propia"
+          ],
+          "correct": 3,
+          "note": "La crítica de Achebe se centró en cómo la novela de Conrad trataba a los africanos como telón de fondo sin voz propia, más que en negar su ambientación africana."
+        },
+        {
+          "q": "¿Por qué Achebe dedica buena parte de los primeros capítulos de 'Todo se desmorona' a describir la vida igbo antes de la colonización?",
+          "options": [
+            "Porque esa parte fue añadida en una edición posterior a la original",
+            "Para que el lector entienda la magnitud de lo que se pierde con la ruptura colonial",
+            "Porque el editor le exigió alargar la novela con contenido descriptivo",
+            "Para justificar por qué la colonización resultó beneficiosa a largo plazo"
+          ],
+          "correct": 1,
+          "note": "Mostrar primero la complejidad y estructura de la sociedad igbo permite que el lector perciba la ruptura colonial como pérdida real de un orden social legítimo, no como sustitución de un vacío."
+        },
+        {
+          "q": "¿Qué papel tuvo la editorial Heinemann en la difusión de la literatura africana tras el éxito de la novela de Achebe?",
+          "options": [
+            "Prohibió la publicación de la novela fuera de Nigeria",
+            "Impulsó la creación de una colección específica dedicada a escritores africanos",
+            "Se limitó a traducir la obra sin promover a otros autores",
+            "Dejó de publicar autores africanos tras una disputa con Achebe"
+          ],
+          "correct": 1,
+          "note": "El éxito de 'Todo se desmorona' abrió camino comercial y editorial a una colección que después publicó a numerosos escritores africanos, ampliando su acceso a lectores internacionales."
+        },
+        {
+          "q": "¿Qué distingue la perspectiva narrativa de 'Todo se desmorona' respecto a la literatura colonial europea sobre África que Achebe criticaba?",
+          "options": [
+            "Narra la llegada colonial desde la experiencia y la interioridad de la comunidad africana",
+            "Evita cualquier mención directa a la presencia europea en la trama",
+            "Se sitúa en un periodo posterior a la independencia de Nigeria",
+            "Adopta el punto de vista de un administrador colonial británico"
+          ],
+          "correct": 0,
+          "note": "El cambio de perspectiva, contar la historia desde dentro de la comunidad igbo y no desde la mirada de un observador europeo, es precisamente lo que Achebe reivindicaba como necesario."
+        }
+      ]
     }
   ]
 }
