@@ -6084,6 +6084,1744 @@
           "note": "El cambio de perspectiva, contar la historia desde dentro de la comunidad igbo y no desde la mirada de un observador europeo, es precisamente lo que Achebe reivindicaba como necesario."
         }
       ]
+    },
+    {
+      "id": "mit-0007",
+      "category": "mitologia",
+      "title": "Osiris: el dios que resucita y el ciclo que no se detiene",
+      "subtitle": "Un asesinato entre hermanos que el antiguo Egipto convirtió en la explicación de por qué la vida siempre vuelve",
+      "cover_image": {
+        "query": "egyptian god statue",
+        "wikipedia": "Osiris",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Granite_ram_of_Amun_with_King_Taharqa-IMG_4396-black.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Unknown authorUnknown author",
+        "license": "CC BY-SA 2.0 fr",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Granite_ram_of_Amun_with_King_Taharqa-IMG_4396-black.jpg"
+      },
+      "cards": [
+        {
+          "heading": "El asesinato de Osiris",
+          "text": "Según el mito egipcio, Set descuartizó a su hermano Osiris, rey civilizador de Egipto, y esparció los catorce trozos del cuerpo por el valle del Nilo. Isis, esposa y hermana de Osiris, recorrió el territorio recuperando cada fragmento antes de reconstruir el cuerpo con vendas de lino, dando origen simbólico a la práctica de la momificación egipcia."
+        },
+        {
+          "heading": "El juez del inframundo",
+          "text": "Osiris no revivió del todo: Isis lo reanimó lo justo para concebir a Horus, y después Osiris pasó a gobernar el reino de los muertos, Duat, como juez que pesaba el corazón de cada difunto contra una pluma. Un corazón más pesado que la pluma significaba la desaparición definitiva del alma."
+        },
+        {
+          "heading": "El Nilo, cuerpo del dios",
+          "text": "Los egipcios asociaban la crecida anual del Nilo, que depositaba limo fértil tras la muerte aparente de los campos en verano, con la propia muerte y resurrección de Osiris. La inundación no era un fenómeno meteorológico neutro: era la prueba anual de que el dios volvía a fecundar la tierra que gobernaba."
+        },
+        {
+          "heading": "Un culto que perduró",
+          "text": "El culto a Osiris, o su versión helenizada Serapis, se extendió por el Mediterráneo tras las conquistas de Alejandro y compitió durante siglos con religiones mistéricas griegas y romanas. Algunos historiadores de las religiones señalan paralelismos estructurales -muerte, descenso, resurrección- con cultos posteriores, aunque la naturaleza exacta de esa influencia sigue discutida entre especialistas."
+        }
+      ],
+      "key_fact": "El mito de Osiris vinculaba directamente la crecida anual del Nilo, esencial para la agricultura egipcia, con la resurrección simbólica del dios.",
+      "questions": [
+        {
+          "q": "¿Qué relación establecían los egipcios entre Osiris y el Nilo?",
+          "options": [
+            "El río llevaba su nombre en su honor",
+            "La crecida anual del río representaba su resurrección",
+            "Osiris había excavado el cauce del Nilo",
+            "El Nilo era el lugar exacto donde había muerto"
+          ],
+          "correct": 1,
+          "note": "La inundación anual, que fertilizaba los campos tras la aparente muerte del verano, se leía como la prueba recurrente de que el dios volvía a la vida."
+        },
+        {
+          "q": "Según el mito, ¿por qué Isis recorrió Egipto recogiendo los restos de Osiris?",
+          "options": [
+            "Set había descuartizado el cuerpo y esparcido los fragmentos",
+            "Los sacerdotes exigían un ritual de búsqueda anual",
+            "Horus se lo pidió antes de nacer",
+            "Osiris se había perdido durante una guerra"
+          ],
+          "correct": 0,
+          "note": "El desmembramiento por parte de Set y la posterior reconstrucción del cuerpo por Isis son el núcleo narrativo del mito, y el origen simbólico de la momificación egipcia."
+        },
+        {
+          "q": "¿Qué papel pasó a desempeñar Osiris tras su muerte, según la mitología egipcia?",
+          "options": [
+            "Mensajero entre los dioses y los faraones vivos",
+            "Juez de los muertos que pesaba el corazón del difunto",
+            "Guardián del sol durante su recorrido nocturno",
+            "Dios de la guerra y protector de los ejércitos"
+          ],
+          "correct": 1,
+          "note": "Osiris no volvió a gobernar entre los vivos: su papel post mortem era presidir el juicio del alma en el Duat, el inframundo egipcio."
+        },
+        {
+          "q": "¿Qué sugiere la existencia de Serapis en el mundo helenístico?",
+          "options": [
+            "Que el culto a Osiris se adaptó y difundió fuera de Egipto",
+            "Que Serapis sustituyó a Zeus como dios principal griego",
+            "Que Osiris fue olvidado tras la conquista de Alejandro",
+            "Que los griegos rechazaron por completo las religiones egipcias"
+          ],
+          "correct": 0,
+          "note": "Serapis fue una síntesis deliberada entre Osiris y divinidades griegas, promovida por los Ptolomeos para unificar cultos egipcios y helénicos, señal de la capacidad de adaptación de este mito."
+        }
+      ]
+    },
+    {
+      "id": "mit-0008",
+      "category": "mitologia",
+      "title": "Maui: el semidiós que pescó islas y frenó al sol",
+      "subtitle": "Un embaucador polinesio cuyas hazañas explican desde el origen de Nueva Zelanda hasta la duración del día",
+      "cover_image": {
+        "query": "polynesian wood carving",
+        "wikipedia": "Maui (mitología)",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Te_Tohunga_-_p49.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Wilhelm Dittmer",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Te_Tohunga_-_p49.png"
+      },
+      "cards": [
+        {
+          "heading": "Un héroe dado por muerto",
+          "text": "En la mitología polinesia, Maui nació prematuro y su madre lo envolvió en su cabello y lo arrojó al mar, dándolo por muerto. Recogido y criado por espíritus o por su abuelo, según la versión, Maui creció como el menor de varios hermanos y compensó su posición débil en la familia con astucia en vez de fuerza física."
+        },
+        {
+          "heading": "La pesca de las islas",
+          "text": "La hazaña más extendida en el Pacífico cuenta que Maui, usando un anzuelo hecho con la mandíbula de su abuela, pescó desde su canoa una masa de tierra tan grande que se convirtió en la Isla Norte de Nueva Zelanda; sus hermanos, al remar hacia ella antes de que Maui completara el ritual necesario, la fragmentaron en montañas y valles."
+        },
+        {
+          "heading": "Frenar al sol",
+          "text": "En otra hazaña, Maui encontró que el sol cruzaba el cielo demasiado deprisa para que su madre terminara sus tareas diarias. Tejió una cuerda de fibra de coco, atrapó al sol cuando emergía de su cueva y lo golpeó hasta que aceptó moverse más despacio, explicando así por qué los días duran lo que duran."
+        },
+        {
+          "heading": "Un mito muy extendido",
+          "text": "Versiones de Maui aparecen, con variaciones locales, en Hawái, Nueva Zelanda, Samoa, Tahití y Rapa Nui, un área que cubre buena parte del océano Pacífico. Los antropólogos citan esta dispersión como evidencia de un fondo narrativo común entre los pueblos polinesios, anterior a su expansión por miles de islas hace más de mil años."
+        }
+      ],
+      "key_fact": "Versiones del mito de Maui aparecen en comunidades polinesias separadas por miles de kilómetros de océano, desde Hawái hasta Nueva Zelanda.",
+      "questions": [
+        {
+          "q": "¿Cómo consiguió Maui, según el mito, la masa de tierra que dio origen a la Isla Norte de Nueva Zelanda?",
+          "options": [
+            "La construyó apilando rocas volcánicas",
+            "Se la ganó a otro dios en una apuesta",
+            "La pescó del fondo del mar con un anzuelo especial",
+            "La heredó de su abuela al nacer"
+          ],
+          "correct": 2,
+          "note": "El anzuelo hecho con la mandíbula de su abuela es un elemento recurrente en las versiones polinesias del mito, y explica por qué a la Isla Norte se la sigue llamando 'el pez de Maui' en maorí."
+        },
+        {
+          "q": "¿Por qué la tierra pescada por Maui terminó con montañas y valles, según el relato?",
+          "options": [
+            "Otro dios la maldijo por envidia",
+            "Un terremoto la partió poco después de emerger",
+            "Sus hermanos remaron hacia ella antes de completar el ritual debido",
+            "Maui la golpeó por error con su remo"
+          ],
+          "correct": 2,
+          "note": "La impaciencia de los hermanos, que rompieron el protocolo ritual que Maui había establecido, es la explicación mítica tradicional para el relieve accidentado de la isla."
+        },
+        {
+          "q": "¿Qué buscaba lograr Maui al atrapar al sol con una cuerda?",
+          "options": [
+            "Que el sol dejara de salir por las mañanas",
+            "Que el sol cruzara el cielo más despacio",
+            "Robarle su luz para dársela a los hombres",
+            "Convertir el día en noche permanentemente"
+          ],
+          "correct": 1,
+          "note": "El objetivo no era detener el sol sino frenar su recorrido, para que hubiera más horas de luz disponibles para el trabajo diario."
+        },
+        {
+          "q": "¿Qué indica a los antropólogos la presencia del mito de Maui en islas tan alejadas entre sí?",
+          "options": [
+            "Que Maui fue un personaje histórico que viajó entre las islas",
+            "Que cada isla lo inventó de forma independiente por azar",
+            "Que los mitos viajaron por comercio europeo en el siglo XIX",
+            "Un fondo narrativo compartido anterior a la dispersión polinesia por el Pacífico"
+          ],
+          "correct": 3,
+          "note": "La coherencia estructural del mito pese a la distancia entre las islas se interpreta como herencia de una tradición polinesia común, previa a la colonización de todo el Pacífico."
+        }
+      ]
+    },
+    {
+      "id": "mit-0009",
+      "category": "mitologia",
+      "title": "El batido del océano de leche y el origen del elixir de la inmortalidad",
+      "subtitle": "Un mito hindú en el que dioses y demonios cooperan para conseguir algo que ninguno de los dos bandos piensa compartir",
+      "cover_image": {
+        "query": "hindu temple relief carving",
+        "wikipedia": "Samudra manthan",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Kurma%2C_the_tortoise_incarnation_of_Vishnu.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Unknown artistUnknown artist",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Kurma,_the_tortoise_incarnation_of_Vishnu.jpg"
+      },
+      "cards": [
+        {
+          "heading": "Una alianza forzada",
+          "text": "En el mito hindú del Samudra Manthan, los devas -los dioses- habían perdido su fuerza por una maldición y necesitaban el amrita, el néctar de la inmortalidad, oculto en el fondo del océano de leche. Como no podían batirlo solos, pactaron una tregua temporal con los asuras, sus enemigos habituales, para batir juntos el océano."
+        },
+        {
+          "heading": "La montaña como batidora",
+          "text": "Usaron el monte Mandara como eje de batido y a la serpiente Vasuki como cuerda, tirando cada bando de un extremo. El proceso duró siglos según el relato y produjo, antes del amrita, varios elementos: un veneno mortal que Shiva bebió para salvar al mundo, quedándose con la garganta azul, y otros tesoros como la diosa Lakshmi."
+        },
+        {
+          "heading": "La traición del reparto",
+          "text": "Cuando por fin emergió el amrita, los devas, temiendo que los asuras se volvieran inmortales, engañaron el reparto: Vishnu tomó la forma de Mohini, una mujer, y distrajo a los asuras mientras servía el néctar solo a los dioses. Un asura, Rahu, logró beber una gota antes de ser decapitado, y su cabeza quedó inmortal para siempre."
+        },
+        {
+          "heading": "Un mito con geografía propia",
+          "text": "La tradición hindú vincula el lugar donde cayeron gotas de amrita durante la disputa con las ciudades donde hoy se celebra el Kumbh Mela, una peregrinación multitudinaria que reúne a decenas de millones de personas cada varios años, una de las mayores congregaciones humanas periódicas del planeta."
+        }
+      ],
+      "key_fact": "El Kumbh Mela, la peregrinación hindú vinculada al mito del batido del océano, reúne a decenas de millones de personas cada varios años.",
+      "questions": [
+        {
+          "q": "¿Por qué los devas aceptaron aliarse temporalmente con los asuras, sus enemigos, en este mito?",
+          "options": [
+            "Ninguno de los dos bandos podía batir el océano de leche en solitario",
+            "Necesitaban su ayuda para derrotar a Vasuki",
+            "Un dios superior les obligó a firmar la paz",
+            "Los asuras les habían robado el amrita y negociaban su devolución"
+          ],
+          "correct": 0,
+          "note": "El batido requería tirar simultáneamente de la serpiente Vasuki desde ambos extremos, una tarea que exigía la fuerza combinada de dioses y demonios."
+        },
+        {
+          "q": "¿Qué hizo Shiva cuando surgió el veneno del batido del océano?",
+          "options": [
+            "Se lo entregó a Vishnu para que lo neutralizara",
+            "Lo guardó para usarlo contra los asuras",
+            "Lo bebió para evitar que destruyera el mundo",
+            "Lo arrojó de vuelta al fondo del océano"
+          ],
+          "correct": 2,
+          "note": "Shiva bebió el veneno y lo retuvo en la garganta sin tragarlo, lo que en la iconografía hindú le da su característico color azul en el cuello."
+        },
+        {
+          "q": "¿Cómo consiguieron los devas quedarse con todo el amrita pese al pacto con los asuras?",
+          "options": [
+            "Ganaron una batalla final justo antes del reparto",
+            "Escondieron el amrita antes de que emergiera del todo",
+            "Vishnu, transformado en una mujer, los distrajo mientras repartía el néctar solo entre los dioses",
+            "Convencieron a los asuras de renunciar voluntariamente"
+          ],
+          "correct": 2,
+          "note": "El engaño de Mohini, la forma femenina de Vishnu, es el punto de quiebre del mito: la cooperación se disuelve en cuanto el objetivo común se consigue."
+        },
+        {
+          "q": "¿Qué relación tiene este mito con una práctica religiosa hindú actual?",
+          "options": [
+            "Prohíbe a los hindúes bañarse en el mar",
+            "Se representa cada año en una obra de teatro nacional obligatoria",
+            "Es el origen del calendario lunar hindú",
+            "Se asocia con el origen del Kumbh Mela, una peregrinación multitudinaria"
+          ],
+          "correct": 3,
+          "note": "La tradición sitúa las gotas de amrita derramadas durante la disputa en los cuatro lugares donde hoy rota el Kumbh Mela."
+        }
+      ]
+    },
+    {
+      "id": "art-0007",
+      "category": "arte",
+      "title": "Los bronces de Benín y la disputa sobre a quién pertenece un museo",
+      "subtitle": "Miles de piezas de metal fundidas en África occidental que una expedición militar británica dispersó por Europa en una tarde",
+      "cover_image": {
+        "query": "benin bronze plaque",
+        "wikipedia": "Bronces de Benín",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Benin_brass_plaque_03.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Benin_brass_plaque_03.jpg"
+      },
+      "cards": [
+        {
+          "heading": "Siglos de metalurgia real",
+          "text": "El Reino de Benín, en el actual sur de Nigeria, produjo desde al menos el siglo XIII placas y esculturas de latón y bronce mediante la técnica de cera perdida, documentando en metal a sus reyes -los obas-, rituales de corte y campañas militares. No eran objetos decorativos aislados: funcionaban como archivo histórico de una dinastía sin escritura propia."
+        },
+        {
+          "heading": "La expedición punitiva de 1897",
+          "text": "En febrero de 1897, una fuerza británica atacó la ciudad de Benín como represalia tras la muerte de varios miembros de una misión comercial previa, incendió el palacio real y se llevó varios miles de piezas de bronce y marfil como botín de guerra. Buena parte de esas piezas se vendió después para financiar la propia expedición militar."
+        },
+        {
+          "heading": "Dispersión por decenas de museos",
+          "text": "Las piezas terminaron repartidas entre más de un centenar de instituciones, sobre todo el Museo Británico y el Ethnologisches Museum de Berlín, que durante más de un siglo las expusieron como arte africano genérico sin cuestionar de forma sistemática cómo habían llegado hasta allí."
+        },
+        {
+          "heading": "La restitución, caso por caso",
+          "text": "Desde la década de 2020, Alemania y varios museos han acordado devolver piezas a Nigeria, mientras el Museo Británico, sujeto a una ley que le prohíbe desprenderse de sus fondos salvo excepciones, mantiene la disputa abierta. El debate incluye la pregunta de quién en Nigeria debería custodiarlas: el gobierno federal o la casa real de Benín."
+        }
+      ],
+      "key_fact": "Las piezas conocidas como bronces de Benín fueron tomadas por una fuerza militar británica en 1897 y hoy están repartidas entre más de cien museos fuera de Nigeria.",
+      "questions": [
+        {
+          "q": "¿Qué función cumplían originalmente las placas de bronce de Benín?",
+          "options": [
+            "Eran ofrendas funerarias sin valor narrativo",
+            "Documentaban en metal la historia, los reyes y los rituales del reino",
+            "Decoraban exclusivamente templos religiosos externos al palacio",
+            "Servían como moneda de cambio en el comercio local"
+          ],
+          "correct": 1,
+          "note": "Funcionaban como un registro histórico visual, similar a un archivo, en un reino que no tenía tradición de escritura propia."
+        },
+        {
+          "q": "¿Cómo llegaron la mayoría de los bronces de Benín a Europa?",
+          "options": [
+            "Fueron comprados directamente al Reino de Benín en el siglo XIX",
+            "Como botín de una expedición militar británica en 1897",
+            "Llegaron como regalos diplomáticos de los reyes de Benín",
+            "Se donaron a museos europeos tras la independencia de Nigeria"
+          ],
+          "correct": 1,
+          "note": "La expedición punitiva de 1897 incendió el palacio real y se llevó las piezas, muchas de las cuales se vendieron después para cubrir los costes militares."
+        },
+        {
+          "q": "¿Por qué el Museo Británico no ha devuelto sus bronces de Benín, a diferencia de instituciones alemanas?",
+          "options": [
+            "Una ley británica le impide desprenderse de sus fondos salvo excepciones concretas",
+            "Nigeria ha rechazado formalmente recibirlos de vuelta",
+            "No existe ningún acuerdo internacional sobre restitución de arte",
+            "El museo sostiene que las piezas son falsificaciones"
+          ],
+          "correct": 0,
+          "note": "El British Museum Act limita legalmente la capacidad del museo para desincorporar piezas de su colección, un obstáculo distinto al debate moral sobre la restitución."
+        },
+        {
+          "q": "¿Qué complica adicionalmente el debate sobre a quién devolver los bronces dentro de Nigeria?",
+          "options": [
+            "Que Nigeria carece de cualquier museo capaz de almacenarlos",
+            "Que varias etnias nigerianas reclaman haberlos fabricado ellas",
+            "La disputa entre el gobierno federal nigeriano y la casa real de Benín sobre su custodia",
+            "Que la mayoría de piezas ya se perdieron o destruyeron"
+          ],
+          "correct": 2,
+          "note": "La pregunta de restitución no es solo Nigeria frente a Europa: dentro de Nigeria compiten instituciones estatales y la autoridad tradicional que originalmente encargó las piezas."
+        }
+      ]
+    },
+    {
+      "id": "art-0008",
+      "category": "arte",
+      "title": "La pintura de puntos aborigen: una tradición visible desde 1971",
+      "subtitle": "Un maestro y un grupo de ancianos del desierto australiano crearon un lenguaje pictórico nuevo a partir de uno mucho más antiguo",
+      "cover_image": {
+        "query": "aboriginal dot painting",
+        "wikipedia": "Arte aborigen australiano",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Aboriginal_rock_art_on_the_Barnett_River%2C_Mount_Elizabeth_Station.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Graeme Churchard from Bristol (51.4414, -2.5242), UK",
+        "license": "CC BY 2.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Aboriginal_rock_art_on_the_Barnett_River,_Mount_Elizabeth_Station.jpg"
+      },
+      "cards": [
+        {
+          "heading": "Arte ritual, no permanente",
+          "text": "Los pueblos aborígenes de Australia central habían representado durante milenios historias del Tiempo del Sueño -el marco cosmológico que explica el origen del territorio- mediante dibujos en arena, pintura corporal y grabados en roca, formas pensadas para el ritual y no para conservarse en el tiempo."
+        },
+        {
+          "heading": "Papunya, 1971",
+          "text": "En la comunidad de Papunya, el profesor Geoffrey Bardon animó a un grupo de hombres aborígenes mayores a trasladar esos diseños a tableros y lienzos con pintura acrílica. El resultado fue un mural comunitario que despertó tanto interés que el grupo, conocido después como Papunya Tula, empezó a producir obras destinadas a la venta."
+        },
+        {
+          "heading": "El punto como ocultamiento deliberado",
+          "text": "Muchos motivos representaban conocimiento sagrado restringido a iniciados. Los artistas cubrieron los elementos más sensibles con capas de puntos, una técnica que servía a la vez para decorar la superficie y para velar el significado exacto ante espectadores no autorizados a conocerlo, incluidos los compradores externos de la obra."
+        },
+        {
+          "heading": "Del desierto al mercado global",
+          "text": "En las décadas siguientes, el movimiento se extendió a otras comunidades del desierto y alcanzó reconocimiento internacional; obras de artistas como Emily Kame Kngwarreye llegaron a venderse por cifras millonarias en subastas, lo que planteó nuevas tensiones sobre autoría, herencia cultural y reparto de beneficios dentro de las comunidades de origen."
+        }
+      ],
+      "key_fact": "La pintura de puntos aborigen surgió en 1971 en Papunya, Australia central, cuando ancianos indígenas trasladaron diseños rituales del Tiempo del Sueño a lienzo y acrílico.",
+      "questions": [
+        {
+          "q": "¿Qué representaban tradicionalmente los diseños que dieron origen a la pintura de puntos?",
+          "options": [
+            "Escenas de caza cotidiana sin significado religioso",
+            "Historias del Tiempo del Sueño, el marco cosmológico aborigen",
+            "Registros de nacimientos y defunciones de la comunidad",
+            "Mapas geográficos precisos para la navegación"
+          ],
+          "correct": 1,
+          "note": "El Tiempo del Sueño articula el origen del territorio y de las normas sociales aborígenes; los motivos plasmados en las pinturas remiten a ese marco, no a escenas descriptivas."
+        },
+        {
+          "q": "¿Qué ocurrió en Papunya en 1971 que dio inicio al movimiento?",
+          "options": [
+            "Un grupo de ancianos trasladó diseños rituales a tableros con pintura acrílica",
+            "El gobierno australiano encargó un mural oficial",
+            "Se descubrió una cueva con pinturas rupestres desconocidas",
+            "Artistas europeos enseñaron técnicas nuevas a la comunidad"
+          ],
+          "correct": 0,
+          "note": "La iniciativa surgió del propio grupo de mayores aborígenes, con el profesor Geoffrey Bardon como facilitador del proceso, no como su autor."
+        },
+        {
+          "q": "¿Por qué los artistas cubrían ciertos motivos con capas de puntos?",
+          "options": [
+            "Para abaratar el coste de pintura utilizada",
+            "Porque el punto era la única técnica que conocían",
+            "Para ocultar conocimiento sagrado restringido a quienes estaban iniciados en él",
+            "Por exigencia de los compradores europeos de la obra"
+          ],
+          "correct": 2,
+          "note": "El punteado cumplía una función doble: estética hacia fuera y de ocultamiento deliberado de información sagrada que no debía ser accesible a cualquiera."
+        },
+        {
+          "q": "¿Qué tensión surgió cuando el arte aborigen alcanzó el mercado internacional?",
+          "options": [
+            "La prohibición del gobierno australiano de exportar las piezas",
+            "Disputas sobre autoría, herencia cultural y reparto de beneficios en las comunidades",
+            "El rechazo total de los museos occidentales a exhibir la obra",
+            "La pérdida completa del significado ritual original de los diseños"
+          ],
+          "correct": 1,
+          "note": "El éxito comercial, con ventas millonarias en subasta para algunos artistas, no resolvió quién debía beneficiarse ni cómo proteger el conocimiento cultural incorporado en las obras."
+        }
+      ]
+    },
+    {
+      "id": "art-0009",
+      "category": "arte",
+      "title": "La miniatura persa: pintar sin un único punto de fuga",
+      "subtitle": "Un arte de manuscrito que organizó el espacio de forma distinta a la perspectiva europea, no por desconocimiento sino por elección",
+      "cover_image": {
+        "query": "persian miniature painting",
+        "wikipedia": "Miniatura persa",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Miraj_by_Sultan_Muhammad.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Possibly Sultan Muhammad",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Miraj_by_Sultan_Muhammad.jpg"
+      },
+      "cards": [
+        {
+          "heading": "Arte al servicio del texto",
+          "text": "La miniatura persa se desarrolló como ilustración de manuscritos -poemas épicos como el Shahnameh, tratados científicos, álbumes de corte- encargados por gobernantes y financiados en talleres reales donde calígrafos, pintores y encuadernadores colaboraban en un mismo volumen. La pintura nunca era independiente del libro que la contenía."
+        },
+        {
+          "heading": "Varias perspectivas, una escena",
+          "text": "A diferencia de la perspectiva lineal europea, que fija un único punto de vista, la miniatura persa combinaba planos vistos desde ángulos distintos dentro de la misma composición: un jardín podía mostrarse desde arriba mientras las figuras que lo habitan se representaban de perfil, sin que ambas convenciones se consideraran contradictorias entre sí."
+        },
+        {
+          "heading": "El taller de Herat",
+          "text": "En el siglo XV, el taller real de Herat, bajo pintores como Kamal ud-Din Bihzad, refinó esta tradición hasta un grado de detalle y color que después influyó en las escuelas mogol de India y otomana de Estambul, extendiendo el estilo mucho más allá de sus fronteras persas originales."
+        },
+        {
+          "heading": "Un canon que se abrió",
+          "text": "La llegada de la fotografía y de manuales de perspectiva europea en el siglo XIX hizo que muchos artistas persas incorporasen la profundidad occidental como una opción más, sin que esto implicara el abandono completo del vocabulario visual anterior, que sigue empleándose de forma consciente en el arte iraní contemporáneo."
+        }
+      ],
+      "key_fact": "La miniatura persa combinaba deliberadamente varios puntos de vista en una misma escena en vez de someterse a la perspectiva lineal de un único punto de fuga.",
+      "questions": [
+        {
+          "q": "¿Para qué se creaban principalmente las miniaturas persas?",
+          "options": [
+            "Como cuadros independientes destinados a decorar palacios",
+            "Como copias de arte religioso bizantino",
+            "Para ilustrar manuscritos encargados por gobernantes en talleres reales",
+            "Como retratos de encargo para familias nobles"
+          ],
+          "correct": 2,
+          "note": "La miniatura era inseparable del libro: se producía junto con la caligrafía y la encuadernación como parte de un mismo proyecto editorial."
+        },
+        {
+          "q": "¿Qué distingue a la miniatura persa de la perspectiva lineal europea?",
+          "options": [
+            "Usa exclusivamente colores en blanco y negro",
+            "Representa siempre los edificios en ruinas",
+            "Elimina por completo las figuras humanas de la escena",
+            "Combina varios ángulos de visión dentro de una misma composición"
+          ],
+          "correct": 3,
+          "note": "La convivencia de una vista aérea de un jardín con figuras de perfil en la misma escena no es un error técnico, sino una convención visual propia."
+        },
+        {
+          "q": "¿Qué papel tuvo el taller de Herat en el siglo XV?",
+          "options": [
+            "Prohibió la representación de figuras humanas por motivos religiosos",
+            "Introdujo por primera vez la perspectiva lineal europea en Persia",
+            "Refinó el estilo hasta influir en las escuelas mogol y otomana",
+            "Se especializó exclusivamente en retratos fotográficos"
+          ],
+          "correct": 2,
+          "note": "Bajo pintores como Bihzad, el taller real de Herat alcanzó un refinamiento que se exportó después a las cortes mogol en India y otomana en Estambul."
+        },
+        {
+          "q": "¿Qué ocurrió con la miniatura persa tras la llegada de la fotografía y la perspectiva europea en el siglo XIX?",
+          "options": [
+            "Se fusionó totalmente con la pintura al óleo europea sin distinción",
+            "La tradición desapareció por completo de forma inmediata",
+            "Se prohibió legalmente seguir practicándola en Persia",
+            "Muchos artistas incorporaron la profundidad occidental sin abandonar del todo el vocabulario anterior"
+          ],
+          "correct": 3,
+          "note": "El cambio fue de adición, no de sustitución completa: elementos del canon anterior siguen presentes en el arte iraní contemporáneo de forma deliberada."
+        }
+      ]
+    },
+    {
+      "id": "lit-0007",
+      "category": "literatura",
+      "title": "Gilgamesh: la historia más antigua que sabemos que alguien quiso contar",
+      "subtitle": "Un poema mesopotámico redescubierto en tablillas de arcilla del siglo XIX que anticipa el diluvio bíblico en más de mil años",
+      "cover_image": {
+        "query": "gilgamesh clay tablet",
+        "wikipedia": "Epopeya de Gilgamesh",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/British_Museum_Flood_Tablet_1.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Photograph by Mike Peel (www.mikepeel.net).",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:British_Museum_Flood_Tablet_1.jpg"
+      },
+      "cards": [
+        {
+          "heading": "De rey real a héroe",
+          "text": "Gilgamesh fue, con probabilidad, un gobernante histórico de la ciudad sumeria de Uruk hacia el 2700 antes de Cristo. Siglos después, distintas versiones orales y escritas en acadio y sumerio fueron ampliando su figura hasta convertirlo en un héroe semidivino cuya historia se fijó por escrito en tablillas cuneiformes hacia el siglo VII antes de Cristo."
+        },
+        {
+          "heading": "Una amistad que lo cambia",
+          "text": "El poema arranca con Gilgamesh como un rey tiránico al que los dioses envían un rival, Enkidu, creado a partir de arcilla para equilibrarlo. Tras enfrentarse, ambos se hacen amigos inseparables y emprenden juntos varias hazañas; la muerte posterior de Enkidu deja a Gilgamesh devastado y obsesionado por evitar su propia mortalidad."
+        },
+        {
+          "heading": "Un diluvio anterior al Génesis",
+          "text": "Buscando la inmortalidad, Gilgamesh visita a Utnapishtim, un hombre que sobrevivió a un diluvio universal enviado por los dioses gracias a construir un barco, un relato con paralelismos estructurales notables con el de Noé. Las tablillas que lo contienen son anteriores en más de mil años a la redacción del Génesis bíblico."
+        },
+        {
+          "heading": "Redescubierto en el siglo XIX",
+          "text": "El poema se perdió tras la caída de las civilizaciones mesopotámicas y permaneció ilegible durante siglos hasta que arqueólogos británicos excavaron la biblioteca del rey asirio Asurbanipal en Nínive y, en 1872, el asiriólogo George Smith descifró la tablilla del diluvio, un hallazgo que causó sensación por su parecido con el relato bíblico."
+        }
+      ],
+      "key_fact": "Las tablillas cuneiformes con el relato del diluvio en la Epopeya de Gilgamesh son más de mil años anteriores a la redacción del Génesis bíblico.",
+      "questions": [
+        {
+          "q": "¿Quién fue Gilgamesh según la evidencia histórica disponible?",
+          "options": [
+            "Un sacerdote babilonio del primer milenio antes de Cristo",
+            "Un personaje totalmente inventado sin base histórica",
+            "Un faraón egipcio confundido con un rey mesopotámico",
+            "Probablemente un rey real de la ciudad sumeria de Uruk"
+          ],
+          "correct": 3,
+          "note": "La tradición sitúa a un Gilgamesh histórico gobernando Uruk hacia el 2700 antes de Cristo, sobre el que después se construyó la figura legendaria del poema."
+        },
+        {
+          "q": "¿Qué efecto tiene la muerte de Enkidu sobre Gilgamesh en el poema?",
+          "options": [
+            "Hace que se alíe con los dioses contra los hombres",
+            "Provoca que abandone el trono de Uruk para siempre",
+            "Lo empuja a buscar obsesivamente la forma de evitar su propia muerte",
+            "Lo convierte en un tirano peor que al principio del relato"
+          ],
+          "correct": 2,
+          "note": "El duelo por Enkidu es el motor narrativo de la segunda mitad del poema: convierte a Gilgamesh de guerrero en buscador de la inmortalidad."
+        },
+        {
+          "q": "¿Qué relación cronológica tiene el relato del diluvio de Gilgamesh con el del Génesis?",
+          "options": [
+            "Es posterior y se basó directamente en el Génesis",
+            "No existe ninguna versión mesopotámica de un diluvio",
+            "Ambos se escribieron en el mismo siglo de forma independiente",
+            "Es más de mil años anterior a la versión bíblica"
+          ],
+          "correct": 3,
+          "note": "Las tablillas que narran el diluvio de Utnapishtim preceden en más de un milenio a la redacción del relato de Noé, lo que ha alimentado el debate sobre posibles influencias compartidas."
+        },
+        {
+          "q": "¿Cómo se recuperó el conocimiento moderno de la Epopeya de Gilgamesh?",
+          "options": [
+            "Mediante el desciframiento en 1872 de tablillas halladas en la biblioteca de Asurbanipal",
+            "Porque nunca se había perdido del todo desde la Antigüedad",
+            "A través de una traducción árabe medieval conservada en Bagdad",
+            "Por transmisión oral ininterrumpida hasta la actualidad"
+          ],
+          "correct": 0,
+          "note": "El asiriólogo George Smith identificó y tradujo la tablilla del diluvio a partir de fragmentos excavados en Nínive, un hallazgo que causó sensación en la Inglaterra victoriana."
+        }
+      ]
+    },
+    {
+      "id": "lit-0008",
+      "category": "literatura",
+      "title": "Las mil y una noches: un libro que se escribió durante siglos y no tiene autor",
+      "subtitle": "Scheherezade cuenta historias para seguir viva, y ese mecanismo mantuvo viva la colección durante siglos de copistas y traductores",
+      "cover_image": {
+        "query": "arabian nights manuscript",
+        "wikipedia": "Las mil y una noches",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Arabian_nights_manuscript.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "credit": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Arabian_nights_manuscript.jpg"
+      },
+      "cards": [
+        {
+          "heading": "Una premisa, una estrategia",
+          "text": "El marco del libro presenta a un rey que, tras sentirse traicionado, decide matar a cada nueva esposa al amanecer. Scheherezade evita su muerte contando cada noche una historia que deja sin terminar, obligando al rey a posponer la ejecución para conocer el desenlace la noche siguiente."
+        },
+        {
+          "heading": "Una colección sin autor",
+          "text": "No existe un autor identificable ni un texto original fijo: la obra reúne cuentos de origen persa, indio y árabe recopilados y ampliados durante siglos, con núcleos que se remontan al menos al siglo IX y añadidos posteriores hasta bien entrada la Edad Media. Historias tan conocidas hoy como Aladino o Alí Babá se incorporaron tarde, en traducciones europeas del siglo XVIII."
+        },
+        {
+          "heading": "La versión de Galland",
+          "text": "La traducción al francés de Antoine Galland, publicada entre 1704 y 1717, popularizó la obra en Europa e incluyó relatos que él afirmó haber escuchado de un narrador oral sirio y que no aparecen en ningún manuscrito árabe anterior conocido, lo que ha generado dudas sobre su origen exacto."
+        },
+        {
+          "heading": "Un texto según el traductor",
+          "text": "Traducciones posteriores, como la de Richard Burton en el siglo XIX, añadieron o suavizaron contenido según la sensibilidad de cada época y mercado editorial, de manera que lectores de distintos países y siglos han leído, bajo el mismo título, colecciones de cuentos apreciablemente distintas entre sí."
+        }
+      ],
+      "key_fact": "Cuentos hoy tan asociados a Las mil y una noches como Aladino o Alí Babá no aparecen en los manuscritos árabes más antiguos, sino en la traducción francesa de Antoine Galland.",
+      "questions": [
+        {
+          "q": "¿Qué función cumple, dentro de la trama, que Scheherezade deje cada historia sin terminar?",
+          "options": [
+            "Obliga al rey a posponer su ejecución para conocer el final",
+            "Es un recurso para que el lector adivine el desenlace",
+            "Sirve para alargar el libro sin motivo narrativo",
+            "Refleja que Scheherezade olvida el final de sus propias historias"
+          ],
+          "correct": 0,
+          "note": "El suspense es literalmente lo que mantiene viva a la narradora: cada noche sin terminar es un día más de vida ganado."
+        },
+        {
+          "q": "¿Por qué se dice que Las mil y una noches no tiene un autor único?",
+          "options": [
+            "Porque cada capítulo lo firmó un califa distinto",
+            "Porque el manuscrito original se perdió sin dejar copias",
+            "Es una colección de cuentos persas, indios y árabes ampliada durante siglos",
+            "Porque se prohibió durante siglos identificar a su autor"
+          ],
+          "correct": 2,
+          "note": "La obra creció por acumulación de tradiciones orales y escritas de distintas culturas, sin un proceso de autoría unificado como el de una novela moderna."
+        },
+        {
+          "q": "¿Qué tienen en común los cuentos de Aladino y Alí Babá en la historia editorial del libro?",
+          "options": [
+            "Fueron los dos primeros cuentos escritos del libro",
+            "Los añadió Scheherezade la última noche del relato",
+            "Se prohibieron en todas las ediciones árabes originales",
+            "No aparecen en los manuscritos árabes antiguos y llegaron por la traducción de Galland"
+          ],
+          "correct": 3,
+          "note": "Antoine Galland afirmó haberlos escuchado de un narrador sirio y los incluyó en su traducción francesa sin que existiera un manuscrito árabe previo conocido que los contuviera."
+        },
+        {
+          "q": "¿Qué muestra el hecho de que distintas traducciones históricas del libro difieran notablemente entre sí?",
+          "options": [
+            "Que el contenido se adaptó según la sensibilidad y el mercado de cada época",
+            "Que todas las traducciones son idénticas salvo por el idioma",
+            "Que solo existe una traducción considerada válida",
+            "Que el libro se reescribió por completo cada siglo por ley religiosa"
+          ],
+          "correct": 0,
+          "note": "Traductores como Galland o Burton añadieron, omitieron o suavizaron pasajes según lo que consideraban aceptable para su público, por lo que el título designa en realidad varias obras distintas."
+        }
+      ]
+    },
+    {
+      "id": "lit-0009",
+      "category": "literatura",
+      "title": "Rabindranath Tagore y el primer Nobel de Literatura fuera de Europa",
+      "subtitle": "Un poeta bengalí tradujo su propia obra al inglés y cambió de golpe el mapa de qué literatura podía considerarse universal",
+      "cover_image": {
+        "query": "rabindranath tagore portrait",
+        "wikipedia": "Rabindranath Tagore",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Rabindranath_Tagore_in_1909.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Generalstabens litografiska anstalt",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Rabindranath_Tagore_in_1909.jpg"
+      },
+      "cards": [
+        {
+          "heading": "Poesía, música y pintura",
+          "text": "Tagore escribió poesía, teatro, novela y ensayo en bengalí, y además compuso música y pintó en la última etapa de su vida. Fundó una escuela experimental en Santiniketan, en el este de India, que más tarde se convirtió en la Visva-Bharati University, pensada como alternativa al modelo educativo colonial británico de la época."
+        },
+        {
+          "heading": "El Nobel de 1913",
+          "text": "La Academia Sueca concedió a Tagore el Premio Nobel de Literatura en 1913 por Gitanjali (Ofrenda lírica), un poemario que el propio autor había traducido al inglés. Fue el primer autor no europeo en recibir el premio, apenas doce años después de la primera edición del galardón."
+        },
+        {
+          "heading": "Traducirse a sí mismo",
+          "text": "Tagore no tradujo Gitanjali de forma literal: reescribió buena parte de los poemas en prosa inglesa libre, adaptando el ritmo y las imágenes a lo que consideraba comprensible para un lector occidental. Algunos estudiosos bengalíes sostienen que esa versión inglesa perdió matices musicales del original que precisamente lo hicieron ganar el Nobel."
+        },
+        {
+          "heading": "Crítico con el nacionalismo",
+          "text": "Pese a su enorme popularidad en India, Tagore criticó tanto el colonialismo británico como ciertas formas del nacionalismo indio que consideraba tan estrechas como el imperialismo que combatían. Devolvió su título de caballero británico en 1919 en protesta por la masacre de Amritsar, en la que tropas coloniales dispararon contra una multitud desarmada."
+        }
+      ],
+      "key_fact": "Rabindranath Tagore fue en 1913 el primer autor no europeo en recibir el Premio Nobel de Literatura, por su propia traducción al inglés de Gitanjali.",
+      "questions": [
+        {
+          "q": "¿Por qué es significativo el Nobel de Literatura de Tagore en 1913?",
+          "options": [
+            "Fue el primer Nobel entregado sin ceremonia pública",
+            "Fue el primer autor no europeo en recibir ese premio",
+            "Fue el único Nobel compartido por dos autores asiáticos",
+            "Fue el primer Nobel de Literatura concedido a un poeta"
+          ],
+          "correct": 1,
+          "note": "Hasta 1913, todos los premiados en la categoría de Literatura habían sido europeos; Tagore rompió esa pauta ese mismo año."
+        },
+        {
+          "q": "¿Qué particularidad tuvo la versión de Gitanjali que ganó el Nobel?",
+          "options": [
+            "Nunca existió una versión original en bengalí",
+            "Fue traducida por un comité de la Academia Sueca sin su participación",
+            "El propio Tagore la tradujo y reescribió libremente del bengalí al inglés",
+            "Se publicó primero en inglés y después en bengalí"
+          ],
+          "correct": 2,
+          "note": "Tagore no hizo una traducción literal, sino una adaptación en prosa inglesa que, según algunos críticos bengalíes, sacrificó parte de la musicalidad del original."
+        },
+        {
+          "q": "¿Qué hizo Tagore en 1919 como forma de protesta política?",
+          "options": [
+            "Fundó un partido político independentista en Bengala",
+            "Se exilió de India de forma permanente",
+            "Devolvió su título de caballero británico tras la masacre de Amritsar",
+            "Renunció públicamente al Premio Nobel que había recibido"
+          ],
+          "correct": 2,
+          "note": "La masacre de Amritsar, en la que tropas coloniales británicas mataron a cientos de manifestantes desarmados, llevó a Tagore a renunciar a un honor que consideraba incompatible con ese hecho."
+        },
+        {
+          "q": "¿Cómo se relacionaba Tagore con el nacionalismo indio de su época?",
+          "options": [
+            "Lo apoyaba en parte, pero criticaba sus formas más estrechas y excluyentes",
+            "Se mantuvo completamente al margen de la política durante toda su vida",
+            "Lo rechazaba por completo y defendía la permanencia británica en India",
+            "Lo consideraba idéntico y equivalente al colonialismo que combatía"
+          ],
+          "correct": 0,
+          "note": "Tagore combinaba una crítica firme al colonialismo con una desconfianza hacia versiones del nacionalismo que consideraba tan cerradas como el poder imperial al que se oponían."
+        }
+      ]
+    },
+    {
+      "id": "cie-0008",
+      "category": "ciencia",
+      "title": "Tu Youyou, la malaria y una pista escondida en un texto de hace 1.600 años",
+      "subtitle": "Un programa militar secreto chino y un tratado de medicina tradicional llevaron a un fármaco que ha salvado millones de vidas",
+      "cover_image": {
+        "query": "sweet wormwood plant",
+        "wikipedia": "Tu Youyou",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Tu_Youyou_5012-2015.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Bengt Nyman",
+        "license": "CC BY-SA 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tu_Youyou_5012-2015.jpg"
+      },
+      "cards": [
+        {
+          "heading": "Urgencia en plena guerra",
+          "text": "A finales de los años sesenta, la resistencia de la malaria a los tratamientos existentes causaba bajas masivas entre las tropas norvietnamitas y chinas. El gobierno chino puso en marcha en 1967 un proyecto secreto, conocido como Proyecto 523, para buscar un tratamiento nuevo entre miles de compuestos y remedios de la medicina tradicional."
+        },
+        {
+          "heading": "Volver a los textos clásicos",
+          "text": "Tu Youyou, farmacóloga sin doctorado ni formación en el extranjero, lideró un equipo que revisó más de dos mil recetas de la medicina tradicional china. Encontró en un manual de emergencias del siglo IV una indicación para usar ajenjo dulce macerado en frío, no hervido como se hacía habitualmente en los extractos que el equipo había probado sin éxito hasta entonces."
+        },
+        {
+          "heading": "El detalle decisivo",
+          "text": "Hervir la planta, el método estándar de extracción, destruía el compuesto activo por efecto del calor. Al extraerlo en frío con un disolvente de baja temperatura, el equipo aisló en 1972 la artemisinina, un compuesto que demostró eliminar el parásito de la malaria con una eficacia muy superior a los tratamientos disponibles hasta entonces."
+        },
+        {
+          "heading": "Reconocimiento tardío y compartido",
+          "text": "El hallazgo permaneció poco conocido fuera de China durante décadas por el contexto político de la Revolución Cultural y la falta de publicaciones internacionales. Tu Youyou recibió el Premio Nobel de Fisiología o Medicina en 2015, compartido con otros dos investigadores, siendo la primera científica china en recibir un Nobel en una disciplina científica."
+        }
+      ],
+      "key_fact": "La artemisinina, hoy base del tratamiento estándar contra la malaria, se descubrió al extraer en frío -no hirviendo, como se hacía antes- un texto de medicina china del siglo IV.",
+      "questions": [
+        {
+          "q": "¿Qué motivó al gobierno chino a lanzar el Proyecto 523 en 1967?",
+          "options": [
+            "Un brote de malaria dentro de China continental",
+            "La resistencia de la malaria a los tratamientos existentes durante la guerra de Vietnam",
+            "La presión de la Organización Mundial de la Salud",
+            "El deseo de exportar medicina tradicional a Occidente"
+          ],
+          "correct": 1,
+          "note": "Las bajas por malaria resistente entre las tropas aliadas en la guerra de Vietnam impulsaron una búsqueda urgente de nuevos tratamientos."
+        },
+        {
+          "q": "¿Qué pista clave encontró Tu Youyou en un texto médico antiguo?",
+          "options": [
+            "Una receta que combinaba ajenjo dulce con otras diez plantas",
+            "Una advertencia de que el ajenjo dulce era tóxico",
+            "Una indicación de macerar el ajenjo dulce en frío en vez de hervirlo",
+            "El nombre exacto del parásito causante de la malaria"
+          ],
+          "correct": 2,
+          "note": "El manual del siglo IV especificaba maceración en frío, un detalle que contradecía el método de extracción por calor que el equipo venía usando sin resultados."
+        },
+        {
+          "q": "¿Por qué fallaban los intentos anteriores de extraer el compuesto activo de la planta?",
+          "options": [
+            "Necesitaban combinarla con otra planta para activarse",
+            "La planta usada no era la especie correcta",
+            "El compuesto solo existe en la raíz, no en las hojas",
+            "El calor de la extracción hervida destruía el compuesto activo"
+          ],
+          "correct": 3,
+          "note": "La artemisinina es sensible al calor; hervir la planta, el procedimiento estándar de extracción, degradaba precisamente el componente que resultó ser eficaz."
+        },
+        {
+          "q": "¿Qué distingue el reconocimiento que recibió Tu Youyou en 2015?",
+          "options": [
+            "Fue el primer Nobel de Medicina concedido a un equipo íntegramente chino",
+            "Fue la primera científica china en recibir un Nobel en una disciplina científica",
+            "Fue el primer Nobel compartido entre China y Vietnam",
+            "Fue la primera vez que se premiaba un descubrimiento farmacológico"
+          ],
+          "correct": 1,
+          "note": "El Nobel de 2015 llegó más de cuatro décadas después del descubrimiento, retrasado en parte por el aislamiento científico de China durante la Revolución Cultural."
+        }
+      ]
+    },
+    {
+      "id": "cie-0009",
+      "category": "ciencia",
+      "title": "El mecanismo de Anticitera: una computadora astronómica en un naufragio griego",
+      "subtitle": "Un artefacto de más de dos mil años obligó a revisar cuánto sabía la Antigüedad sobre mecánica de precisión",
+      "cover_image": {
+        "query": "antikythera mechanism fragment",
+        "wikipedia": "Mecanismo de Anticitera",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/NAMA_Machine_d%27Anticyth%C3%A8re_1.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "No machine-readable author provided. Marsyas assumed (based on copyright claims).",
+        "license": "CC BY 2.5",
+        "source_url": "https://commons.wikimedia.org/wiki/File:NAMA_Machine_d%27Anticyth%C3%A8re_1.jpg"
+      },
+      "cards": [
+        {
+          "heading": "Un hallazgo casual en 1901",
+          "text": "Buzos de esponjas encontraron los restos de un naufragio romano frente a la isla griega de Anticitera y, entre estatuas y ánforas, un bloque corroído de bronce que durante décadas no atrajo demasiada atención, hasta que radiografías posteriores revelaron un sistema de al menos treinta engranajes entrelazados entre sí."
+        },
+        {
+          "heading": "Más complejo que cualquier máquina",
+          "text": "El mecanismo, fabricado hacia el siglo II o I antes de Cristo, calculaba posiciones astronómicas, fases lunares y fechas de eclipses, e incluía un calendario que seguía el ciclo de los Juegos Olímpicos. No se conoce ningún otro artefacto de complejidad mecánica comparable hasta relojes europeos de más de mil años después."
+        },
+        {
+          "heading": "Un vacío de mil años",
+          "text": "Ese salto temporal es precisamente lo que hace del hallazgo un problema historiográfico: si los griegos helenísticos dominaban engranajes de esa precisión, la pregunta abierta es por qué no hay evidencia de una tradición continuada de mecánica de precisión hasta la relojería medieval europea, y si el conocimiento simplemente no dejó registro o si se perdió del todo."
+        },
+        {
+          "heading": "Reconstruido, pero en discusión",
+          "text": "Investigadores han usado tomografía computarizada para leer inscripciones internas ocultas durante siglos por la corrosión, y distintos equipos han propuesto reconstrucciones funcionales del mecanismo que no coinciden del todo entre sí, en particular sobre qué representaba exactamente una de las esferas de su cara frontal."
+        }
+      ],
+      "key_fact": "El mecanismo de Anticitera, con más de treinta engranajes de bronce fabricados hacia el siglo I antes de Cristo, no tiene equivalente conocido en complejidad mecánica hasta la relojería europea medieval.",
+      "questions": [
+        {
+          "q": "¿Dónde y cómo se encontró el mecanismo de Anticitera?",
+          "options": [
+            "En una tumba real egipcia junto a otros objetos griegos",
+            "Durante una excavación arqueológica planificada en Atenas",
+            "En un naufragio romano hallado por buzos de esponjas en 1901",
+            "En la biblioteca de Alejandría antes de su destrucción"
+          ],
+          "correct": 2,
+          "note": "El hallazgo fue casual: buzos que buscaban esponjas descubrieron el naufragio, y el mecanismo pasó inadvertido entre otros objetos hasta un análisis posterior."
+        },
+        {
+          "q": "¿Qué hace excepcional al mecanismo dentro de la tecnología de su época?",
+          "options": [
+            "Fue el primer objeto de bronce fabricado por los griegos",
+            "No se conoce otro artefacto de complejidad mecánica comparable hasta más de mil años después",
+            "Fue diseñado exclusivamente para uso militar naval",
+            "Es el reloj de sol más antiguo jamás hallado"
+          ],
+          "correct": 1,
+          "note": "El salto de complejidad entre este mecanismo y la siguiente tecnología comparable conocida, ya en la Europa medieval, es lo que convierte al hallazgo en una anomalía historiográfica."
+        },
+        {
+          "q": "¿Cuál es la principal pregunta abierta que plantea este vacío temporal?",
+          "options": [
+            "Si el mecanismo servía en realidad para navegar, no para calcular fechas",
+            "Si la tradición de mecánica de precisión se perdió o simplemente no dejó registro",
+            "Si el mecanismo fue realmente fabricado por extraterrestres",
+            "Si la fecha de fabricación asignada es correcta"
+          ],
+          "correct": 1,
+          "note": "La ausencia de artefactos intermedios no prueba que no existieran: pudieron perderse, sobre todo si eran objetos de lujo o militares, poco proclives a sobrevivir."
+        },
+        {
+          "q": "¿Qué técnica reciente ha permitido avanzar en el estudio del mecanismo?",
+          "options": [
+            "El carbono 14, que dató directamente el bronce del mecanismo",
+            "La comparación con un mecanismo idéntico hallado en Egipto",
+            "El análisis de ADN de restos orgánicos hallados junto a él",
+            "La tomografía computarizada, que reveló inscripciones ocultas por la corrosión"
+          ],
+          "correct": 3,
+          "note": "La tomografía permitió leer capas internas de texto invisibles a simple vista, aunque persisten desacuerdos entre equipos sobre la función exacta de algunas de sus partes."
+        }
+      ]
+    },
+    {
+      "id": "fil-0008",
+      "category": "filosofia",
+      "title": "Ubuntu: 'soy porque nosotros somos' como principio filosófico",
+      "subtitle": "Una idea del sur de África que sitúa la identidad de la persona en la comunidad, no antes de ella",
+      "cover_image": {
+        "query": "south africa village gathering",
+        "wikipedia": "Ubuntu (filosofía)",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Archbishop-Tutu-medium.jpg",
+        "credit": "Benny Gool",
+        "license": "Dominio público",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Archbishop-Tutu-medium.jpg"
+      },
+      "cards": [
+        {
+          "heading": "Raíces en lenguas bantúes",
+          "text": "El término ubuntu, presente en zulú, xhosa y otras lenguas bantúes del sur de África, se resume habitualmente en la frase «umuntu ngumuntu ngabantu»: una persona es persona a través de otras personas. La idea sostiene que la identidad individual no precede a la comunidad, sino que se constituye en relación con ella."
+        },
+        {
+          "heading": "Frente al individualismo de partida",
+          "text": "Esto contrasta con tradiciones filosóficas occidentales que, desde Descartes, tienden a partir del individuo pensante como unidad básica y luego preguntarse cómo se relaciona con los demás. Ubuntu invierte el orden: la comunidad no es una suma de individuos previos, sino la condición que hace posible que haya individuos reconocibles como personas."
+        },
+        {
+          "heading": "La Comisión de la Verdad",
+          "text": "Desmond Tutu invocó explícitamente ubuntu para justificar el enfoque de la Comisión de la Verdad y la Reconciliación tras el apartheid, que priorizó el reconocimiento público de los crímenes y la reparación sobre el castigo penal, bajo la idea de que restaurar a la comunidad importaba más que aislar al culpable individual."
+        },
+        {
+          "heading": "Entre filosofía y eslogan político",
+          "text": "El concepto se ha usado también con fines políticos y comerciales, desde discursos gubernamentales hasta nombres de productos, lo que ha llevado a algunos filósofos africanos a señalar el riesgo de vaciar la idea de contenido crítico al convertirla en una etiqueta genérica de 'espíritu africano' sin especificar su contenido normativo concreto."
+        }
+      ],
+      "key_fact": "El principio ubuntu, resumido en 'una persona es persona a través de otras personas', invierte el orden habitual de la filosofía occidental entre individuo y comunidad.",
+      "questions": [
+        {
+          "q": "¿Qué sostiene el principio ubuntu sobre la relación entre individuo y comunidad?",
+          "options": [
+            "El individuo existe de forma completa antes de entrar en sociedad",
+            "La identidad de la persona se constituye a través de sus relaciones con los demás",
+            "La comunidad debe subordinarse siempre a los deseos del individuo",
+            "No existe ninguna relación relevante entre ambos conceptos"
+          ],
+          "correct": 1,
+          "note": "La fórmula 'una persona es persona a través de otras personas' resume la idea de que no hay identidad individual plena al margen de la comunidad."
+        },
+        {
+          "q": "¿En qué se diferencia ubuntu de la tradición filosófica que parte de Descartes?",
+          "options": [
+            "No hay ninguna diferencia relevante entre ambas tradiciones",
+            "Descartes también consideraba a la comunidad como condición previa al individuo",
+            "Ubuntu no toma al individuo aislado como punto de partida, sino a la comunidad",
+            "Ubuntu niega que los seres humanos tengan pensamiento racional"
+          ],
+          "correct": 2,
+          "note": "La tradición cartesiana arranca del sujeto pensante individual; ubuntu arranca de la relación, y considera la individualidad un resultado, no un punto de partida."
+        },
+        {
+          "q": "¿Cómo se aplicó ubuntu en la Comisión de la Verdad y la Reconciliación sudafricana?",
+          "options": [
+            "Priorizó el reconocimiento público y la reparación sobre el castigo penal",
+            "Sirvió para justificar amnistías generales sin ningún testimonio previo",
+            "Se usó para excluir a las víctimas del proceso de reconciliación",
+            "Impuso penas de cárcel obligatorias a todos los responsables"
+          ],
+          "correct": 0,
+          "note": "Desmond Tutu presentó ubuntu como fundamento de un modelo que buscaba restaurar la comunidad mediante la verdad reconocida públicamente, no mediante el castigo aislado del culpable."
+        },
+        {
+          "q": "¿Qué crítica han hecho algunos filósofos africanos al uso actual del término ubuntu?",
+          "options": [
+            "Que contradice por completo cualquier forma de solidaridad social",
+            "Que el concepto nunca tuvo ninguna aplicación práctica real",
+            "Que su uso político y comercial ha vaciado el concepto de contenido crítico específico",
+            "Que solo es válido en un único idioma bantú y no en otros"
+          ],
+          "correct": 2,
+          "note": "El riesgo señalado es que, al convertirse en eslogan de marketing o discurso político genérico, ubuntu pierda la capacidad de orientar juicios morales concretos."
+        }
+      ]
+    },
+    {
+      "id": "fil-0009",
+      "category": "filosofia",
+      "title": "Nagarjuna y la filosofía de que nada tiene existencia propia",
+      "subtitle": "Un pensador budista del siglo II sostuvo que buscar una esencia fija en las cosas es, precisamente, la fuente del sufrimiento",
+      "cover_image": {
+        "query": "buddhist stone carving statue",
+        "wikipedia": "Nagarjuna",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Nagarjuna_with_84_mahasiddha_cropped.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Unknown | Recovered from Himalayan Art Resources",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Nagarjuna_with_84_mahasiddha_cropped.jpg"
+      },
+      "cards": [
+        {
+          "heading": "Lo que hereda de Buda",
+          "text": "El budismo temprano ya sostenía que el apego a las cosas como si fueran permanentes causa sufrimiento. Nagarjuna, filósofo indio del siglo II, llevó esa idea a sus últimas consecuencias con el concepto de shunyata, o vacuidad: ningún fenómeno tiene una existencia independiente y fija por sí mismo."
+        },
+        {
+          "heading": "Vacuidad no es inexistencia",
+          "text": "El punto es sutil y se malinterpreta con frecuencia: Nagarjuna no niega que las cosas existan, sino que existan de forma independiente, con una esencia propia inmutable. Todo surge en dependencia de causas, condiciones y de otras cosas, un principio conocido como origen dependiente, ya presente en el budismo anterior a él."
+        },
+        {
+          "heading": "Argumentar por reducción al absurdo",
+          "text": "En su obra principal, las Mulamadhyamakakarika, Nagarjuna no propone una nueva doctrina positiva, sino que examina sistemáticamente conceptos como causa, movimiento o el propio yo, mostrando que cada uno lleva a contradicciones lógicas si se le supone una esencia fija, sin afirmar en su lugar ninguna tesis alternativa propia."
+        },
+        {
+          "heading": "Influencia que llega hasta hoy",
+          "text": "La escuela Madhyamaka que fundó se convirtió en una de las corrientes centrales del budismo mahayana y se extendió al Tíbet, China y Japón. Filósofos contemporáneos han comparado su método con formas de escepticismo o deconstrucción occidentales, aunque el objetivo de Nagarjuna era explícitamente soteriológico: liberar del sufrimiento, no solo argumentar por argumentar."
+        }
+      ],
+      "key_fact": "Nagarjuna sostenía que ningún fenómeno tiene existencia independiente y fija por sí mismo, sino que todo surge en dependencia de otras causas y condiciones.",
+      "questions": [
+        {
+          "q": "¿Qué es lo que niega exactamente el concepto de vacuidad (shunyata) de Nagarjuna?",
+          "options": [
+            "Que las cosas tengan una existencia independiente y una esencia fija propia",
+            "Que las cosas existan de ninguna forma en absoluto",
+            "Que el sufrimiento humano sea real",
+            "Que exista algún tipo de causalidad entre los fenómenos"
+          ],
+          "correct": 0,
+          "note": "Vacuidad no equivale a inexistencia: significa ausencia de esencia propia independiente, compatible con que las cosas existan de forma relacional y dependiente."
+        },
+        {
+          "q": "¿Qué principio budista anterior retoma y radicaliza Nagarjuna con la vacuidad?",
+          "options": [
+            "La reencarnación en un cuerpo animal tras la muerte",
+            "La superioridad de una casta sobre las demás",
+            "El origen dependiente: todo surge en función de causas y condiciones",
+            "La existencia de un alma individual permanente"
+          ],
+          "correct": 2,
+          "note": "El origen dependiente ya era doctrina budista antes de Nagarjuna; su aportación fue mostrar que ese principio implica la ausencia de esencia fija en cualquier fenómeno."
+        },
+        {
+          "q": "¿Qué método utiliza principalmente Nagarjuna en su obra filosófica?",
+          "options": [
+            "Recopila testimonios de otros monjes sobre su propia experiencia mística",
+            "Usa exclusivamente relatos narrativos en vez de argumentación lógica",
+            "Presenta una lista de nuevas doctrinas positivas para sustituir a las anteriores",
+            "Examina conceptos y muestra que llevan a contradicciones si se les supone esencia fija"
+          ],
+          "correct": 3,
+          "note": "El método es de reducción al absurdo: no afirma una tesis alternativa, sino que muestra las contradicciones internas de suponer esencias fijas en causa, movimiento o el yo."
+        },
+        {
+          "q": "¿Qué distingue el objetivo de Nagarjuna de un escepticismo puramente argumentativo?",
+          "options": [
+            "No tuvo ninguna relación con la tradición budista de su época",
+            "Nagarjuna nunca tuvo intención de influir en ninguna escuela filosófica",
+            "Su meta explícita era soteriológica: liberar del sufrimiento, no solo debatir",
+            "Su argumentación se limitaba a cuestiones puramente lingüísticas"
+          ],
+          "correct": 2,
+          "note": "A diferencia de un escepticismo académico, el análisis de Nagarjuna estaba subordinado al objetivo budista de la liberación del sufrimiento mediante la comprensión correcta de la realidad."
+        }
+      ]
+    },
+    {
+      "id": "pre-0008",
+      "category": "presente",
+      "title": "Las tierras raras no son raras: lo escaso es quién sabe refinarlas",
+      "subtitle": "China no domina el mercado por tener el subsuelo más rico, sino por invertir durante décadas en la parte más sucia del proceso",
+      "cover_image": {
+        "query": "rare earth minerals",
+        "wikipedia": "Tierras raras",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/RareEarthOreUSGOV.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Wikimedia Commons",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:RareEarthOreUSGOV.jpg"
+      },
+      "cards": [
+        {
+          "heading": "Un nombre que confunde",
+          "text": "Las llamadas tierras raras son un grupo de diecisiete elementos químicos que, pese al nombre, no son geológicamente escasos: aparecen en la corteza terrestre en concentraciones comparables a metales comunes como el cobre. Lo que las hace difíciles de aprovechar es que casi siempre están mezcladas entre sí y con otros minerales, en depósitos poco concentrados."
+        },
+        {
+          "heading": "El verdadero cuello de botella",
+          "text": "Separar estos elementos entre sí requiere procesos químicos con múltiples etapas, genera residuos tóxicos y radiactivos como subproducto, y exige inversión sostenida en plantas especializadas. China concentra hoy la mayoría de la capacidad mundial de refino, aunque produce una fracción menor del mineral bruto extraído a nivel global."
+        },
+        {
+          "heading": "Una ventaja construida, no heredada",
+          "text": "Esta posición no fue accidental: desde los años ochenta, con respaldo estatal y con menores exigencias medioambientales que en Europa o Estados Unidos -que cerraron sus propias plantas de refino por motivos de contaminación-, China asumió el coste ambiental que otros países dejaron de estar dispuestos a pagar."
+        },
+        {
+          "heading": "Más allá de la minería",
+          "text": "Las tierras raras son componentes esenciales en imanes de turbinas eólicas, motores de vehículos eléctricos, misiles guiados y semiconductores, lo que ha convertido la dependencia del refino chino en una preocupación de seguridad nacional para varios gobiernos, que ahora subvencionan alternativas de refino en sus propios territorios pese a sus costes más altos."
+        }
+      ],
+      "key_fact": "China concentra hoy la mayoría de la capacidad mundial de refino de tierras raras, aunque su participación en la extracción bruta del mineral es menor que en esa fase de separación química.",
+      "questions": [
+        {
+          "q": "¿Por qué se dice que las tierras raras no son geológicamente escasas pese a su nombre?",
+          "options": [
+            "Se agotarán por completo en menos de una década",
+            "Solo se encuentran en dos países del mundo",
+            "Su concentración en la corteza terrestre es comparable a la de metales comunes como el cobre",
+            "En realidad no existen físicamente, es solo un término comercial"
+          ],
+          "correct": 2,
+          "note": "El nombre 'tierras raras' es histórico y engañoso: la dificultad no está en su abundancia geológica sino en lo disperso de sus concentraciones y en la complejidad de separarlas."
+        },
+        {
+          "q": "¿Dónde se sitúa el verdadero cuello de botella de esta industria?",
+          "options": [
+            "En el transporte marítimo internacional del mineral",
+            "En que solo existe un yacimiento conocido en todo el planeta",
+            "En la falta de demanda mundial de estos elementos",
+            "En la capacidad de refino y separación química, no en la extracción del mineral bruto"
+          ],
+          "correct": 3,
+          "note": "China concentra sobre todo la capacidad de refino, la etapa técnica y contaminante que otros países han evitado desarrollar, más que el liderazgo en extracción bruta."
+        },
+        {
+          "q": "¿Por qué otros países como Estados Unidos cerraron sus propias plantas de refino de tierras raras?",
+          "options": [
+            "Porque nunca tuvieron tecnología suficiente para operarlas",
+            "Porque un tratado internacional lo prohibió expresamente",
+            "Porque se agotaron sus yacimientos de tierras raras",
+            "Por los costes ambientales y regulatorios asociados a sus residuos tóxicos"
+          ],
+          "correct": 3,
+          "note": "El proceso de refino genera residuos tóxicos y radiactivos; regulaciones ambientales más estrictas hicieron económicamente menos atractivo mantener esa capacidad en algunos países occidentales."
+        },
+        {
+          "q": "¿Por qué se ha convertido la dependencia del refino chino en un asunto de seguridad nacional para otros gobiernos?",
+          "options": [
+            "Porque estos elementos son esenciales en tecnología militar, eólica y de vehículos eléctricos",
+            "Porque su precio ha bajado hasta hacerlas irrelevantes económicamente",
+            "Porque las tierras raras son la única fuente de energía nuclear",
+            "Porque China ha prohibido su uso fuera de su territorio"
+          ],
+          "correct": 0,
+          "note": "Su uso en imanes de turbinas eólicas, motores eléctricos y sistemas de defensa convierte cualquier concentración del suministro en un riesgo estratégico para los países dependientes."
+        }
+      ]
+    },
+    {
+      "id": "pre-0009",
+      "category": "presente",
+      "title": "El 'privilegio exorbitante': por qué EE. UU. se endeuda barato",
+      "subtitle": "Un ministro francés acuñó la expresión para quejarse de una ventaja que el resto del mundo sigue sin poder replicar",
+      "cover_image": {
+        "query": "dollar banknotes stack",
+        "wikipedia": "Moneda de reserva",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Global_Reserve_Currencies.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Spitzl",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Global_Reserve_Currencies.png"
+      },
+      "cards": [
+        {
+          "heading": "Más allá de Estados Unidos",
+          "text": "Desde los acuerdos de Bretton Woods en 1944, y de forma reforzada tras el fin de la convertibilidad con el oro en 1971, el dólar se convirtió en la moneda dominante para reservas de bancos centrales, facturación de materias primas como el petróleo y liquidación de comercio internacional, incluso en transacciones que no involucran a Estados Unidos."
+        },
+        {
+          "heading": "El origen de la expresión",
+          "text": "El término 'privilegio exorbitante' lo acuñó en los años sesenta Valéry Giscard d'Estaing, entonces ministro de finanzas francés, para describir la ventaja de que Estados Unidos pudiera financiar sus déficits pagando en su propia moneda, mientras otros países debían acumular dólares o exportar bienes reales para conseguirlos."
+        },
+        {
+          "heading": "Por qué abarata la deuda",
+          "text": "La demanda global constante de activos denominados en dólares -bonos del Tesoro, sobre todo- mantiene sus tipos de interés más bajos de lo que corresponderían al nivel de endeudamiento del país, un margen que no disfrutan economías con deuda comparable pero sin una moneda de reserva equivalente a la suya."
+        },
+        {
+          "heading": "Cuestionada, pero no sustituida",
+          "text": "El peso del dólar en las reservas mundiales ha bajado gradualmente desde cerca del 70% en los años setenta hasta rondar el 55-60% en los últimos años, con el euro, el yen y el renminbi chino como alternativas parciales; ningún analista serio prevé, sin embargo, una sustitución completa a corto plazo, dada la falta de un mercado de bonos tan líquido como el estadounidense."
+        }
+      ],
+      "key_fact": "El término 'privilegio exorbitante', acuñado por Valéry Giscard d'Estaing en los años sesenta, describe la ventaja de Estados Unidos de poder financiar su deuda en su propia moneda.",
+      "questions": [
+        {
+          "q": "¿Qué describe originalmente la expresión 'privilegio exorbitante'?",
+          "options": [
+            "Una ley que prohíbe a otros países emitir su propia divisa",
+            "El derecho exclusivo de EE. UU. a imprimir billetes de otras monedas",
+            "Que EE. UU. puede financiar su deuda en su propia moneda mientras otros dependen de ella",
+            "Un impuesto especial que EE. UU. cobra a otros países por usar el dólar"
+          ],
+          "correct": 2,
+          "note": "Giscard d'Estaing señalaba la asimetría de que Estados Unidos pague sus deudas en dólares que puede emitir, mientras otros países deben ganarlos o acumularlos exportando bienes reales."
+        },
+        {
+          "q": "¿Por qué la demanda global de dólares reduce el coste de endeudamiento estadounidense?",
+          "options": [
+            "El gobierno de EE. UU. fija por ley el tipo de interés de su deuda",
+            "La demanda constante de bonos del Tesoro mantiene sus tipos de interés más bajos de lo esperado",
+            "Ningún otro país compra deuda estadounidense",
+            "China ha renunciado por completo a comprar bonos del Tesoro"
+          ],
+          "correct": 1,
+          "note": "Cuanta más demanda mundial de activos en dólares, menor es el rendimiento que EE. UU. necesita ofrecer para colocar su deuda, un ahorro que no disfrutan países con niveles de deuda similares."
+        },
+        {
+          "q": "¿Qué ha ocurrido con el peso del dólar en las reservas mundiales desde los años setenta?",
+          "options": [
+            "Ha desaparecido por completo de las reservas de los bancos centrales",
+            "Ha llegado al 100% de las reservas mundiales",
+            "Ha bajado gradualmente, aunque sigue siendo mayoritario",
+            "Se ha mantenido exactamente igual sin ninguna variación"
+          ],
+          "correct": 2,
+          "note": "La caída de cerca del 70% al 55-60% refleja una diversificación gradual hacia el euro, el yen y el renminbi, sin que ninguna de esas monedas haya sustituido al dólar como referencia principal."
+        },
+        {
+          "q": "¿Por qué los analistas descartan una sustitución completa del dólar a corto plazo?",
+          "options": [
+            "Porque Estados Unidos controla militarmente los bancos centrales de otros países",
+            "Porque una ley internacional obliga a usar el dólar en el comercio mundial",
+            "Porque el euro y el yuan no son monedas convertibles",
+            "Porque no existe otro mercado de bonos tan líquido y profundo como el estadounidense"
+          ],
+          "correct": 3,
+          "note": "La liquidez y profundidad del mercado de deuda estadounidense es difícil de replicar rápidamente, lo que mantiene al dólar como referencia pese a la pérdida gradual de peso relativo."
+        }
+      ]
+    },
+    {
+      "id": "fis-0008",
+      "category": "fisica",
+      "title": "El problema de los tres cuerpos y el límite que Newton no vio venir",
+      "subtitle": "Un concurso matemático del siglo XIX terminó demostrando que ni la gravedad newtoniana garantiza que el futuro se pueda calcular",
+      "cover_image": {
+        "query": "binary star system illustration",
+        "wikipedia": "Problema de los tres cuerpos",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Moving_heart_of_the_Crab_Nebula.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "NASA, ESA",
+        "license": "CC BY 4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Moving_heart_of_the_Crab_Nebula.jpg"
+      },
+      "cards": [
+        {
+          "heading": "Dos cuerpos sí, tres no",
+          "text": "Newton resolvió por completo el movimiento de dos cuerpos que se atraen por gravedad: sus órbitas describen elipses predecibles para siempre con una fórmula cerrada. En cuanto se añade un tercer cuerpo -por ejemplo, Sol, Tierra y Luna a la vez- el sistema deja de tener, en general, una solución matemática exacta expresable con una fórmula simple."
+        },
+        {
+          "heading": "El premio del rey Óscar",
+          "text": "En 1887, un concurso matemático convocado por el rey Óscar II de Suecia y Noruega pedía precisamente resolver el problema de los tres cuerpos. Henri Poincaré ganó el premio no por resolverlo, sino por demostrar por qué en general no se podía: pequeñísimas variaciones en las condiciones iniciales podían producir trayectorias radicalmente distintas con el paso del tiempo."
+        },
+        {
+          "heading": "Nace la teoría del caos",
+          "text": "Ese hallazgo de Poincaré -sensibilidad extrema a las condiciones iniciales en un sistema completamente determinista- se considera hoy el origen conceptual de la teoría del caos, décadas antes de que el término se popularizara con el trabajo del meteorólogo Edward Lorenz sobre la impredecibilidad del clima terrestre."
+        },
+        {
+          "heading": "Determinista pero impredecible",
+          "text": "El sistema de tres cuerpos sigue siendo determinista: sus ecuaciones no dejan nada al azar. El problema es que cualquier margen de error, por diminuto que sea, en medir la posición inicial de los cuerpos, crece exponencialmente con el tiempo, haciendo la predicción a largo plazo inviable en la práctica aunque siga siendo posible en teoría."
+        }
+      ],
+      "key_fact": "Henri Poincaré demostró, al intentar resolver un concurso matemático de 1887, que el problema de los tres cuerpos gravitatorios carece en general de solución exacta.",
+      "questions": [
+        {
+          "q": "¿Qué diferencia hay entre el problema de dos cuerpos y el de tres cuerpos en gravitación?",
+          "options": [
+            "El de tres cuerpos es más simple de resolver que el de dos",
+            "El de dos cuerpos tiene solución exacta; el de tres, en general, no",
+            "Ninguno de los dos tiene solución conocida hasta hoy",
+            "Ambos tienen exactamente la misma solución matemática"
+          ],
+          "correct": 1,
+          "note": "Newton resolvió completamente el caso de dos cuerpos con órbitas elípticas predecibles; añadir un tercer cuerpo elimina, salvo casos especiales, esa posibilidad de solución cerrada."
+        },
+        {
+          "q": "¿Por qué ganó Poincaré el premio del rey Óscar II si no resolvió el problema planteado?",
+          "options": [
+            "Demostró por qué el problema no tenía en general solución exacta",
+            "Fue el único matemático que se presentó al concurso",
+            "Encontró una fórmula aproximada aceptada como válida",
+            "Resolvió un problema distinto pero igual de prestigioso"
+          ],
+          "correct": 0,
+          "note": "El jurado valoró la profundidad del hallazgo de Poincaré -la sensibilidad extrema a las condiciones iniciales- por encima de no haber entregado la solución explícita que originalmente se pedía."
+        },
+        {
+          "q": "¿Qué relación tiene el trabajo de Poincaré con la teoría del caos?",
+          "options": [
+            "Poincaré acuñó personalmente el término 'teoría del caos'",
+            "No tiene ninguna relación, son campos completamente independientes",
+            "La teoría del caos refutó por completo el hallazgo de Poincaré",
+            "Se considera su origen conceptual, décadas antes de que el término se popularizara"
+          ],
+          "correct": 3,
+          "note": "El hallazgo de sensibilidad extrema a condiciones iniciales anticipó, con décadas de antelación, la idea central que Edward Lorenz popularizaría después con sus estudios sobre el clima."
+        },
+        {
+          "q": "¿Por qué el sistema de tres cuerpos es impredecible en la práctica pese a ser determinista?",
+          "options": [
+            "No existen instrumentos capaces de medir la posición de los cuerpos",
+            "La gravedad deja de aplicarse cuando hay tres cuerpos involucrados",
+            "Las ecuaciones del sistema incluyen elementos genuinamente aleatorios",
+            "Cualquier margen de error inicial, por pequeño que sea, crece exponencialmente con el tiempo"
+          ],
+          "correct": 3,
+          "note": "El determinismo del sistema no garantiza predecibilidad práctica: errores mínimos de medición se amplifican con el tiempo hasta volver inútil cualquier proyección a largo plazo."
+        }
+      ]
+    },
+    {
+      "id": "fis-0009",
+      "category": "fisica",
+      "title": "La radiación de Hawking: por qué los agujeros negros no son completamente negros",
+      "subtitle": "Una predicción de 1974 que combina relatividad y mecánica cuántica y que medio siglo después sigue sin observarse directamente",
+      "cover_image": {
+        "query": "black hole illustration space",
+        "wikipedia": "Radiación de Hawking",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Supermassiveblackhole_nasajpl.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "NASA/JPL-Caltech",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Supermassiveblackhole_nasajpl.jpg"
+      },
+      "cards": [
+        {
+          "heading": "Lo que dice la relatividad",
+          "text": "Según la relatividad general, un agujero negro tiene un horizonte de sucesos: un límite del que nada, ni siquiera la luz, puede escapar una vez cruzado. Esto implicaba que un agujero negro solo podía crecer, absorbiendo materia y energía de su entorno, sin perder nunca masa por sí mismo."
+        },
+        {
+          "heading": "La mecánica cuántica entra",
+          "text": "En 1974, Stephen Hawking combinó esa descripción con la mecánica cuántica del vacío, donde constantemente aparecen y se aniquilan pares de partículas virtuales. Cerca del horizonte de sucesos, una partícula del par puede caer al agujero mientras la otra escapa, lo que desde fuera se observa como una emisión constante de radiación."
+        },
+        {
+          "heading": "Un agujero que se evapora",
+          "text": "Esa radiación implica que el agujero negro pierde masa lentamente con el tiempo, hasta -en teoría- evaporarse por completo tras un periodo astronómicamente largo, mucho mayor que la edad actual del universo para agujeros de masa estelar. La predicción contradijo la intuición previa de que un agujero negro solo podía crecer."
+        },
+        {
+          "heading": "La paradoja de la información",
+          "text": "Si un agujero negro se evapora del todo, la pregunta es qué pasa con la información sobre lo que cayó dentro, ya que las leyes cuánticas exigen que la información nunca se destruya. Esta paradoja de la información sigue sin una solución aceptada de forma unánime, y la propia radiación de Hawking no se ha detectado de forma directa hasta hoy."
+        }
+      ],
+      "key_fact": "La radiación de Hawking, predicha en 1974, implica que los agujeros negros pierden masa lentamente y podrían evaporarse por completo con el tiempo.",
+      "questions": [
+        {
+          "q": "¿Qué predecía la relatividad general por sí sola sobre el comportamiento de un agujero negro?",
+          "options": [
+            "Que se evaporaría en cuestión de segundos",
+            "Que cambiaría de posición en el espacio impredeciblemente",
+            "Que solo podía crecer, sin perder nunca masa",
+            "Que emitiría luz visible de forma constante"
+          ],
+          "correct": 2,
+          "note": "Antes de Hawking, el horizonte de sucesos se entendía como una frontera de un solo sentido: todo podía entrar, nada podía salir, así que la masa solo podía aumentar."
+        },
+        {
+          "q": "¿Qué mecanismo cuántico usó Hawking para predecir la radiación que lleva su nombre?",
+          "options": [
+            "La colisión directa de dos agujeros negros",
+            "La fusión de átomos de hidrógeno dentro del agujero negro",
+            "Un campo magnético generado por la rotación del agujero negro",
+            "Pares de partículas virtuales que se separan cerca del horizonte de sucesos"
+          ],
+          "correct": 3,
+          "note": "Cuando un par partícula-antipartícula surge cerca del horizonte y una cae mientras la otra escapa, el resultado observable desde fuera es una emisión neta de radiación."
+        },
+        {
+          "q": "¿Qué implica la radiación de Hawking sobre el destino a muy largo plazo de un agujero negro?",
+          "options": [
+            "Que puede llegar a evaporarse por completo con el tiempo",
+            "Que su masa se duplicará cada millón de años",
+            "Que dejará de generar gravedad de forma súbita",
+            "Que se convertirá en una estrella de neutrones"
+          ],
+          "correct": 0,
+          "note": "La pérdida gradual de masa por radiación conduce, en teoría, a la evaporación completa del agujero negro tras un tiempo mucho mayor que la edad actual del universo."
+        },
+        {
+          "q": "¿En qué consiste la paradoja de la información asociada a este proceso?",
+          "options": [
+            "No está claro qué ocurre con la información de lo que cayó en el agujero negro si este se evapora",
+            "La paradoja es que la luz no puede escapar del horizonte de sucesos",
+            "No existe ninguna paradoja, el problema está completamente resuelto desde 1974",
+            "Se refiere a que Hawking nunca publicó su demostración completa"
+          ],
+          "correct": 0,
+          "note": "Las leyes de la mecánica cuántica exigen que la información no se destruya nunca, lo que entra en tensión con una evaporación completa que no la conserve; el debate teórico sigue abierto."
+        }
+      ]
+    },
+    {
+      "id": "mat-0008",
+      "category": "matematicas",
+      "title": "Gödel y el límite que ningún sistema matemático puede superar",
+      "subtitle": "Un matemático austriaco demostró en 1931 que ninguna teoría matemática potente puede demostrar todo lo que es capaz de formular",
+      "cover_image": {
+        "query": "kurt godel portrait",
+        "wikipedia": "Teoremas de incompletitud de Gödel",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Young_Kurt_G%C3%B6del_as_a_student_in_1925.jpg",
+        "credit": "Unknown author",
+        "license": "Dominio público",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Young_Kurt_G%C3%B6del_as_a_student_in_1925.jpg"
+      },
+      "cards": [
+        {
+          "heading": "El proyecto en jaque",
+          "text": "A comienzos del siglo XX, matemáticos como David Hilbert perseguían formalizar toda las matemáticas en un sistema completo y consistente: un conjunto de axiomas del que se pudiera derivar, mediante reglas lógicas mecánicas, cualquier verdad matemática, sin ninguna contradicción interna posible dentro de ese mismo sistema."
+        },
+        {
+          "heading": "Un enunciado autorreferente",
+          "text": "En 1931, Kurt Gödel construyó, dentro de un sistema formal, un enunciado que en esencia dice 'esta afirmación no se puede demostrar dentro de este sistema'. Si el enunciado fuera falso, el sistema demostraría algo falso; si fuera cierto, existiría una verdad matemática que el sistema no puede demostrar. Ambas opciones rompen el proyecto de Hilbert."
+        },
+        {
+          "heading": "Dos teoremas, no solo uno",
+          "text": "El primer teorema de incompletitud establece que todo sistema formal consistente y suficientemente potente para expresar la aritmética básica contiene enunciados verdaderos que no puede demostrar. El segundo añade que ese mismo sistema no puede demostrar su propia consistencia usando únicamente sus propias reglas internas."
+        },
+        {
+          "heading": "Más allá de las matemáticas",
+          "text": "El resultado no significa que las matemáticas sean poco fiables, sino que ningún sistema formal puede ser a la vez completo y capaz de demostrarse consistente a sí mismo. La idea influyó en la informática teórica, en particular en el trabajo posterior de Alan Turing sobre qué problemas puede resolver un algoritmo."
+        }
+      ],
+      "key_fact": "El teorema de Gödel de 1931 demuestra que todo sistema matemático suficientemente potente contiene verdades que ese mismo sistema no puede demostrar.",
+      "questions": [
+        {
+          "q": "¿Qué proyecto matemático quedó invalidado por el teorema de Gödel?",
+          "options": [
+            "La geometría no euclidiana de Lobachevsky",
+            "El cálculo diferencial desarrollado por Newton y Leibniz",
+            "El intento de Hilbert de formalizar toda la matemática en un sistema completo y consistente",
+            "La teoría de conjuntos de Cantor sobre los infinitos"
+          ],
+          "correct": 2,
+          "note": "Hilbert buscaba un sistema del que se pudiera derivar mecánicamente toda verdad matemática sin contradicciones; Gödel mostró que ese objetivo es en general inalcanzable."
+        },
+        {
+          "q": "¿Cuál es la idea central del enunciado que construyó Gödel?",
+          "options": [
+            "Una afirmación que dice de sí misma que no se puede demostrar dentro del sistema",
+            "Una ecuación que no tiene ninguna solución numérica",
+            "Un teorema sobre la imposibilidad de dividir por cero",
+            "Una demostración de que dos más dos no es siempre cuatro"
+          ],
+          "correct": 0,
+          "note": "La autorreferencia del enunciado es la clave: obliga a elegir entre un sistema que demuestra algo falso o uno incompleto que deja fuera una verdad."
+        },
+        {
+          "q": "¿Qué añade el segundo teorema de incompletitud al primero?",
+          "options": [
+            "Que la aritmética básica es en sí misma contradictoria",
+            "Que todos los sistemas matemáticos son en realidad idénticos entre sí",
+            "Que ningún sistema matemático puede tener más de cien axiomas",
+            "Que un sistema no puede demostrar su propia consistencia usando solo sus propias reglas"
+          ],
+          "correct": 3,
+          "note": "El primer teorema habla de verdades indemostrables; el segundo, más fuerte, señala que el propio sistema no puede garantizar internamente que no contiene contradicciones."
+        },
+        {
+          "q": "¿Qué campo posterior se vio influido por las ideas de incompletitud de Gödel?",
+          "options": [
+            "La biología evolutiva del siglo XX",
+            "La astronomía observacional moderna",
+            "La física de partículas subatómicas",
+            "La informática teórica, en particular el trabajo de Turing sobre computabilidad"
+          ],
+          "correct": 3,
+          "note": "Alan Turing extendió preguntas similares sobre los límites de lo demostrable al terreno de qué problemas puede o no resolver un algoritmo, dando origen al problema de la parada."
+        }
+      ]
+    },
+    {
+      "id": "mat-0009",
+      "category": "matematicas",
+      "title": "La ley de Benford: por qué el 1 aparece más que el 9 en los datos reales",
+      "subtitle": "Una regularidad estadística inesperada que hoy se usa para detectar fraude contable y manipulación electoral",
+      "cover_image": {
+        "query": "accounting ledger numbers",
+        "wikipedia": "Ley de Benford",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Pacioli.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Attributed to Jacopo de' Barbari",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Pacioli.jpg"
+      },
+      "cards": [
+        {
+          "heading": "Una observación casual",
+          "text": "En 1881, el astrónomo Simon Newcomb notó que las primeras páginas de las tablas de logaritmos de su biblioteca, correspondientes a números que empiezan por 1, estaban mucho más desgastadas que las últimas, correspondientes a los que empiezan por 9. El hallazgo pasó casi desapercibido durante décadas."
+        },
+        {
+          "heading": "Redescubierta y formalizada",
+          "text": "En 1938, el físico Frank Benford llegó a la misma observación de forma independiente y la verificó con más de veinte mil datos de fuentes muy distintas: superficies de ríos, poblaciones de ciudades, constantes físicas, direcciones postales. En todos esos conjuntos, el dígito 1 encabezaba el número con más frecuencia que cualquier otro, seguido de 2, y así decrecientemente hasta el 9."
+        },
+        {
+          "heading": "Por qué ocurre esto",
+          "text": "La regularidad aparece en datos que abarcan varios órdenes de magnitud y crecen de forma multiplicativa, como poblaciones o ingresos, no en datos limitados a un rango estrecho o asignados de forma arbitraria, como números de teléfono o loterías. No es magia: es una consecuencia matemática de cómo se distribuyen las magnitudes cuando varían en varios órdenes de tamaño."
+        },
+        {
+          "heading": "De curiosidad a herramienta forense",
+          "text": "Desde los años noventa, auditores y analistas forenses usan la ley de Benford para detectar cifras contables inventadas: quienes fabrican números a mano tienden, sin darse cuenta, a repartir los primeros dígitos de forma más uniforme de lo que ocurriría naturalmente, lo que hace que una desviación marcada de la ley sea una señal de alarma, no una prueba concluyente por sí sola."
+        }
+      ],
+      "key_fact": "Según la ley de Benford, en muchos conjuntos de datos reales el dígito 1 encabeza los números en cerca del 30% de los casos, muy por encima del 11% de un reparto uniforme.",
+      "questions": [
+        {
+          "q": "¿Qué observó originalmente Simon Newcomb sobre las tablas de logaritmos en 1881?",
+          "options": [
+            "Las tablas tenían errores sistemáticos de imprenta",
+            "Las páginas de números que empiezan por 1 estaban más desgastadas que las de números que empiezan por 9",
+            "Todos los números de la tabla comenzaban siempre por 1",
+            "El desgaste era idéntico en todas las páginas del libro"
+          ],
+          "correct": 1,
+          "note": "El desgaste físico del libro reflejaba, sin que Newcomb lo buscara, que ciertos primeros dígitos se consultaban con mucha más frecuencia que otros."
+        },
+        {
+          "q": "¿En qué tipo de datos se cumple la ley de Benford, según lo verificado por Frank Benford?",
+          "options": [
+            "Solo en números asignados completamente al azar, como loterías",
+            "Exclusivamente en mediciones astronómicas",
+            "Únicamente en datos financieros generados por ordenador",
+            "Datos que abarcan varios órdenes de magnitud y crecen de forma multiplicativa"
+          ],
+          "correct": 3,
+          "note": "La regularidad depende de que los datos cubran varios órdenes de magnitud, como poblaciones o superficies de ríos; en rangos estrechos o asignaciones arbitrarias, como números de teléfono, no se cumple."
+        },
+        {
+          "q": "¿Por qué la ley de Benford resulta útil para detectar fraude contable?",
+          "options": [
+            "Los auditores la usan para calcular impuestos atrasados",
+            "Las cifras fraudulentas siempre empiezan por el número 9",
+            "La ley identifica de forma automática y certera cualquier delito financiero",
+            "Quienes inventan cifras tienden a distribuir los primeros dígitos de forma más uniforme de lo natural"
+          ],
+          "correct": 3,
+          "note": "Una desviación marcada respecto a la distribución esperada de Benford es una señal de alarma que justifica una revisión más profunda, no una prueba definitiva de fraude por sí sola."
+        },
+        {
+          "q": "¿Qué proporción aproximada de números reales debería empezar por el dígito 1, según la ley de Benford?",
+          "options": [
+            "El 100%, ya que todos los números empiezan por 1 en notación científica",
+            "Cerca del 30%, muy por encima de lo que correspondería a un reparto uniforme",
+            "Exactamente el 50% en todos los conjuntos de datos",
+            "Un 11%, igual que cualquier otro dígito"
+          ],
+          "correct": 1,
+          "note": "La distribución de Benford no es uniforme: el dígito 1 aparece como primer dígito en aproximadamente el 30% de los casos, muy por encima del 11,1% que correspondería a un reparto equitativo."
+        }
+      ]
+    },
+    {
+      "id": "geo-0009",
+      "category": "geopolitica",
+      "title": "El Sahel y la ola de golpes que expulsó a Francia de África occidental",
+      "subtitle": "Entre 2020 y 2023, tres países de la antigua África occidental francesa cambiaron de gobierno por la fuerza y rompieron con París",
+      "cover_image": {
+        "query": "sahel desert landscape",
+        "wikipedia": "Sahel",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Ecoregion_AT0713.svg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Terpsichores",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ecoregion_AT0713.svg"
+      },
+      "cards": [
+        {
+          "heading": "Una amenaza compartida",
+          "text": "El Sahel es la franja semiárida que cruza África justo al sur del Sáhara, desde Mauritania hasta Sudán. Desde mediados de la década de 2010, países como Malí, Burkina Faso y Níger enfrentan una insurgencia yihadista que controla partes crecientes de su territorio rural, con ejércitos nacionales incapaces de contenerla pese a años de apoyo militar occidental."
+        },
+        {
+          "heading": "Tres golpes en tres años",
+          "text": "Malí sufrió dos golpes de Estado en 2020 y 2021, Burkina Faso otros dos en 2022, y Níger uno en julio de 2023 que derrocó a un presidente elegido democráticamente. En los tres casos, oficiales militares justificaron la ruptura constitucional citando el fracaso de los gobiernos civiles frente a la violencia yihadista creciente."
+        },
+        {
+          "heading": "Adiós a la presencia francesa",
+          "text": "Los tres países expulsaron a las tropas francesas que llevaban años desplegadas contra la insurgencia bajo distintas operaciones, poniendo fin a décadas de presencia militar heredada de la época colonial. En su lugar, las nuevas juntas militares recurrieron a asesores y mercenarios rusos, en particular del grupo Wagner y su sucesor Africa Corps."
+        },
+        {
+          "heading": "Una nueva alianza regional",
+          "text": "En 2023, los tres países formaron la Alianza de Estados del Sahel y en 2024 anunciaron su salida conjunta de la CEDEAO, el bloque regional de África occidental que había impuesto sanciones tras los golpes. La violencia yihadista, mientras tanto, no ha disminuido de forma clara pese al cambio de gobierno y de aliados externos."
+        }
+      ],
+      "key_fact": "Entre 2020 y 2023, Malí, Burkina Faso y Níger sufrieron golpes de Estado, expulsaron a las tropas francesas y las sustituyeron por asesores y mercenarios rusos.",
+      "questions": [
+        {
+          "q": "¿Qué justificaron los oficiales militares como motivo principal de los golpes de Estado en el Sahel?",
+          "options": [
+            "Una disputa territorial con un país vecino",
+            "El impago de la deuda externa del país",
+            "El fracaso de los gobiernos civiles frente a la insurgencia yihadista",
+            "Una crisis electoral sin resultados claros"
+          ],
+          "correct": 2,
+          "note": "En los tres casos -Malí, Burkina Faso y Níger- los militares alegaron que los gobiernos civiles no lograban contener el avance yihadista en el territorio rural."
+        },
+        {
+          "q": "¿Qué cambio de alianzas militares siguió a estos golpes de Estado?",
+          "options": [
+            "Un refuerzo del apoyo militar de la Unión Europea",
+            "La llegada de tropas estadounidenses para sustituir a las francesas",
+            "La salida de las tropas francesas y su sustitución por asesores y mercenarios rusos",
+            "La retirada total de cualquier presencia militar extranjera"
+          ],
+          "correct": 2,
+          "note": "Las nuevas juntas rompieron con Francia, potencia colonial histórica en la región, y recurrieron al grupo Wagner y a su sucesor, Africa Corps, como nuevo socio de seguridad."
+        },
+        {
+          "q": "¿Qué hicieron Malí, Burkina Faso y Níger conjuntamente tras sus respectivos golpes?",
+          "options": [
+            "Formaron la Alianza de Estados del Sahel y anunciaron su salida de la CEDEAO",
+            "Solicitaron su ingreso conjunto en la Unión Europea",
+            "Se anexionaron mutuamente en un solo país",
+            "Firmaron un tratado de paz permanente con Francia"
+          ],
+          "correct": 0,
+          "note": "La nueva alianza regional sustituyó en la práctica su pertenencia al bloque de África occidental, que les había impuesto sanciones tras los golpes."
+        },
+        {
+          "q": "Según la información disponible, ¿qué ha ocurrido con la violencia yihadista en la región tras estos cambios?",
+          "options": [
+            "Se ha trasladado por completo a otro continente",
+            "Fue derrotada de forma definitiva por las tropas rusas",
+            "Ha desaparecido completamente de los tres países",
+            "No ha disminuido de forma clara pese a los cambios de gobierno y de aliados"
+          ],
+          "correct": 3,
+          "note": "Pese al cambio de socios militares, los informes disponibles no muestran una mejora clara de la situación de seguridad en el terreno frente a los grupos yihadistas activos."
+        }
+      ]
+    },
+    {
+      "id": "eco-0009",
+      "category": "economia",
+      "title": "1982: el impago mexicano que arrastró a Latinoamérica a una década perdida",
+      "subtitle": "Bancos prestaron a manos llenas con petrodólares baratos, hasta que Washington subió los tipos y la factura se disparó",
+      "cover_image": {
+        "query": "latin america currency banknotes",
+        "wikipedia": "Crisis de la deuda latinoamericana",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Latin_America_regions.svg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "MexicanGoldenEagle",
+        "license": "CC BY-SA 3.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Latin_America_regions.svg"
+      },
+      "cards": [
+        {
+          "heading": "Dinero barato del petróleo",
+          "text": "Tras las subidas del precio del petróleo de los años setenta, los países exportadores depositaron sus ingresos -los llamados petrodólares- en bancos occidentales, que a su vez los prestaron masivamente a gobiernos latinoamericanos a tipos de interés variables, entonces bajos, para financiar infraestructura e importaciones."
+        },
+        {
+          "heading": "El giro de la Fed",
+          "text": "A partir de 1979, la Reserva Federal estadounidense, bajo Paul Volcker, elevó drásticamente los tipos de interés para frenar la inflación en Estados Unidos, llegando a superar el 19% en 1981. Como buena parte de la deuda latinoamericana estaba denominada en dólares a tipo variable, el coste de esos préstamos se disparó de la noche a la mañana."
+        },
+        {
+          "heading": "México como primer dominó",
+          "text": "El 12 de agosto de 1982, México anunció que no podía seguir pagando su deuda externa, un anuncio que provocó pánico entre los bancos acreedores y un cierre repentino del crédito a toda la región. Brasil, Argentina y otros países cayeron en situaciones similares en los meses siguientes, incapaces de refinanciar su deuda."
+        },
+        {
+          "heading": "Una década con nombre propio",
+          "text": "Los años ochenta pasaron a conocerse en la región como la 'década perdida': el ingreso per cápita se estancó o retrocedió en varios países, la inflación se disparó -en algunos casos hasta la hiperinflación, como en Argentina y Perú a finales de la década- y los planes de ajuste impuestos por el FMI generaron un debate que continúa hoy sobre su coste social."
+        }
+      ],
+      "key_fact": "La subida de tipos de la Reserva Federal a comienzos de los ochenta, sumada al anuncio mexicano de impago del 12 de agosto de 1982, desencadenó la 'década perdida' latinoamericana.",
+      "questions": [
+        {
+          "q": "¿Qué papel jugaron los petrodólares en el origen de la crisis de deuda latinoamericana?",
+          "options": [
+            "Sirvieron para pagar la deuda externa ya existente antes de 1970",
+            "Financiaron exclusivamente la industria petrolera mexicana",
+            "Fueron depositados en bancos occidentales que los prestaron masivamente a gobiernos latinoamericanos",
+            "Latinoamérica los usó para comprar petróleo directamente a los países árabes"
+          ],
+          "correct": 2,
+          "note": "Los ingresos petroleros de los países exportadores, canalizados a través de bancos occidentales, se convirtieron en la fuente principal de crédito barato para los gobiernos latinoamericanos en los años setenta."
+        },
+        {
+          "q": "¿Qué efecto tuvo la subida de tipos de la Reserva Federal a partir de 1979 sobre esa deuda?",
+          "options": [
+            "Redujo automáticamente el volumen de deuda pendiente",
+            "Disparó el coste de la deuda latinoamericana, denominada en dólares a tipo variable",
+            "No tuvo ningún efecto porque la deuda estaba fijada a tipo fijo",
+            "Solo afectó a la deuda pública de Estados Unidos, no a la externa"
+          ],
+          "correct": 1,
+          "note": "Al estar la deuda denominada en dólares y a tipo variable, la subida de tipos en Washington se trasladó directamente al coste que debían pagar los gobiernos latinoamericanos, sin que estos pudieran controlarlo."
+        },
+        {
+          "q": "¿Qué ocurrió el 12 de agosto de 1982 y por qué fue relevante?",
+          "options": [
+            "México pagó por adelantado toda su deuda externa",
+            "México anunció que no podía seguir pagando su deuda externa, desatando pánico entre los bancos",
+            "Se firmó un tratado de libre comercio entre México y Brasil",
+            "Estados Unidos canceló unilateralmente la deuda mexicana"
+          ],
+          "correct": 1,
+          "note": "El anuncio mexicano fue el detonante que cerró el acceso al crédito internacional para toda la región, no un hecho aislado limitado a México."
+        },
+        {
+          "q": "¿Qué caracterizó a la llamada 'década perdida' en Latinoamérica durante los años ochenta?",
+          "options": [
+            "Una reducción generalizada de la pobreza en toda la región",
+            "La desaparición completa de la deuda externa de la región",
+            "Estancamiento del ingreso per cápita e inflación disparada en varios países",
+            "Un crecimiento económico sostenido superior al de la década anterior"
+          ],
+          "correct": 2,
+          "note": "El término resume un periodo de bajo o nulo crecimiento del ingreso por habitante, inflación descontrolada en varios países y programas de ajuste del FMI cuyo coste social sigue siendo objeto de debate."
+        }
+      ]
+    },
+    {
+      "id": "his-0009",
+      "category": "historia",
+      "title": "La Restauración Meiji y cómo Japón evitó la colonización occidental",
+      "subtitle": "En 1868, un grupo de samuráis derrocó al último shogun para modernizar el país a marchas forzadas y evitar el destino de China",
+      "cover_image": {
+        "query": "meiji era japan",
+        "wikipedia": "Restauración Meiji",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/MeijiJoukyou.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
+        "credit": "Alfred Roussin",
+        "license": "Public domain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:MeijiJoukyou.jpg"
+      },
+      "cards": [
+        {
+          "heading": "La amenaza llegada por mar",
+          "text": "En 1853, el comodoro estadounidense Matthew Perry llegó a Japón con buques de guerra y exigió la apertura del país al comercio, tras más de dos siglos de aislamiento casi total bajo el shogunato Tokugawa. La demostración de fuerza occidental convenció a un sector de la élite japonesa de que la resistencia tradicional no bastaría para evitar el destino de China, humillada poco antes en las Guerras del Opio."
+        },
+        {
+          "heading": "El derrocamiento del shogunato",
+          "text": "En 1868, una coalición de samuráis de dominios como Satsuma y Chōshū derrocó al shogunato Tokugawa y restauró formalmente el poder del emperador Meiji, aunque en la práctica el gobierno quedó en manos de estos mismos líderes reformistas, y no del propio emperador de forma directa."
+        },
+        {
+          "heading": "Modernización acelerada y selectiva",
+          "text": "El nuevo gobierno abolió el sistema feudal y la clase samurái como estamento legal, importó tecnología, ingenieros y modelos administrativos de varios países occidentales -ejército prusiano, marina británica, sistema educativo francés- y construyó en pocas décadas industria pesada, ferrocarriles y una potencia militar capaz de derrotar a China en 1895 y a Rusia en 1905."
+        },
+        {
+          "heading": "El precio pagado, a debate",
+          "text": "Los historiadores siguen discutiendo cuánto de este éxito se debió a reformas genuinamente inclusivas y cuánto a la represión de disidencias internas y a un militarismo que, décadas después, condujo a Japón al expansionismo colonial en Asia y a su participación en la Segunda Guerra Mundial."
+        }
+      ],
+      "key_fact": "Entre 1868 y 1905, Japón pasó de un régimen feudal aislado a derrotar militarmente a China y Rusia, evitando así la colonización que sufrieron otras potencias asiáticas del siglo XIX.",
+      "questions": [
+        {
+          "q": "¿Qué papel tuvo la llegada de Matthew Perry en 1853 en el proceso que llevó a la Restauración Meiji?",
+          "options": [
+            "Demostró la debilidad militar japonesa frente a Occidente y presionó por la apertura del país",
+            "Perry ayudó militarmente al shogunato a mantenerse en el poder",
+            "Japón derrotó a la flota de Perry y mantuvo su aislamiento",
+            "Perry fue enviado por China para negociar con Japón"
+          ],
+          "correct": 0,
+          "note": "La exhibición de fuerza naval estadounidense convenció a un sector de la élite japonesa de que el aislamiento tradicional ya no era sostenible frente a las potencias occidentales."
+        },
+        {
+          "q": "¿Qué ocurrió exactamente en 1868 durante la Restauración Meiji?",
+          "options": [
+            "Una coalición de samuráis derrocó al shogunato Tokugawa y restauró el poder formal del emperador",
+            "Se firmó un tratado de paz que puso fin a una guerra civil con China",
+            "Japón fue colonizado formalmente por una potencia europea",
+            "El emperador Meiji abdicó en favor de un gobierno republicano"
+          ],
+          "correct": 0,
+          "note": "El poder real tras la restauración quedó en manos de los líderes samuráis reformistas de dominios como Satsuma y Chōshū, no directamente en las del emperador."
+        },
+        {
+          "q": "¿Qué logró Japón militarmente como resultado de su modernización acelerada?",
+          "options": [
+            "Mantenerse neutral en todos los conflictos hasta 1945",
+            "Anexionarse pacíficamente a Estados Unidos",
+            "Formar una alianza militar permanente con China",
+            "Derrotar a China en 1895 y a Rusia en 1905"
+          ],
+          "correct": 3,
+          "note": "Las victorias sobre China y, sobre todo, sobre una potencia europea como Rusia en 1905 sorprendieron al mundo y confirmaron el éxito militar del proceso modernizador."
+        },
+        {
+          "q": "¿Qué aspecto del legado de la Restauración Meiji sigue siendo objeto de debate historiográfico?",
+          "options": [
+            "Si la Restauración realmente ocurrió en el año 1868",
+            "Si Japón llegó a modernizar su ejército en algún momento",
+            "Si el emperador Meiji existió como persona real",
+            "Cuánto se debió a reformas inclusivas y cuánto a represión interna y militarismo posterior"
+          ],
+          "correct": 3,
+          "note": "El mismo proceso que modernizó Japón sentó también las bases de un militarismo que décadas después impulsó su expansión colonial en Asia, lo que complica una lectura simplemente positiva del periodo."
+        }
+      ]
     }
   ]
 }
