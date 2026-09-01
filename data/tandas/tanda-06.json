@@ -1,0 +1,1654 @@
+{
+  "lecciones": [
+    {
+      "id": "geo-0010",
+      "category": "geopolitica",
+      "title": "Malaca: el estrecho por el que pasa un tercio del comercio marítimo",
+      "subtitle": "Apenas 2,8 km de anchura mínima concentran el petróleo que abastece a Asia oriental, sin que un país lo controle solo.",
+      "cover_image": {
+        "query": "strait of malacca ships",
+        "wikipedia": "Estrecho de Malaca"
+      },
+      "cards": [
+        {
+          "heading": "Un cuello de botella natural",
+          "text": "El estrecho de Malaca separa la península malaya de la isla indonesia de Sumatra y conecta el océano Índico con el mar de China Meridional. En su punto más estrecho, cerca de Singapur, mide apenas 2,8 kilómetros, y por él transitan al año más de 90.000 buques que transportan cerca de un tercio del comercio marítimo mundial."
+        },
+        {
+          "heading": "Dependencia asiática del petróleo",
+          "text": "Alrededor del 80% del petróleo que importan China, Japón y Corea del Sur atraviesa Malaca antes de llegar a sus refinerías, porque las rutas alternativas -rodear Indonesia por el sur o cruzar tierra firme por oleoductos- añaden miles de kilómetros y costes de transporte muy superiores."
+        },
+        {
+          "heading": "Nadie lo controla solo",
+          "text": "Malasia, Indonesia y Singapur comparten la soberanía sobre distintos tramos del estrecho y patrullan conjuntamente contra la piratería, que llegó a ser endémica en la zona durante los años noventa. Ninguno de los tres países puede cerrar el paso unilateralmente sin provocar una crisis diplomática con los otros dos."
+        },
+        {
+          "heading": "Por qué China busca alternativas",
+          "text": "Pekín califica su dependencia del estrecho como el 'dilema de Malaca': una potencia extranjera podría bloquearlo en un conflicto y cortar el suministro energético chino. Por eso financia oleoductos en Birmania y puertos en Pakistán y Sri Lanka que permiten desembarcar crudo sin pasar por ese cuello de botella."
+        }
+      ],
+      "key_fact": "Por el estrecho de Malaca transitan cada año más de 90.000 buques y cerca de un tercio del comercio marítimo mundial, incluido el 80% del petróleo que importan China, Japón y Corea del Sur.",
+      "questions": [
+        {
+          "q": "¿Qué hace que el estrecho de Malaca sea estratégicamente sensible?",
+          "options": [
+            "Concentra buena parte del comercio marítimo y el petróleo de Asia oriental",
+            "Es el único paso navegable entre el Índico y el Pacífico",
+            "Ningún país reconoce su existencia legalmente",
+            "Solo lo pueden usar buques de menos de 100 metros"
+          ],
+          "correct": 0,
+          "note": "Su estrechez geográfica, apenas 2,8 kilómetros en el punto mínimo, concentra un volumen de tráfico que no tiene ruta alternativa igual de barata."
+        },
+        {
+          "q": "¿Qué países comparten la soberanía sobre el estrecho de Malaca?",
+          "options": [
+            "Malasia, Indonesia y Singapur",
+            "China, Japón y Corea del Sur",
+            "India, Birmania y Tailandia",
+            "Singapur, Filipinas y Vietnam"
+          ],
+          "correct": 0,
+          "note": "Los tres estados patrullan conjuntamente el paso, lo que hace inviable que uno solo decida bloquearlo sin generar una crisis con los otros dos."
+        },
+        {
+          "q": "¿Por qué China invierte en oleoductos en Birmania y puertos en Pakistán y Sri Lanka?",
+          "options": [
+            "Para reducir su dependencia del paso por el estrecho de Malaca",
+            "Para competir con Singapur como centro financiero",
+            "Porque el estrecho de Malaca está cerrado a buques chinos",
+            "Para controlar militarmente el mar de China Meridional"
+          ],
+          "correct": 0,
+          "note": "Es la respuesta directa al llamado 'dilema de Malaca': la posibilidad de que una potencia extranjera bloquee el estrecho en caso de conflicto."
+        },
+        {
+          "q": "¿Qué consecuencia tuvo la piratería endémica de los años noventa en el estrecho?",
+          "options": [
+            "Obligó a una patrulla conjunta permanente entre los tres países ribereños",
+            "Provocó el cierre total del estrecho durante una década",
+            "Hizo que las navieras abandonaran definitivamente la ruta",
+            "Llevó a Naciones Unidas a administrar directamente el paso"
+          ],
+          "correct": 0,
+          "note": "La cooperación trilateral en seguridad surgió precisamente para responder a ese problema, y sigue siendo la base de la gestión conjunta del estrecho."
+        }
+      ]
+    },
+    {
+      "id": "geo-0011",
+      "category": "geopolitica",
+      "title": "El Sáhara Occidental, la colonia que la ONU nunca terminó de descolonizar",
+      "subtitle": "España se retiró en 1975 sin el referéndum prometido; medio siglo después, Marruecos y el Polisario aún disputan el territorio.",
+      "cover_image": {
+        "query": "western sahara desert",
+        "wikipedia": "Sáhara Occidental"
+      },
+      "cards": [
+        {
+          "heading": "Una descolonización interrumpida",
+          "text": "España colonizó el Sáhara Occidental en 1884 y lo abandonó en 1975 sin el referéndum de autodeterminación que Naciones Unidas llevaba años reclamando. Marruecos organizó entonces la Marcha Verde, en la que cientos de miles de civiles cruzaron la frontera para reforzar su reclamación sobre el territorio, mientras el Frente Polisario proclamaba la República Árabe Saharaui Democrática."
+        },
+        {
+          "heading": "Un territorio, dos administraciones",
+          "text": "Marruecos controla y administra alrededor del 80% del territorio, incluida la costa atlántica, tras un muro defensivo de más de 2.700 kilómetros construido en los años ochenta. El Frente Polisario gestiona el resto desde Tinduf, en Argelia, donde también viven decenas de miles de refugiados saharauis desde hace más de cuatro décadas."
+        },
+        {
+          "heading": "Un referéndum que no llega",
+          "text": "La ONU medió un alto el fuego en 1991 con la promesa de un referéndum sobre independencia o integración en Marruecos, pero el proceso se estancó por el desacuerdo sobre quién tiene derecho a votar. Rabat propone desde 2007 una autonomía bajo soberanía marroquí, que el Polisario rechaza por no incluir la opción de independencia."
+        },
+        {
+          "heading": "Por qué importa fuera",
+          "text": "El fosfato y la pesca del territorio, y su posición frente a las rutas atlánticas, explican por qué potencias como Estados Unidos y España han ido reconociendo de facto la posición marroquí en la última década, mientras Argelia mantiene su respaldo al Polisario. Es la única colonia africana que la ONU todavía cataloga como pendiente de descolonizar."
+        }
+      ],
+      "key_fact": "El Sáhara Occidental es, según la ONU, el único territorio de África que sigue clasificado como 'pendiente de descolonizar', medio siglo después de que España se retirara en 1975.",
+      "questions": [
+        {
+          "q": "¿Qué impidió que se celebrara el referéndum de autodeterminación previsto en 1991?",
+          "options": [
+            "El desacuerdo sobre quién tenía derecho a votar en él",
+            "La negativa de la ONU a organizarlo",
+            "Un nuevo conflicto armado que canceló el proceso",
+            "La disolución del Frente Polisario"
+          ],
+          "correct": 0,
+          "note": "El censo de votantes -quién cuenta como saharaui con derecho a voto- fue el punto de bloqueo permanente entre Marruecos y el Frente Polisario."
+        },
+        {
+          "q": "¿Qué hizo Marruecos en 1975 para reforzar su reclamación sobre el territorio?",
+          "options": [
+            "Organizó la Marcha Verde, con cientos de miles de civiles cruzando la frontera",
+            "Compró el territorio a España mediante un tratado",
+            "Invadió militarmente el territorio sin apoyo popular",
+            "Pidió a la ONU que lo administrara directamente"
+          ],
+          "correct": 0,
+          "note": "La Marcha Verde fue una movilización civil masiva, no una operación militar, pensada para presionar la retirada española con presencia demográfica."
+        },
+        {
+          "q": "¿Dónde vive buena parte de la población saharaui desplazada?",
+          "options": [
+            "En campos de refugiados cerca de Tinduf, en Argelia",
+            "En ciudades costeras controladas por Marruecos",
+            "Repartida por España desde 1975",
+            "En Mauritania, bajo administración de la ONU"
+          ],
+          "correct": 0,
+          "note": "Argelia respalda al Frente Polisario y acoge desde los años setenta los campos de refugiados desde los que este gestiona el territorio que controla."
+        },
+        {
+          "q": "¿Por qué ha cambiado la posición de algunas potencias hacia la propuesta marroquí de autonomía?",
+          "options": [
+            "Por intereses económicos y estratégicos en la región, como el fosfato y la pesca",
+            "Porque el Frente Polisario se disolvió oficialmente",
+            "Porque la ONU retiró su mandato de mediación",
+            "Porque Argelia dejó de respaldar al Polisario"
+          ],
+          "correct": 0,
+          "note": "El reconocimiento de facto de la posición marroquí por parte de EE. UU. o España responde a cálculos económicos y geopolíticos, no a un cambio de criterio jurídico de la ONU."
+        }
+      ]
+    },
+    {
+      "id": "geo-0012",
+      "category": "geopolitica",
+      "title": "El Mekong: seis países aguas abajo de las presas que construye China",
+      "subtitle": "Camboya, Laos, Tailandia y Vietnam dependen de un río cuyo caudal decide, cada vez más, lo que se construye río arriba.",
+      "cover_image": {
+        "query": "mekong river dam",
+        "wikipedia": "Río Mekong"
+      },
+      "cards": [
+        {
+          "heading": "Un río, seis países",
+          "text": "El Mekong nace en la meseta tibetana y recorre China, Birmania, Laos, Tailandia, Camboya y Vietnam antes de desembocar en el mar de China Meridional. Más de 60 millones de personas dependen directamente de su pesca y de la agricultura que riega, especialmente en el delta vietnamita, uno de los graneros de arroz más productivos del mundo."
+        },
+        {
+          "heading": "Las presas río arriba",
+          "text": "China ha construido once grandes presas hidroeléctricas en el tramo alto del río, conocido como Lancang, y planea más junto con Laos, que aspira a convertirse en la 'batería eléctrica' del sudeste asiático exportando electricidad a sus vecinos. Cada presa nueva retiene sedimentos y altera el calendario natural de crecidas del que dependen los cultivos aguas abajo."
+        },
+        {
+          "heading": "El efecto aguas abajo",
+          "text": "En 2019 y 2020, el delta del Mekong en Vietnam sufrió su peor sequía en un siglo, y estudios independientes con datos satelitales atribuyeron parte de la caída del caudal a la retención de agua en los embalses chinos, algo que Pekín niega atribuyendo la sequía únicamente a la falta de lluvias monzónicas."
+        },
+        {
+          "heading": "Una comisión sin veto",
+          "text": "La Comisión del Río Mekong, creada en 1995 por Camboya, Laos, Tailandia y Vietnam, coordina el uso del agua pero no incluye a China ni a Birmania y carece de capacidad para bloquear una presa. Pekín comparte solo parte de sus datos hidrológicos, lo que deja a los países río abajo con escasa capacidad de anticipación."
+        }
+      ],
+      "key_fact": "China ha construido once grandes presas en el tramo alto del Mekong, y el delta vietnamita del río sufrió en 2019-2020 su peor sequía en un siglo.",
+      "questions": [
+        {
+          "q": "¿Por qué las presas construidas por China en el Mekong afectan a los países río abajo?",
+          "options": [
+            "Porque retienen sedimentos y alteran el calendario natural de las crecidas",
+            "Porque desvían el cauce completo hacia otro mar",
+            "Porque contaminan el agua con residuos industriales",
+            "Porque impiden la navegación comercial en todo el río"
+          ],
+          "correct": 0,
+          "note": "El problema no es solo la cantidad de agua retenida, sino la pérdida de sedimentos fértiles y la alteración del ciclo de crecidas del que depende la agricultura aguas abajo."
+        },
+        {
+          "q": "¿Qué papel busca desempeñar Laos con sus propias presas en el Mekong?",
+          "options": [
+            "Convertirse en exportador de electricidad para el sudeste asiático",
+            "Sustituir a Vietnam como principal productor de arroz",
+            "Cerrar el río a la navegación china",
+            "Financiar directamente a la Comisión del Río Mekong"
+          ],
+          "correct": 0,
+          "note": "Laos aspira a ser la 'batería eléctrica' regional vendiendo electricidad a Tailandia y otros vecinos, lo que multiplica el número de presas en construcción."
+        },
+        {
+          "q": "¿Qué limitación tiene la Comisión del Río Mekong frente a las presas chinas?",
+          "options": [
+            "China no forma parte de ella y no está sujeta a sus decisiones",
+            "Fue disuelta en 2015 por falta de financiación",
+            "Solo puede actuar si los seis países lo piden a la vez",
+            "Tiene poder de veto pero nunca lo ha usado"
+          ],
+          "correct": 0,
+          "note": "La Comisión agrupa solo a Camboya, Laos, Tailandia y Vietnam; China y Birmania quedan fuera y no están vinculadas por sus decisiones."
+        },
+        {
+          "q": "¿Qué ocurrió con el delta del Mekong en Vietnam entre 2019 y 2020?",
+          "options": [
+            "Sufrió su peor sequía en un siglo, con caída del caudal",
+            "Se inundó de forma catastrófica por lluvias monzónicas extremas",
+            "Dejó de ser navegable de forma permanente",
+            "Fue evacuado por completo debido a la contaminación"
+          ],
+          "correct": 0,
+          "note": "La sequía coincidió con un periodo de fuerte retención de agua en los embalses chinos, aunque Pekín atribuye el episodio solo a la falta de lluvias."
+        }
+      ]
+    },
+    {
+      "id": "eco-0010",
+      "category": "economia",
+      "title": "La paradoja del ahorro: por qué ahorrar más puede empobrecer a todos",
+      "subtitle": "Lo que es prudente para una familia, si lo hacen todas a la vez, puede hundir la demanda que sostiene sus propios ingresos.",
+      "cover_image": {
+        "query": "empty shopping street recession",
+        "wikipedia": "Paradoja del ahorro"
+      },
+      "cards": [
+        {
+          "heading": "Una intuición individual razonable",
+          "text": "Ante la incertidumbre económica, cada familia u empresa tiene un incentivo racional para gastar menos y ahorrar más, reconstruyendo un colchón de seguridad. A nivel individual esa decisión es prudente y, en circunstancias normales, no tiene ningún efecto negativo sobre el resto de la economía."
+        },
+        {
+          "heading": "El mecanismo agregado",
+          "text": "John Maynard Keynes señaló que si todos los agentes económicos ahorran más al mismo tiempo, el gasto total de la economía cae, porque el gasto de unos es el ingreso de otros. Las empresas venden menos, reducen producción y despiden personal, lo que hace caer la renta agregada y, con ella, el ahorro total termina siendo menor de lo que cada agente pretendía."
+        },
+        {
+          "heading": "Cuándo se dispara",
+          "text": "La paradoja se vuelve especialmente dañina en recesiones profundas, cuando consumidores, empresas y a veces gobiernos ahorran a la vez tras un shock de confianza, como ocurrió en buena parte de las economías desarrolladas tras la crisis financiera de 2008. El resultado es una espiral en la que la prudencia individual generalizada agrava la contracción colectiva."
+        },
+        {
+          "heading": "La salida keynesiana",
+          "text": "La receta keynesiana clásica es que, cuando el sector privado se retrae, el Estado compense con gasto público o rebajas fiscales para sostener la demanda agregada mientras dura el ajuste privado, evitando que la caída de renta se retroalimente. La medida exacta y la duración de ese estímulo siguen siendo objeto de debate entre escuelas económicas."
+        }
+      ],
+      "key_fact": "Si todos los agentes de una economía intentan ahorrar más a la vez, el gasto agregado puede caer tanto que la renta total, y con ella el ahorro real, terminen siendo menores que antes.",
+      "questions": [
+        {
+          "q": "¿Por qué puede resultar contraproducente que todos ahorren más al mismo tiempo?",
+          "options": [
+            "Porque el gasto de unos es el ingreso de otros, y su caída reduce la renta agregada",
+            "Porque los bancos dejan de aceptar depósitos adicionales",
+            "Porque el ahorro está legalmente limitado por familia",
+            "Porque provoca directamente inflación generalizada"
+          ],
+          "correct": 0,
+          "note": "El mecanismo es circular: menos gasto significa menos ingresos para otros, que a su vez gastan y ahorran menos, contrayendo la economía en conjunto."
+        },
+        {
+          "q": "Según la paradoja del ahorro, ¿qué diferencia hay entre la decisión individual y la colectiva?",
+          "options": [
+            "Lo racional para un agente aislado puede ser dañino si lo hacen todos a la vez",
+            "No existe ninguna diferencia entre ambos niveles",
+            "El ahorro individual siempre reduce el ahorro agregado",
+            "El ahorro colectivo elimina el ahorro individual"
+          ],
+          "correct": 0,
+          "note": "Es el núcleo de la paradoja: una conducta prudente a escala individual se vuelve perjudicial cuando se generaliza a toda la economía a la vez."
+        },
+        {
+          "q": "¿En qué tipo de contexto se agrava especialmente esta dinámica?",
+          "options": [
+            "En recesiones profundas con una caída generalizada de la confianza",
+            "En periodos de pleno empleo y crecimiento estable",
+            "Únicamente en economías sin sistema bancario",
+            "En países sin moneda propia"
+          ],
+          "correct": 0,
+          "note": "Un shock de confianza que empuja a hogares, empresas y a veces gobiernos a ahorrar a la vez es el escenario en el que la espiral contractiva se vuelve más severa."
+        },
+        {
+          "q": "¿Cuál es la respuesta clásica keynesiana a esta paradoja?",
+          "options": [
+            "Que el Estado sostenga la demanda con gasto público mientras el sector privado se ajusta",
+            "Que el banco central prohíba el ahorro privado",
+            "Que los bancos centrales suban los tipos de interés",
+            "Que se elimine el gasto público para no distorsionar el mercado"
+          ],
+          "correct": 0,
+          "note": "El argumento keynesiano es que el gasto público puede compensar temporalmente la caída del gasto privado y romper la espiral, aunque su alcance óptimo sigue debatido."
+        }
+      ]
+    },
+    {
+      "id": "eco-0011",
+      "category": "economia",
+      "title": "Botsuana y la excepción del diamante bien gestionado",
+      "subtitle": "Frente al patrón habitual de recursos que empobrecen, un país sin salida al mar convirtió el diamante en desarrollo sostenido.",
+      "cover_image": {
+        "query": "botswana diamond mine",
+        "wikipedia": "Botsuana"
+      },
+      "cards": [
+        {
+          "heading": "Un punto de partida pobre",
+          "text": "En 1966, cuando Botsuana se independizó del Reino Unido, era uno de los países más pobres del mundo, con apenas unos kilómetros de carretera asfaltada y una economía basada en la ganadería de subsistencia. Un año después se descubrieron yacimientos de diamantes que cambiarían por completo su trayectoria."
+        },
+        {
+          "heading": "El contrato decisivo",
+          "text": "A diferencia de otros países africanos con recursos, el Gobierno botsuano negoció desde el principio una participación estatal directa en la empresa minera De Beers a través de la sociedad conjunta Debswana, en vez de limitarse a cobrar impuestos o regalías. Esa participación dio al Estado ingresos estables y voz en las decisiones de producción."
+        },
+        {
+          "heading": "Instituciones antes que gasto",
+          "text": "El país canalizó buena parte de la renta diamantífera hacia educación, sanidad e infraestructura, y mantuvo durante décadas una gestión fiscal prudente que evitó el gasto público desbordado típico de otros exportadores de materias primas. El Producto Interior Bruto por habitante se multiplicó por más de treinta entre 1966 y la actualidad."
+        },
+        {
+          "heading": "Los límites del modelo",
+          "text": "El crecimiento no eliminó una desigualdad interna elevada ni la dependencia estructural del diamante, que sigue representando una parte muy significativa de las exportaciones del país, y la caída de la demanda mundial de diamantes en los últimos años ha obligado a Botsuana a buscar cómo diversificar su economía."
+        }
+      ],
+      "key_fact": "El PIB por habitante de Botsuana se multiplicó por más de treinta entre su independencia en 1966 y la actualidad, gracias a una participación estatal directa en la explotación de sus diamantes.",
+      "questions": [
+        {
+          "q": "¿Qué decisión distinguió a Botsuana de otros países africanos exportadores de recursos?",
+          "options": [
+            "Negoció una participación estatal directa en la empresa minera, no solo impuestos",
+            "Nacionalizó por completo la minería sin compensación",
+            "Prohibió la exportación de diamantes en bruto",
+            "Cedió toda la gestión minera a una empresa extranjera sin condiciones"
+          ],
+          "correct": 0,
+          "note": "La sociedad conjunta Debswana dio al Estado botsuano ingresos estables y capacidad de decisión, algo que la simple recaudación de impuestos no garantiza."
+        },
+        {
+          "q": "¿En qué invirtió preferentemente Botsuana su renta diamantífera?",
+          "options": [
+            "Educación, sanidad e infraestructura, con gestión fiscal prudente",
+            "Subsidios generalizados al consumo de combustible",
+            "Compra de deuda de otros países africanos",
+            "Un fondo militar para asegurar las minas"
+          ],
+          "correct": 0,
+          "note": "La combinación de inversión en capital humano e infraestructura con disciplina fiscal es lo que distingue el caso botsuano del patrón habitual de gasto desbordado."
+        },
+        {
+          "q": "¿Qué vulnerabilidad conserva la economía de Botsuana pese a su éxito relativo?",
+          "options": [
+            "Sigue dependiendo en gran medida de las exportaciones de diamante",
+            "Ha perdido por completo su producción de diamantes",
+            "No tiene ningún vínculo comercial con el resto de África",
+            "Su moneda dejó de existir tras la independencia"
+          ],
+          "correct": 0,
+          "note": "La caída de la demanda mundial de diamantes en los últimos años ha expuesto que el país no ha logrado diversificar su economía tanto como sus resultados macroeconómicos sugieren."
+        },
+        {
+          "q": "¿Qué situación tenía Botsuana en el momento de su independencia en 1966?",
+          "options": [
+            "Era uno de los países más pobres del mundo, con infraestructura mínima",
+            "Ya era un exportador consolidado de diamantes",
+            "Tenía la renta per cápita más alta de África",
+            "Formaba parte de una federación con Sudáfrica"
+          ],
+          "correct": 0,
+          "note": "El contraste entre ese punto de partida y el crecimiento posterior es lo que convierte a Botsuana en un caso de estudio frente al patrón habitual de la 'maldición de los recursos'."
+        }
+      ]
+    },
+    {
+      "id": "eco-0012",
+      "category": "economia",
+      "title": "Sri Lanka 2022: la quiebra que empezó por quedarse sin dólares",
+      "subtitle": "Reservas agotadas, combustible racionado y un presidente huido marcaron la primera suspensión de pagos del país en su historia.",
+      "cover_image": {
+        "query": "sri lanka fuel queue protest",
+        "wikipedia": "Crisis económica de Sri Lanka de 2019-presente"
+      },
+      "cards": [
+        {
+          "heading": "Cómo se vació la caja",
+          "text": "Sri Lanka llegó a 2022 con las reservas de divisas casi agotadas, tras años de déficit comercial estructural, una fuerte caída del turismo por la pandemia y recortes fiscales aprobados en 2019 que redujeron los ingresos del Estado. Sin dólares suficientes, el país no podía pagar las importaciones básicas que necesitaba: combustible, gas y medicamentos."
+        },
+        {
+          "heading": "El racionamiento y la calle",
+          "text": "Entre 2021 y 2022 aparecieron colas de varios días para conseguir combustible, cortes de electricidad prolongados y escasez de medicamentos esenciales, mientras la inflación superaba el 50% anual. La combinación de escasez material y crisis económica desembocó en protestas masivas que en julio de 2022 llevaron a manifestantes a ocupar la residencia presidencial."
+        },
+        {
+          "heading": "El impago",
+          "text": "En abril de 2022 Sri Lanka anunció la suspensión de pagos de su deuda externa, la primera de su historia como país independiente, dejando en el aire unos 51.000 millones de dólares adeudados a acreedores internacionales. El presidente Gotabaya Rajapaksa dimitió y huyó del país poco después de la toma de su residencia."
+        },
+        {
+          "heading": "El rescate condicionado",
+          "text": "El Fondo Monetario Internacional aprobó en 2023 un programa de rescate a cambio de subidas de impuestos, recortes de subsidios y reestructuración de la deuda con acreedores como China, India y tenedores de bonos privados, un proceso que sigue marcando la política económica del país varios años después del colapso."
+        }
+      ],
+      "key_fact": "En abril de 2022 Sri Lanka suspendió el pago de una deuda externa de unos 51.000 millones de dólares, la primera cesación de pagos de su historia como país independiente.",
+      "questions": [
+        {
+          "q": "¿Qué combinación de factores vació las reservas de divisas de Sri Lanka?",
+          "options": [
+            "Déficit comercial estructural, caída del turismo y recortes fiscales de 2019",
+            "Una guerra civil que paralizó las exportaciones",
+            "La adopción repentina de una nueva moneda",
+            "Un embargo comercial impuesto por sus vecinos"
+          ],
+          "correct": 0,
+          "note": "Ninguno de esos factores fue por sí solo determinante; su acumulación en pocos años dejó al país sin dólares suficientes para pagar importaciones básicas."
+        },
+        {
+          "q": "¿Qué consecuencia inmediata tuvo la falta de dólares para importar combustible y medicamentos?",
+          "options": [
+            "Colas de varios días y cortes de electricidad prolongados",
+            "Un aumento inmediato de las exportaciones agrícolas",
+            "La sustitución total del combustible por energía solar",
+            "Ninguna, porque el país tenía reservas suficientes de otros bienes"
+          ],
+          "correct": 0,
+          "note": "La escasez material directa -no solo cifras macroeconómicas- fue lo que llevó la crisis a la calle y desembocó en las protestas de 2022."
+        },
+        {
+          "q": "¿Qué ocurrió con la deuda externa de Sri Lanka en abril de 2022?",
+          "options": [
+            "El país suspendió su pago por primera vez en su historia",
+            "Fue condonada íntegramente por sus acreedores",
+            "Se convirtió automáticamente en deuda en moneda local",
+            "Quedó garantizada por un fondo regional asiático"
+          ],
+          "correct": 0,
+          "note": "La cesación de pagos sobre unos 51.000 millones de dólares fue un hito sin precedentes para el país, no una reestructuración negociada de antemano."
+        },
+        {
+          "q": "¿A cambio de qué concedió el FMI su programa de rescate en 2023?",
+          "options": [
+            "Subidas de impuestos, recortes de subsidios y reestructuración de deuda",
+            "La renuncia de Sri Lanka a cualquier relación comercial con China",
+            "La adopción del dólar como moneda oficial",
+            "La privatización inmediata de todo el sector energético"
+          ],
+          "correct": 0,
+          "note": "El paquete de condiciones del FMI combinó ajuste fiscal con la negociación de la deuda entre distintos tipos de acreedores, incluidos China e India."
+        }
+      ]
+    },
+    {
+      "id": "his-0010",
+      "category": "historia",
+      "title": "La rebelión de los cipayos y el fin del gobierno de una empresa",
+      "subtitle": "En 1857, soldados indios de la Compañía Británica de las Indias Orientales se sublevaron y precipitaron el fin de su dominio.",
+      "cover_image": {
+        "query": "1857 indian rebellion soldiers",
+        "wikipedia": "Motín de la India de 1857"
+      },
+      "cards": [
+        {
+          "heading": "Una compañía que gobernaba",
+          "text": "Desde el siglo XVII, la Compañía Británica de las Indias Orientales había pasado de comerciar especias a gobernar de facto gran parte del subcontinente indio, con su propio ejército formado mayoritariamente por soldados locales llamados cipayos, reclutados entre la población hindú y musulmana bajo mando de oficiales británicos."
+        },
+        {
+          "heading": "La chispa del cartucho",
+          "text": "En 1857 se extendió el rumor de que los nuevos cartuchos del fusil Enfield, que había que morder para abrirlos, estaban engrasados con grasa de vaca y de cerdo, ofensiva tanto para hindúes como para musulmanes. El rechazo a usarlos derivó en un motín en Meerut que se extendió rápidamente por el norte de India."
+        },
+        {
+          "heading": "Más que un motín militar",
+          "text": "Al levantamiento militar se sumaron príncipes depuestos, campesinos endeudados y comunidades que habían perdido tierras bajo las políticas de anexión británicas, convirtiendo el motín en una rebelión con objetivos políticos más amplios, aunque sin un mando unificado ni un plan común entre los distintos focos rebeldes."
+        },
+        {
+          "heading": "El fin de la Compañía",
+          "text": "Tras sofocar la rebelión con dureza en 1858, el Parlamento británico disolvió la Compañía de las Indias Orientales y transfirió el gobierno directo del territorio a la Corona, dando inicio al periodo conocido como el Raj británico, que se prolongaría hasta la independencia de India en 1947."
+        }
+      ],
+      "key_fact": "La rebelión de los cipayos de 1857 llevó al Parlamento británico a disolver la Compañía de las Indias Orientales y a asumir el gobierno directo de India como colonia de la Corona.",
+      "questions": [
+        {
+          "q": "¿Qué papel tenía la Compañía Británica de las Indias Orientales antes de 1857?",
+          "options": [
+            "Gobernaba de facto gran parte de India con su propio ejército",
+            "Era una agencia meramente diplomática sin poder militar",
+            "Administraba India en nombre directo del Parlamento británico",
+            "Solo operaba en la costa, sin control del interior"
+          ],
+          "correct": 0,
+          "note": "La Compañía había evolucionado de comerciante a gobernante de facto, con un ejército propio formado mayoritariamente por soldados indios, los cipayos."
+        },
+        {
+          "q": "¿Qué desencadenó directamente el motín de 1857?",
+          "options": [
+            "El rechazo a unos cartuchos rumoreados como engrasados con grasa animal",
+            "La imposición de un nuevo idioma oficial",
+            "La subida de impuestos sobre la sal",
+            "La prohibición de prácticas religiosas hindúes y musulmanas"
+          ],
+          "correct": 0,
+          "note": "El rumor sobre la grasa de vaca y cerdo en los cartuchos del fusil Enfield resultaba ofensivo para las dos principales comunidades religiosas y actuó como detonante inmediato."
+        },
+        {
+          "q": "¿Por qué se considera que la revuelta fue más allá de un simple motín militar?",
+          "options": [
+            "Se sumaron príncipes depuestos y campesinos afectados por las anexiones británicas",
+            "Porque fue organizada íntegramente por comerciantes europeos",
+            "Porque comenzó como una revuelta religiosa sin componente militar",
+            "Porque solo participaron oficiales británicos descontentos"
+          ],
+          "correct": 0,
+          "note": "La incorporación de actores civiles con agravios políticos y económicos propios amplió el alcance de la revuelta más allá de una simple protesta castrense."
+        },
+        {
+          "q": "¿Qué cambio institucional provocó la rebelión una vez sofocada?",
+          "options": [
+            "El paso del gobierno de India de la Compañía a la Corona británica directamente",
+            "La independencia inmediata de India",
+            "La creación de un parlamento indio autónomo",
+            "La retirada total británica del subcontinente"
+          ],
+          "correct": 0,
+          "note": "El episodio evidenció los límites de que una empresa privada gobernara un territorio tan extenso, lo que llevó al inicio del Raj británico bajo administración directa de la Corona."
+        }
+      ]
+    },
+    {
+      "id": "his-0011",
+      "category": "historia",
+      "title": "Las guerras del Opio y el puerto que Gran Bretaña ganó vendiendo droga",
+      "subtitle": "China intentó frenar el contrabando británico de opio y perdió dos guerras que le costaron Hong Kong y sus propios aranceles.",
+      "cover_image": {
+        "query": "opium war ships canton",
+        "wikipedia": "Primera guerra del Opio"
+      },
+      "cards": [
+        {
+          "heading": "Un desequilibrio resuelto con droga",
+          "text": "A finales del siglo XVIII, Gran Bretaña compraba a China té, seda y porcelana pagando en plata, lo que generaba un déficit comercial persistente. La Compañía Británica de las Indias Orientales resolvió el desequilibrio exportando opio cultivado en India hacia China, pese a que su venta estaba prohibida por el Gobierno chino desde 1729."
+        },
+        {
+          "heading": "La chispa de la confiscación",
+          "text": "En 1839, el comisionado imperial Lin Zexu confiscó y destruyó más de mil toneladas de opio británico almacenadas en Cantón para frenar una adicción que afectaba ya a millones de personas en China. Gran Bretaña respondió enviando una flota de guerra, iniciando la Primera Guerra del Opio, que China perdió por su clara inferioridad naval y militar."
+        },
+        {
+          "heading": "El tratado desigual",
+          "text": "El Tratado de Nanking de 1842 obligó a China a ceder Hong Kong a Gran Bretaña, abrir cinco puertos al comercio exterior y renunciar al control de sus propios aranceles aduaneros. Una segunda guerra, entre 1856 y 1860, en la que participaron también fuerzas francesas, impuso condiciones aún más duras, incluida la legalización del comercio de opio."
+        },
+        {
+          "heading": "El siglo de la humillación",
+          "text": "China denomina a este periodo, que se extendió hasta mediados del siglo XX, el 'siglo de la humillación', marcado por sucesivos tratados desiguales impuestos por potencias extranjeras. Hong Kong permaneció bajo soberanía británica hasta su devolución a China en 1997, casi siglo y medio después del Tratado de Nanking."
+        }
+      ],
+      "key_fact": "El Tratado de Nanking de 1842, que puso fin a la Primera Guerra del Opio, obligó a China a ceder Hong Kong a Gran Bretaña, territorio que no volvería a soberanía china hasta 1997.",
+      "questions": [
+        {
+          "q": "¿Qué problema comercial buscaba resolver Gran Bretaña exportando opio a China?",
+          "options": [
+            "Un déficit comercial persistente por sus compras de té, seda y porcelana",
+            "Un exceso de producción agrícola en sus colonias asiáticas",
+            "La necesidad de financiar guerras en Europa",
+            "La falta de puertos chinos abiertos al comercio"
+          ],
+          "correct": 0,
+          "note": "El opio cultivado en India fue la mercancía que permitió a Gran Bretaña invertir el flujo de plata que hasta entonces salía hacia China."
+        },
+        {
+          "q": "¿Qué acción del comisionado Lin Zexu desencadenó la Primera Guerra del Opio?",
+          "options": [
+            "La confiscación y destrucción de opio británico almacenado en Cantón",
+            "La expulsión de todos los comerciantes extranjeros de China",
+            "El bloqueo naval del río Yangtsé",
+            "La firma de un tratado comercial con Francia"
+          ],
+          "correct": 0,
+          "note": "La destrucción de más de mil toneladas de opio en 1839 fue interpretada por Gran Bretaña como un ataque a sus intereses comerciales y sirvió de detonante bélico."
+        },
+        {
+          "q": "¿Qué condiciones impuso el Tratado de Nanking de 1842?",
+          "options": [
+            "Cesión de Hong Kong, apertura de puertos y pérdida de control arancelario",
+            "La legalización inmediata del comercio de opio",
+            "La expulsión de Gran Bretaña de todo el territorio chino",
+            "La independencia de Cantón como ciudad-estado"
+          ],
+          "correct": 0,
+          "note": "La legalización explícita del opio llegaría después, con la Segunda Guerra del Opio; el tratado de 1842 se centró en Hong Kong, puertos y aranceles."
+        },
+        {
+          "q": "¿Cómo denomina China al periodo iniciado con las guerras del Opio?",
+          "options": [
+            "El 'siglo de la humillación'",
+            "La 'era de las cinco dinastías'",
+            "El 'gran salto atrás'",
+            "La 'época de los tratados iguales'"
+          ],
+          "correct": 0,
+          "note": "La expresión resume la sucesión de tratados desiguales impuestos por potencias extranjeras que China padeció hasta mediados del siglo XX."
+        }
+      ]
+    },
+    {
+      "id": "his-0012",
+      "category": "historia",
+      "title": "Por qué el imperio inca cayó en menos de un año",
+      "subtitle": "Una guerra civil interna, la viruela y un puñado de españoles bastaron para derribar el mayor imperio precolombino de América.",
+      "cover_image": {
+        "query": "inca ruins machu picchu",
+        "wikipedia": "Conquista del Imperio incaico"
+      },
+      "cards": [
+        {
+          "heading": "Un imperio ya debilitado",
+          "text": "Cuando Francisco Pizarro desembarcó en 1532 con menos de 200 soldados, el imperio inca acababa de salir de una guerra civil entre los hermanos Huáscar y Atahualpa por la sucesión al trono, que había dejado al ejército agotado y al territorio dividido. Una epidemia de viruela, llegada probablemente desde Centroamérica antes que los propios españoles, había matado ya al emperador anterior y a buena parte de la nobleza."
+        },
+        {
+          "heading": "La captura de Atahualpa",
+          "text": "En Cajamarca, Pizarro emboscó y capturó al emperador Atahualpa en un encuentro que terminó en una masacre de su séquito desarmado. A cambio de su liberación, los incas llenaron una habitación de oro y plata, el rescate más grande de la historia, pero los españoles ejecutaron a Atahualpa igualmente en 1533, acusándolo de conspiración."
+        },
+        {
+          "heading": "Aliados locales, no solo armas",
+          "text": "La conquista no fue obra española en solitario: miles de guerreros de pueblos como los huancas o los cañaris, resentidos con el dominio inca, combatieron junto a Pizarro, aportando el grueso numérico de las fuerzas que tomaron Cuzco en 1533. Sin esos aliados locales, el reducido contingente español difícilmente habría podido someter un territorio tan extenso."
+        },
+        {
+          "heading": "Una resistencia que duró décadas",
+          "text": "La caída de Cuzco no significó el fin inmediato de la resistencia inca: un estado neoinca sobrevivió en Vilcabamba hasta 1572, cuando los españoles capturaron y ejecutaron a su último gobernante, Túpac Amaru. El imperio, que en su apogeo llegó a controlar unos doce millones de personas, tardó cuatro décadas en ser sometido por completo."
+        }
+      ],
+      "key_fact": "El imperio inca, con hasta doce millones de súbditos en su apogeo, cayó en gran parte por una guerra civil interna y una epidemia de viruela previas a la llegada de los menos de 200 soldados de Pizarro.",
+      "questions": [
+        {
+          "q": "¿Qué situación interna debilitaba al imperio inca antes de la llegada de Pizarro?",
+          "options": [
+            "Una guerra civil por la sucesión entre Huáscar y Atahualpa",
+            "Una hambruna generalizada por sequía",
+            "Una rebelión de los sacerdotes contra el emperador",
+            "La pérdida previa de Cuzco frente a otro pueblo andino"
+          ],
+          "correct": 0,
+          "note": "El conflicto sucesorio había fracturado el ejército y la administración imperial justo antes del desembarco español, debilitando su capacidad de respuesta."
+        },
+        {
+          "q": "¿Qué papel tuvo la viruela en la conquista del imperio inca?",
+          "options": [
+            "Mató al emperador anterior y a buena parte de la nobleza antes de la llegada española",
+            "No tuvo ningún efecto porque llegó después de la conquista",
+            "Afectó únicamente a los soldados españoles",
+            "Fue introducida deliberadamente por Pizarro como arma"
+          ],
+          "correct": 0,
+          "note": "La epidemia se propagó desde Centroamérica antes que los propios conquistadores, debilitando la estructura de poder inca de forma independiente a la acción militar española."
+        },
+        {
+          "q": "¿Qué papel tuvieron los pueblos indígenas aliados de los españoles en la conquista?",
+          "options": [
+            "Aportaron el grueso numérico de las fuerzas que tomaron Cuzco",
+            "Se mantuvieron neutrales durante todo el conflicto",
+            "Lucharon exclusivamente del lado inca",
+            "No existieron alianzas indígenas con los españoles"
+          ],
+          "correct": 0,
+          "note": "Pueblos como los huancas o los cañaris, resentidos con el dominio inca, combatieron junto a Pizarro y resultaron decisivos dado el reducido número de soldados españoles."
+        },
+        {
+          "q": "¿Cuánto tiempo resistió un estado inca independiente tras la caída de Cuzco?",
+          "options": [
+            "Casi cuatro décadas, hasta la caída de Vilcabamba en 1572",
+            "Apenas unas semanas",
+            "Más de dos siglos, hasta el siglo XVIII",
+            "No hubo resistencia organizada tras la caída de Cuzco"
+          ],
+          "correct": 0,
+          "note": "El estado neoinca de Vilcabamba sobrevivió hasta la ejecución de Túpac Amaru en 1572, lo que muestra que la conquista fue un proceso prolongado, no un colapso inmediato."
+        }
+      ]
+    },
+    {
+      "id": "cie-0010",
+      "category": "ciencia",
+      "title": "El cráter de Chicxulub y la disputa sobre qué mató a los dinosaurios",
+      "subtitle": "Un asteroide de diez kilómetros dejó una cicatriz de 180 km en México, aunque no todos aceptan que fuera la única causa.",
+      "cover_image": {
+        "query": "asteroid impact crater yucatan",
+        "wikipedia": "Cráter de Chicxulub"
+      },
+      "cards": [
+        {
+          "heading": "Una capa de iridio inexplicable",
+          "text": "En 1980, el físico Luis Álvarez y su hijo, el geólogo Walter Álvarez, descubrieron una fina capa de arcilla rica en iridio, un elemento raro en la corteza terrestre pero común en asteroides, presente en rocas de hace 66 millones de años en distintos puntos del planeta. Propusieron que un gran impacto extraterrestre coincidía con la desaparición de los dinosaurios no aviares."
+        },
+        {
+          "heading": "El cráter que faltaba",
+          "text": "La hipótesis carecía de una prueba directa hasta 1991, cuando geólogos identificaron el cráter de Chicxulub, semienterrado bajo la península de Yucatán, con un diámetro de unos 180 kilómetros, compatible con el impacto de un objeto de cerca de diez kilómetros y con una antigüedad que coincidía con la capa de iridio de los Álvarez."
+        },
+        {
+          "heading": "El invierno de impacto",
+          "text": "El impacto habría liberado energía equivalente a miles de millones de bombas atómicas, provocando incendios, tsunamis y una nube de polvo y azufre que bloqueó la luz solar durante meses o años, colapsando la fotosíntesis y las cadenas alimentarias en todo el planeta, según las reconstrucciones climáticas basadas en el registro geológico."
+        },
+        {
+          "heading": "Una controversia sin cerrar",
+          "text": "Una minoría de científicos sostiene que las erupciones volcánicas masivas de los traps del Decán, en India, ya habían debilitado los ecosistemas antes del impacto, y que la combinación de ambos fenómenos, no el asteroide en solitario, explica mejor la extinción. La mayoría de la comunidad considera hoy el impacto como la causa principal, pero el papel exacto del vulcanismo sigue en debate."
+        }
+      ],
+      "key_fact": "El cráter de Chicxulub, de unos 180 kilómetros de diámetro bajo la península de Yucatán, coincide en edad con la desaparición de los dinosaurios no aviares hace 66 millones de años.",
+      "questions": [
+        {
+          "q": "¿Qué evidencia llevó a los Álvarez a proponer la hipótesis del impacto en 1980?",
+          "options": [
+            "Una capa de arcilla rica en iridio hallada en rocas de 66 millones de años",
+            "El hallazgo directo del cráter de Chicxulub",
+            "Restos fósiles de un asteroide en Yucatán",
+            "Registros históricos de una lluvia de meteoritos"
+          ],
+          "correct": 0,
+          "note": "El cráter no se identificaría hasta once años después; la hipótesis inicial se apoyaba solo en la anomalía química del iridio, raro en la Tierra pero común en asteroides."
+        },
+        {
+          "q": "¿Qué relación existe entre el cráter de Chicxulub y la capa de iridio descubierta por los Álvarez?",
+          "options": [
+            "Ambos coinciden en antigüedad, en torno a los 66 millones de años",
+            "No tienen ninguna relación cronológica",
+            "El cráter es varios millones de años más antiguo que la capa de iridio",
+            "El iridio se depositó mucho después de formarse el cráter"
+          ],
+          "correct": 0,
+          "note": "La coincidencia temporal entre el cráter identificado en 1991 y la anomalía química descrita en 1980 fue lo que confirmó la hipótesis del impacto."
+        },
+        {
+          "q": "¿Qué mecanismo habría provocado el colapso de las cadenas alimentarias tras el impacto?",
+          "options": [
+            "Una nube de polvo y azufre que bloqueó la luz solar durante meses o años",
+            "Un aumento súbito y permanente de la temperatura global",
+            "La acidificación instantánea de todos los océanos",
+            "Una erupción volcánica provocada directamente por el asteroide"
+          ],
+          "correct": 0,
+          "note": "El bloqueo prolongado de la luz solar habría colapsado la fotosíntesis, la base de las cadenas alimentarias terrestres y marinas."
+        },
+        {
+          "q": "¿Qué argumento sostiene la hipótesis alternativa centrada en los traps del Decán?",
+          "options": [
+            "Que el vulcanismo masivo previo ya había debilitado los ecosistemas antes del impacto",
+            "Que no hubo ningún impacto de asteroide en esa época",
+            "Que los traps del Decán se formaron después de la extinción",
+            "Que el impacto de Chicxulub ocurrió en un lugar distinto a Yucatán"
+          ],
+          "correct": 0,
+          "note": "Esta hipótesis no niega el impacto, sino que discute su peso relativo frente al vulcanismo masivo indio como causa combinada de la extinción."
+        }
+      ]
+    },
+    {
+      "id": "cie-0011",
+      "category": "ciencia",
+      "title": "El experimento más bello de la biología: cómo se replica el ADN",
+      "subtitle": "En 1958, Meselson y Stahl usaron nitrógeno pesado para demostrar cómo cada hebra de ADN copia a su complementaria.",
+      "cover_image": {
+        "query": "dna double helix model",
+        "wikipedia": "Experimento de Meselson y Stahl"
+      },
+      "cards": [
+        {
+          "heading": "Tres hipótesis en competencia",
+          "text": "Tras el descubrimiento de la estructura de doble hélice del ADN en 1953, existían tres hipótesis rivales sobre cómo se replicaba: el modelo semiconservativo, en el que cada hebra original sirve de molde para una nueva; el conservativo, en el que la molécula original permanece intacta; y el dispersivo, en el que las hebras nuevas y viejas se mezclan en fragmentos."
+        },
+        {
+          "heading": "Marcar el ADN con peso",
+          "text": "Matthew Meselson y Franklin Stahl cultivaron bacterias Escherichia coli en un medio con nitrógeno-15, un isótopo más pesado que el nitrógeno-14 habitual, de modo que todo su ADN quedó marcado. Después trasladaron las bacterias a un medio con nitrógeno normal y dejaron que se dividieran, extrayendo muestras de ADN tras cada generación."
+        },
+        {
+          "heading": "Centrifugar hasta ver el resultado",
+          "text": "Usando una ultracentrífuga que separaba el ADN según su densidad, comprobaron que tras una generación todo el ADN tenía una densidad intermedia entre el pesado y el ligero, descartando el modelo conservativo. Tras una segunda generación aparecían dos bandas, una intermedia y otra ligera, en proporciones exactas que solo encajaban con el modelo semiconservativo."
+        },
+        {
+          "heading": "Un resultado sin ambigüedad",
+          "text": "El experimento, publicado en 1958, se considera uno de los más elegantes de la biología molecular porque su diseño permitía distinguir entre las tres hipótesis con un único tipo de medición, sin necesidad de observar directamente la molécula. Confirmó que cada nueva hélice de ADN combina siempre una hebra original y una recién sintetizada."
+        }
+      ],
+      "key_fact": "El experimento de Meselson y Stahl, publicado en 1958, demostró mediante nitrógeno pesado y centrifugación que el ADN se replica de forma semiconservativa: cada hebra original sirve de molde para una nueva.",
+      "questions": [
+        {
+          "q": "¿Qué tres modelos de replicación del ADN competían antes del experimento de Meselson y Stahl?",
+          "options": [
+            "Semiconservativo, conservativo y dispersivo",
+            "Lineal, circular y helicoidal",
+            "Mitótico, meiótico y binario",
+            "Enzimático, térmico y osmótico"
+          ],
+          "correct": 0,
+          "note": "Cada modelo predecía una distribución distinta de las hebras originales y nuevas tras la replicación, y el experimento estaba diseñado para diferenciarlas con precisión."
+        },
+        {
+          "q": "¿Para qué usaron Meselson y Stahl el nitrógeno-15?",
+          "options": [
+            "Para marcar el ADN original y poder distinguirlo del nuevo por su densidad",
+            "Para acelerar artificialmente la división celular",
+            "Para destruir el ADN no replicado",
+            "Para colorear visualmente las bacterias bajo el microscopio"
+          ],
+          "correct": 0,
+          "note": "El nitrógeno-15 es más pesado que el habitual nitrógeno-14, lo que permitía separar el ADN marcado del nuevo mediante centrifugación según su densidad."
+        },
+        {
+          "q": "¿Qué resultado tras la primera generación descartó el modelo conservativo?",
+          "options": [
+            "Todo el ADN mostró una densidad intermedia entre el pesado y el ligero",
+            "Todo el ADN mantuvo la densidad pesada original",
+            "Todo el ADN pasó a tener densidad ligera de inmediato",
+            "No se detectó ADN en la primera generación"
+          ],
+          "correct": 0,
+          "note": "Si el modelo conservativo fuera correcto, deberían haber aparecido dos bandas separadas -pesada y ligera-, no una única banda de densidad intermedia."
+        },
+        {
+          "q": "¿Por qué se considera este experimento especialmente elegante dentro de la biología molecular?",
+          "options": [
+            "Porque distinguía entre tres hipótesis rivales con una sola técnica de medición",
+            "Porque fue el primero en usar un microscopio electrónico",
+            "Porque no requería ningún tipo de cultivo bacteriano",
+            "Porque confirmó la existencia del ADN por primera vez"
+          ],
+          "correct": 0,
+          "note": "Su fuerza estaba en el diseño: una única variable medible, la densidad, bastaba para discriminar entre los tres modelos de replicación propuestos."
+        }
+      ]
+    },
+    {
+      "id": "fil-0010",
+      "category": "filosofia",
+      "title": "Averroes, el comentarista cordobés que salvó a Aristóteles para Europa",
+      "subtitle": "Sus comentarios a Aristóteles, escritos en la Córdoba del siglo XII, llegaron a Europa antes que muchas obras del propio griego.",
+      "cover_image": {
+        "query": "cordoba mosque medieval islamic",
+        "wikipedia": "Averroes"
+      },
+      "cards": [
+        {
+          "heading": "Un filósofo cordobés",
+          "text": "Ibn Rushd, conocido en Europa como Averroes, nació en Córdoba en 1126 y ejerció como juez, médico y filósofo bajo el califato almohade. Dedicó buena parte de su obra a comentar sistemáticamente los textos de Aristóteles, cuyo pensamiento se había transmitido de forma fragmentaria e incompleta en el mundo islámico y cristiano medieval."
+        },
+        {
+          "heading": "Razón y fe, sin subordinación",
+          "text": "Averroes defendió que la filosofía y la revelación religiosa podían alcanzar la misma verdad por caminos distintos, y que un creyente formado filosóficamente tenía el deber de interpretar racionalmente las Escrituras cuando su lectura literal entrase en conflicto con conclusiones demostradas por la razón. Esa postura generó tensión con sectores religiosos más literalistas de su época."
+        },
+        {
+          "heading": "El puente hacia Europa",
+          "text": "Sus comentarios a Aristóteles se tradujeron al latín y al hebreo desde el siglo XIII y se convirtieron en la vía principal por la que buena parte del pensamiento aristotélico llegó a las universidades europeas, influyendo directamente en pensadores cristianos como Tomás de Aquino, aunque este último terminaría distanciándose de algunas de sus tesis."
+        },
+        {
+          "heading": "El rechazo del 'averroísmo latino'",
+          "text": "La interpretación de sus ideas por filósofos europeos, conocida como averroísmo latino, fue condenada oficialmente por la Iglesia en 1277 por sus implicaciones sobre la naturaleza del alma y los límites de la fe. La condena no impidió que la obra de Averroes siguiera siendo un referente central en la filosofía universitaria europea durante siglos."
+        }
+      ],
+      "key_fact": "Los comentarios de Averroes a Aristóteles, traducidos al latín desde el siglo XIII, se convirtieron en la vía principal por la que el pensamiento aristotélico llegó a las universidades de la Europa cristiana.",
+      "questions": [
+        {
+          "q": "¿A qué dedicó Averroes buena parte de su obra filosófica?",
+          "options": [
+            "A comentar sistemáticamente los textos de Aristóteles",
+            "A traducir textos budistas al árabe",
+            "A refutar por completo la filosofía griega",
+            "A escribir tratados exclusivamente de medicina"
+          ],
+          "correct": 0,
+          "note": "Sus comentarios, más que obras filosóficas originales independientes, buscaban aclarar y sistematizar el pensamiento aristotélico, que circulaba de forma fragmentaria."
+        },
+        {
+          "q": "¿Qué postura defendía Averroes sobre la relación entre razón y fe religiosa?",
+          "options": [
+            "Que ambas podían alcanzar la misma verdad por caminos distintos",
+            "Que la razón debía subordinarse siempre a la lectura literal de las Escrituras",
+            "Que la filosofía y la religión eran completamente incompatibles",
+            "Que solo la fe, sin razón, permitía acceder a la verdad"
+          ],
+          "correct": 0,
+          "note": "Esta postura, que otorgaba a la interpretación racional un papel legítimo frente a la lectura literal, fue precisamente la que generó fricción con sectores religiosos más literalistas."
+        },
+        {
+          "q": "¿Cómo llegó el pensamiento aristotélico de Averroes a la Europa cristiana medieval?",
+          "options": [
+            "A través de traducciones al latín y al hebreo de sus comentarios",
+            "Mediante su viaje personal a varias universidades europeas",
+            "Por decreto directo de la Iglesia católica",
+            "Gracias a una traducción realizada por el propio Aristóteles"
+          ],
+          "correct": 0,
+          "note": "Averroes nunca viajó a la Europa cristiana; fue la traducción de sus textos, no un contacto directo, lo que difundió su interpretación de Aristóteles."
+        },
+        {
+          "q": "¿Qué fue el 'averroísmo latino' condenado por la Iglesia en 1277?",
+          "options": [
+            "La interpretación de las ideas de Averroes hecha por filósofos europeos",
+            "Una secta religiosa fundada por el propio Averroes",
+            "Un movimiento de traductores árabes en España",
+            "La versión oficial del islam en la Córdoba almohade"
+          ],
+          "correct": 0,
+          "note": "La condena no afectaba a Averroes directamente, sino a cómo ciertos filósofos cristianos habían desarrollado sus tesis sobre el alma y los límites de la fe."
+        }
+      ]
+    },
+    {
+      "id": "fil-0011",
+      "category": "filosofia",
+      "title": "Zhuangzi y la mariposa que no sabía si soñaba ser hombre",
+      "subtitle": "Un filósofo chino del siglo IV a.C. usó un sueño para cuestionar si es posible distinguir con certeza la realidad de la ilusión.",
+      "cover_image": {
+        "query": "chinese ink painting butterfly",
+        "wikipedia": "Zhuangzi (libro)"
+      },
+      "cards": [
+        {
+          "heading": "El relato del sueño",
+          "text": "En uno de los pasajes más citados del libro que lleva su nombre, Zhuangzi cuenta que soñó ser una mariposa que volaba despreocupada, sin saber que era Zhuangzi. Al despertar, no supo si era un hombre que había soñado ser mariposa o una mariposa que en ese momento soñaba ser un hombre."
+        },
+        {
+          "heading": "Una duda sin criterio",
+          "text": "El relato no busca una respuesta literal, sino mostrar que no existe ningún criterio interno a la experiencia que permita distinguir con certeza absoluta el estado de vigilia del de sueño, porque ambos se viven, mientras ocurren, como plenamente reales. La perspectiva desde la que se juzga cuál es la 'verdadera' siempre queda fuera del propio relato."
+        },
+        {
+          "heading": "La transformación como idea central",
+          "text": "Zhuangzi llama a este paso entre estados 'la transformación de las cosas', un concepto que atraviesa su obra: las fronteras fijas entre identidades -hombre y mariposa, vida y muerte, sujeto y objeto- son menos estables de lo que la experiencia cotidiana asume, y el sabio taoísta acepta esa fluidez en vez de aferrarse a una identidad única."
+        },
+        {
+          "heading": "Un escepticismo distinto al occidental",
+          "text": "A diferencia del escepticismo cartesiano posterior, que busca un punto fijo de certeza -el 'pienso, luego existo'- para superar la duda, Zhuangzi no propone resolver la incertidumbre sino habitarla con desapego, como parte de una actitud más amplia frente al control y la fijeza de las categorías humanas sobre la realidad."
+        }
+      ],
+      "key_fact": "En el relato de Zhuangzi, un hombre que sueña ser mariposa despierta sin poder determinar con certeza si es un hombre que soñó ser mariposa o una mariposa que sueña ser hombre.",
+      "questions": [
+        {
+          "q": "¿Qué pregunta central plantea el relato de la mariposa de Zhuangzi?",
+          "options": [
+            "Si existe un criterio para distinguir con certeza la vigilia del sueño",
+            "Si las mariposas tienen conciencia como los humanos",
+            "Si es posible viajar entre distintas vidas pasadas",
+            "Si el sueño es siempre inferior moralmente a la vigilia"
+          ],
+          "correct": 0,
+          "note": "El relato no trata sobre las mariposas en sí, sino sobre la imposibilidad de encontrar, desde dentro de la propia experiencia, un punto fijo que certifique cuál estado es el 'real'."
+        },
+        {
+          "q": "¿Qué concepto usa Zhuangzi para nombrar el paso entre ser hombre y ser mariposa?",
+          "options": [
+            "La transformación de las cosas",
+            "El despertar iluminado",
+            "El ciclo del karma",
+            "La rectificación de los nombres"
+          ],
+          "correct": 0,
+          "note": "Ese concepto recorre buena parte de su obra y sugiere que las fronteras entre identidades y estados son menos fijas de lo que asume la experiencia cotidiana."
+        },
+        {
+          "q": "¿En qué se diferencia la duda de Zhuangzi del escepticismo cartesiano posterior?",
+          "options": [
+            "Zhuangzi no busca un punto fijo de certeza, sino aceptar la incertidumbre",
+            "Ambos llegan exactamente a la misma conclusión sobre la realidad",
+            "Descartes tampoco buscaba ningún punto de certeza",
+            "Zhuangzi negaba la existencia de cualquier tipo de duda"
+          ],
+          "correct": 0,
+          "note": "Mientras Descartes usa la duda como punto de partida para hallar una certeza indubitable, Zhuangzi propone habitar la incertidumbre sin intentar resolverla del todo."
+        },
+        {
+          "q": "¿Qué actitud asocia Zhuangzi con la aceptación de la 'transformación de las cosas'?",
+          "options": [
+            "Un desapego frente a la fijeza de las categorías e identidades humanas",
+            "Una obsesión por definir con precisión cada concepto",
+            "El rechazo total a cualquier forma de cambio",
+            "La necesidad de dominar la naturaleza mediante la razón"
+          ],
+          "correct": 0,
+          "note": "El sabio taoísta, en la lectura de Zhuangzi, no se aferra a una identidad fija sino que acepta la fluidez entre estados como parte natural de la existencia."
+        }
+      ]
+    },
+    {
+      "id": "pre-0010",
+      "category": "presente",
+      "title": "El efecto red: por qué las plataformas tienden a quedárselo todo",
+      "subtitle": "Cuantos más usuarios tiene un servicio, más valioso se vuelve para cada uno, y el mercado tiende a uno o dos actores dominantes.",
+      "cover_image": {
+        "query": "network connections graph",
+        "wikipedia": "Efecto de red"
+      },
+      "cards": [
+        {
+          "heading": "El valor de los demás",
+          "text": "Un efecto de red ocurre cuando el valor de un producto o servicio para cada usuario aumenta con el número total de usuarios que lo utilizan. El ejemplo clásico es el teléfono: tener el único aparato del mundo no sirve de nada, pero cada nuevo suscriptor añade valor a todos los que ya estaban conectados."
+        },
+        {
+          "heading": "Directos e indirectos",
+          "text": "En un efecto de red directo, como las redes sociales, el valor crece porque hay más gente con quien interactuar directamente. En uno indirecto, como los sistemas operativos o las plataformas de reparto, el crecimiento de un lado del mercado -por ejemplo, más usuarios- atrae a más participantes del otro lado -más desarrolladores o repartidores- reforzándose mutuamente."
+        },
+        {
+          "heading": "Ventaja para los primeros",
+          "text": "Los efectos de red generan rendimientos crecientes: cuanto más grande es una plataforma, más difícil resulta que un competidor más pequeño le arrebate usuarios, porque estos perderían acceso a la red de contactos, vendedores o contenido ya construida. Ese mecanismo explica por qué muchos mercados digitales terminan dominados por uno o dos actores."
+        },
+        {
+          "heading": "Los límites del efecto",
+          "text": "El dominio no es automático ni permanente: plataformas con fuerte efecto de red han perdido posición cuando aparecieron alternativas que resolvían mejor un problema específico o cuando los reguladores intervinieron para forzar la interoperabilidad entre servicios rivales, reduciendo el coste de cambiarse de una plataforma a otra."
+        }
+      ],
+      "key_fact": "En un efecto de red, el valor de un servicio para cada usuario crece con el número total de usuarios, lo que empuja a muchos mercados digitales hacia el dominio de uno o dos actores.",
+      "questions": [
+        {
+          "q": "¿Qué define a un efecto de red?",
+          "options": [
+            "Que el valor del servicio para cada usuario aumenta con el número de usuarios",
+            "Que el precio del servicio baja automáticamente con el tiempo",
+            "Que el servicio solo puede tener un único usuario a la vez",
+            "Que el Estado regula directamente el número de usuarios permitido"
+          ],
+          "correct": 0,
+          "note": "El ejemplo del teléfono ilustra el mecanismo: el valor no depende del producto en sí, sino de cuánta gente más lo usa."
+        },
+        {
+          "q": "¿Qué diferencia hay entre un efecto de red directo y uno indirecto?",
+          "options": [
+            "El directo crece por interacción entre usuarios; el indirecto, entre dos lados distintos del mercado",
+            "El directo solo existe en internet; el indirecto, solo fuera de internet",
+            "El indirecto no depende del número de usuarios",
+            "No existe ninguna diferencia relevante entre ambos"
+          ],
+          "correct": 0,
+          "note": "El indirecto conecta a dos grupos distintos -por ejemplo, usuarios y desarrolladores- que se refuerzan mutuamente, mientras el directo ocurre dentro del mismo grupo de usuarios."
+        },
+        {
+          "q": "¿Por qué los efectos de red suelen favorecer a las plataformas que llegaron primero al mercado?",
+          "options": [
+            "Porque los usuarios pierden valor si abandonan una red ya construida",
+            "Porque las leyes de patentes protegen automáticamente al primero",
+            "Porque los competidores tienen prohibido copiar el modelo de negocio",
+            "Porque los primeros siempre reciben subvenciones estatales"
+          ],
+          "correct": 0,
+          "note": "El coste de cambiarse a una plataforma más pequeña, con menos usuarios o contenido, actúa como una barrera natural que refuerza la posición del líder establecido."
+        },
+        {
+          "q": "¿Qué puede debilitar el dominio de una plataforma con fuerte efecto de red?",
+          "options": [
+            "Alternativas que resuelven mejor un problema específico o regulación de interoperabilidad",
+            "La subida generalizada de los precios de internet",
+            "La reducción del número total de usuarios de internet",
+            "La prohibición total de la publicidad digital"
+          ],
+          "correct": 0,
+          "note": "El dominio por efecto de red no es irreversible: nuevas soluciones especializadas o intervenciones regulatorias pueden reducir la ventaja acumulada del líder."
+        }
+      ]
+    },
+    {
+      "id": "pre-0011",
+      "category": "presente",
+      "title": "La trampa de Tucídides: cuando el que asciende asusta al que domina",
+      "subtitle": "Un historiador griego del siglo V a.C. describió el patrón que hoy se usa para analizar la rivalidad entre Estados Unidos y China.",
+      "cover_image": {
+        "query": "ancient greek ships naval battle",
+        "wikipedia": "Trampa de Tucídides"
+      },
+      "cards": [
+        {
+          "heading": "Una guerra explicada por miedo",
+          "text": "El historiador griego Tucídides atribuyó el estallido de la guerra del Peloponeso, entre Esparta y Atenas en el siglo V a.C., no tanto a un incidente concreto como al miedo que el ascenso de Atenas provocó en la Esparta dominante. Esa dinámica -una potencia establecida que teme perder su posición frente a una potencia emergente- es el núcleo de lo que hoy se llama trampa de Tucídides."
+        },
+        {
+          "heading": "El estudio que lo popularizó",
+          "text": "El politólogo Graham Allison analizó en 2017 dieciséis casos históricos en los que una potencia emergente desafió a una potencia dominante desde 1500, y encontró que doce de ellos terminaron en guerra. Allison aplicó explícitamente el marco a la rivalidad actual entre Estados Unidos, la potencia dominante, y China, la potencia emergente."
+        },
+        {
+          "heading": "No es un destino automático",
+          "text": "El propio Allison subraya que la trampa describe una tendencia estructural, no una fatalidad: en cuatro de los dieciséis casos analizados la guerra se evitó, mediante ajustes diplomáticos, económicos o estratégicos que gestionaron la rivalidad sin llegar al enfrentamiento militar directo, como ocurrió entre Estados Unidos y la Unión Soviética tras la crisis de los misiles de Cuba."
+        },
+        {
+          "heading": "Las críticas al marco",
+          "text": "Algunos historiadores y politólogos cuestionan que la guerra del Peloponeso encaje tan limpiamente en el patrón que describe Allison, y advierten del riesgo de convertir una analogía histórica en una profecía autocumplida si los responsables políticos actúan como si la confrontación fuera inevitable en vez de una posibilidad entre varias."
+        }
+      ],
+      "key_fact": "En un estudio de 2017, Graham Allison encontró que doce de dieciséis casos históricos de una potencia emergente desafiando a una dominante desde 1500 terminaron en guerra.",
+      "questions": [
+        {
+          "q": "¿Qué mecanismo describe originalmente Tucídides como causa de la guerra del Peloponeso?",
+          "options": [
+            "El miedo de la potencia dominante ante el ascenso de una potencia rival",
+            "Un desacuerdo religioso entre Esparta y Atenas",
+            "La escasez de alimentos en el Peloponeso",
+            "Una alianza militar rota por Esparta"
+          ],
+          "correct": 0,
+          "note": "Tucídides señaló el temor de Esparta a perder su posición dominante frente al creciente poder ateniense como la causa más profunda del conflicto, más allá de los incidentes puntuales que lo precedieron."
+        },
+        {
+          "q": "¿Qué encontró Graham Allison en su análisis de dieciséis casos históricos desde 1500?",
+          "options": [
+            "Que doce de ellos terminaron en guerra entre la potencia dominante y la emergente",
+            "Que ninguno de los casos terminó en conflicto armado",
+            "Que todos los casos involucraron directamente a China",
+            "Que la guerra solo ocurrió cuando intervino una tercera potencia"
+          ],
+          "correct": 0,
+          "note": "El resultado de doce sobre dieciséis es lo que da fuerza empírica al concepto, aunque los cuatro casos sin guerra muestran que el desenlace no es automático."
+        },
+        {
+          "q": "Según el propio marco de Allison, ¿qué significan los casos en los que no hubo guerra?",
+          "options": [
+            "Que la trampa describe una tendencia, no una fatalidad ineludible",
+            "Que esos casos no son comparables y deben descartarse",
+            "Que la trampa de Tucídides no existe en realidad",
+            "Que solo se evita la guerra si una de las potencias desaparece"
+          ],
+          "correct": 0,
+          "note": "Allison usa precisamente esos casos, como el de Estados Unidos y la URSS tras la crisis de los misiles, para argumentar que la gestión diplomática puede evitar el desenlace bélico."
+        },
+        {
+          "q": "¿Qué riesgo señalan los críticos del uso de este marco en política actual?",
+          "options": [
+            "Que tratar la confrontación como inevitable puede convertirse en profecía autocumplida",
+            "Que el concepto ya no se aplica a ninguna rivalidad moderna",
+            "Que el marco solo sirve para conflictos navales",
+            "Que Tucídides nunca mencionó a Esparta ni a Atenas"
+          ],
+          "correct": 0,
+          "note": "El temor de los críticos es que actuar bajo la premisa de que el conflicto es inevitable reduzca precisamente los márgenes de maniobra diplomática que evitaron la guerra en otros casos históricos."
+        }
+      ]
+    },
+    {
+      "id": "fis-0010",
+      "category": "fisica",
+      "title": "La catástrofe ultravioleta y el accidente que fundó la física cuántica",
+      "subtitle": "Para explicar por qué un objeto caliente no emite energía infinita, Planck tuvo que asumir que la energía viene en paquetes.",
+      "cover_image": {
+        "query": "glowing hot metal furnace",
+        "wikipedia": "Radiación de cuerpo negro"
+      },
+      "cards": [
+        {
+          "heading": "El problema del cuerpo negro",
+          "text": "A finales del siglo XIX, los físicos intentaban describir cómo un objeto ideal que absorbe toda la radiación que recibe -un 'cuerpo negro'- emite energía según su temperatura. La física clásica predecía correctamente la emisión a longitudes de onda largas, pero fallaba de forma drástica en el extremo ultravioleta del espectro."
+        },
+        {
+          "heading": "Una predicción absurda",
+          "text": "Según las ecuaciones clásicas, un cuerpo negro caliente debería emitir una cantidad infinita de energía en frecuencias ultravioleta muy altas, algo que ningún experimento observaba jamás. A esta predicción imposible, contradicha sistemáticamente por la evidencia, se la bautizó después como la 'catástrofe ultravioleta'."
+        },
+        {
+          "heading": "La solución de Planck",
+          "text": "En 1900, Max Planck encontró una fórmula que ajustaba perfectamente los datos experimentales, pero solo si asumía que la energía no se emitía de forma continua, sino en unidades discretas o 'cuantos', cuyo tamaño dependía de la frecuencia de la radiación. Planck consideró inicialmente esta suposición un recurso matemático provisional, no una propiedad real de la naturaleza."
+        },
+        {
+          "heading": "De herramienta a física real",
+          "text": "Fue Albert Einstein quien, en 1905, tomó en serio la cuantización de Planck para explicar el efecto fotoeléctrico, proponiendo que la propia luz viaja en paquetes de energía, los fotones. Esa combinación de ideas marcó el nacimiento de la mecánica cuántica como descripción física de la realidad, no solo como herramienta de cálculo."
+        }
+      ],
+      "key_fact": "La fórmula de Max Planck de 1900, que resolvía la 'catástrofe ultravioleta' asumiendo que la energía se emite en unidades discretas, marcó el origen histórico de la física cuántica.",
+      "questions": [
+        {
+          "q": "¿Qué predecía incorrectamente la física clásica sobre la radiación de un cuerpo negro?",
+          "options": [
+            "Una emisión infinita de energía en frecuencias ultravioleta altas",
+            "Que el cuerpo negro no emitiría ninguna radiación",
+            "Que la radiación dependería del color del objeto",
+            "Que solo los metales podían emitir radiación de cuerpo negro"
+          ],
+          "correct": 0,
+          "note": "Esa predicción física, absurda porque nunca se observaba, es la que recibió después el nombre de 'catástrofe ultravioleta'."
+        },
+        {
+          "q": "¿Qué suposición permitió a Planck ajustar su fórmula a los datos experimentales en 1900?",
+          "options": [
+            "Que la energía se emite en unidades discretas o 'cuantos'",
+            "Que la temperatura del cuerpo negro es siempre constante",
+            "Que la luz no tiene ninguna relación con la temperatura",
+            "Que solo los objetos metálicos emiten radiación térmica"
+          ],
+          "correct": 0,
+          "note": "La idea de que la energía viene en paquetes, y no de forma continua, fue la innovación matemática que resolvió el desajuste entre teoría y experimento."
+        },
+        {
+          "q": "¿Cómo consideraba Planck inicialmente su propia hipótesis de la cuantización?",
+          "options": [
+            "Un recurso matemático provisional, no una propiedad real de la naturaleza",
+            "Una confirmación definitiva de que la energía era discreta",
+            "Un error que esperaba corregir en publicaciones posteriores",
+            "Una prueba de que la física clásica era completamente errónea"
+          ],
+          "correct": 0,
+          "note": "Planck no pretendía describir una realidad física nueva, sino encontrar una fórmula que funcionara; fue Einstein quien le dio después un significado físico literal."
+        },
+        {
+          "q": "¿Qué aportó Einstein en 1905 a partir de la idea de Planck?",
+          "options": [
+            "Propuso que la luz misma viaja en paquetes de energía, los fotones, para explicar el efecto fotoeléctrico",
+            "Descubrió experimentalmente el cráter de Chicxulub",
+            "Refutó por completo la hipótesis de la cuantización",
+            "Demostró que la catástrofe ultravioleta sí ocurría en la práctica"
+          ],
+          "correct": 0,
+          "note": "Einstein tomó en serio la cuantización de Planck y la aplicó a la propia luz, un paso decisivo para que la idea pasara de herramienta matemática a física real."
+        }
+      ]
+    },
+    {
+      "id": "fis-0011",
+      "category": "fisica",
+      "title": "Por qué el Sol no colapsa ni explota desde hace 4.600 millones de años",
+      "subtitle": "La gravedad hacia dentro y la presión de la fusión hacia fuera mantienen a las estrellas en equilibrio miles de millones de años.",
+      "cover_image": {
+        "query": "sun surface solar flare",
+        "wikipedia": "Equilibrio hidrostático"
+      },
+      "cards": [
+        {
+          "heading": "Dos fuerzas en pugna",
+          "text": "Una estrella como el Sol está sometida constantemente a dos fuerzas opuestas: su propia gravedad, que tiende a comprimir toda la masa hacia el centro, y la presión generada por la energía liberada en su núcleo, que empuja el gas hacia fuera. Mientras ambas fuerzas se compensan con precisión, la estrella mantiene un tamaño estable."
+        },
+        {
+          "heading": "El horno nuclear del núcleo",
+          "text": "En el núcleo solar, a unos 15 millones de grados y bajo presiones extremas, los núcleos de hidrógeno se fusionan para formar helio mediante un proceso llamado fusión nuclear, liberando la energía que después se abre paso hasta la superficie en forma de luz y calor, tras un recorrido que puede tardar cientos de miles de años en completarse."
+        },
+        {
+          "heading": "Un termostato automático",
+          "text": "El equilibrio se autorregula: si la fusión se acelerase, el núcleo se calentaría, se expandiría y la densidad caería, ralentizando de nuevo la propia fusión; si se ralentizase, la gravedad comprimiría el núcleo, elevando su temperatura y reactivando el proceso. Este mecanismo de retroalimentación es lo que impide tanto el colapso como la explosión descontrolada mientras dura el combustible."
+        },
+        {
+          "heading": "Cuando se agota el hidrógeno",
+          "text": "El equilibrio dura mientras el núcleo dispone de suficiente hidrógeno para fusionar, un periodo estimado en unos 10.000 millones de años para una estrella como el Sol, del que ya ha consumido cerca de la mitad. Cuando el combustible se agote, la balanza entre gravedad y presión se romperá y el Sol empezará una fase de expansión como gigante roja."
+        }
+      ],
+      "key_fact": "El Sol se mantiene estable desde hace 4.600 millones de años gracias a un equilibrio autorregulado entre la gravedad, que comprime su masa, y la presión de la fusión nuclear en su núcleo, que la empuja hacia fuera.",
+      "questions": [
+        {
+          "q": "¿Qué dos fuerzas mantienen el equilibrio de una estrella como el Sol?",
+          "options": [
+            "La gravedad hacia dentro y la presión de la fusión nuclear hacia fuera",
+            "El magnetismo solar y la rotación del núcleo",
+            "La presión atmosférica externa y la temperatura de la corona",
+            "La fuerza centrífuga y la radiación cósmica de fondo"
+          ],
+          "correct": 0,
+          "note": "Es precisamente el balance constante entre estas dos fuerzas opuestas lo que evita tanto el colapso gravitatorio como una expansión descontrolada."
+        },
+        {
+          "q": "¿Qué proceso genera la energía en el núcleo solar?",
+          "options": [
+            "La fusión de núcleos de hidrógeno para formar helio",
+            "La combustión química de gases inflamables",
+            "La desintegración radiactiva de elementos pesados",
+            "La fricción entre distintas capas de gas solar"
+          ],
+          "correct": 0,
+          "note": "A diferencia de la combustión ordinaria, la fusión nuclear libera energía al unir núcleos atómicos ligeros bajo temperaturas y presiones extremas."
+        },
+        {
+          "q": "¿Cómo se autorregula el ritmo de fusión en el núcleo solar?",
+          "options": [
+            "Cambios en densidad y temperatura frenan o reactivan la fusión según haga falta",
+            "El ritmo de fusión es completamente constante e inmodificable",
+            "Un sistema externo de campos magnéticos lo controla manualmente",
+            "La fusión se detiene por completo cada pocos millones de años"
+          ],
+          "correct": 0,
+          "note": "Este mecanismo de retroalimentación -más fusión eleva temperatura y expande el núcleo, lo que ralentiza la propia fusión- es lo que da estabilidad al proceso durante miles de millones de años."
+        },
+        {
+          "q": "¿Qué ocurrirá cuando el Sol agote el hidrógeno de su núcleo?",
+          "options": [
+            "Se romperá el equilibrio entre gravedad y presión y comenzará a expandirse como gigante roja",
+            "Se convertirá instantáneamente en un agujero negro",
+            "Dejará de emitir luz mientras conserva su tamaño actual",
+            "Explotará inmediatamente como una supernova"
+          ],
+          "correct": 0,
+          "note": "Sin suficiente fusión para contrarrestar la gravedad, el núcleo se reorganiza y la estrella entra en una fase expansiva, un desenlace previsto dentro de miles de millones de años."
+        }
+      ]
+    },
+    {
+      "id": "mat-0010",
+      "category": "matematicas",
+      "title": "La paradoja de San Petersburgo: un juego que casi nadie pagaría por jugar",
+      "subtitle": "Un juego de azar con valor esperado infinito revela que el dinero no se valora de forma lineal, como asume la probabilidad clásica",
+      "cover_image": {
+        "query": "coin flip game chance",
+        "wikipedia": "Paradoja de San Petersburgo"
+      },
+      "cards": [
+        {
+          "heading": "Las reglas del juego",
+          "text": "El matemático Nicolás Bernoulli propuso en 1713 un juego en el que se lanza una moneda repetidamente hasta que sale cara por primera vez. Si sale a la primera tirada, el premio es de 2 monedas; si sale en la segunda, 4; en la tercera, 8, y así sucesivamente, duplicándose el premio en cada tirada adicional necesaria."
+        },
+        {
+          "heading": "Un valor esperado infinito",
+          "text": "El valor esperado de un juego de azar se calcula multiplicando cada posible premio por su probabilidad y sumando los resultados. En este juego, cada término de la suma vale exactamente 1 moneda, y como hay infinitas tiradas posibles, la suma total -el valor esperado del juego- resulta ser infinita, aunque en la práctica casi todas las partidas terminan con premios modestos."
+        },
+        {
+          "heading": "La paradoja",
+          "text": "Si el valor esperado es infinito, la teoría clásica de la decisión sugiere que un jugador racional debería estar dispuesto a pagar cualquier cantidad, por elevada que sea, con tal de participar. En la práctica, la mayoría de las personas no pagaría más de veinte o treinta monedas por jugar, muy lejos de cualquier cifra que se acerque al infinito."
+        },
+        {
+          "heading": "La solución de Daniel Bernoulli",
+          "text": "En 1738, el primo del proponente original, Daniel Bernoulli, resolvió la paradoja introduciendo la idea de utilidad marginal decreciente: cada moneda adicional de premio aporta menos satisfacción subjetiva que la anterior, de modo que el valor percibido del juego, a diferencia de su valor monetario esperado, sí es finito. Esa idea sentó las bases de la economía del comportamiento frente al riesgo."
+        }
+      ],
+      "key_fact": "El juego de la paradoja de San Petersburgo tiene un valor esperado matemáticamente infinito, pero la mayoría de las personas no pagaría más de unas pocas decenas de monedas por participar en él.",
+      "questions": [
+        {
+          "q": "¿Cómo se determina el premio en cada ronda del juego de San Petersburgo?",
+          "options": [
+            "Se duplica en cada tirada adicional necesaria hasta que sale cara",
+            "Se reduce a la mitad en cada tirada sin cara",
+            "Es siempre el mismo, independientemente de cuántas tiradas hagan falta",
+            "Depende de un sorteo aparte no relacionado con la moneda"
+          ],
+          "correct": 0,
+          "note": "La progresión geométrica del premio -2, 4, 8, 16...- es precisamente lo que hace que la suma de valores esperados no converja a un número finito."
+        },
+        {
+          "q": "¿Por qué el valor esperado matemático de este juego resulta ser infinito?",
+          "options": [
+            "Porque cada término de la suma de probabilidad por premio vale lo mismo, y hay infinitos términos",
+            "Porque la moneda usada está trucada para no salir nunca cara",
+            "Porque el juego se juega simultáneamente en infinitos tableros",
+            "Porque el premio máximo está fijado en una cifra infinita desde el inicio"
+          ],
+          "correct": 0,
+          "note": "El truco matemático es que la probabilidad decreciente de necesitar más tiradas se compensa exactamente con el premio creciente, dejando cada término constante y una suma sin límite."
+        },
+        {
+          "q": "¿En qué consiste la paradoja observada frente a la predicción de la teoría clásica?",
+          "options": [
+            "La gente no está dispuesta a pagar grandes cantidades pese al valor esperado infinito",
+            "La gente paga sumas infinitas para jugar, confirmando la teoría",
+            "Nadie ha estudiado nunca el comportamiento real de los jugadores",
+            "El juego resulta ilegal en la mayoría de los países"
+          ],
+          "correct": 0,
+          "note": "El contraste entre la predicción teórica -pagar cualquier cifra- y la disposición real y modesta a pagar es el núcleo de la paradoja."
+        },
+        {
+          "q": "¿Cómo resolvió Daniel Bernoulli la paradoja en 1738?",
+          "options": [
+            "Con la idea de utilidad marginal decreciente del dinero",
+            "Demostrando que el juego nunca podía jugarse en la práctica",
+            "Proponiendo que la moneda debía lanzarse solo una vez",
+            "Argumentando que el premio no era realmente monetario"
+          ],
+          "correct": 0,
+          "note": "Al asumir que cada unidad adicional de dinero aporta menos satisfacción que la anterior, el valor subjetivo esperado del juego deja de ser infinito y se vuelve una cifra razonable."
+        }
+      ]
+    },
+    {
+      "id": "mat-0011",
+      "category": "matematicas",
+      "title": "El teorema de Arrow: por qué ningún sistema de votación es perfecto",
+      "subtitle": "Kenneth Arrow demostró en 1951 que ningún método de voto agrega preferencias cumpliendo a la vez varias condiciones razonables.",
+      "cover_image": {
+        "query": "election ballot box voting",
+        "wikipedia": "Teorema de imposibilidad de Arrow"
+      },
+      "cards": [
+        {
+          "heading": "El problema de sumar preferencias",
+          "text": "Cuando un grupo debe elegir entre tres o más opciones y cada persona tiene su propio orden de preferencia, se necesita un método para convertir esas preferencias individuales en una decisión colectiva única. El economista Kenneth Arrow se preguntó si existía un método que respetara siempre un conjunto mínimo de condiciones que parecían razonables por separado."
+        },
+        {
+          "heading": "Las condiciones que parecían obvias",
+          "text": "Arrow exigió, entre otras condiciones, que el sistema no dependiera de un único votante dictador, que respetara la unanimidad cuando todos prefirieran una opción sobre otra, y que la relación entre dos opciones no cambiara si se alteraban las preferencias sobre una tercera opción irrelevante para esa comparación."
+        },
+        {
+          "heading": "El resultado imposible",
+          "text": "En 1951, Arrow demostró matemáticamente que, con tres o más opciones a elegir, ningún sistema de votación puede cumplir simultáneamente todas esas condiciones razonables a la vez: siempre existe al menos una combinación de preferencias individuales para la que el sistema falla en alguna de ellas. El resultado se conoce como el teorema de imposibilidad de Arrow."
+        },
+        {
+          "heading": "Qué implica en la práctica",
+          "text": "El teorema no dice que la democracia sea inviable, sino que todo sistema electoral concreto implica algún compromiso: ningún método de votación -mayoría simple, voto por rangos, sistemas proporcionales- puede ser inmune a todas las paradojas posibles a la vez, lo que convierte el diseño electoral en una elección entre defectos distintos, no en la búsqueda de un sistema sin ninguno."
+        }
+      ],
+      "key_fact": "El teorema de Arrow, demostrado en 1951, establece que con tres o más opciones ningún sistema de votación puede cumplir a la vez un conjunto mínimo de condiciones razonables sobre cómo agregar preferencias individuales.",
+      "questions": [
+        {
+          "q": "¿Qué problema general aborda el teorema de Arrow?",
+          "options": [
+            "Cómo convertir las preferencias individuales de un grupo en una decisión colectiva",
+            "Cómo calcular el resultado exacto de una elección con dos candidatos",
+            "Cómo evitar el fraude electoral en unas elecciones",
+            "Cómo predecir el resultado de una votación antes de que ocurra"
+          ],
+          "correct": 0,
+          "note": "El teorema se centra específicamente en el proceso de agregación de preferencias con tres o más opciones, no en cuestiones de fraude o predicción electoral."
+        },
+        {
+          "q": "¿Qué demostró Arrow sobre los sistemas de votación con tres o más opciones?",
+          "options": [
+            "Que ninguno puede cumplir a la vez un conjunto mínimo de condiciones razonables",
+            "Que todos los sistemas producen exactamente el mismo resultado",
+            "Que solo funciona correctamente el sistema de mayoría simple",
+            "Que el problema desaparece si hay más de tres candidatos"
+          ],
+          "correct": 0,
+          "note": "Es un resultado matemático general, no una crítica a un sistema concreto: afecta a cualquier método de votación imaginable con tres o más opciones."
+        },
+        {
+          "q": "¿Qué tipo de condición buscaba excluir Arrow al exigir que no hubiera un 'dictador'?",
+          "options": [
+            "Que el resultado dependiera siempre de las preferencias de un único votante",
+            "Que ningún líder político pudiera presentarse a las elecciones",
+            "Que los partidos políticos no pudieran formar coaliciones",
+            "Que las elecciones se celebraran con más de un candidato"
+          ],
+          "correct": 0,
+          "note": "La condición de no dictadura exige que el sistema no colapse, en la práctica, en seguir siempre las preferencias de una sola persona, sin importar las del resto."
+        },
+        {
+          "q": "¿Qué implicación práctica tiene el teorema para el diseño de sistemas electorales?",
+          "options": [
+            "Que diseñar un sistema electoral implica elegir entre distintos tipos de defectos posibles",
+            "Que la democracia representativa es matemáticamente imposible",
+            "Que solo los sistemas no democráticos evitan el problema",
+            "Que el teorema solo se aplica a elecciones con dos opciones"
+          ],
+          "correct": 0,
+          "note": "El teorema no invalida la democracia, pero sí obliga a reconocer que ningún sistema electoral concreto puede ser inmune a todas las paradojas de agregación a la vez."
+        }
+      ]
+    },
+    {
+      "id": "mit-0010",
+      "category": "mitologia",
+      "title": "El Popol Vuh y los héroes gemelos que vencieron a los señores de la muerte",
+      "subtitle": "El texto sagrado de los mayas k'iche' narra cómo dos hermanos derrotaron con astucia a los gobernantes del inframundo, Xibalbá.",
+      "cover_image": {
+        "query": "maya temple guatemala jungle",
+        "wikipedia": "Popol Vuh"
+      },
+      "cards": [
+        {
+          "heading": "Un texto salvado",
+          "text": "El Popol Vuh es el relato mitológico más importante de los mayas k'iche', del actual territorio guatemalteco, transmitido oralmente durante generaciones antes de ser transcrito en escritura latina a mediados del siglo XVI, tras la conquista española, por miembros de la nobleza indígena que buscaban preservar su tradición ante la pérdida de los códices originales."
+        },
+        {
+          "heading": "La convocatoria de Xibalbá",
+          "text": "El relato cuenta cómo los señores de Xibalbá, el inframundo maya, convocan a un par de hermanos jugadores de pelota a una partida trampa que termina con su muerte. Años después, los hijos de uno de ellos, los gemelos Hunahpú e Ixbalanqué, son convocados de la misma forma, pero se enfrentan a las pruebas del inframundo con astucia en vez de fuerza."
+        },
+        {
+          "heading": "Superar la muerte con inteligencia",
+          "text": "Los gemelos superan una serie de casas de pruebas -llenas de cuchillos, frío o murciélagos- mediante engaños y trampas propias, y finalmente permiten deliberadamente que los señores de Xibalbá los maten y quemen, para resucitar después y derrotarlos definitivamente ofreciéndose ellos mismos como sacrificio simulado que los señores intentan imitar sin éxito."
+        },
+        {
+          "heading": "El maíz y los humanos",
+          "text": "Tras vencer a Xibalbá, los gemelos ascienden convertidos en el sol y la luna, y el resto del Popol Vuh narra los sucesivos intentos de los dioses por crear seres capaces de honrarlos, hasta lograrlo con los primeros humanos, formados a partir de maíz, el cultivo central de la civilización mesoamericana."
+        }
+      ],
+      "key_fact": "El Popol Vuh, transcrito a mediados del siglo XVI por nobles k'iche', narra cómo los héroes gemelos Hunahpú e Ixbalanqué derrotaron con astucia a los señores del inframundo maya, Xibalbá.",
+      "questions": [
+        {
+          "q": "¿Cómo se conservó el Popol Vuh hasta llegar a nuestros días?",
+          "options": [
+            "Se transmitió oralmente y luego fue transcrito en escritura latina tras la conquista",
+            "Se conservó siempre como un códice maya original intacto",
+            "Fue traducido directamente del náhuatl al español en el siglo XVIII",
+            "Lo escribieron misioneros españoles sin ninguna fuente indígena previa"
+          ],
+          "correct": 0,
+          "note": "La transcripción en escritura latina, hecha por nobles k'iche' a mediados del siglo XVI, fue un esfuerzo de preservación ante la pérdida de los códices originales durante la conquista."
+        },
+        {
+          "q": "¿Qué estrategia usan los gemelos Hunahpú e Ixbalanqué para enfrentarse a los señores de Xibalbá?",
+          "options": [
+            "La astucia y el engaño, en vez de la fuerza física",
+            "La huida inmediata del inframundo sin enfrentarlos",
+            "Una alianza militar con otros pueblos mayas",
+            "La negociación de un tratado de paz permanente"
+          ],
+          "correct": 0,
+          "note": "A diferencia de sus predecesores, que murieron en una trampa directa, los gemelos superan cada prueba del inframundo mediante ingenio en vez de confrontación directa."
+        },
+        {
+          "q": "¿Qué hicieron los gemelos para lograr la derrota definitiva de los señores de Xibalbá?",
+          "options": [
+            "Se dejaron matar y quemar para luego resucitar y vencerlos",
+            "Construyeron un ejército de guerreros de maíz",
+            "Convencieron a los señores de abandonar el inframundo",
+            "Robaron los objetos sagrados de Xibalbá antes de escapar"
+          ],
+          "correct": 0,
+          "note": "El sacrificio simulado y la posterior resurrección de los gemelos es el punto culminante del relato, y lo que finalmente engaña y derrota a los señores del inframundo."
+        },
+        {
+          "q": "¿Qué papel tiene el maíz en la parte final del Popol Vuh?",
+          "options": [
+            "Es el material con el que los dioses logran crear a los primeros humanos con éxito",
+            "Es la ofrenda que los gemelos llevan a Xibalbá",
+            "Es el alimento exclusivo de los señores del inframundo",
+            "No aparece mencionado en ninguna parte del texto"
+          ],
+          "correct": 0,
+          "note": "Tras varios intentos fallidos con otros materiales, los dioses del Popol Vuh logran finalmente crear seres capaces de honrarlos formándolos a partir de maíz."
+        }
+      ]
+    },
+    {
+      "id": "art-0010",
+      "category": "arte",
+      "title": "La cerámica moche: retratos realistas en el Perú de hace 1.800 años",
+      "subtitle": "Los alfareros moche modelaron rostros individuales con un naturalismo que no volvería a verse en la región hasta siglos después.",
+      "cover_image": {
+        "query": "moche portrait pottery peru",
+        "wikipedia": "Cultura mochica"
+      },
+      "cards": [
+        {
+          "heading": "Una memoria hecha de barro",
+          "text": "La cultura moche se desarrolló en la costa norte del actual Perú entre los siglos I y VIII, sin un sistema de escritura conocido, pero dejó un registro extenso de su sociedad a través de la cerámica, especialmente en los llamados 'huaco retrato', vasijas modeladas con forma de rostro humano."
+        },
+        {
+          "heading": "Rostros, no tipos genéricos",
+          "text": "A diferencia de otras tradiciones cerámicas andinas que representaban figuras estilizadas o simbólicas, los huaco retrato moche capturaban rasgos individuales -cicatrices, asimetrías, expresiones concretas- con un nivel de detalle que ha permitido a los investigadores identificar series de vasijas que representan a la misma persona en distintas etapas de su vida."
+        },
+        {
+          "heading": "Retratos de poder y castigo",
+          "text": "Muchos de estos retratos representaban a gobernantes o a figuras de autoridad, y formaban parte de rituales funerarios y ceremoniales, mientras que otra serie de vasijas representaba a prisioneros y condenados, con rasgos que sugieren un registro deliberado de individuos concretos vinculados a rituales de sacrificio, documentados también en el arte mural moche."
+        },
+        {
+          "heading": "Un naturalismo sin continuidad directa",
+          "text": "El realismo de los huaco retrato no tuvo una continuidad clara en las culturas andinas posteriores, como la inca, que privilegiaron formas más estilizadas y abstractas en su cerámica oficial. Ese naturalismo temprano llevó a algunos historiadores del arte a comparar, con cautela, la ambición retratística moche con la de otras tradiciones antiguas fuera de América."
+        }
+      ],
+      "key_fact": "Los huaco retrato de la cultura moche, elaborados entre los siglos I y VIII en el norte de Perú, representaban rasgos individuales con un naturalismo sin continuidad clara en las culturas andinas posteriores.",
+      "questions": [
+        {
+          "q": "¿Qué eran los 'huaco retrato' de la cultura moche?",
+          "options": [
+            "Vasijas cerámicas modeladas con forma de rostro humano individual",
+            "Textiles bordados con escenas de guerra",
+            "Tablillas de arcilla con escritura jeroglífica",
+            "Máscaras funerarias de oro y plata"
+          ],
+          "correct": 0,
+          "note": "Su particularidad frente a otras cerámicas andinas era precisamente el naturalismo individual del rostro representado, no un símbolo o figura genérica."
+        },
+        {
+          "q": "¿Qué ha permitido identificar el nivel de detalle de estas piezas a los investigadores?",
+          "options": [
+            "Series de vasijas que representan a la misma persona en distintas etapas de su vida",
+            "La fecha exacta de fundación de cada ciudad moche",
+            "El nombre completo de cada gobernante moche",
+            "El sistema de escritura jeroglífica utilizado por los moche"
+          ],
+          "correct": 0,
+          "note": "La cultura moche no dejó escritura conocida; es precisamente el detalle individualizado de los rasgos representados lo que permite rastrear a una misma persona en varias piezas."
+        },
+        {
+          "q": "¿Qué otro tipo de personas, además de gobernantes, representaban algunos huaco retrato?",
+          "options": [
+            "Prisioneros y condenados vinculados a rituales de sacrificio",
+            "Exclusivamente niños recién nacidos",
+            "Comerciantes extranjeros de paso por la región",
+            "Animales sagrados con rasgos humanos"
+          ],
+          "correct": 0,
+          "note": "Esa serie de retratos de prisioneros, documentada también en el arte mural moche, sugiere un registro deliberado de individuos concretos ligados a prácticas rituales de sacrificio."
+        },
+        {
+          "q": "¿Qué ocurrió con este naturalismo retratístico en las culturas andinas posteriores, como la inca?",
+          "options": [
+            "No tuvo una continuidad clara; predominaron formas más estilizadas",
+            "Se perfeccionó aún más hasta alcanzar total precisión fotográfica",
+            "Fue prohibido explícitamente por los gobernantes incas",
+            "Se transmitió sin cambios hasta la llegada de los españoles"
+          ],
+          "correct": 0,
+          "note": "El contraste entre el naturalismo moche y la mayor abstracción de la cerámica oficial inca posterior es lo que hace singular este periodo dentro del arte andino."
+        }
+      ]
+    },
+    {
+      "id": "lit-0010",
+      "category": "literatura",
+      "title": "Sundiata y los griots: la epopeya de Malí que se transmite cantando",
+      "subtitle": "La historia del fundador del imperio de Malí sobrevive gracias a narradores hereditarios que la recitan desde hace siglos.",
+      "cover_image": {
+        "query": "west african griot musician kora",
+        "wikipedia": "Sundiata Keita"
+      },
+      "cards": [
+        {
+          "heading": "Un príncipe que no reinaría",
+          "text": "Según la epopeya, Sundiata Keita nació con una discapacidad que le impedía caminar durante la infancia, lo que lo dejaba fuera de la línea de sucesión esperada al trono del pequeño reino de Malí, en el siglo XIII. Exiliado tras la muerte de su padre, superó su discapacidad y regresó años después para enfrentarse al rey hechicero Sumanguru Kanté, que había sometido la región."
+        },
+        {
+          "heading": "La batalla de Kirina",
+          "text": "El relato culmina en la batalla de Kirina, hacia 1235, en la que Sundiata derrotó a Sumanguru gracias, según la tradición oral, a un conocimiento preciso de las debilidades mágicas de su rival, obtenido a través de alianzas y de su propia hermana. La victoria fundó el imperio de Malí, que llegaría a su máximo esplendor un siglo después bajo Mansa Musa."
+        },
+        {
+          "heading": "Los griots, guardianes de memoria",
+          "text": "La epopeya no se conserva en un texto único y fijo, sino que se transmite de generación en generación por los griots, una casta hereditaria de músicos y narradores del África occidental encargados de preservar genealogías, historias y linajes mediante la palabra cantada, acompañada tradicionalmente de instrumentos como la kora."
+        },
+        {
+          "heading": "Una tradición viva, no muerta",
+          "text": "Cada griot introduce variaciones propias en la narración según la audiencia y la ocasión, lo que ha generado múltiples versiones del relato de Sundiata registradas por antropólogos desde el siglo XX, sin que exista una versión 'original' única. Esa oralidad convierte la epopeya en un patrimonio vivo, distinto en su naturaleza de una obra literaria fijada por escrito."
+        }
+      ],
+      "key_fact": "La epopeya de Sundiata, sobre la fundación del imperio de Malí hacia 1235, se transmite desde hace siglos por los griots, narradores hereditarios del África occidental, sin una versión escrita única y original.",
+      "questions": [
+        {
+          "q": "¿Qué obstáculo debía superar Sundiata Keita según la epopeya?",
+          "options": [
+            "Una discapacidad que le impedía caminar durante la infancia",
+            "Una condena al exilio de por vida sin posibilidad de regreso",
+            "La prohibición religiosa de gobernar sin ser sacerdote",
+            "Una guerra civil entre sus propios hermanos"
+          ],
+          "correct": 0,
+          "note": "Su discapacidad inicial lo dejaba fuera de la sucesión esperada, lo que hace que su ascenso posterior al trono sea el núcleo dramático central de la epopeya."
+        },
+        {
+          "q": "¿Qué ocurrió en la batalla de Kirina hacia 1235?",
+          "options": [
+            "Sundiata derrotó a Sumanguru Kanté y fundó el imperio de Malí",
+            "Sumanguru conquistó definitivamente el reino de Sundiata",
+            "Se firmó un tratado de paz sin enfrentamiento militar",
+            "Mansa Musa asumió el trono por primera vez"
+          ],
+          "correct": 0,
+          "note": "La victoria en Kirina es el hito fundacional del imperio de Malí, que alcanzaría su mayor esplendor mucho después, bajo Mansa Musa."
+        },
+        {
+          "q": "¿Quiénes son los griots y qué función cumplen respecto a la epopeya de Sundiata?",
+          "options": [
+            "Narradores hereditarios que transmiten oralmente genealogías e historias",
+            "Sacerdotes encargados exclusivamente de rituales funerarios",
+            "Escribas reales que redactaban los decretos del imperio",
+            "Comerciantes que vendían copias escritas de la epopeya"
+          ],
+          "correct": 0,
+          "note": "Los griots forman una casta hereditaria especializada en la palabra cantada, distinta de los escribas: su papel es la transmisión oral, no la escritura de textos."
+        },
+        {
+          "q": "¿Por qué no existe una versión 'original' única de la epopeya de Sundiata?",
+          "options": [
+            "Porque cada griot introduce variaciones propias según la audiencia y la ocasión",
+            "Porque el texto original se perdió en un incendio documentado",
+            "Porque fue prohibida su narración durante siglos",
+            "Porque solo se transmitía en secreto a los gobernantes"
+          ],
+          "correct": 0,
+          "note": "La naturaleza oral y viva de la tradición griot implica variación constante, a diferencia de una obra literaria fijada por escrito desde su creación."
+        }
+      ]
+    }
+  ]
+}
