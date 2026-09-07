@@ -1,0 +1,884 @@
+{
+  "lecciones": [
+    {
+      "id": "mit-0011",
+      "category": "mitologia",
+      "title": "Coatlicue: la diosa azteca que da la vida devorando la muerte",
+      "subtitle": "Una escultura de piedra que combina cráneos, serpientes y garras para representar el ciclo completo de la existencia.",
+      "cover_image": { "query": "Coatlicue stone statue", "wikipedia": "Coatlicue" },
+      "cards": [
+        { "heading": "La madre de los dioses", "text": "En la mitología mexica, Coatlicue es la madre de Huitzilopochtli, el dios de la guerra que guía a los aztecas hasta Tenochtitlan. Su nombre significa 'la de la falda de serpientes' y encarna a la tierra: la misma superficie que alimenta las cosechas y que recibe los cadáveres." },
+        { "heading": "Un cuerpo hecho de símbolos", "text": "La estatua monumental de Coatlicue, hallada en 1790 bajo la plaza central de Ciudad de México, no tiene un rostro humano: su cabeza son dos serpientes enfrentadas, lleva un collar de manos y corazones, y una falda tejida con serpientes vivas. Cada elemento remite a la muerte como condición de la vida." },
+        { "heading": "El embarazo por una pluma", "text": "Según el relato recogido por fray Bernardino de Sahagún, Coatlicue quedó encinta al guardar en su pecho una bola de plumas caída del cielo mientras barría un templo. Sus hijas, avergonzadas, decidieron matarla; el hijo que llevaba en el vientre, Huitzilopochtli, nació ya armado para defenderla." },
+        { "heading": "De ídolo a pieza de museo", "text": "Tras su hallazgo, las autoridades coloniales la enterraron de nuevo por temor a que alimentara cultos indígenas, y solo volvió a desenterrarse un siglo después. Hoy se exhibe en el Museo Nacional de Antropología de México, donde sigue recibiendo ofrendas de visitantes que la consideran una diosa viva." }
+      ],
+      "key_fact": "La estatua de Coatlicue mide más de 2,5 metros y fue enterrada de nuevo tras su hallazgo en 1790 por temor a que reavivara cultos indígenas.",
+      "questions": [
+        {
+          "q": "¿Qué representa principalmente la figura de Coatlicue en la cosmovisión mexica?",
+          "options": ["La unión de la vida y la muerte en un mismo cuerpo", "La victoria militar sobre los pueblos vecinos", "El origen del calendario solar azteca", "La fundación legendaria de Tenochtitlan"],
+          "correct": 0,
+          "note": "Los cráneos, corazones y serpientes de su iconografía no narran una batalla sino un principio: la tierra que da alimento es la misma que recibe a los muertos."
+        },
+        {
+          "q": "¿Por qué las autoridades coloniales volvieron a enterrar la estatua tras desenterrarla en 1790?",
+          "options": ["Porque temían que alimentara cultos indígenas activos", "Porque el material se estaba deteriorando", "Porque no cabía en ningún edificio disponible", "Porque un terremoto dañó la plaza donde apareció"],
+          "correct": 0,
+          "note": "El temor no era arqueológico sino religioso: la estatua seguía siendo objeto de devoción para parte de la población."
+        },
+        {
+          "q": "Según el mito recogido por Sahagún, ¿cómo queda embarazada Coatlicue de Huitzilopochtli?",
+          "options": ["Al guardar una bola de plumas en su pecho", "Al ser alcanzada por un rayo durante una tormenta", "Al beber agua de un manantial sagrado", "Al ser elegida por el dios Quetzalcóatl"],
+          "correct": 0,
+          "note": "El detalle de la pluma, y no un acto de otro dios, subraya que la fertilidad de la tierra surge de sí misma, sin intervención externa."
+        },
+        {
+          "q": "¿Qué distingue a la representación de Coatlicue de otras divinidades madre en distintas mitologías?",
+          "options": ["Que combina símbolos de muerte y fertilidad en lugar de separarlos", "Que se representa siempre como un animal completo", "Que carece de cualquier vínculo con la guerra", "Que solo aparece en fuentes posteriores a la conquista"],
+          "correct": 0,
+          "note": "Muchas diosas madre se asocian solo con la fertilidad; Coatlicue integra explícitamente la muerte -cráneos, corazones, garras- como parte del mismo ciclo."
+        }
+      ]
+    },
+    {
+      "id": "mit-0012",
+      "category": "mitologia",
+      "title": "El Rey Mono: un dios rebelde que nace de una piedra",
+      "subtitle": "Sun Wukong desafía al cielo, es aplastado bajo una montaña durante siglos y termina escoltando a un monje a la India.",
+      "cover_image": { "query": "Monkey King statue China", "wikipedia": "Sun Wukong" },
+      "cards": [
+        { "heading": "Nacido de una piedra", "text": "En la tradición china, Sun Wukong nace de un huevo de piedra en la cima del monte Huaguo, sin padres ni linaje divino. Aprende artes marciales, magia e inmortalidad por su cuenta, y se proclama a sí mismo 'Gran Sabio Igual al Cielo', un título que ningún dios le ha concedido." },
+        { "heading": "El castigo bajo la montaña", "text": "Su arrogancia lo lleva a desafiar al Emperador de Jade y a robar los melocotones de la inmortalidad del cielo. Buda lo derrota apostando a que no puede saltar fuera de la palma de su mano, y lo entierra bajo una montaña de piedra durante quinientos años." },
+        { "heading": "La escolta del monje", "text": "Sun Wukong recupera la libertad a cambio de proteger al monje budista Xuanzang en su viaje a la India para traer las escrituras sagradas a China. Un aro metálico que se aprieta alrededor de su cabeza cada vez que se comporta mal lo obliga a moderar su naturaleza rebelde." },
+        { "heading": "De mito a ícono popular", "text": "La novela del siglo XVI Viaje al Oeste convirtió estas leyendas orales en el relato que hoy se conoce, y Sun Wukong pasó a representar tanto la rebeldía frente a la autoridad como la posibilidad de redimirla mediante la disciplina. Su figura sigue apareciendo en cómics, videojuegos y cine en toda Asia oriental." }
+      ],
+      "key_fact": "En la novela Viaje al Oeste (siglo XVI), Sun Wukong permanece atrapado bajo una montaña durante quinientos años antes de ser liberado para escoltar a un monje budista.",
+      "questions": [
+        {
+          "q": "¿Qué hace única la génesis de Sun Wukong frente a otras figuras divinas de la mitología china?",
+          "options": ["Nace de una piedra, sin padres ni linaje celestial", "Es hijo directo del Emperador de Jade", "Desciende de un dragón marino", "Fue creado por Buda para vigilar el cielo"],
+          "correct": 0,
+          "note": "Su origen sin genealogía divina es lo que justifica narrativamente que deba ganarse un lugar, y no heredarlo, entre las divinidades."
+        },
+        {
+          "q": "¿Por qué Buda logra derrotar a Sun Wukong cuando ningún dios del cielo pudo?",
+          "options": ["Le propone una apuesta que Sun Wukong pierde por soberbia", "Lo vence en un combate directo de artes marciales", "Le quita la inmortalidad con una poción", "Convence a los otros dioses de encerrarlo"],
+          "correct": 0,
+          "note": "La derrota no es de fuerza sino de arrogancia: Sun Wukong subestima los límites de su propio poder frente al de Buda."
+        },
+        {
+          "q": "¿Qué función cumple el aro metálico que ciñe la cabeza de Sun Wukong durante el viaje a la India?",
+          "options": ["Lo obliga a contener su comportamiento impulsivo", "Le otorga poderes mágicos adicionales", "Marca su estatus como discípulo oficial", "Le impide comunicarse con otros espíritus"],
+          "correct": 0,
+          "note": "El aro es un mecanismo de disciplina externa: se aprieta cuando actúa mal, sustituyendo el autocontrol que su naturaleza rebelde no logra por sí sola."
+        },
+        {
+          "q": "¿Qué transformación sufre la figura de Sun Wukong a lo largo del relato?",
+          "options": ["Pasa de rebelde caótico a protector disciplinado por la experiencia", "Pasa de ser mortal a convertirse en un dios supremo", "Pasa de villano a enemigo definitivo de Buda", "Pierde todos sus poderes al final del viaje"],
+          "correct": 0,
+          "note": "El arco narrativo no elimina su naturaleza rebelde, la reencauza: sigue siendo desafiante, pero ahora al servicio de una misión."
+        }
+      ]
+    },
+    {
+      "id": "mit-0013",
+      "category": "mitologia",
+      "title": "Shangó: el rey yoruba que se convirtió en dios del rayo",
+      "subtitle": "Una deidad de Nigeria que cruzó el Atlántico con la trata esclavista y hoy se venera bajo otros nombres en América.",
+      "cover_image": { "query": "Yoruba orisha carved sculpture", "wikipedia": "Changó" },
+      "cards": [
+        { "heading": "Un rey convertido en orisha", "text": "En la tradición yoruba de África occidental, Shangó fue un poderoso rey (alaafin) del imperio de Oyó, en el actual suroeste de Nigeria, antes de convertirse tras su muerte en orisha, una de las divinidades que gobiernan las fuerzas de la naturaleza. Se le asocia con el trueno, el rayo y la justicia." },
+        { "heading": "El hacha de doble filo", "text": "Su símbolo es el oshé, un hacha de doble filo que representa el rayo y su capacidad de castigar tanto a los culpables como, por error, a los inocentes. Los seguidores de Shangó lo describen como un dios de temperamento violento pero también generoso, capaz de premiar la lealtad con abundancia." },
+        { "heading": "El viaje forzado a América", "text": "Durante la trata transatlántica de esclavos, millones de yorubas fueron transportados a Cuba, Brasil y otras zonas de América. Llevaron consigo la veneración a Shangó, que sobrevivió disfrazada bajo la imagen de santos católicos -en Cuba, Santa Bárbara- para eludir la prohibición de las religiones africanas." },
+        { "heading": "Una devoción viva hoy", "text": "Shangó sigue venerándose en la santería cubana, el candomblé brasileño y otras tradiciones afroamericanas, con millones de practicantes actuales. Su culto es uno de los ejemplos más estudiados de cómo una religión sobrevivió al desplazamiento forzado transformando su forma sin perder su núcleo." }
+      ],
+      "key_fact": "El culto a Shangó sobrevivió a la trata esclavista disfrazándose bajo la imagen de Santa Bárbara en Cuba, una estrategia conocida como sincretismo religioso.",
+      "questions": [
+        {
+          "q": "¿Cuál es el origen de Shangó según la tradición yoruba?",
+          "options": ["Fue un rey histórico del imperio de Oyó deificado tras su muerte", "Nació directamente como divinidad sin vínculo humano", "Fue creado por los colonizadores europeos como figura sincrética", "Es una versión africana de un dios griego"],
+          "correct": 0,
+          "note": "A diferencia de otras divinidades yorubas asociadas a fuerzas naturales sin origen humano, Shangó conserva una biografía terrenal como monarca antes de su deificación."
+        },
+        {
+          "q": "¿Qué representa el oshé, el hacha de doble filo asociada a Shangó?",
+          "options": ["El rayo y su capacidad de castigar tanto al culpable como al inocente", "La división entre el mundo de los vivos y los muertos", "La unión matrimonial entre dos orishas", "El límite territorial del antiguo imperio de Oyó"],
+          "correct": 0,
+          "note": "El doble filo no es decorativo: encarna la ambivalencia moral del rayo, una fuerza que no distingue siempre entre justicia y azar."
+        },
+        {
+          "q": "¿Por qué los devotos de Shangó lo asociaron con Santa Bárbara durante la época colonial en Cuba?",
+          "options": ["Para practicar su culto disimulado bajo una figura católica permitida", "Porque ambas figuras compartían el mismo origen histórico", "Porque los misioneros españoles impusieron esa equivalencia", "Porque Santa Bárbara era también venerada en Nigeria"],
+          "correct": 0,
+          "note": "El sincretismo fue una estrategia de supervivencia religiosa bajo prohibición: ambas figuras comparten simbolismo con el fuego y el poder, lo que facilitó el disfraz."
+        },
+        {
+          "q": "¿Qué ilustra mejor la persistencia actual del culto a Shangó?",
+          "options": ["Que sigue vivo en tradiciones como la santería cubana y el candomblé brasileño", "Que solo se practica hoy en Nigeria de forma folclórica", "Que fue reemplazado por completo por el catolicismo", "Que se convirtió en una leyenda sin practicantes activos"],
+          "correct": 0,
+          "note": "El caso de Shangó se cita a menudo como ejemplo de una religión que atravesó el desplazamiento forzado transformando su forma ritual sin desaparecer."
+        }
+      ]
+    },
+    {
+      "id": "art-0011",
+      "category": "arte",
+      "title": "El ejército de terracota: ocho mil soldados para un solo emperador",
+      "subtitle": "Cada figura tiene un rostro distinto en una tumba que Qin Shi Huang mandó construir para gobernar también tras la muerte.",
+      "cover_image": { "query": "terracotta warriors statues", "wikipedia": "Ejército de terracota" },
+      "cards": [
+        { "heading": "Un imperio bajo tierra", "text": "Qin Shi Huang, el primer emperador que unificó China en el 221 a. C., ordenó construir un ejército de más de ocho mil soldados de terracota a tamaño real para que lo protegieran en el más allá. El complejo funerario, cerca de la ciudad de Xi'an, permaneció oculto durante más de dos mil años." },
+        { "heading": "Ningún rostro se repite", "text": "Los soldados se fabricaron en serie con moldes para el cuerpo, pero cada cabeza se terminó a mano con rasgos, peinados y expresiones distintas, probablemente para representar a los soldados reales del ejército imperial. Originalmente estaban pintados con colores vivos que se desvanecen en minutos al entrar en contacto con el aire." },
+        { "heading": "El hallazgo de 1974", "text": "Un grupo de campesinos que cavaba un pozo en la provincia de Shaanxi encontró fragmentos de las primeras figuras, lo que llevó a una excavación arqueológica que sigue activa medio siglo después. Se calcula que aún queda una parte significativa del complejo sin excavar, incluida la tumba central del emperador." },
+        { "heading": "Una tumba sin abrir", "text": "La tumba de Qin Shi Huang, descrita por fuentes antiguas como un mapa en miniatura del imperio con ríos de mercurio, no se ha abierto: los arqueólogos temen dañar su contenido con las técnicas actuales y análisis del suelo confirman niveles de mercurio anormalmente altos en la zona." }
+      ],
+      "key_fact": "El ejército de terracota, descubierto en 1974, incluye más de ocho mil soldados de tamaño real, ninguno con el mismo rostro.",
+      "questions": [
+        {
+          "q": "¿Cuál era el propósito original del ejército de terracota?",
+          "options": ["Proteger al emperador Qin Shi Huang en el más allá", "Servir como monumento conmemorativo para el pueblo", "Intimidar a ejércitos rivales durante su reinado", "Marcar la frontera del imperio recién unificado"],
+          "correct": 0,
+          "note": "Se trata de una tumba, no de un monumento público: el ejército estaba enterrado y oculto, pensado para un uso exclusivamente funerario."
+        },
+        {
+          "q": "¿Por qué ninguna de las más de ocho mil figuras tiene el mismo rostro?",
+          "options": ["Se fabricaron con moldes comunes pero se terminaron a mano de forma individual", "Cada soldado fue esculpido íntegramente desde cero", "Se usaron modelos de arcilla importados de distintas regiones", "El desgaste del tiempo alteró los rasgos de forma desigual"],
+          "correct": 0,
+          "note": "La producción combinó estandarización industrial -moldes para el cuerpo- con personalización artesanal en las cabezas, una técnica poco común para la época."
+        },
+        {
+          "q": "¿Qué ocurre con la pintura original de las figuras al ser excavadas?",
+          "options": ["Se desvanece en minutos al exponerse al aire", "Se conserva intacta gracias al clima seco de la región", "Nunca existió: las figuras siempre fueron de color arcilla", "Se restaura automáticamente con técnicas modernas de conservación"],
+          "correct": 0,
+          "note": "La pérdida casi inmediata del color al contacto con el oxígeno es uno de los motivos por los que gran parte del complejo permanece sin excavar."
+        },
+        {
+          "q": "¿Por qué la tumba central de Qin Shi Huang sigue sin abrirse?",
+          "options": ["Por temor a dañar su contenido con las técnicas de excavación actuales", "Porque su ubicación exacta todavía se desconoce", "Porque el gobierno chino prohíbe cualquier excavación arqueológica", "Porque estudios previos determinaron que está vacía"],
+          "correct": 0,
+          "note": "Los niveles anómalos de mercurio detectados en el suelo respaldan las descripciones antiguas de la tumba y refuerzan la cautela arqueológica antes de intervenirla."
+        }
+      ]
+    },
+    {
+      "id": "art-0012",
+      "category": "arte",
+      "title": "El kente: una tela que se lee como un texto",
+      "subtitle": "Cada patrón de este tejido de Ghana tiene nombre propio, y antiguamente solo la realeza asante podía llevarlo.",
+      "cover_image": { "query": "kente cloth pattern Ghana", "wikipedia": "Kente" },
+      "cards": [
+        { "heading": "Un tejido con gramática propia", "text": "El kente es un tejido de franjas estrechas de seda o algodón, originario del pueblo asante en el actual Ghana, que se cose después en paneles más anchos. Cada combinación de colores y patrones geométricos tiene un nombre y transmite un mensaje: sobre estatus social, un proverbio o un acontecimiento histórico concreto." },
+        { "heading": "El origen legendario", "text": "La tradición asante atribuye la invención del kente a dos tejedores que observaron una telaraña y trataron de reproducir su estructura con hilos. Sea cierta o no la anécdota, refleja algo real del tejido: su complejidad estructural, tejida en telares estrechos que exigen semanas de trabajo para un solo paño ceremonial." },
+        { "heading": "De privilegio real a símbolo panafricano", "text": "Durante siglos, ciertos patrones de kente estaban reservados a la realeza asante y su uso indebido podía castigarse. Con la independencia de Ghana en 1957, el kente se convirtió en un símbolo del orgullo nacional y, más tarde, de identidad panafricana fuera del continente, especialmente entre afrodescendientes en Estados Unidos." },
+        { "heading": "El significado se pierde en la copia", "text": "La popularización del kente como estampado textil genérico, reproducido industrialmente sin relación con los tejedores originales, ha generado un debate sobre apropiación cultural: entre llevar el patrón como homenaje identitario y vaciarlo del significado específico que cada diseño tenía para quien lo tejía." }
+      ],
+      "key_fact": "Cada patrón de kente tiene nombre propio y significado codificado; antiguamente ciertos diseños estaban reservados en exclusiva a la realeza asante de Ghana.",
+      "questions": [
+        {
+          "q": "¿Qué distingue al kente de un simple tejido decorativo?",
+          "options": ["Cada patrón codifica un significado específico, como un proverbio o un estatus", "Se fabrica exclusivamente con tintes naturales prohibidos hoy", "Solo puede tejerse durante ceremonias religiosas específicas", "Su diseño cambia cada año por decreto real"],
+          "correct": 0,
+          "note": "El kente funciona como un sistema de comunicación visual: los patrones no son ornamentales, transmiten mensajes concretos reconocibles por quien conoce el código."
+        },
+        {
+          "q": "Según la tradición asante, ¿qué inspiró la invención del kente?",
+          "options": ["La observación de una telaraña por dos tejedores", "Un sueño profético de un rey asante", "El comercio con tejedores de otras regiones de África", "La necesidad de camuflaje durante una guerra"],
+          "correct": 0,
+          "note": "Cierta o no, la leyenda apunta a algo verificable: la estructura entrelazada del kente exige una planificación tan meticulosa como la de una telaraña."
+        },
+        {
+          "q": "¿Qué cambio sufrió el estatus social del kente tras la independencia de Ghana en 1957?",
+          "options": ["Pasó de ser un privilegio real a un símbolo de orgullo nacional", "Dejó de tejerse por decreto del nuevo gobierno", "Se convirtió en un uniforme obligatorio para funcionarios", "Perdió por completo su significado ceremonial"],
+          "correct": 0,
+          "note": "La independencia transformó un símbolo de exclusividad monárquica en un emblema colectivo, ampliando quién podía reclamarlo legítimamente."
+        },
+        {
+          "q": "¿En qué consiste el debate actual en torno a la popularización del kente?",
+          "options": ["Si su reproducción industrial sin contexto vacía el significado del diseño original", "Si debería prohibirse su venta fuera de Ghana", "Si los precios del kente auténtico son excesivos", "Si el patrón original se ha perdido por completo"],
+          "correct": 0,
+          "note": "La discusión no es sobre prohibir su uso, sino sobre la distancia entre llevarlo como homenaje informado y reproducirlo como estampado genérico sin relación con su origen."
+        }
+      ]
+    },
+    {
+      "id": "art-0013",
+      "category": "arte",
+      "title": "La disputa bizantina sobre si una imagen sagrada era idolatría",
+      "subtitle": "El imperio bizantino se dividió más de un siglo entre destruir los iconos religiosos y defenderlos como necesarios para la fe.",
+      "cover_image": { "query": "Byzantine icon mosaic", "wikipedia": "Iconoclasia bizantina" },
+      "cards": [
+        { "heading": "Un mandamiento tomado en serio", "text": "En el año 726, el emperador bizantino León III ordenó retirar y destruir los iconos -representaciones pintadas de Cristo, la Virgen y los santos- venerados en las iglesias. La medida se apoyaba en el mandamiento bíblico contra las imágenes talladas, interpretado como una prohibición directa de representar lo sagrado." },
+        { "heading": "Un siglo de destrucción e ira", "text": "La política, conocida como iconoclasia, provocó revueltas populares, la persecución de monjes que defendían los iconos y la destrucción sistemática de obras de arte religioso que hoy se considerarían irremplazables. Los defensores de las imágenes, los iconódulos, argumentaban que venerar un icono no era adorar la materia sino honrar lo que representaba." },
+        { "heading": "El argumento teológico decisivo", "text": "Juan Damasceno, teólogo que vivía fuera del alcance del emperador bizantino en territorio bajo dominio islámico, formuló el argumento que terminó prevaleciendo: si Dios se hizo hombre visible en Cristo, representar esa humanidad no era idolatría sino una consecuencia lógica de la encarnación misma." },
+        { "heading": "La restauración de las imágenes", "text": "En el año 843, una regencia imperial restauró definitivamente el culto a los iconos, un episodio que la Iglesia ortodoxa sigue conmemorando como el 'Triunfo de la Ortodoxia'. La disputa dejó una huella distinta en Oriente y Occidente: el cristianismo ortodoxo desarrolló una teología del icono que el catolicismo latino nunca formuló con la misma intensidad." }
+      ],
+      "key_fact": "La iconoclasia bizantina duró, con interrupciones, más de un siglo (726-843) y terminó con la restauración definitiva del culto a los iconos.",
+      "questions": [
+        {
+          "q": "¿En qué se apoyaba principalmente el emperador León III para ordenar la destrucción de iconos?",
+          "options": ["En la interpretación del mandamiento bíblico contra las imágenes talladas", "En una orden directa del papa de Roma", "En la escasez de materiales para producir arte religioso", "En un tratado militar con el califato islámico"],
+          "correct": 0,
+          "note": "La medida se presentó como una cuestión de pureza doctrinal, no económica ni política: recuperar una prohibición bíblica que se consideraba incumplida."
+        },
+        {
+          "q": "¿Cuál era el argumento central de los iconódulos, defensores de los iconos?",
+          "options": ["Que venerar la imagen no equivale a adorar la materia, sino a honrar lo representado", "Que los iconos tenían poderes curativos comprobados", "Que el emperador carecía de autoridad religiosa alguna", "Que destruir arte era ilegal según la ley romana"],
+          "correct": 0,
+          "note": "La distinción entre veneración, dirigida a lo representado, y adoración, reservada solo a Dios, fue la clave teológica que permitió justificar el culto a las imágenes sin caer en idolatría."
+        },
+        {
+          "q": "¿Por qué Juan Damasceno pudo defender los iconos con relativa seguridad frente a la persecución imperial?",
+          "options": ["Vivía en territorio bajo dominio islámico, fuera del alcance directo del emperador bizantino", "Era pariente cercano del emperador León III", "Contaba con un ejército propio para protegerse", "Había sido nombrado patriarca de Constantinopla"],
+          "correct": 0,
+          "note": "Su posición geográfica fue tan determinante como su argumento teológico: pudo escribir con libertad porque la autoridad bizantina no llegaba hasta él."
+        },
+        {
+          "q": "¿Qué consecuencia de largo plazo tuvo la disputa iconoclasta en la teología cristiana?",
+          "options": ["El cristianismo ortodoxo desarrolló una teología del icono que el catolicismo latino no igualó", "Ambas iglesias, ortodoxa y católica, prohibieron finalmente toda imagen religiosa", "El islam adoptó la veneración de iconos tras el conflicto bizantino", "El arte religioso desapareció por completo del imperio bizantino"],
+          "correct": 0,
+          "note": "La intensidad y duración del debate en Bizancio dejó al icono como una categoría teológica central en Oriente, con un peso doctrinal que Occidente nunca desarrolló de forma equivalente."
+        }
+      ]
+    },
+    {
+      "id": "lit-0011",
+      "category": "literatura",
+      "title": "Naguib Mahfouz y la novela egipcia que retrató El Cairo real",
+      "subtitle": "El primer Nobel de Literatura en lengua árabe convirtió un barrio de El Cairo en escenario de tres generaciones de una familia.",
+      "cover_image": { "query": "Cairo old town street", "wikipedia": "Naguib Mahfuz" },
+      "cards": [
+        { "heading": "El Cairo como personaje", "text": "Naguib Mahfouz, nacido en El Cairo en 1911, ambientó buena parte de su obra en los barrios populares donde creció, con una atención al detalle urbano -callejones, cafés, mezquitas- que convirtió a la propia ciudad en protagonista tanto como cualquiera de sus personajes." },
+        { "heading": "La Trilogía de El Cairo", "text": "Su obra más conocida, publicada entre 1956 y 1957, sigue a tres generaciones de la familia Al Jawad a través de los cambios políticos y sociales de Egipto entre las dos guerras mundiales, desde el dominio colonial británico hasta el auge del nacionalismo egipcio." },
+        { "heading": "El primer Nobel en árabe", "text": "En 1988, Mahfouz se convirtió en el primer autor en lengua árabe en recibir el Premio Nobel de Literatura, tras haber publicado más de treinta novelas a lo largo de casi seis décadas. El reconocimiento sacó a la literatura árabe contemporánea de un relativo aislamiento fuera del mundo de habla árabe." },
+        { "heading": "El precio de escribir con libertad", "text": "En 1994, a los 82 años, Mahfouz sobrevivió a un intento de asesinato con arma blanca cometido por un extremista islamista que nunca había leído su obra, pero que la consideraba blasfema por referencias de una novela anterior. El ataque le dejó secuelas permanentes en la mano con la que escribía." }
+      ],
+      "key_fact": "Naguib Mahfouz fue el primer autor en lengua árabe en recibir el Premio Nobel de Literatura, en 1988.",
+      "questions": [
+        {
+          "q": "¿Qué papel cumple la ciudad de El Cairo en la obra de Naguib Mahfouz?",
+          "options": ["Funciona casi como un personaje más, retratada con gran detalle urbano", "Aparece solo como telón de fondo ocasional", "Está ausente de la mayoría de sus novelas", "Se describe siempre de forma idealizada y sin conflicto"],
+          "correct": 0,
+          "note": "Mahfouz construyó sus tramas a partir de barrios y calles concretas que conocía de primera mano, lo que da a sus novelas una densidad geográfica poco habitual."
+        },
+        {
+          "q": "¿Qué periodo histórico abarca la Trilogía de El Cairo?",
+          "options": ["Egipto entre las dos guerras mundiales, del dominio colonial al nacionalismo", "La época de los faraones y el Egipto antiguo", "La revolución egipcia de 2011", "La ocupación otomana de Egipto en el siglo XVI"],
+          "correct": 0,
+          "note": "La trilogía sigue tres generaciones de una misma familia, lo que permite mostrar el cambio social egipcio como un proceso vivido, no como un dato histórico externo."
+        },
+        {
+          "q": "¿Qué significó el Nobel de 1988 para la literatura en lengua árabe?",
+          "options": ["Le dio visibilidad internacional que antes tenía de forma limitada", "Fue el segundo reconocimiento de este tipo tras un autor sirio", "No tuvo ningún efecto fuera de Egipto", "Provocó la censura inmediata de toda su obra"],
+          "correct": 0,
+          "note": "Antes del Nobel, la literatura árabe contemporánea circulaba mayoritariamente dentro de su propio ámbito lingüístico; el premio amplió su traducción y difusión global."
+        },
+        {
+          "q": "¿Qué motivó el ataque que sufrió Mahfouz en 1994?",
+          "options": ["Un extremista lo consideró blasfemo por referencias de una novela anterior, sin haberla leído", "Una disputa personal con otro escritor egipcio", "Represalias por sus críticas al gobierno colonial británico", "Un robo que se le fue de las manos al agresor"],
+          "correct": 0,
+          "note": "El caso ilustra un patrón recurrente: la condena no partió de una lectura directa de la obra, sino de su reputación deformada por terceros."
+        }
+      ]
+    },
+    {
+      "id": "lit-0012",
+      "category": "literatura",
+      "title": "Bashō y el haiku: decir mucho con casi nada",
+      "subtitle": "Un poeta japonés del siglo XVII convirtió un pasatiempo cortesano en una forma capaz de capturar un instante en diecisiete sílabas.",
+      "cover_image": { "query": "Japanese pond frog", "wikipedia": "Matsuo Bashō" },
+      "cards": [
+        { "heading": "De la comedia a la contemplación", "text": "El haiku surgió como el verso inicial de un juego poético colectivo más largo llamado renga, a menudo cómico o ingenioso. Matsuo Bashō, poeta japonés del siglo XVII, lo transformó en una forma independiente capaz de sostener por sí sola una observación seria sobre la naturaleza o el paso del tiempo." },
+        { "heading": "Diecisiete sílabas, una imagen", "text": "La estructura clásica del haiku son tres versos de 5, 7 y 5 sílabas en japonés, sin rima, que suelen yuxtaponer dos imágenes concretas -nunca una explicación abstracta- para que el lector complete el sentido. El poema más citado de Bashō describe una rana que salta a un estanque viejo y el sonido del agua." },
+        { "heading": "Caminar para escribir", "text": "Bashō pasó buena parte de su vida en largos viajes a pie por Japón, documentados en diarios que mezclan prosa y haiku, como Sendas de Oku. Escribía sobre paisajes concretos que había recorrido personalmente, no sobre la naturaleza en abstracto, lo que ancla sus poemas a lugares reales todavía visitados hoy." },
+        { "heading": "Una forma que salió de Japón", "text": "El haiku se extendió fuera de Japón durante el siglo XX, adoptado por poetas occidentales atraídos por su economía de lenguaje, aunque la mayoría de las versiones en otros idiomas prescinden de la cuenta silábica exacta, que depende de particularidades del japonés difíciles de trasladar." }
+      ],
+      "key_fact": "El haiku de Bashō sobre la rana y el estanque viejo es, según muchos estudiosos, el poema japonés más citado fuera de Japón.",
+      "questions": [
+        {
+          "q": "¿Cuál era el origen del haiku antes de la obra de Bashō?",
+          "options": ["El verso inicial de un juego poético colectivo llamado renga", "Una forma de oración budista formal", "Un género exclusivo de la poesía cortesana china", "Una invención propia de Bashō sin antecedentes"],
+          "correct": 0,
+          "note": "Bashō no inventó la forma desde cero: la heredó de un juego colectivo y la elevó a género independiente capaz de sostener sentido por sí solo."
+        },
+        {
+          "q": "¿Qué recurso central utiliza el haiku para transmitir su sentido?",
+          "options": ["Yuxtapone dos imágenes concretas sin explicarlas de forma abstracta", "Explica directamente una moraleja en el último verso", "Utiliza siempre metáforas religiosas explícitas", "Se basa en la rima entre el primer y el último verso"],
+          "correct": 0,
+          "note": "El poema no dice qué sentir: coloca dos imágenes una junto a otra y deja que la conexión, y su significado, surja en la lectura."
+        },
+        {
+          "q": "¿Qué caracteriza a los diarios de viaje de Bashō, como Sendas de Oku?",
+          "options": ["Documentan paisajes reales que él mismo recorrió a pie", "Son relatos de viajes imaginarios sin base geográfica", "Fueron escritos por encargo de la corte imperial", "Describen exclusivamente ciudades, nunca zonas rurales"],
+          "correct": 0,
+          "note": "A diferencia de una naturaleza genérica o simbólica, los poemas de Bashō están anclados en lugares específicos que todavía pueden visitarse hoy."
+        },
+        {
+          "q": "¿Qué dificultad enfrentan las traducciones de haiku a otros idiomas?",
+          "options": ["La cuenta silábica exacta de 5-7-5 depende de particularidades del japonés difíciles de trasladar", "El japonés clásico ya no se entiende ni siquiera en Japón", "No existen traducciones de la obra de Bashō a otros idiomas", "El haiku perdió toda popularidad fuera de Japón en el siglo XX"],
+          "correct": 0,
+          "note": "La mayoría de las adaptaciones occidentales del haiku renuncian a la cuenta silábica estricta porque las sílabas japonesas y las de otros idiomas no son directamente equivalentes."
+        }
+      ]
+    },
+    {
+      "id": "lit-0013",
+      "category": "literatura",
+      "title": "Frankenstein: la novela que nació de una apuesta entre amigos",
+      "subtitle": "Mary Shelley tenía dieciocho años cuando escribió, en una noche de tormenta junto al lago Lemán, el origen de la ciencia ficción.",
+      "cover_image": { "query": "Lake Geneva storm villa", "wikipedia": "Frankenstein" },
+      "cards": [
+        { "heading": "Un verano sin verano", "text": "En el verano de 1816, la erupción del volcán Tambora un año antes había alterado el clima global y provocado un verano frío y lluvioso en Europa. Mary Shelley, su futuro marido Percy Shelley y Lord Byron se refugiaron en una villa junto al lago Lemán, en Suiza, atrapados por el mal tiempo." },
+        { "heading": "El reto de Byron", "text": "Para entretenerse durante los días de tormenta, Byron propuso que cada uno escribiera una historia de fantasmas. Mary Shelley, entonces de dieciocho años, tardó varios días en encontrar una idea, hasta que una conversación sobre experimentos científicos con electricidad y la reanimación de tejido muerto le dio la premisa de su relato." },
+        { "heading": "Una criatura sin nombre propio", "text": "La novela, publicada de forma anónima en 1818, no llama 'Frankenstein' al monstruo sino al científico que lo crea, Victor Frankenstein; la confusión popular entre ambos nombres es tan antigua que ya se documenta en el siglo XIX. La criatura, por contraste, aprende a hablar y razonar antes de volverse violenta por el rechazo que sufre." },
+        { "heading": "El nacimiento de un género", "text": "Frankenstein se considera hoy una de las primeras obras de ciencia ficción moderna porque plantea un peligro que surge del conocimiento científico legítimo, no de la magia o lo sobrenatural. La pregunta que sostiene la novela, qué responsabilidad tiene un creador sobre lo que crea, sigue citándose en debates actuales sobre tecnología." }
+      ],
+      "key_fact": "Mary Shelley escribió Frankenstein a los dieciocho años, publicado de forma anónima en 1818; muchos lectores atribuyeron entonces la autoría a su marido, Percy Shelley.",
+      "questions": [
+        {
+          "q": "¿Qué circunstancia climática rodeó la creación de Frankenstein?",
+          "options": ["Un verano anormalmente frío causado por la erupción de un volcán el año anterior", "Una ola de calor extremo en Suiza", "Una tormenta de nieve fuera de temporada en pleno verano", "Una sequía que afectó al lago Lemán"],
+          "correct": 0,
+          "note": "La erupción del Tambora en 1815 alteró el clima global; el mal tiempo obligó al grupo a quedarse dentro de la villa, lo que propició el reto literario de Byron."
+        },
+        {
+          "q": "¿Cuál fue el origen inmediato de la historia dentro del grupo reunido en la villa?",
+          "options": ["Un reto de Byron para que cada uno escribiera un relato de fantasmas", "Un encargo de un editor londinense", "Una discusión sobre política que derivó en ficción", "Una apuesta sobre quién podía asustar más a los demás con un cuento oral"],
+          "correct": 0,
+          "note": "El desafío no pedía específicamente ciencia ficción: fue la propia Shelley quien, inspirada por una conversación sobre electricidad y reanimación, orientó su relato hacia ese terreno."
+        },
+        {
+          "q": "¿Qué confusión persiste desde el siglo XIX sobre la novela?",
+          "options": ["Llamar 'Frankenstein' a la criatura en lugar de al científico que la crea", "Atribuir la autoría a Lord Byron en vez de a Mary Shelley", "Situar la historia en Inglaterra en lugar de Suiza", "Considerar que la criatura nunca aprende a hablar"],
+          "correct": 0,
+          "note": "En la novela, Frankenstein es el apellido del científico creador; la criatura no recibe nombre propio, lo que probablemente alimentó la confusión popular desde el principio."
+        },
+        {
+          "q": "¿Por qué se considera Frankenstein una obra fundacional de la ciencia ficción?",
+          "options": ["Porque el peligro central surge de un conocimiento científico legítimo, no de magia", "Porque fue la primera novela ambientada en un laboratorio", "Porque predijo con exactitud avances tecnológicos posteriores", "Porque introdujo por primera vez el concepto de robot"],
+          "correct": 0,
+          "note": "Lo que distingue al género de ciencia ficción de otros relatos fantásticos es precisamente ese anclaje: el riesgo nace de una extrapolación de la ciencia real, no de lo sobrenatural."
+        }
+      ]
+    },
+    {
+      "id": "cie-0012",
+      "category": "ciencia",
+      "title": "Ibn al-Haytham y el experimento como forma de saber",
+      "subtitle": "Un erudito de Basora del siglo XI insistió en comprobar sus ideas sobre la luz con instrumentos, siglos antes de que eso tuviera nombre.",
+      "cover_image": { "query": "camera obscura diagram", "wikipedia": "Alhacén" },
+      "cards": [
+        { "heading": "Una teoría equivocada muy extendida", "text": "Durante la Antigüedad, la teoría dominante sobre la visión sostenía que el ojo emitía rayos que 'tocaban' los objetos para verlos, una idea defendida por Euclides y Ptolomeo. Ibn al-Haytham, nacido en Basora hacia el año 965, la rechazó y propuso que la visión ocurre cuando la luz reflejada por los objetos entra en el ojo." },
+        { "heading": "La cámara oscura como prueba", "text": "Para respaldar su teoría, Ibn al-Haytham construyó y describió una cámara oscura: una habitación sellada con un pequeño orificio por el que la luz proyecta una imagen invertida de lo que hay fuera. El experimento demostraba que la luz viaja en línea recta desde el objeto, no desde el ojo." },
+        { "heading": "Escribir la ciencia como debía hacerse", "text": "Su Libro de la óptica, escrito mientras estaba bajo arresto domiciliario en El Cairo por orden del califa fatimí, describe un método sistemático: formular una hipótesis, diseñar un experimento controlado para ponerla a prueba y aceptar solo lo que la evidencia confirmaba, incluso si contradecía a autoridades como Ptolomeo." },
+        { "heading": "Una influencia que cruzó siglos", "text": "Traducido al latín en el siglo XII, el trabajo de Ibn al-Haytham influyó directamente en científicos europeos posteriores como Roger Bacon y Johannes Kepler, quien perfeccionó su modelo de cómo se forma la imagen dentro del ojo. Algunos historiadores de la ciencia lo consideran el primer verdadero físico experimental." }
+      ],
+      "key_fact": "Ibn al-Haytham escribió gran parte de su Libro de la óptica mientras estaba bajo arresto domiciliario en El Cairo, en el siglo XI.",
+      "questions": [
+        {
+          "q": "¿Qué teoría de la visión rechazó Ibn al-Haytham?",
+          "options": ["Que el ojo emite rayos que tocan los objetos para verlos", "Que la luz no existe y todo es percepción mental", "Que los colores no pueden distinguirse en la oscuridad", "Que el cerebro invierte las imágenes antes de percibirlas"],
+          "correct": 0,
+          "note": "La llamada teoría de la extromisión, defendida por Euclides y Ptolomeo, situaba el origen de la visión en el ojo; Ibn al-Haytham la invirtió: la luz viaja desde el objeto hacia el ojo, no al revés."
+        },
+        {
+          "q": "¿Qué demostraba el experimento de la cámara oscura que describió Ibn al-Haytham?",
+          "options": ["Que la luz viaja en línea recta desde el objeto observado", "Que el ojo humano puede ver en total oscuridad", "Que los colores se originan dentro del propio ojo", "Que la visión no depende de la luz en absoluto"],
+          "correct": 0,
+          "note": "La imagen invertida proyectada por el pequeño orificio solo se explica si la luz llega en línea recta desde el objeto exterior hasta la pared, no si el ojo emite algo hacia fuera."
+        },
+        {
+          "q": "¿Qué caracteriza el método descrito en el Libro de la óptica?",
+          "options": ["Formular una hipótesis y comprobarla mediante experimentos controlados", "Aceptar sin cuestionar la autoridad de los filósofos griegos anteriores", "Basarse exclusivamente en la observación sin experimentación", "Rechazar cualquier teoría que contradijera textos religiosos"],
+          "correct": 0,
+          "note": "Lo distintivo no es solo la conclusión correcta sobre la luz, sino el procedimiento: poner la teoría a prueba con un dispositivo diseñado para ello, incluso contra autoridades establecidas como Ptolomeo."
+        },
+        {
+          "q": "¿Cómo llegó la obra de Ibn al-Haytham a influir en la ciencia europea posterior?",
+          "options": ["Se tradujo al latín en el siglo XII e influyó en Bacon y Kepler", "Fue destruida y solo se reconstruyó por vía oral siglos después", "Llegó a Europa a través de comerciantes sin dejar rastro escrito", "Nunca fue conocida fuera del mundo islámico hasta el siglo XX"],
+          "correct": 0,
+          "note": "La traducción latina medieval fue el canal de transmisión que permitió a científicos europeos posteriores partir de sus hallazgos en lugar de repetir sus experimentos desde cero."
+        }
+      ]
+    },
+    {
+      "id": "cie-0013",
+      "category": "ciencia",
+      "title": "El calendario maya: astronomía de precisión sin telescopios",
+      "subtitle": "Con observaciones a simple vista durante generaciones, los astrónomos mayas calcularon ciclos del cielo con una exactitud sorprendente.",
+      "cover_image": { "query": "Dresden Codex maya manuscript", "wikipedia": "Calendario maya" },
+      "cards": [
+        { "heading": "Tres calendarios, no uno", "text": "La civilización maya, en Mesoamérica, no usaba un único calendario sino varios simultáneos: el Tzolk'in, un ciclo ritual de 260 días, y el Haab', un ciclo solar de 365 días. Ambos se combinaban en un ciclo mayor de 52 años, la Rueda Calendárica, tras el cual una misma fecha volvía a repetirse." },
+        { "heading": "Registrar el cielo durante siglos", "text": "Los astrónomos mayas, principalmente en ciudades como Copán y Chichén Itzá, observaron y registraron durante generaciones los movimientos del Sol, la Luna y Venus sin instrumentos ópticos, apoyándose en arquitectura orientada astronómicamente y en registros escritos que permitían comparar observaciones separadas por siglos." },
+        { "heading": "Un cálculo de Venus casi perfecto", "text": "El Códice de Dresde, uno de los pocos manuscritos mayas que sobrevivió a la destrucción colonial, contiene tablas que predicen el ciclo sinódico de Venus con un margen de error de apenas horas respecto al valor calculado hoy con telescopios, fruto de la acumulación de observaciones durante generaciones." },
+        { "heading": "El malentendido de 2012", "text": "La llamada Cuenta Larga, un sistema para registrar fechas en periodos de más de cinco mil años, completó un ciclo el 21 de diciembre de 2012, lo que generó predicciones apocalípticas sin respaldo en las fuentes mayas: para ese sistema, el ciclo terminado simplemente reinicia, como ocurre con cualquier calendario." }
+      ],
+      "key_fact": "Las tablas del Códice de Dresde predicen el ciclo de Venus con un margen de error de solo horas respecto a los cálculos astronómicos actuales.",
+      "questions": [
+        {
+          "q": "¿Qué caracteriza al sistema calendárico maya frente a un calendario único?",
+          "options": ["Combinaba varios calendarios simultáneos, como el Tzolk'in y el Haab'", "Usaba un solo calendario idéntico al gregoriano actual", "Cambiaba de sistema cada vez que un rey nuevo asumía el poder", "Se basaba exclusivamente en los ciclos lunares"],
+          "correct": 0,
+          "note": "La superposición de distintos ciclos, uno ritual de 260 días y otro solar de 365, es lo que distingue al sistema maya de un calendario de ciclo único."
+        },
+        {
+          "q": "¿Cómo lograron los astrónomos mayas registrar los movimientos celestes con precisión sin telescopios?",
+          "options": ["Mediante observación sistemática a simple vista durante generaciones, comparada con registros escritos", "Utilizando instrumentos ópticos importados de otras civilizaciones", "Gracias a cálculos matemáticos sin ninguna observación directa del cielo", "Copiando directamente observaciones de astrónomos europeos"],
+          "correct": 0,
+          "note": "La clave no fue la tecnología sino la continuidad: acumular y comparar observaciones durante siglos permite refinar un cálculo mucho más allá de lo que logra una sola generación."
+        },
+        {
+          "q": "¿Qué demuestran las tablas de Venus del Códice de Dresde?",
+          "options": ["Una precisión astronómica cercana a los cálculos actuales, con un margen de error de horas", "Que los mayas desconocían la existencia de Venus como planeta", "Que el códice es una falsificación colonial posterior", "Que los cálculos mayas se basaban en la astrología, no la astronomía"],
+          "correct": 0,
+          "note": "El margen de error mínimo respecto a los valores calculados hoy con telescopios confirma que se trataba de ciencia observacional acumulada, no de estimaciones aproximadas."
+        },
+        {
+          "q": "¿Qué error de interpretación popular rodeó el fin de un ciclo de la Cuenta Larga en 2012?",
+          "options": ["Se interpretó como una profecía apocalíptica sin respaldo en las fuentes mayas", "Los propios mayas predijeron el fin del mundo para esa fecha", "El ciclo nunca llegó realmente a completarse ese año", "Los arqueólogos determinaron que la fecha estaba mal calculada"],
+          "correct": 0,
+          "note": "Para el sistema maya, el final de un ciclo de la Cuenta Larga simplemente da paso a uno nuevo, de forma análoga a cómo un año nuevo sucede a un 31 de diciembre."
+        }
+      ]
+    },
+    {
+      "id": "fil-0012",
+      "category": "filosofia",
+      "title": "Wittgenstein y la idea de que el lenguaje es un juego",
+      "subtitle": "El filósofo austriaco abandonó su propia teoría anterior para sostener que las palabras solo significan algo dentro de una práctica compartida.",
+      "cover_image": { "query": "chess pieces board", "wikipedia": "Ludwig Wittgenstein" },
+      "cards": [
+        { "heading": "Una teoría que él mismo abandonó", "text": "En su primer libro, el Tractatus Logico-Philosophicus (1921), Ludwig Wittgenstein sostuvo que el lenguaje funciona como una imagen que representa hechos del mundo con precisión lógica. Años después llegó a considerar esa idea equivocada y desarrolló, en Investigaciones filosóficas, publicado póstumamente en 1953, una teoría radicalmente distinta." },
+        { "heading": "El significado está en el uso", "text": "Su nueva propuesta central era que el significado de una palabra no reside en lo que representa, sino en cómo se usa dentro de una práctica social compartida, a la que llamó 'juego de lenguaje'. La palabra 'agua' significa cosas distintas si se usa para pedir un vaso o para dar una orden en un laboratorio." },
+        { "heading": "El ejemplo del parecido de familia", "text": "Wittgenstein argumentó que categorías como 'juego' no tienen una definición única que cubra todos los casos -el ajedrez, el solitario, el escondite-, sino que comparten entre sí 'parecidos de familia': rasgos superpuestos, ninguno presente en todos los miembros a la vez, del mismo modo que los parientes se parecen sin ser idénticos." },
+        { "heading": "Un problema, no una enfermedad a curar", "text": "Para Wittgenstein, muchos problemas filosóficos tradicionales surgían de usar el lenguaje fuera de su contexto habitual, como preguntar '¿qué es el tiempo?' del mismo modo que se pregunta '¿qué es una silla?'. Su método buscaba disolver esas confusiones mostrando el uso ordinario de las palabras, no responder la pregunta tal como se había formulado." }
+      ],
+      "key_fact": "Wittgenstein publicó dos filosofías del lenguaje incompatibles entre sí: la del Tractatus (1921) y la de las Investigaciones filosóficas, publicada tras su muerte en 1953.",
+      "questions": [
+        {
+          "q": "¿Qué cambio central se produjo entre el primer y el segundo Wittgenstein?",
+          "options": ["Pasó de ver el lenguaje como representación lógica a verlo como uso social", "Pasó de la filosofía a dedicarse por completo a las matemáticas", "Abandonó por completo el estudio del lenguaje", "Adoptó las ideas de Platón sobre las formas ideales"],
+          "correct": 0,
+          "note": "El giro no fue un simple matiz: Wittgenstein consideró que su primera teoría, basada en la representación lógica de hechos, estaba fundamentalmente equivocada."
+        },
+        {
+          "q": "Según el concepto de 'juego de lenguaje', ¿de qué depende el significado de una palabra?",
+          "options": ["Del contexto de uso dentro de una práctica social compartida", "De su definición fija en un diccionario oficial", "De su origen etimológico en latín o griego", "De la intención privada de quien la pronuncia, sin relación con otros"],
+          "correct": 0,
+          "note": "Wittgenstein desplazó el foco de la mente individual o el diccionario a la práctica compartida: una palabra funciona porque una comunidad la usa de forma reconocible en un contexto dado."
+        },
+        {
+          "q": "¿Qué ilustra el concepto de 'parecido de familia' aplicado a la palabra 'juego'?",
+          "options": ["Que categorías así comparten rasgos superpuestos sin una esencia común a todos los casos", "Que todos los juegos comparten exactamente las mismas reglas básicas", "Que la palabra 'juego' debería eliminarse del lenguaje por ser ambigua", "Que solo los juegos de mesa cuentan como juegos verdaderos"],
+          "correct": 0,
+          "note": "El ajedrez y el escondite no comparten ningún rasgo único en común con todos los demás juegos, pero sí se conectan por una red de similitudes parciales cruzadas, como ocurre en una familia."
+        },
+        {
+          "q": "Para Wittgenstein, ¿de dónde surgen muchos problemas filosóficos tradicionales?",
+          "options": ["De usar el lenguaje fuera del contexto en que normalmente funciona", "De la falta de vocabulario técnico adecuado", "De errores de traducción entre idiomas antiguos", "De la ausencia de pruebas experimentales en filosofía"],
+          "correct": 0,
+          "note": "Su diagnóstico no era que faltara información, sino que preguntas como '¿qué es el tiempo?' imitan la forma gramatical de preguntas que sí tienen respuesta directa, generando una confusión artificial."
+        }
+      ]
+    },
+    {
+      "id": "fil-0013",
+      "category": "filosofia",
+      "title": "Ibn Jaldún y el ciclo por el que las civilizaciones se agotan",
+      "subtitle": "Un pensador del norte de África del siglo XIV explicó el ascenso y la caída de los imperios antes de que existiera la sociología.",
+      "cover_image": { "query": "desert caravan North Africa", "wikipedia": "Ibn Jaldún" },
+      "cards": [
+        { "heading": "Un funcionario que se retiró a escribir", "text": "Ibn Jaldún nació en Túnez en 1332 y ejerció cargos políticos y diplomáticos en varias cortes del norte de África y la península ibérica, un terreno inestable de golpes y alianzas cambiantes que le dio una visión directa de cómo se ganaba y se perdía el poder. Se retiró temporalmente a un castillo en Argelia para escribir su obra principal." },
+        { "heading": "La cohesión que sostiene un grupo", "text": "En su Muqaddima o 'Introducción' a una historia universal, Ibn Jaldún desarrolló el concepto de asabiyya, la cohesión y solidaridad de grupo que permite a una comunidad -típicamente tribus nómadas del desierto- conquistar y gobernar territorios sobre poblaciones sedentarias más numerosas pero menos unidas." },
+        { "heading": "El ciclo de cuatro generaciones", "text": "Según su teoría, esa cohesión inicial se erosiona con el paso de las generaciones: la primera conquista, la segunda consolida, la tercera disfruta del lujo acumulado sin haber luchado por él, y la cuarta pierde la solidaridad original, momento en el que el grupo se vuelve vulnerable a una nueva dinastía con asabiyya intacta." },
+        { "heading": "Un método antes de tener nombre", "text": "Ibn Jaldún insistía en contrastar los relatos históricos con las leyes conocidas de causa y efecto social, rechazando crónicas que contradecían lo que sabía sobre economía, geografía o dinámica de poder. Historiadores como Arnold Toynbee lo consideran un precursor de la sociología, siglos antes de que esa disciplina se formalizara en Europa." }
+      ],
+      "key_fact": "Ibn Jaldún escribió su obra principal, la Muqaddima, en un castillo de Argelia en el siglo XIV, tras retirarse temporalmente de la vida política.",
+      "questions": [
+        {
+          "q": "¿Qué experiencia personal influyó en la teoría política de Ibn Jaldún?",
+          "options": ["Su paso por cargos políticos en cortes inestables del norte de África", "Su formación exclusivamente religiosa en una madrasa", "Un largo viaje comercial a China", "Su participación directa en una conquista militar como líder"],
+          "correct": 0,
+          "note": "Su cercanía a la inestabilidad política real -golpes, alianzas rotas, cambios de poder- le dio un material de observación directo que luego sistematizó en teoría."
+        },
+        {
+          "q": "¿Qué es la asabiyya en la teoría de Ibn Jaldún?",
+          "options": ["La cohesión de grupo que permite a una comunidad conquistar y gobernar", "Un impuesto que las tribus nómadas cobraban a las ciudades", "Un texto legal que regulaba la sucesión dinástica", "Una alianza militar específica entre dos reinos del siglo XIV"],
+          "correct": 0,
+          "note": "La asabiyya no es poder militar en sí mismo, sino la solidaridad interna que hace posible sostenerlo colectivamente, algo que Ibn Jaldún consideraba tan decisivo como los recursos materiales."
+        },
+        {
+          "q": "Según el ciclo de cuatro generaciones descrito por Ibn Jaldún, ¿qué ocurre con la cohesión de un grupo dominante con el tiempo?",
+          "options": ["Se erosiona progresivamente hasta volver vulnerable al grupo frente a nuevos rivales", "Se fortalece de forma indefinida mientras dure la dinastía", "Desaparece por completo en la segunda generación", "Se transmite intacta sin cambios durante siglos"],
+          "correct": 0,
+          "note": "El mecanismo que explica el ascenso, la cohesión forjada en la lucha, es también el que se pierde con la comodidad heredada, lo que convierte el éxito en la semilla de su propio declive."
+        },
+        {
+          "q": "¿Por qué se considera a Ibn Jaldún un precursor de la sociología?",
+          "options": ["Porque analizaba la historia contrastándola con leyes generales de causa y efecto social", "Porque fue el primero en usar encuestas de opinión pública", "Porque rechazaba cualquier explicación no religiosa de la historia", "Porque centró su obra exclusivamente en datos demográficos"],
+          "correct": 0,
+          "note": "Su método, evaluar los relatos históricos frente a patrones verificables de comportamiento social y económico, anticipa un enfoque que la disciplina académica de la sociología no formalizaría hasta siglos después."
+        }
+      ]
+    },
+    {
+      "id": "pre-0012",
+      "category": "presente",
+      "title": "El dilema de Triffin: el defecto de fábrica del dólar mundial",
+      "subtitle": "Para que el mundo tenga suficientes dólares con los que comerciar, EE. UU. necesita un déficit que a la larga mina la confianza en su moneda.",
+      "cover_image": { "query": "dollar bills stack", "wikipedia": "Dilema de Triffin" },
+      "cards": [
+        { "heading": "Un problema previsto en 1960", "text": "El economista belga Robert Triffin advirtió, antes de que el sistema se rompiera, un problema estructural en usar la moneda de un solo país como reserva del mundo entero: para proveer suficientes dólares a la economía global, Estados Unidos debía gastar más de lo que ingresaba, es decir, mantener un déficit comercial persistente." },
+        { "heading": "El déficit como servicio, no como error", "text": "Ese déficit no era un fallo de gestión sino la manera en que los dólares salían de Estados Unidos hacia el resto del mundo, donde bancos centrales y empresas los necesitaban para comerciar y ahorrar. Cuanto más crecía la economía mundial, más dólares hacían falta, y más profundo debía volverse ese déficit para sostenerlos." },
+        { "heading": "La contradicción que Triffin señaló", "text": "El problema es que un déficit creciente y sostenido erosiona con el tiempo la confianza en la moneda que lo genera: si Estados Unidos emite y gasta cada vez más dólares de los que respalda con producción real, el resto del mundo empieza a dudar de que esos dólares mantengan su valor a largo plazo." },
+        { "heading": "Una tensión que sigue sin resolverse", "text": "El sistema de Bretton Woods, que ataba el dólar al oro, colapsó en parte por esta tensión en 1971. Décadas después, con el dólar ya desligado del oro, el mismo dilema estructural persiste: el mundo sigue necesitando dólares para comerciar, y Estados Unidos sigue teniendo que emitirlos a través de un déficit que no puede sostenerse indefinidamente sin coste." }
+      ],
+      "key_fact": "Robert Triffin formuló este problema en 1960, más de una década antes de que Estados Unidos rompiera formalmente el vínculo entre el dólar y el oro en 1971.",
+      "questions": [
+        {
+          "q": "¿Cuál es el problema estructural que identificó Robert Triffin?",
+          "options": ["Que proveer dólares al mundo exige un déficit que a la larga erosiona la confianza en esa moneda", "Que Estados Unidos no produce suficiente oro para respaldar su moneda", "Que el dólar perdería su valor si dejara de imprimirse papel moneda", "Que ningún país debería tener una moneda de reserva internacional"],
+          "correct": 0,
+          "note": "El dilema no es sobre la cantidad de dinero en sí, sino sobre una contradicción de fondo: la misma acción, el déficit, que provee liquidez al mundo es la que, sostenida en el tiempo, debilita la confianza en la moneda."
+        },
+        {
+          "q": "¿Por qué el déficit comercial estadounidense es necesario, según este razonamiento, para el comercio mundial?",
+          "options": ["Porque es el mecanismo por el que los dólares llegan al resto del mundo", "Porque reduce los impuestos que paga Estados Unidos", "Porque obliga a otros países a adoptar el dólar como moneda propia", "Porque financia directamente a los bancos centrales extranjeros"],
+          "correct": 0,
+          "note": "Sin ese déficit, los dólares no saldrían de la economía estadounidense hacia el resto del mundo, y bancos centrales y empresas extranjeras no tendrían suficiente moneda de reserva para operar."
+        },
+        {
+          "q": "¿Qué relación tiene el dilema de Triffin con el fin del sistema de Bretton Woods en 1971?",
+          "options": ["Fue una de las tensiones estructurales que contribuyeron a su colapso", "No tuvo ninguna relación con ese sistema monetario", "Bretton Woods se diseñó específicamente para resolver el dilema de Triffin", "El sistema colapsó por una guerra, no por razones monetarias"],
+          "correct": 0,
+          "note": "El vínculo fijo entre dólar y oro no podía sostenerse frente a un déficit creciente que emitía más dólares de los que el oro disponible podía respaldar de forma creíble."
+        },
+        {
+          "q": "¿Sigue vigente el dilema de Triffin después de que el dólar se desligara del oro en 1971?",
+          "options": ["Sí, porque el mundo sigue necesitando dólares y Estados Unidos sigue debiendo emitirlos vía déficit", "No, el problema desapareció por completo al romperse el vínculo con el oro", "No, porque ahora existen varias monedas de reserva que reparten el problema", "Sí, pero solo afecta a países que todavía usan el patrón oro"],
+          "correct": 0,
+          "note": "El vínculo con el oro desapareció, pero la lógica estructural, el mundo necesita dólares y esos dólares salen vía déficit, no depende del oro y sigue operando igual."
+        }
+      ]
+    },
+    {
+      "id": "pre-0013",
+      "category": "presente",
+      "title": "Las sanciones económicas: un arma que rara vez logra lo que promete",
+      "subtitle": "Décadas de estudios muestran que aislar económicamente a un país cambia pocas veces la política que se buscaba modificar.",
+      "cover_image": { "query": "cargo ship port empty", "wikipedia": "Sanción económica" },
+      "cards": [
+        { "heading": "Un castigo sin disparar un tiro", "text": "Las sanciones económicas son restricciones al comercio, las finanzas o los viajes que un país o un grupo de países impone a otro para presionarlo a cambiar una política concreta -una invasión, un programa nuclear, una violación de derechos humanos- sin recurrir a la fuerza militar directa." },
+        { "heading": "Una tasa de éxito modesta", "text": "Estudios académicos que analizan episodios de sanciones a lo largo del siglo XX y XXI, como la base de datos del Peterson Institute, sitúan la tasa de sanciones que logran su objetivo declarado en apenas alrededor de un tercio de los casos, y con frecuencia menos cuando el objetivo es un cambio de régimen." },
+        { "heading": "Por qué fallan con tanta frecuencia", "text": "El gobierno sancionado suele trasladar el coste económico a la población general en lugar de asumirlo la élite que toma las decisiones, mientras que un discurso de asedio externo puede incluso reforzar el apoyo interno al gobierno. Terceros países dispuestos a comerciar igualmente amortiguan buena parte del efecto previsto." },
+        { "heading": "Cuando sí funcionan", "text": "Las sanciones tienden a ser más eficaces cuando el objetivo es limitado y específico -liberar a un preso concreto, por ejemplo- en vez de derrocar un gobierno, cuando existe cooperación amplia entre varios países aplicándolas a la vez, y cuando se combinan con una vía diplomática creíble de salida si el sancionado cumple." }
+      ],
+      "key_fact": "Estudios como los del Peterson Institute sitúan la tasa de éxito de las sanciones económicas en torno a un tercio de los casos analizados.",
+      "questions": [
+        {
+          "q": "¿Qué distingue a las sanciones económicas de una intervención militar?",
+          "options": ["Buscan presionar mediante restricciones comerciales o financieras, sin uso directo de la fuerza", "Solo pueden aplicarlas organismos internacionales, nunca países individuales", "Requieren siempre la aprobación previa de Naciones Unidas", "Se limitan exclusivamente a restricciones de viaje"],
+          "correct": 0,
+          "note": "La sanción es una herramienta de presión económica, no militar; su eficacia y sus límites derivan precisamente de esa naturaleza no violenta."
+        },
+        {
+          "q": "Según estudios como los del Peterson Institute, ¿qué proporción de sanciones logra su objetivo declarado?",
+          "options": ["Aproximadamente un tercio de los casos", "Casi la totalidad de los casos analizados", "Menos del cinco por ciento de los casos", "Exactamente la mitad de los casos, sin excepción"],
+          "correct": 0,
+          "note": "La cifra es notablemente más baja de lo que suele asumirse en el debate público, lo que ha alimentado el debate académico sobre su utilidad real como herramienta de política exterior."
+        },
+        {
+          "q": "¿Por qué el coste de las sanciones no suele recaer en quienes toman las decisiones políticas del país sancionado?",
+          "options": ["Porque tiende a trasladarse a la población general, mientras la élite se adapta", "Porque los gobiernos sancionados siempre reciben compensación de otros países", "Porque las sanciones nunca afectan a la economía real, solo a la simbólica", "Porque se aplican exclusivamente a empresas privadas, no al Estado"],
+          "correct": 0,
+          "note": "Esta asimetría entre quién decide la política sancionada y quién paga el coste económico es una de las razones centrales que la literatura académica identifica para explicar su baja tasa de éxito."
+        },
+        {
+          "q": "¿En qué condiciones tienden a ser más eficaces las sanciones, según el análisis del tema?",
+          "options": ["Con objetivos limitados y específicos, cooperación amplia y una salida diplomática creíble", "Cuando se aplican de forma unilateral por un solo país, sin coordinación", "Cuando el objetivo es un cambio total de régimen", "Cuando se mantienen indefinidamente sin ninguna vía de levantamiento"],
+          "correct": 0,
+          "note": "Las sanciones más amplias en objetivo, derrocar un gobierno, y más rígidas en aplicación son, paradójicamente, las que peor tasa de éxito registran en los estudios disponibles."
+        }
+      ]
+    },
+    {
+      "id": "fis-0012",
+      "category": "fisica",
+      "title": "Las desigualdades de Bell y la prueba de que el mundo no es local",
+      "subtitle": "Un experimento pensado como imposible de superar con física clásica ganó el Nobel de Física en 2022 tras décadas de comprobaciones.",
+      "cover_image": { "query": "quantum entanglement particles illustration", "wikipedia": "Desigualdad de Bell" },
+      "cards": [
+        { "heading": "La incomodidad de Einstein", "text": "Einstein nunca aceptó del todo que dos partículas entrelazadas pudieran influirse instantáneamente sin importar la distancia que las separara, algo que llamó con desdén 'acción fantasmal a distancia'. Sostenía que debía existir información oculta, aún no descubierta, que explicara esas correlaciones sin recurrir a una conexión más rápida que la luz." },
+        { "heading": "Una prueba matemática, no una opinión", "text": "En 1964, el físico John Bell formuló una desigualdad matemática: si existieran esas variables ocultas que Einstein imaginaba, las correlaciones entre partículas entrelazadas nunca podrían superar cierto límite numérico. La física cuántica, en cambio, predecía que sí podían superarlo. Por primera vez, la disputa filosófica se volvía verificable en un laboratorio." },
+        { "heading": "Cerrando las escapatorias", "text": "Entre los años setenta y 2015, distintos experimentos fueron cerrando sucesivamente las posibles explicaciones alternativas -fallos de detección, señales ocultas entre los aparatos- hasta lograr pruebas que descartaban de forma prácticamente concluyente cualquier teoría de variables ocultas locales. Los resultados confirmaron sistemáticamente las predicciones cuánticas." },
+        { "heading": "El Nobel que cerró seis décadas", "text": "En 2022, Alain Aspect, John Clauser y Anton Zeilinger recibieron el Premio Nobel de Física por estos experimentos con partículas entrelazadas. Su trabajo no solo confirmó una predicción teórica: sentó las bases tecnológicas de la criptografía cuántica y la computación cuántica actuales, aplicaciones que dependen directamente de ese entrelazamiento que Einstein consideraba sospechoso." }
+      ],
+      "key_fact": "El Nobel de Física de 2022 se otorgó a Aspect, Clauser y Zeilinger por experimentos que confirmaron la violación de las desigualdades de Bell, formuladas en 1964.",
+      "questions": [
+        {
+          "q": "¿Qué fenómeno cuántico generaba la incomodidad de Einstein que motivó este debate?",
+          "options": ["Que partículas entrelazadas parecieran influirse instantáneamente a cualquier distancia", "Que la luz pudiera comportarse como onda y partícula a la vez", "Que los electrones no tuvieran una posición fija", "Que la energía se transmitiera en paquetes discretos"],
+          "correct": 0,
+          "note": "Einstein aceptaba la mecánica cuántica como herramienta predictiva útil, pero rechazaba que describiera completamente la realidad si implicaba una conexión más rápida que la luz."
+        },
+        {
+          "q": "¿Qué aportó la desigualdad de Bell de 1964 al debate?",
+          "options": ["Convirtió una disputa filosófica en algo verificable experimentalmente", "Demostró de forma definitiva que Einstein tenía razón", "Eliminó por completo la necesidad de experimentos futuros", "Probó que las partículas entrelazadas no existen"],
+          "correct": 0,
+          "note": "Antes de Bell, la discusión entre variables ocultas y física cuántica era filosóficamente irresoluble; su desigualdad ofreció un límite numérico medible que permitía distinguir entre ambas posturas en un laboratorio."
+        },
+        {
+          "q": "¿Qué mostraron los experimentos que fueron cerrando 'escapatorias' entre los setenta y 2015?",
+          "options": ["Que las predicciones cuánticas se cumplían incluso descartando explicaciones alternativas", "Que los detectores utilizados eran demasiado imprecisos para concluir nada", "Que las variables ocultas locales de Einstein eran correctas después de todo", "Que el fenómeno solo ocurría en condiciones de laboratorio artificiales"],
+          "correct": 0,
+          "note": "Cada 'escapatoria' cerrada, fallos de detección o señales ocultas entre aparatos, eliminaba una posible explicación alternativa, reforzando la conclusión de que la física cuántica describía correctamente el fenómeno."
+        },
+        {
+          "q": "¿Qué aplicaciones tecnológicas actuales dependen del entrelazamiento cuántico confirmado por estos experimentos?",
+          "options": ["La criptografía cuántica y la computación cuántica", "La energía nuclear de fisión convencional", "Los paneles solares de última generación", "Las redes de telefonía móvil actuales"],
+          "correct": 0,
+          "note": "Lejos de quedar en el terreno puramente teórico, la confirmación experimental del entrelazamiento sentó una base técnica directa para tecnologías que hoy están en desarrollo activo."
+        }
+      ]
+    },
+    {
+      "id": "fis-0013",
+      "category": "fisica",
+      "title": "La fusión nuclear: la energía que lleva décadas a veinte años vista",
+      "subtitle": "Reproducir en la Tierra el proceso que enciende el Sol promete energía casi ilimitada, pero cada avance revela un obstáculo técnico nuevo.",
+      "cover_image": { "query": "tokamak reactor interior", "wikipedia": "Fusión nuclear" },
+      "cards": [
+        { "heading": "Fusionar en vez de partir", "text": "A diferencia de la fisión nuclear, que libera energía al partir átomos pesados como el uranio, la fusión libera energía al unir núcleos de átomos ligeros, típicamente isótopos de hidrógeno, para formar helio. Es el mismo proceso que ocurre en el núcleo del Sol, donde la presión gravitatoria mantiene el combustible confinado de forma natural." },
+        { "heading": "El problema de contener una estrella", "text": "En la Tierra no existe esa presión gravitatoria, así que hay que calentar el combustible a decenas de millones de grados y confinarlo con potentes campos magnéticos, en dispositivos como el tokamak, o con láseres de alta precisión, sin que toque las paredes del reactor, que se fundirían al contacto." },
+        { "heading": "Un umbral cruzado en 2022", "text": "En diciembre de 2022, el Laboratorio Nacional Lawrence Livermore, en Estados Unidos, anunció que había logrado por primera vez una reacción de fusión que produjo más energía de la que los láseres depositaron directamente en el combustible, un hito conocido como ganancia científica neta, aunque lejos aún de un balance energético positivo a nivel de toda la instalación." },
+        { "heading": "Por qué sigue pareciendo lejana", "text": "La broma habitual en el sector -que la fusión comercial 'siempre está a veinte años de distancia'- refleja una realidad técnica: cada barrera superada revela otra nueva, desde materiales capaces de resistir décadas de bombardeo de neutrones hasta el coste de construir reactores a escala industrial. Ningún reactor de fusión produce hoy electricidad para la red eléctrica." }
+      ],
+      "key_fact": "En diciembre de 2022, el Laboratorio Lawrence Livermore logró por primera vez que una reacción de fusión produjera más energía de la que los láseres depositaron en el combustible.",
+      "questions": [
+        {
+          "q": "¿Qué diferencia fundamental hay entre fisión y fusión nuclear?",
+          "options": ["La fisión parte átomos pesados; la fusión une átomos ligeros", "La fisión ocurre solo en el Sol; la fusión solo en reactores terrestres", "La fisión no libera energía; la fusión sí", "Ambas son exactamente el mismo proceso con nombres distintos"],
+          "correct": 0,
+          "note": "Son procesos opuestos que ambos liberan energía: partir núcleos pesados en un caso, unir núcleos ligeros en el otro, cada uno con sus propios retos técnicos de control."
+        },
+        {
+          "q": "¿Por qué es tan difícil reproducir la fusión en la Tierra en comparación con el Sol?",
+          "options": ["En la Tierra no existe la presión gravitatoria que confina el combustible de forma natural", "Porque el hidrógeno no existe de forma natural fuera del espacio", "Porque las reacciones de fusión terrestres liberan menos energía que en el Sol", "Porque la fusión terrestre requiere temperaturas más bajas que en el Sol"],
+          "correct": 0,
+          "note": "El Sol confina su combustible mediante su enorme masa; en un reactor terrestre, esa función debe sustituirse artificialmente con campos magnéticos o láseres de alta precisión."
+        },
+        {
+          "q": "¿Qué logró específicamente el experimento del Lawrence Livermore en diciembre de 2022?",
+          "options": ["Que la reacción produjera más energía que la depositada directamente por los láseres en el combustible", "Que un reactor de fusión generara electricidad comercial por primera vez", "Que se resolviera por completo el problema del confinamiento magnético", "Que se eliminara la necesidad de isótopos de hidrógeno como combustible"],
+          "correct": 0,
+          "note": "El hito, llamado ganancia científica neta, es significativo pero parcial: no incluye la energía total consumida por toda la instalación, muy superior a la producida en la reacción."
+        },
+        {
+          "q": "¿Qué explica que la fusión comercial siga pareciendo lejana pese a los avances recientes?",
+          "options": ["Cada barrera técnica superada revela nuevos retos, como materiales resistentes al bombardeo de neutrones", "La comunidad científica ha decidido abandonar la investigación en fusión", "No existen isótopos de hidrógeno suficientes para su desarrollo", "Los gobiernos han prohibido la construcción de nuevos reactores"],
+          "correct": 0,
+          "note": "La frase habitual sobre estar 'siempre a veinte años' capta un patrón real: los hitos científicos no equivalen automáticamente a viabilidad industrial y económica a gran escala."
+        }
+      ]
+    },
+    {
+      "id": "mat-0012",
+      "category": "matematicas",
+      "title": "El teorema de los cuatro colores y la prueba que verificó un ordenador",
+      "subtitle": "Una conjetura sobre mapas, fácil de enunciar, tardó más de un siglo en demostrarse y generó dudas sobre qué cuenta como prueba matemática.",
+      "cover_image": { "query": "colored map regions illustration", "wikipedia": "Teorema de los cuatro colores" },
+      "cards": [
+        { "heading": "Un enunciado engañosamente simple", "text": "En 1852, el estudiante Francis Guthrie observó, al colorear un mapa de los condados de Inglaterra, que parecía bastar con cuatro colores para que ninguna región compartiera color con otra que tocara su frontera. La afirmación es fácil de entender incluso sin formación matemática, lo que no significa que fuera fácil de demostrar." },
+        { "heading": "Un siglo de intentos fallidos", "text": "Durante más de cien años, matemáticos propusieron demostraciones que después resultaron tener errores, algunos descubiertos décadas después de su publicación. El problema resistió los métodos habituales de prueba matemática porque el número de configuraciones posibles de mapas era demasiado grande para analizarlas todas a mano." },
+        { "heading": "La demostración con ayuda de máquina", "text": "En 1976, Kenneth Appel y Wolfgang Haken lograron reducir el problema a unas 1.936 configuraciones básicas y usaron un ordenador para comprobar, una por una, que ninguna de ellas requería un quinto color. Fue la primera vez que un teorema matemático importante se aceptaba con una prueba que ningún ser humano podía revisar completa a mano." },
+        { "heading": "Un debate sobre qué es una demostración", "text": "La dependencia de un ordenador generó controversia en la comunidad matemática: si nadie puede verificar personalmente cada paso, ¿sigue siendo una demostración en el sentido tradicional? Versiones posteriores, con código revisado de forma independiente, reforzaron la confianza en el resultado, pero el debate filosófico sobre pruebas asistidas por ordenador continúa en otros problemas actuales." }
+      ],
+      "key_fact": "La demostración del teorema de los cuatro colores, en 1976, requirió comprobar por ordenador cerca de 1.936 configuraciones distintas de mapas.",
+      "questions": [
+        {
+          "q": "¿Qué observación llevó a formular el teorema de los cuatro colores?",
+          "options": ["Que cuatro colores bastaban para colorear un mapa sin que regiones vecinas compartieran color", "Que todos los mapas del mundo usan exactamente los mismos cuatro colores", "Que los mapas antiguos usaban solo colores primarios", "Que un mapa nunca necesita más de dos colores"],
+          "correct": 0,
+          "note": "La observación de Francis Guthrie en 1852 partió de un caso concreto, un mapa de condados ingleses, antes de generalizarse como conjetura matemática."
+        },
+        {
+          "q": "¿Por qué el problema resistió durante más de un siglo a las demostraciones tradicionales?",
+          "options": ["El número de configuraciones posibles de mapas era demasiado grande para analizarlo a mano", "Nadie había intentado resolverlo formalmente hasta el siglo XX", "Los matemáticos consideraban el problema trivial y no le dedicaban esfuerzo", "Faltaba la notación matemática necesaria para plantearlo"],
+          "correct": 0,
+          "note": "Varias demostraciones propuestas parecían válidas en su momento pero contenían errores no detectados durante años, precisamente por la enorme cantidad de casos posibles a revisar."
+        },
+        {
+          "q": "¿Qué papel jugó el ordenador en la demostración de Appel y Haken de 1976?",
+          "options": ["Verificó una por una cerca de 1.936 configuraciones reducidas del problema", "Generó automáticamente la conjetura sin intervención humana", "Sirvió únicamente para redactar el artículo final", "Descartó la necesidad de cualquier reducción matemática previa"],
+          "correct": 0,
+          "note": "El trabajo humano consistió en reducir el problema general a un conjunto manejable de configuraciones; la comprobación exhaustiva de cada una fue la parte que se delegó al ordenador."
+        },
+        {
+          "q": "¿Qué controversia generó esta forma de demostración en la comunidad matemática?",
+          "options": ["Si una prueba que ningún humano puede revisar completa a mano sigue siendo válida", "Si el teorema en sí era correcto, algo que nunca se resolvió", "Si los ordenadores debían prohibirse en la investigación matemática", "Si el resultado aplicaba solo a mapas de Europa"],
+          "correct": 0,
+          "note": "La discusión no cuestionaba el resultado final, ya confirmado por revisiones independientes, sino qué significa 'demostrar' algo cuando ninguna persona puede verificar cada paso individualmente."
+        }
+      ]
+    },
+    {
+      "id": "mat-0013",
+      "category": "matematicas",
+      "title": "El problema del viajante: por qué no existe un atajo conocido",
+      "subtitle": "Encontrar la ruta más corta que visite varias ciudades parece sencillo hasta que se añade una ciudad más y las posibilidades se disparan.",
+      "cover_image": { "query": "map route pins cities", "wikipedia": "Problema del viajante" },
+      "cards": [
+        { "heading": "Un enunciado de logística cotidiana", "text": "El problema consiste en encontrar la ruta más corta posible que visite una lista de ciudades exactamente una vez y regrese al punto de partida. Se aplica de forma directa al reparto de paquetería, la programación de rutas de autobuses escolares o el diseño de circuitos en placas electrónicas." },
+        { "heading": "El crecimiento que desborda cualquier ordenador", "text": "Para diez ciudades existen más de 180.000 rutas posibles distintas; para veinte ciudades, la cifra supera el trillón. Probar todas las combinaciones -fuerza bruta- se vuelve inviable mucho antes de llegar a problemas del tamaño real que enfrenta una empresa logística con miles de puntos de entrega." },
+        { "heading": "La pregunta de un millón de dólares", "text": "El problema pertenece a una categoría llamada NP-difícil, para la que nadie ha encontrado un método que garantice la solución óptima en un tiempo razonable a medida que crece el número de ciudades. Determinar si tal método puede existir, la pregunta 'P versus NP', es uno de los siete Problemas del Milenio, con un millón de dólares de recompensa sin reclamar desde el año 2000." },
+        { "heading": "Vivir con soluciones casi óptimas", "text": "En la práctica, empresas de logística no buscan la ruta perfecta sino algoritmos que encuentran soluciones muy buenas, aunque no garanticen ser las mejores posibles, en tiempos razonables. Ese compromiso entre exactitud y velocidad es habitual en la informática aplicada, donde una solución del 99% de calidad disponible ahora suele valer más que la perfecta disponible en un tiempo inviable." }
+      ],
+      "key_fact": "El problema P versus NP, relacionado con la dificultad del problema del viajante, es uno de los siete Problemas del Milenio con un millón de dólares de recompensa sin resolver desde el año 2000.",
+      "questions": [
+        {
+          "q": "¿En qué consiste el problema del viajante?",
+          "options": ["Encontrar la ruta más corta que visite varias ciudades una vez y regrese al inicio", "Determinar cuántas ciudades puede visitar un viajante en un día", "Calcular el coste total de un viaje internacional", "Diseñar el mapa más económico de construir para un país"],
+          "correct": 0,
+          "note": "El enunciado es geométrico y combinatorio: no se trata del coste del viaje sino de minimizar la distancia total de una ruta que pase por cada punto exactamente una vez."
+        },
+        {
+          "q": "¿Por qué probar todas las rutas posibles ('fuerza bruta') deja de ser viable rápidamente?",
+          "options": ["El número de rutas posibles crece de forma explosiva con cada ciudad añadida", "Los ordenadores actuales no pueden almacenar más de diez ciudades en memoria", "Cada ruta tarda horas en calcularse individualmente", "El problema cambia de naturaleza a partir de la ciudad número diez"],
+          "correct": 0,
+          "note": "El crecimiento no es proporcional al número de ciudades sino factorial, lo que hace que añadir una sola ciudad más multiplique drásticamente el número de combinaciones a revisar."
+        },
+        {
+          "q": "¿Qué relación tiene el problema del viajante con la pregunta 'P versus NP'?",
+          "options": ["Es un ejemplo característico de un problema NP-difícil, sin método conocido de solución rápida garantizada", "Fue el problema que finalmente resolvió la pregunta P versus NP", "No tiene ninguna relación matemática con esa pregunta", "Demuestra que P es igual a NP para casos prácticos"],
+          "correct": 0,
+          "note": "La pregunta sigue abierta: nadie ha demostrado que no pueda existir un método rápido, pero tampoco se ha encontrado ninguno pese a décadas de intentos, lo que mantiene el problema como referencia central de esa categoría."
+        },
+        {
+          "q": "¿Cómo abordan en la práctica las empresas de logística este tipo de problemas?",
+          "options": ["Usan algoritmos que buscan soluciones muy buenas, aunque no garanticen ser óptimas", "Contratan matemáticos para calcular la ruta perfecta manualmente", "Evitan cualquier ruta con más de diez puntos de entrega", "Esperan a que se resuelva la pregunta P versus NP antes de operar"],
+          "correct": 0,
+          "note": "El compromiso entre una solución rápida casi óptima y una solución perfecta pero inalcanzable en tiempo útil es una decisión práctica habitual en informática aplicada, no una limitación teórica sin salida."
+        }
+      ]
+    },
+    {
+      "id": "geo-0013",
+      "category": "geopolitica",
+      "title": "El golfo de Guinea: donde se trasladó la piratería marítima mundial",
+      "subtitle": "Mientras la piratería frente a Somalia caía a casi cero, la costa atlántica de África occidental se volvió la más peligrosa para navegar.",
+      "cover_image": { "query": "oil tanker West Africa coast", "wikipedia": "Piratería en el golfo de Guinea" },
+      "cards": [
+        { "heading": "Un problema que cambió de costa", "text": "Durante buena parte de la década de 2000, la piratería frente a Somalia, en el Cuerno de África, concentraba la atención internacional y una flota naval multinacional para combatirla. Hacia mediados de la década de 2010, esos ataques cayeron drásticamente mientras el golfo de Guinea, en el Atlántico frente a Nigeria y países vecinos, se convertía en el nuevo foco global de piratería marítima." },
+        { "heading": "Un negocio distinto al del petróleo robado", "text": "A diferencia de la piratería somalí, centrada en secuestrar barcos enteros para pedir rescate, gran parte de la actividad en el golfo de Guinea combina el robo de crudo de oleoductos y buques petroleros con el secuestro selectivo de tripulantes, a menudo llevados a tierra y liberados tras el pago de un rescate por cada persona." },
+        { "heading": "Aguas de varias jurisdicciones", "text": "El golfo de Guinea baña las costas de más de una decena de países, cada uno con capacidad naval y leyes distintas, lo que dificulta una respuesta coordinada frente a piratas que actúan en aguas internacionales o cruzan fronteras marítimas para evitar la persecución de una sola armada." },
+        { "heading": "Una amenaza que ha empezado a retroceder", "text": "Desde 2021, una combinación de mayor presencia naval nigeriana, patrullas internacionales y sistemas de seguimiento de buques ha reducido de forma notable el número de incidentes reportados en la zona, aunque organismos marítimos internacionales siguen calificando la región como de alto riesgo para la navegación comercial." }
+      ],
+      "key_fact": "Hacia mediados de la década de 2010, el golfo de Guinea sustituyó a la costa de Somalia como la región marítima con más ataques de piratería del mundo.",
+      "questions": [
+        {
+          "q": "¿Qué cambio geográfico se produjo en la piratería marítima mundial durante la década de 2010?",
+          "options": ["El foco se trasladó del Cuerno de África al golfo de Guinea", "La piratería desapareció por completo a nivel mundial", "Se trasladó del Mediterráneo al mar Rojo", "Pasó del océano Pacífico al Índico"],
+          "correct": 0,
+          "note": "La caída de los ataques frente a Somalia coincidió con el ascenso del golfo de Guinea como nueva zona de mayor riesgo, un desplazamiento geográfico documentado por organismos marítimos internacionales."
+        },
+        {
+          "q": "¿En qué se diferencia principalmente la piratería del golfo de Guinea de la practicada frente a Somalia?",
+          "options": ["Combina el robo de crudo con el secuestro selectivo de tripulantes, más que el secuestro de barcos completos", "Nunca involucra secuestros de personas, solo robo de mercancía", "Se limita exclusivamente a pequeñas embarcaciones pesqueras", "Está gestionada directamente por gobiernos de la región"],
+          "correct": 0,
+          "note": "El modelo somalí giraba en torno al rescate por el barco entero; el del golfo de Guinea combina el robo de combustible con el secuestro de un número limitado de tripulantes llevados a tierra."
+        },
+        {
+          "q": "¿Qué dificulta una respuesta coordinada frente a la piratería en el golfo de Guinea?",
+          "options": ["Que sus aguas bañan a más de una decena de países con capacidades y leyes distintas", "Que ningún país de la región cuenta con marina de guerra", "Que la zona está fuera del alcance de cualquier tratado internacional", "Que no existen rutas comerciales relevantes que proteger"],
+          "correct": 0,
+          "note": "La fragmentación jurisdiccional permite a los piratas explotar los límites de la autoridad de cada armada nacional, cruzando fronteras marítimas para dificultar la persecución."
+        },
+        {
+          "q": "¿Qué ha ocurrido con los incidentes de piratería en la zona desde 2021?",
+          "options": ["Han disminuido notablemente gracias a mayor presencia naval y vigilancia, aunque el riesgo persiste", "Han desaparecido por completo según todos los organismos internacionales", "Se han duplicado pese a los esfuerzos de la región", "No existen datos disponibles sobre la evolución reciente"],
+          "correct": 0,
+          "note": "La mejora es real pero parcial: la reducción de incidentes no ha llevado a los organismos marítimos internacionales a retirar la calificación de alto riesgo para la región."
+        }
+      ]
+    },
+    {
+      "id": "eco-0013",
+      "category": "economia",
+      "title": "El corralito: el día en que Argentina congeló el dinero de sus ahorradores",
+      "subtitle": "En diciembre de 2001, el gobierno argentino limitó de golpe cuánto efectivo podía retirar cada persona de su propia cuenta bancaria.",
+      "cover_image": { "query": "bank queue protest Argentina", "wikipedia": "Corralito" },
+      "cards": [
+        { "heading": "Una convertibilidad insostenible", "text": "Durante los años noventa, Argentina había fijado su moneda, el peso, en paridad uno a uno con el dólar estadounidense mediante una ley de convertibilidad, pensada para frenar la inflación crónica del país. El sistema exigía mantener suficientes reservas en dólares para respaldar cada peso en circulación, algo cada vez más difícil de sostener hacia finales de la década." },
+        { "heading": "La fuga que precipitó la medida", "text": "Ante la creciente desconfianza en la capacidad del gobierno de mantener la paridad, los argentinos comenzaron a retirar masivamente sus depósitos en dólares de los bancos. El 1 de diciembre de 2001, el ministro de Economía Domingo Cavallo impuso el 'corralito': un límite semanal de 250 pesos o dólares en efectivo por persona para frenar la salida de capital del sistema bancario." },
+        { "heading": "De congelar el dinero a devaluarlo", "text": "La medida provocó protestas masivas conocidas como el 'cacerolazo' y la caída del gobierno en pocos días. En enero de 2002, ya con un nuevo gobierno, la convertibilidad se abandonó y los depósitos en dólares se convirtieron por decreto a pesos a un tipo de cambio muy inferior al de mercado, en una medida conocida como 'pesificación'." },
+        { "heading": "Una crisis con eco duradero", "text": "La crisis dejó a más de la mitad de la población argentina por debajo del umbral de pobreza en 2002 y marcó profundamente la relación de los argentinos con el sistema bancario, con una desconfianza en los depósitos en pesos que persiste, en distinta medida, hasta la actualidad." }
+      ],
+      "key_fact": "El corralito, impuesto el 1 de diciembre de 2001, limitó los retiros bancarios a 250 pesos o dólares semanales por persona.",
+      "questions": [
+        {
+          "q": "¿Qué sistema monetario precedió al corralito en Argentina?",
+          "options": ["Una paridad fija de uno a uno entre el peso y el dólar (convertibilidad)", "Un sistema de tipo de cambio flotante sin restricciones", "La adopción directa del dólar como única moneda", "Un patrón oro clásico similar al del siglo XIX"],
+          "correct": 0,
+          "note": "La ley de convertibilidad de los noventa ató el peso al dólar en paridad fija, un mecanismo que exigía reservas suficientes para respaldar cada peso emitido."
+        },
+        {
+          "q": "¿Qué motivó directamente la imposición del corralito en diciembre de 2001?",
+          "options": ["Una fuga masiva de depósitos bancarios ante la desconfianza en la paridad cambiaria", "Un ataque especulativo desde fuera del país sin relación con los bancos locales", "Una orden del Fondo Monetario Internacional para frenar la inflación", "Un colapso del sistema eléctrico que impedía operar los bancos"],
+          "correct": 0,
+          "note": "El corralito fue una respuesta defensiva a la salida acelerada de depósitos del sistema bancario, no una medida planificada con antelación."
+        },
+        {
+          "q": "¿Qué ocurrió con los depósitos en dólares tras el abandono de la convertibilidad en enero de 2002?",
+          "options": ["Se convirtieron por decreto a pesos, a un tipo de cambio inferior al de mercado", "Se devolvieron íntegramente en dólares a sus titulares", "Fueron confiscados de forma permanente por el Estado", "Se transfirieron automáticamente a bancos extranjeros"],
+          "correct": 0,
+          "note": "La 'pesificación' significó que quienes tenían ahorros en dólares los recibieron convertidos a pesos devaluados, una pérdida de valor real para los depositantes."
+        },
+        {
+          "q": "¿Qué distingue al corralito argentino de otras crisis de deuda soberana como la de 1982 en México?",
+          "options": ["El corralito restringió directamente el acceso de los ciudadanos a su propio dinero en el banco, más allá del impago de deuda externa", "El corralito no tuvo ningún efecto sobre la población general", "No hubo ninguna diferencia entre ambos episodios", "El corralito ocurrió antes que la crisis mexicana de 1982"],
+          "correct": 0,
+          "note": "Mientras otras crisis de deuda afectan primero la relación del país con acreedores externos, el corralito golpeó de forma inmediata y directa el acceso cotidiano de la población a sus propios ahorros."
+        }
+      ]
+    },
+    {
+      "id": "his-0013",
+      "category": "historia",
+      "title": "La Larga Marcha: la retirada que forjó al Partido Comunista Chino",
+      "subtitle": "Cercado por las fuerzas nacionalistas, el Ejército Rojo recorrió miles de kilómetros por China en una huida que se volvió mito fundacional.",
+      "cover_image": { "query": "mountain trail rural China", "wikipedia": "Larga Marcha" },
+      "cards": [
+        { "heading": "Una huida, no una ofensiva", "text": "En octubre de 1934, cerca de cien mil soldados y cuadros del Ejército Rojo comunista, cercados en su base del sur de China por las fuerzas del gobierno nacionalista de Chiang Kai-shek, iniciaron una retirada masiva hacia el norte y el oeste del país para evitar su aniquilación." },
+        { "heading": "Miles de kilómetros a pie", "text": "La marcha, que se prolongó durante poco más de un año, recorrió un trayecto estimado en unos 9.000 kilómetros a través de montañas, ríos y pantanos, con enfrentamientos constantes, hambre y enfermedad. Se calcula que menos de una décima parte de quienes partieron llegó con vida al destino final en la provincia de Shaanxi." },
+        { "heading": "El ascenso de Mao Zedong", "text": "Durante una parada clave en la localidad de Zunyi, en enero de 1935, los líderes comunistas reunidos en una conferencia consolidaron el liderazgo de Mao Zedong dentro del partido, tras culpar a la dirección anterior de las pérdidas sufridas al principio de la retirada. Ese liderazgo se mantendría, con altibajos, durante las siguientes cuatro décadas." },
+        { "heading": "De derrota táctica a mito fundacional", "text": "Aunque en términos militares inmediatos fue una retirada forzada con pérdidas masivas, la Larga Marcha se convirtió después en la narrativa fundacional del Partido Comunista Chino: una prueba de resistencia y disciplina que legitimó el ascenso posterior del partido al poder en 1949 y que sigue enseñándose en la China actual como referencia moral." }
+      ],
+      "key_fact": "De los aproximadamente cien mil participantes que iniciaron la Larga Marcha en 1934, se estima que menos de diez mil llegaron con vida a su destino final.",
+      "questions": [
+        {
+          "q": "¿Cuál fue el motivo inmediato del inicio de la Larga Marcha en 1934?",
+          "options": ["Escapar del cerco de las fuerzas nacionalistas de Chiang Kai-shek", "Iniciar una ofensiva planeada contra Japón", "Trasladar la capital comunista por decisión administrativa", "Responder a una hambruna en el sur de China"],
+          "correct": 0,
+          "note": "No se trató de una estrategia ofensiva sino de una retirada de supervivencia ante el riesgo real de aniquilación militar en su base original."
+        },
+        {
+          "q": "¿Qué magnitud alcanzaron las pérdidas humanas durante el trayecto?",
+          "options": ["Se estima que menos de una décima parte de los participantes llegó con vida", "Prácticamente la totalidad de los participantes sobrevivió sin bajas significativas", "Murió exactamente la mitad de los participantes, según registros oficiales", "No hay ninguna estimación disponible sobre las bajas"],
+          "correct": 0,
+          "note": "El trayecto de unos 9.000 kilómetros, con combates constantes, hambre y enfermedad, diezmó a la fuerza original hasta dejar una fracción reducida de los efectivos iniciales."
+        },
+        {
+          "q": "¿Qué ocurrió en la Conferencia de Zunyi de enero de 1935?",
+          "options": ["Se consolidó el liderazgo de Mao Zedong dentro del Partido Comunista", "Se firmó un armisticio con las fuerzas nacionalistas", "Se decidió abandonar definitivamente la retirada", "Se estableció la nueva capital comunista de forma permanente"],
+          "correct": 0,
+          "note": "La conferencia fue un punto de inflexión político dentro de la marcha misma: cambió el liderazgo del partido antes incluso de que la retirada hubiera terminado."
+        },
+        {
+          "q": "¿Por qué la Larga Marcha se recuerda hoy como un episodio fundacional pese a ser, militarmente, una retirada con grandes pérdidas?",
+          "options": ["Porque se transformó en un relato de resistencia que legitimó el ascenso posterior del partido al poder", "Porque terminó en una victoria militar decisiva sobre los nacionalistas", "Porque fue el único episodio bélico de toda la guerra civil china", "Porque puso fin de forma inmediata a la guerra civil china"],
+          "correct": 0,
+          "note": "El significado histórico no deriva del resultado táctico inmediato sino del uso narrativo posterior: la marcha se convirtió en símbolo de disciplina y sacrificio que el partido explotó políticamente durante décadas."
+        }
+      ]
+    }
+  ]
+}
