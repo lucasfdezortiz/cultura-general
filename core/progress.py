@@ -54,7 +54,10 @@ def progreso_vacio() -> dict[str, Any]:
         "racha_maxima": 0,
         "categorias_activas": [c for c, v in CATEGORIES.items() if v["activa"]],
         "dominadas": [],
-        "tema": "claro",
+        # Debe coincidir con ui.styles.TEMA_POR_DEFECTO. No se importa de allí
+        # para que `core` no dependa de `ui`: la capa de datos no debe saber
+        # nada de la de presentación.
+        "tema": "oscuro",
         # Con 12 categorias, servirlas todas cada dia son 48 preguntas y mas de
         # media hora. Tres es un dia sostenible y lo que el reparto ponderado
         # necesita para que el bloque financiero domine; se ajusta en el sidebar.

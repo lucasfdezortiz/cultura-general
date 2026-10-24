@@ -7,14 +7,17 @@ from datetime import date
 
 import streamlit as st
 
-from config.categories import CATEGORIES, color, icono, nombre
+from config.categories import CATEGORIES, color, icono, nombre, ticker
 from core import progress as prog_mod
 
 MESES = [
     "enero", "febrero", "marzo", "abril", "mayo", "junio",
     "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre",
 ]
-DIAS_SEM = ["L", "M", "X", "J", "V", "S", "D"]
+MESES_CORTOS = [
+    "ENE", "FEB", "MAR", "ABR", "MAY", "JUN",
+    "JUL", "AGO", "SEP", "OCT", "NOV", "DIC",
+]
 
 
 def _e(texto: str) -> str:
@@ -31,28 +34,98 @@ def fecha_larga(d: date) -> str:
 def cabecera(hoy: date) -> None:
     st.markdown(
         f"""<div class="cabecera">
-              <div class="marca">LF <em>Global Capital</em></div>
-              <div class="fecha">{_e(fecha_larga(hoy))}</div>
+              <div>
+                <div class="marca">LF <em>Global Capital</em></div>
+                <div class="marca-pie">Cultura de mercados · sesión diaria</div>
+              </div>
+              <div class="fecha">
+                <b>{hoy.day:02d} {MESES_CORTOS[hoy.month - 1]}</b>
+                {hoy.year}
+              </div>
             </div>""",
         unsafe_allow_html=True,
     )
 
 
-def sellos_racha(prog: dict, hoy: date, dias: int = 7) -> None:
+def panel_metricas(prog: dict, hoy: date, stats: dict, estado: dict) -> None:
+    """Las cuatro cifras que resumen la sesión, al modo de un panel de mercado.
+
+    Sustituye a la barra de progreso suelta: el mismo dato pesa más junto a los
+    otros tres, y la lectura es de un vistazo en lugar de una frase.
+    """
     actual = prog_mod.racha_actual(prog, hoy)
     maxima = prog_mod.racha_maxima(prog, hoy)
 
+    aciertos = sum(r.get("aciertos", 0) for r in prog["lecciones"].values())
+    preguntas = sum(r.get("total", 0) for r in prog["lecciones"].values())
+    acc = (aciertos / preguntas * 100) if preguntas else None
+
+    hechas, total_dia = estado["completadas"], estado["total"]
+    dia_cerrado = estado["cerrado"]
+
+    tarjetas = [
+        {
+            "etiq": "Hoy",
+            "valor": f"{hechas}<small>/{total_dia}</small>" if total_dia else "—",
+            "pie": "sesión cerrada" if dia_cerrado else f"{estado['pendientes']} pendientes",
+            "clase_pie": "alza" if dia_cerrado else "",
+            "acento": "var(--verde)" if dia_cerrado else "var(--bronce)",
+        },
+        {
+            "etiq": "Racha",
+            "valor": f"{actual}<small>d</small>",
+            "pie": f"máxima {maxima}",
+            "clase_pie": "",
+            "acento": "var(--bronce)" if actual else "var(--borde)",
+        },
+        {
+            "etiq": "Acierto",
+            "valor": f"{acc:.0f}<small>%</small>" if acc is not None else "—",
+            "pie": f"{aciertos}/{preguntas}" if preguntas else "sin datos",
+            "clase_pie": "alza" if acc is not None and acc >= 80 else "",
+            "acento": "var(--verde)" if acc is not None and acc >= 80 else "var(--bronce)",
+        },
+        {
+            "etiq": "Cartera",
+            "valor": f"{stats['pct']:.0f}<small>%</small>",
+            "pie": f"{stats['completadas']}/{stats['total']} lecciones",
+            "clase_pie": "",
+            "acento": "var(--bronce)",
+        },
+    ]
+
+    piezas = "".join(
+        f"""<div class="metrica" style="--acento:{t['acento']}">
+              <div class="metrica-etiq">{t['etiq']}</div>
+              <div class="metrica-valor">{t['valor']}</div>
+              <div class="metrica-pie {t['clase_pie']}">{_e(t['pie'])}</div>
+            </div>"""
+        for t in tarjetas
+    )
+    st.markdown(f'<div class="panel">{piezas}</div>', unsafe_allow_html=True)
+
+
+def racha_barras(prog: dict, hoy: date, dias: int = 14) -> None:
+    """Las últimas dos semanas como histograma: lleno, a medias o vacío.
+
+    Catorce barras caben donde antes cabían siete círculos, así que se ve el
+    doble de historia en menos altura.
+    """
     piezas = []
     for fecha_iso, estado in prog_mod.ultimos_dias(prog, dias, hoy):
         d = date.fromisoformat(fecha_iso)
-        clases = f"sello {estado}" + (" hoy" if d == hoy else "")
-        piezas.append(f'<div class="{clases}">{DIAS_SEM[d.weekday()]}</div>')
+        clases = f"b d-{estado}" + (" d-hoy" if d == hoy else "")
+        titulo = f"{d.day:02d}/{d.month:02d} · {estado}"
+        piezas.append(f'<div class="{clases}" title="{titulo}"></div>')
 
-    plural = "días" if actual != 1 else "día"
+    primero = (hoy.toordinal() - dias + 1)
+    desde = date.fromordinal(primero)
     st.markdown(
-        f"""<div class="sellos">
-              {''.join(piezas)}
-              <span class="racha-txt">Racha <b>{actual}</b> {plural} · máxima <b>{maxima}</b></span>
+        f"""<div class="barras">{''.join(piezas)}</div>
+            <div class="barras-pie">
+              <span>{desde.day:02d} {MESES_CORTOS[desde.month - 1]}</span>
+              <span>Constancia · {dias} días</span>
+              <span>Hoy</span>
             </div>""",
         unsafe_allow_html=True,
     )
@@ -84,16 +157,34 @@ def tarjeta_portada(leccion: dict, hecha: bool) -> None:
         if url
         else f"background:linear-gradient(145deg,{color(cat)},{color(cat)}bb);"
     )
-    etiqueta = "Completada" if hecha else "Pendiente"
+    etiqueta = "Hecha" if hecha else "Pendiente"
     st.markdown(
-        f"""<div class="tarjeta-portada {'hecha' if hecha else ''}" style="{fondo}">
+        f"""<div class="tarjeta-portada {'hecha' if hecha else ''}"
+                 style="{fondo} --cat:{color(cat)};">
               <div class="tp-estado {'hecha' if hecha else 'pendiente'}">{etiqueta}</div>
               <div class="tp-cuerpo">
-                <div class="tp-eyebrow">{icono(cat)} {_e(nombre(cat))}</div>
+                <div class="tp-eyebrow">
+                  <span class="tk" style="--tk-color:{color(cat)}">{ticker(cat)}</span>
+                  <span class="nom">{_e(nombre(cat))}</span>
+                </div>
                 <div class="tp-titulo">{_e(leccion['title'])}</div>
               </div>
             </div>""",
         unsafe_allow_html=True,
+    )
+
+
+def eyebrow_categoria(cat_id: str) -> str:
+    """Identificador de categoría para las pantallas de lección y resultado.
+
+    Devuelve HTML en vez de pintarlo, porque quien lo usa lo concatena con el
+    título en un solo `st.markdown`.
+    """
+    return (
+        f'<div class="eyebrow">'
+        f'<span class="tk" style="--tk-color:{color(cat_id)}">{ticker(cat_id)}</span>'
+        f'<span>{_e(nombre(cat_id))}</span>'
+        f"</div>"
     )
 
 
@@ -192,14 +283,49 @@ def opcion_revelada(texto: str, estado: str) -> None:
     )
 
 
+def tabla_categorias(filas: list[dict]) -> None:
+    """Avance por categoría como tabla de barras, no como medidores apilados.
+
+    Doce medidores seguidos obligaban a desplazarse media pantalla para ver el
+    conjunto. En una sola tabla las barras se comparan entre sí de un vistazo,
+    que es justo lo que se quiere saber.
+    """
+    piezas = []
+    for f in filas:
+        acc = f["accuracy"]
+        if acc is None:
+            acc_html = '<span class="acc" style="color:var(--tinta-tenue)">—</span>'
+        else:
+            flojo = " flojo" if acc < 80 else ""
+            acc_html = f'<span class="acc{flojo}">{acc:.0f}%</span>'
+        piezas.append(
+            f"""<div class="cat-fila" style="--cat:{color(f['id'])}">
+                  <span class="tk" style="--tk-color:{color(f['id'])}">{ticker(f['id'])}</span>
+                  <div>
+                    <div class="cat-nom">{_e(nombre(f['id']))}</div>
+                    <div class="cat-pista">
+                      <div class="cat-relleno" style="width:{min(f['pct'], 100):.1f}%"></div>
+                    </div>
+                  </div>
+                  <div class="cat-cifras">
+                    <b>{f['hechas']}/{f['total']}</b>{acc_html}
+                  </div>
+                </div>"""
+        )
+    st.markdown(f'<div class="tabla-cat">{"".join(piezas)}</div>', unsafe_allow_html=True)
+
+
 def cabecera_categoria(cat_id: str, hechas: int, total: int, accuracy: float | None) -> None:
     """Separador de sección para el historial agrupado por tema."""
     detalle = f"{hechas} de {total}"
     if accuracy is not None:
         detalle += f" · acierto {accuracy:.0f}%"
     st.markdown(
-        f"""<div class="hist-cabecera">
-              <div class="nom"><i>{icono(cat_id)}</i> {_e(nombre(cat_id))}</div>
+        f"""<div class="hist-cabecera" style="--cat:{color(cat_id)}">
+              <div class="nom">
+                <span class="tk" style="--tk-color:{color(cat_id)}">{ticker(cat_id)}</span>
+                {_e(nombre(cat_id))}
+              </div>
               <div class="cif">{detalle}</div>
             </div>""",
         unsafe_allow_html=True,
@@ -214,14 +340,19 @@ def fila_historial(leccion: dict, resultado: dict) -> None:
         if url
         else f'<div class="ph" style="background:{color(cat)}22">{icono(cat)}</div>'
     )
+    ok = resultado.get("aciertos", 0)
+    de = resultado.get("total", 4) or 4
+    # El color de la nota hace legible el historial sin leer las cifras: pleno
+    # en verde, un fallo en bronce, dos o más en rojo.
+    clase = "" if ok == de else ("medio" if de - ok == 1 else "bajo")
     st.markdown(
         f"""<div class="fila-hist">
               {miniatura}
               <div class="meta">
                 <div class="t">{_e(leccion['title'])}</div>
-                <div class="s">{_e(nombre(cat))} · {_e(resultado.get('fecha', ''))}</div>
+                <div class="s">{ticker(cat)} · {_e(resultado.get('fecha', ''))}</div>
               </div>
-              <div class="sc">{resultado.get('aciertos', 0)}/{resultado.get('total', 4)}</div>
+              <div class="sc {clase}">{ok}/{de}</div>
             </div>""",
         unsafe_allow_html=True,
     )

@@ -18,6 +18,7 @@ from config.categories import (
     frecuencia,
     icono,
     nombre,
+    ticker,
 )
 from core import bank as bank_mod
 from core import progress as prog_mod
@@ -199,13 +200,12 @@ def pantalla_hoy(banco: dict, prog: dict, hoy: date) -> None:
     if cambio:
         persistir()
 
-    c.sellos_racha(prog, hoy)
-
     completadas = prog_mod.ids_completadas(prog)
     stats = bank_mod.estadisticas(banco, completadas)
-    c.medidor("Conocimiento completado", stats["completadas"], stats["total"])
-
     estado = selection.estado_paquete(prog, paquete, hoy_iso)
+
+    c.panel_metricas(prog, hoy, stats, estado)
+    c.racha_barras(prog, hoy)
 
     tab_hoy, tab_hist = st.tabs(["Paquete de hoy", "Historial"])
 
@@ -280,10 +280,7 @@ def pantalla_leccion(banco: dict, prog: dict) -> None:
         if st.button("← Volver al paquete", key="volver_lec"):
             ir_a("hoy")
 
-    st.markdown(
-        f'<div class="eyebrow">{icono(leccion["category"])} {nombre(leccion["category"])}</div>',
-        unsafe_allow_html=True,
-    )
+    st.markdown(c.eyebrow_categoria(leccion["category"]), unsafe_allow_html=True)
     c.portada_grande(leccion)
     st.markdown(
         f'<div class="leccion-titulo">{c._e(leccion["title"])}</div>'
@@ -349,8 +346,8 @@ def pantalla_quiz(banco: dict, prog: dict, hoy: date) -> None:
     revelada = st.session_state.get("revelada", False)
 
     st.markdown(
-        f'<div class="quiz-cuenta">{icono(leccion["category"])} '
-        f'{nombre(leccion["category"])} · Pregunta {idx + 1} de {len(preguntas)}</div>',
+        f'<div class="quiz-cuenta">{ticker(leccion["category"])} · '
+        f'Pregunta {idx + 1:02d} de {len(preguntas):02d}</div>',
         unsafe_allow_html=True,
     )
     st.progress((idx + (1 if revelada else 0)) / len(preguntas))
@@ -416,8 +413,8 @@ def pantalla_resultado(banco: dict, prog: dict, hoy: date) -> None:
     total = resultado.get("total", len(leccion.get("questions", [])))
 
     st.markdown(
-        f'<div class="eyebrow">{icono(leccion["category"])} {nombre(leccion["category"])}</div>'
-        f'<div class="leccion-titulo">{c._e(leccion["title"])}</div>',
+        c.eyebrow_categoria(leccion["category"])
+        + f'<div class="leccion-titulo">{c._e(leccion["title"])}</div>',
         unsafe_allow_html=True,
     )
     c.marcador(aciertos, total)
@@ -470,13 +467,19 @@ def tab_historial(banco: dict, prog: dict) -> None:
     grupos = prog_mod.historial_por_categoria(prog, banco)
 
     c.rotulo("Avance por categoría")
-    for cat_id, meta in categorias_ordenadas():
+    filas = []
+    for cat_id, _meta in categorias_ordenadas():
         s = stats["por_categoria"].get(cat_id, {})
         if not s.get("total"):
             continue
-        acc = prog_mod.accuracy_categoria(grupos.get(cat_id, []))
-        sufijo = f" · acierto {acc:.0f}%" if acc is not None else ""
-        c.medidor(f"{icono(cat_id)} {meta['nombre']}", s["completadas"], s["total"], sufijo)
+        filas.append({
+            "id": cat_id,
+            "hechas": s["completadas"],
+            "total": s["total"],
+            "pct": s["pct"],
+            "accuracy": prog_mod.accuracy_categoria(grupos.get(cat_id, [])),
+        })
+    c.tabla_categorias(filas)
 
     c.rotulo("Lecciones completadas, por tema")
 

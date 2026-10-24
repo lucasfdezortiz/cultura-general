@@ -219,6 +219,15 @@ def frecuencia(cat_id: str) -> int:
     return max(1, int(CATEGORIES.get(cat_id, {}).get("frecuencia", 1)))
 
 
+def ticker(cat_id: str) -> str:
+    """Código de tres letras de la categoría, al modo de un símbolo bursátil.
+
+    Reutiliza el prefijo de los ids, de modo que el código que se ve en
+    pantalla es literalmente el que llevan las lecciones de esa categoría.
+    """
+    return PREFIJOS.get(cat_id, cat_id[:3]).upper()
+
+
 def categoria_vigente(cat_id: str) -> str | None:
     """Traduce una categoría heredada a la que la absorbió.
 
