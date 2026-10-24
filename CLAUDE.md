@@ -6,6 +6,59 @@ todas las tandas futuras**.
 
 ---
 
+## 0. El temario gira sobre mercados, economía e inversión
+
+Decidido el 2026-10-24. El banco dejó de ser cultura general repartida por igual:
+**entre el 60 y el 70 % de cada tanda va a `economia`, `mercados`, `inversion` y
+`quant`**, en ese orden de prioridad. El resto aporta contexto, no protagonismo.
+
+Arte, Literatura y Mitología se fusionaron en **`humanidades`**, con frecuencia 1.
+Conserva sus 39 lecciones y el historial, pero **no se le escriben lecciones
+nuevas hasta que alcance su objetivo por detrás de todo lo demás**.
+
+### Las tres categorías nuevas se escriben desde el cerebro
+
+`economia`, `mercados`, `inversion` y `quant` tienen una fuente propia y mejor que
+el conocimiento general: el wiki del repositorio **LF Global Capital Brain**, en
+`~/Proyectos/02_LF_Global_Capital/LF Global Capital Brain/wiki/`. Son 84 páginas
+ya verificadas, con cifras, páginas de origen y las limitaciones que reconoce cada
+autor. Material disponible:
+
+| Carpeta del wiki | Alimenta | Contenido |
+|---|---|---|
+| `AnalisisFinanciero/` | `mercados`, `economia` | Fama, Minsky, Borio, Dalio, Adrian-Shin, Taylor, Reinhart-Rogoff, Keynes, Lo-MacKinlay, Fama-French |
+| `LFGlobalCapital/` | `inversion` | Cartas de Berkshire 1977-2024, Piotroski, y los conceptos `C-*`: moat, float, owner earnings, margen de seguridad, círculo de competencia |
+| `QuantFinance/` | `quant` | Sharpe, Black-Scholes, Merton, Markowitz, Jegadeesh-Titman, Gatev, VaR, medidas coherentes de riesgo |
+
+**Procedimiento:** antes de escribir una lección de estas cuatro categorías, lee
+la ficha del wiki correspondiente y saca de ahí las cifras. Una ficha da para una
+o dos lecciones, no más. Lo que no está en el wiki se puede escribir igual, pero
+las cifras tienen que ser verificables.
+
+Dos avisos sobre cómo usar ese material:
+
+- **El wiki está escrito para un inversor que ya sabe; la lección, no.** No
+  trasplantes párrafos: una ficha cita página y estadístico t porque sirve de
+  referencia, y una lección necesita que el dato signifique algo para quien lo lee
+  por primera vez.
+- **Respeta las advertencias de la fuente.** Si la ficha anota que una cifra no es
+  implementable, que el autor declara sesgo de supervivencia o que un hallazgo no
+  sobrevive en empresas grandes, eso **va en la lección**. Es lo que la hace útil
+  en lugar de decorativa.
+
+### La frontera de tamaño
+
+El hallazgo mejor establecido del cerebro, y el que más le importa a Lucas porque
+solo invierte en empresas de más de 5.000 M€: la ineficiencia explotable aparece
+en las empresas pequeñas y se desvanece en las grandes. Tres métodos
+independientes lo sitúan ahí —Piotroski (t = 0,872, p = 0,203 en el tercio
+superior de capitalización), Lo-MacKinlay (cociente 1,06, z = 1,12 en el quintil
+grande) y Jegadeesh-Titman (el enero negativo deja de ser significativo en las
+grandes)—. **Cuando una lección toque un hallazgo con dominio de validez
+limitado, decirlo es más valioso que el hallazgo.**
+
+---
+
 ## 1. Procedimiento de una tanda
 
 ```bash
@@ -16,7 +69,7 @@ python3 -c "
 import sys; sys.path.insert(0,'.')
 from core import bank, progress as P
 b = bank.cargar_banco(); pr = P.cargar()
-print(bank.informe_salud(bank.check_bank_health(b, P.ids_completadas(pr), P.categorias_activas(pr))))"
+print(bank.informe_salud(bank.check_bank_health(b, P.ids_completadas(pr), P.categorias_activas(pr), tope=P.max_por_dia(pr))))"
 
 # 2. Escribir data/tandas/tanda-NN.json  (NN = siguiente número libre)
 # 3. Fusionar, validar y resolver portadas
@@ -29,9 +82,21 @@ python3 scripts/validate_bank.py
 git add -A && git commit -m "Tanda NN: N lecciones"
 ```
 
-**Tamaño de tanda: 20-24 lecciones.** Reparto: al menos una por categoría, y el
-resto para las que menos días de reserva tengan según el informe de salud. No
-escribas la tanda entera de una categoría sola.
+**Tamaño de tanda: 20-24 lecciones.** Reparto orientativo, ajustado al informe de
+salud —que ya calcula los días de reserva con el reparto ponderado, no a una
+lección por categoría y día:
+
+| Categorías | Por tanda |
+|---|---|
+| `economia`, `mercados`, `inversion` | 4 cada una |
+| `quant` | 3 |
+| `geopolitica`, `matematicas` | 2 cada una |
+| `presente`, `historia`, `ciencia`, `fisica`, `filosofia` | 1 donde más apriete |
+| `humanidades` | 0, salvo que quede por debajo de 10 días de reserva |
+
+Prioridad cuando el informe avise de varias: primero las cuatro financieras,
+porque son las que consumen el 60 % del paquete diario y las que más rápido se
+agotan. No escribas la tanda entera de una categoría sola.
 
 `validate_bank.py --fix-shuffle` es **obligatorio**. Sin él, la respuesta
 correcta se queda casi siempre en la primera posición.
@@ -173,7 +238,12 @@ procesos estructurales y controversias abiertas.
 
 - **No tocar `data/progress.json`.** Es el progreso del usuario.
 - **No modificar lecciones ya existentes** salvo para corregir un error de hecho.
-- **No cambiar `config/categories.py`** ni los objetivos por categoría.
-- **No hacer `git push`.** No hay remoto configurado; los commits quedan locales.
+- **No cambiar `config/categories.py`**: ni los objetivos, ni las frecuencias, ni
+  dar de alta o de baja categorías. Eso lo decide Lucas.
+- **No renombrar ids de lecciones.** El progreso del usuario guarda los ids tal
+  cual, así que renombrarlos deja huérfano su historial. Los ids `art-*`, `lit-*`
+  y `mit-*` siguen existiendo dentro de `humanidades` por esa razón.
+- **No hacer `git push`.** Sí hay remoto (`origin` → `cultura-general`), pero el
+  push lo hace Lucas desde GitHub Desktop. Deja el commit hecho y nada más.
 - Si `validate_bank.py` termina con errores, **corrígelos antes de commitear**.
   Nunca commitees un banco que no valida.

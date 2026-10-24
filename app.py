@@ -65,7 +65,10 @@ def main() -> None:
         return
 
     salud = bank_mod.check_bank_health(
-        banco, prog_mod.ids_completadas(prog), prog_mod.categorias_activas(prog)
+        banco,
+        prog_mod.ids_completadas(prog),
+        prog_mod.categorias_activas(prog),
+        tope=prog_mod.max_por_dia(prog),
     )
     screens.sidebar(banco, prog, salud)
 

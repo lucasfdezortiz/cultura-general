@@ -26,15 +26,24 @@ from __future__ import annotations
 from datetime import date, timedelta
 from typing import Any
 
-from config.categories import CATEGORIES, PREFIJOS
+from config.categories import (
+    CATEGORIAS_FUSIONADAS,
+    CATEGORIES,
+    PREFIJOS,
+    PREFIJOS_HEREDADOS,
+    categoria_vigente,
+)
 from core.fechas import hoy as hoy_local
 from core.storage import obtener_backend
 
-VERSION = 1
+VERSION = 2
 
 # prefijo de id -> categoría, para recuperar la categoría de un registro
-# huérfano cuya lección ya no está en el banco.
+# huérfano cuya lección ya no está en el banco. Incluye los prefijos de las
+# categorías fusionadas: los ids antiguos no se renombran, así que `art-0004`
+# tiene que seguir resolviéndose a Humanidades.
 _PREFIJO_A_CAT = {prefijo: cat for cat, prefijo in PREFIJOS.items()}
+_PREFIJO_A_CAT.update(PREFIJOS_HEREDADOS)
 
 
 def progreso_vacio() -> dict[str, Any]:
@@ -46,10 +55,69 @@ def progreso_vacio() -> dict[str, Any]:
         "categorias_activas": [c for c, v in CATEGORIES.items() if v["activa"]],
         "dominadas": [],
         "tema": "claro",
-        # Con 11 categorias, servirlas todas cada dia son 44 preguntas y unos
-        # 35 minutos. Seis es un dia sostenible; se ajusta desde el sidebar.
-        "max_por_dia": 6,
+        # Con 12 categorias, servirlas todas cada dia son 48 preguntas y mas de
+        # media hora. Tres es un dia sostenible y lo que el reparto ponderado
+        # necesita para que el bloque financiero domine; se ajusta en el sidebar.
+        "max_por_dia": 3,
     }
+
+
+# Las once categorías que existían en la versión 1 del progreso. Hace falta la
+# lista explícita para distinguir dos cosas que de otro modo se confunden: una
+# categoría ausente de `categorias_activas` porque el usuario la desactivó —que
+# no se debe reactivar— y una ausente porque aún no existía —que sí hay que dar
+# de alta.
+_CATEGORIAS_V1 = frozenset({
+    "geopolitica", "economia", "historia", "ciencia", "filosofia", "presente",
+    "fisica", "matematicas", "mitologia", "arte", "literatura",
+})
+
+
+def _migrar_categorias_fusionadas(data: dict[str, Any]) -> None:
+    """Traduce los nombres de categoría retirados y da de alta las nuevas.
+
+    Se ejecuta una sola vez, al subir de la version 1 a la 2. Las listas de
+    categorias activas y dominadas guardan **nombres**, no ids de leccion, así
+    que al fusionar Arte, Literatura y Mitologia en Humanidades hay que
+    traducirlas o `categorias_activas()` las descartaria por desconocidas. Y
+    como las categorias nuevas no estaban en la lista, habria que activarlas a
+    mano: se dan de alta aqui las que vienen marcadas como activas.
+    """
+    for clave in ("categorias_activas", "dominadas"):
+        traducidas: list[str] = []
+        for cat in data.get(clave) or []:
+            vigente = categoria_vigente(cat)
+            if vigente and vigente not in traducidas:
+                traducidas.append(vigente)
+        data[clave] = [c for c in CATEGORIES if c in traducidas]
+
+    # Alta de las categorias que no existian cuando se guardo este progreso.
+    # Quedan fuera las de la version 1 (una ausente es una que el usuario
+    # desactivo) y las que absorbieron a otras: Humanidades solo entra si venia
+    # activa alguna de las tres que fusiono, cosa que resuelve el paso anterior.
+    absorbentes = set(CATEGORIAS_FUSIONADAS.values())
+    activas = set(data["categorias_activas"])
+    nuevas = {
+        c for c, v in CATEGORIES.items()
+        if v["activa"] and c not in _CATEGORIAS_V1 and c not in absorbentes
+    }
+    if nuevas - activas:
+        data["categorias_activas"] = [c for c in CATEGORIES if c in activas | nuevas]
+
+
+def _soltar_paquete_sin_empezar(data: dict[str, Any]) -> None:
+    """Desancla el paquete de hoy si aún no se ha tocado, para que se rehaga.
+
+    Un paquete anclado no se recalcula nunca: es lo que impide que completar una
+    lección reordene el resto del día. Pero el de hoy se armó con el reparto
+    anterior, y dejarlo haría que el reenfoque pareciera no haber surtido
+    efecto hasta mañana. Se suelta solo si no hay ninguna lección completada en
+    él, de modo que no se pierde nada.
+    """
+    hoy = hoy_local().isoformat()
+    dia = data.get("dias", {}).get(hoy)
+    if dia and dia.get("paquete") and not dia.get("completadas"):
+        del data["dias"][hoy]
 
 
 def migrar(data: dict[str, Any]) -> dict[str, Any]:
@@ -57,6 +125,9 @@ def migrar(data: dict[str, Any]) -> dict[str, Any]:
     base = progreso_vacio()
     for clave, valor in base.items():
         data.setdefault(clave, valor)
+    if int(data.get("version", 1)) < 2:
+        _migrar_categorias_fusionadas(data)
+        _soltar_paquete_sin_empezar(data)
     data["version"] = VERSION
     return data
 
@@ -237,7 +308,13 @@ def historial_por_categoria(prog: dict, banco: dict) -> dict[str, list[tuple[dic
                 "title": "(lección retirada del banco)",
                 "cover_image": {},
             }
-        grupos.setdefault(leccion["category"], []).append((leccion, resultado))
+        # `categoria_vigente` absorbe los nombres retirados, para que una
+        # lección marcada como "arte" siga contando bajo Humanidades en vez de
+        # abrir un grupo fantasma que la interfaz no sabría dibujar.
+        cat = categoria_vigente(leccion.get("category", ""))
+        if cat is None:
+            continue
+        grupos.setdefault(cat, []).append((leccion, resultado))
 
     for lista in grupos.values():
         lista.sort(key=lambda par: par[1].get("fecha", ""), reverse=True)

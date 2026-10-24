@@ -15,6 +15,7 @@ from config.categories import (
     CATEGORIES,
     OBJETIVO_TOTAL,
     UMBRAL_DIAS_RESTANTES,
+    categoria_vigente,
 )
 
 RUTA_BANCO = Path(__file__).resolve().parent.parent / "data" / "lessons_bank.json"
@@ -40,9 +41,14 @@ def cargar_banco(ruta: Path = RUTA_BANCO) -> dict[str, Any]:
     por_categoria: dict[str, list[str]] = {c: [] for c in CATEGORIES}
 
     for lec in crudo.get("lecciones", []):
-        lid, cat = lec.get("id"), lec.get("category")
-        if not lid or cat not in CATEGORIES:
+        lid = lec.get("id")
+        # Una lección escrita bajo una categoría ya fusionada se reasigna a la
+        # que la absorbió en vez de descartarse: el banco no se reescribe cada
+        # vez que cambia la estructura de categorías.
+        cat = categoria_vigente(lec.get("category", ""))
+        if not lid or cat is None:
             continue
+        lec["category"] = cat
         lecciones[lid] = lec
         por_categoria[cat].append(lid)
 
@@ -86,11 +92,28 @@ def estadisticas(banco: dict, completadas: set[str]) -> dict[str, Any]:
     }
 
 
+def _consumo_diario(cat: str, activas: list[str], tope: int) -> float:
+    """Lecciones al día que se gastan de una categoría, al ritmo configurado.
+
+    Con tope diario las plazas se reparten en proporción a la frecuencia, así
+    que una categoría de frecuencia 4 entre un total de 25 consume `tope·4/25`
+    lecciones al día, no una. Sin tope se sirve una de cada categoría y el
+    ritmo es su `por_dia`.
+    """
+    if not tope:
+        return float(max(1, CATEGORIES[cat].get("por_dia", 1)))
+    total = sum(max(1, int(CATEGORIES[c].get("frecuencia", 1))) for c in activas)
+    if not total:
+        return 0.0
+    return tope * max(1, int(CATEGORIES[cat].get("frecuencia", 1))) / total
+
+
 def check_bank_health(
     banco: dict,
     completadas: set[str],
     activas: list[str],
     umbral: int = UMBRAL_DIAS_RESTANTES,
+    tope: int = 0,
 ) -> dict[str, Any]:
     """Días de banco restantes por categoría al ritmo de consumo configurado.
 
@@ -98,12 +121,13 @@ def check_bank_health(
     hay que recargar desde Claude Code.
     """
     detalle, avisos = {}, []
+    activas = [c for c in activas if c in CATEGORIES]
 
     for cat in activas:
         ids = banco["por_categoria"].get(cat, [])
         pendientes = sum(1 for i in ids if i not in completadas)
-        por_dia = max(1, CATEGORIES[cat].get("por_dia", 1))
-        dias = pendientes // por_dia
+        ritmo = _consumo_diario(cat, activas, tope)
+        dias = int(pendientes / ritmo) if ritmo else 0
         detalle[cat] = {
             "pendientes": pendientes,
             "dias_restantes": dias,

@@ -22,7 +22,11 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RAIZ))
 
-from config.categories import CATEGORIES, PREFIJOS  # noqa: E402
+from config.categories import (  # noqa: E402
+    CATEGORIES,
+    PREFIJOS,
+    PREFIJOS_HEREDADOS,
+)
 
 RUTA_BANCO = RAIZ / "data" / "lessons_bank.json"
 
@@ -52,8 +56,17 @@ def validar_leccion(lec: dict, idx: int) -> list[str]:
     cat = lec.get("category")
     if cat not in CATEGORIES:
         err(f"categoría desconocida: {cat!r}")
-    elif not str(lec.get("id", "")).startswith(PREFIJOS[cat] + "-"):
-        err(f"el id debería empezar por '{PREFIJOS[cat]}-'")
+    else:
+        # Se admite el prefijo propio de la categoría y los heredados de las que
+        # fusionó: los ids antiguos no se renombran porque el progreso del
+        # usuario los guarda tal cual, y renombrarlos dejaría huérfano su
+        # historial. Solo las lecciones nuevas deben usar el prefijo vigente.
+        validos = {PREFIJOS[cat]} | {
+            p for p, destino in PREFIJOS_HEREDADOS.items() if destino == cat
+        }
+        prefijo = str(lec.get("id", "")).split("-")[0]
+        if prefijo not in validos:
+            err(f"el id debería empezar por '{PREFIJOS[cat]}-'")
 
     titulo = lec.get("title", "")
     if not titulo:

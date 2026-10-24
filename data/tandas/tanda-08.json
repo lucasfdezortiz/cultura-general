@@ -1,0 +1,1354 @@
+{
+  "lecciones": [
+    {
+      "id": "mer-0001",
+      "category": "mercados",
+      "title": "Las tres formas de la eficiencia de mercado",
+      "subtitle": "Fama ordenó en 1970 una literatura dispersa preguntando qué información contiene ya el precio.",
+      "cover_image": {
+        "query": "stock exchange board",
+        "wikipedia": "Hipótesis del mercado eficiente"
+      },
+      "cards": [
+        {
+          "heading": "Una pregunta medible",
+          "text": "Hasta 1970 la discusión sobre si los mercados eran eficientes carecía de forma contrastable. Eugene Fama la reformuló: un mercado es eficiente si los precios reflejan la información disponible. Formulado así, el problema se vuelve empírico, porque permite preguntar de qué información concreta se habla. De ahí salen tres niveles, cada uno más exigente que el anterior."
+        },
+        {
+          "heading": "Débil, semifuerte, fuerte",
+          "text": "La forma débil sostiene que el precio ya incorpora el historial de precios pasados: ningún patrón en el gráfico sirve para predecir. La semifuerte añade toda la información pública: resultados, anuncios, prensa. La fuerte incluye además la información privada, de modo que ni un consejero que conoce los resultados antes de publicarlos obtendría ventaja."
+        },
+        {
+          "heading": "Nunca se contrasta sola",
+          "text": "Aquí está la trampa que sostiene medio siglo de debate. Para decidir si un retorno es anormal hay que saber cuál sería el normal, y eso exige un modelo de cómo se forman los precios. Si el contraste falla, no se sabe si el culpable es la eficiencia o el modelo usado para medirla. Las dos hipótesis se contrastan juntas y el rechazo no dice cuál de las dos cae."
+        },
+        {
+          "heading": "Lo que quedó en pie",
+          "text": "La forma fuerte se rechaza sin discusión: quien dispone de información privada obtiene ventaja, razón por la cual su uso está penado. Las otras dos siguen abiertas, y el desacuerdo se ha desplazado desde «¿son eficientes los mercados?» hasta «¿dónde y cuándo dejan de serlo?», una pregunta de dominio concreto más que de principio."
+        }
+      ],
+      "key_fact": "De las tres formas, solo la fuerte se rechaza de manera concluyente: la información privada sí da ventaja, y por eso operar con ella es delito en casi todas las jurisdicciones.",
+      "questions": [
+        {
+          "q": "¿Qué distingue a la forma semifuerte de la débil?",
+          "options": [
+            "Incorpora toda la información pública, no solo el historial de precios",
+            "Exige que los precios sigan exactamente un paseo aleatorio",
+            "Se aplica únicamente a mercados de renta fija",
+            "Supone que los inversores son racionales, mientras la débil no"
+          ],
+          "correct": 0,
+          "note": "La diferencia entre niveles es el conjunto de información considerado, no el supuesto de racionalidad ni el tipo de activo. Cada nivel contiene al anterior."
+        },
+        {
+          "q": "Un estudio concluye que cierta estrategia bate al mercado durante treinta años. Según el problema de la hipótesis conjunta, ¿qué no puede afirmar?",
+          "options": [
+            "Que el mercado es ineficiente, porque el fallo puede estar en el modelo de retorno normal",
+            "Que la estrategia tuvo retornos altos en esa muestra",
+            "Que el resultado es estadísticamente significativo",
+            "Que la estrategia usó información pública"
+          ],
+          "correct": 0,
+          "note": "Medir un exceso de retorno exige una referencia de retorno normal. Si esa referencia está mal especificada, el exceso aparente puede ser un error de medición y no una ineficiencia."
+        },
+        {
+          "q": "¿Por qué el rechazo de la forma fuerte no sorprende a nadie?",
+          "options": [
+            "Porque la ventaja de la información privada está tan aceptada que su uso es delito",
+            "Porque no existe ningún método estadístico para contrastarla",
+            "Porque Fama la propuso como ejemplo de hipótesis absurda",
+            "Porque solo se cumpliría en mercados sin intermediarios"
+          ],
+          "correct": 0,
+          "note": "Fama presentó la forma fuerte como punto de referencia extremo, útil para delimitar el espectro. La legislación sobre uso de información privilegiada presupone precisamente que esa ventaja existe."
+        },
+        {
+          "q": "Si la forma débil se cumpliera estrictamente, ¿qué actividad perdería fundamento?",
+          "options": [
+            "Buscar patrones predictivos en el historial de cotizaciones",
+            "Analizar los estados financieros de una empresa",
+            "Estimar el crecimiento futuro de un sector",
+            "Diversificar una cartera entre varios activos"
+          ],
+          "correct": 0,
+          "note": "La forma débil solo afecta a la información contenida en los precios pasados. El análisis de fundamentales quedaría cuestionado por la forma semifuerte, y la diversificación no depende de la eficiencia en absoluto."
+        }
+      ]
+    },
+    {
+      "id": "mer-0002",
+      "category": "mercados",
+      "title": "Minsky: la estabilidad es lo que produce la inestabilidad",
+      "subtitle": "Las crisis financieras no llegan de fuera del sistema; son el resultado normal de que las cosas vayan bien.",
+      "cover_image": {
+        "query": "wall street crowd 1929",
+        "wikipedia": "Hyman Minsky"
+      },
+      "cards": [
+        {
+          "heading": "Dos series temporales",
+          "text": "Minsky describe cada empresa, familia o banco como dos series de pagos: en el pasivo, compromisos ya contraídos; en el activo, cobros esperados. La solvencia es la relación entre ambas. Lo que importa no es el tamaño de la deuda sino si los ingresos conjeturados llegan a tiempo de cubrir los pagos ciertos. Esa diferencia de certidumbre es el núcleo del argumento."
+        },
+        {
+          "heading": "Cubierta, especulativa, Ponzi",
+          "text": "De ahí salen tres posturas. En la financiación cubierta, los ingresos esperados pagan intereses y principal. En la especulativa, solo cubren los intereses, de modo que el principal hay que refinanciarlo al vencimiento. En la Ponzi, ni los intereses se cubren: hay que endeudarse más solo para seguir pagando, y el esquema depende de que el valor del activo siga subiendo."
+        },
+        {
+          "heading": "La deriva",
+          "text": "La tesis es que una expansión larga desplaza al sistema desde la primera postura hacia las otras dos. Si durante años nadie quiebra, la prudencia deja de verse recompensada: el que se apalanca gana más y el que no se queda atrás. El margen de seguridad se percibe como coste innecesario y se recorta. La fragilidad no se acumula por imprudencia, sino por la validación continua de las apuestas."
+        },
+        {
+          "heading": "Amplificar, no absorber",
+          "text": "El rasgo decisivo es que en esa fase la reacción del sistema a una perturbación la amplifica en lugar de amortiguarla. Si los precios de los activos caen, las unidades Ponzi deben vender para pagar; esas ventas bajan más los precios. Minsky lo plantea como funcionamiento normal del capitalismo financiero, no como accidente importado de fuera."
+        }
+      ],
+      "key_fact": "La fragilidad no viene de que los agentes se equivoquen, sino de que durante la expansión el apalancamiento se ve recompensado y la prudencia penalizada.",
+      "questions": [
+        {
+          "q": "¿Qué caracteriza a una unidad en financiación especulativa?",
+          "options": [
+            "Sus ingresos esperados cubren los intereses pero no el principal, que debe refinanciar",
+            "No cubre ni los intereses y debe endeudarse para pagarlos",
+            "Cubre holgadamente intereses y principal",
+            "Invierte en derivados en lugar de en activos reales"
+          ],
+          "correct": 0,
+          "note": "El término no alude a invertir en activos arriesgados, sino a depender de poder refinanciar el principal. Una empresa muy sólida que emite deuda a renovar periódicamente está en esta postura."
+        },
+        {
+          "q": "Según Minsky, ¿por qué una expansión prolongada aumenta la fragilidad?",
+          "options": [
+            "Porque la ausencia de quiebras recompensa el apalancamiento y penaliza la prudencia",
+            "Porque los bancos centrales suben los tipos demasiado pronto",
+            "Porque la innovación tecnológica desplaza a los sectores tradicionales",
+            "Porque la población envejece y el ahorro disminuye"
+          ],
+          "correct": 0,
+          "note": "El mecanismo es competitivo, no psicológico. Quien mantiene márgenes de seguridad amplios obtiene menos rentabilidad y pierde cuota frente a quien los recorta, lo que empuja a todo el sector en la misma dirección."
+        },
+        {
+          "q": "Un fondo compra inmuebles financiándose con deuda a corto que renueva cada seis meses, y las rentas no cubren los intereses. ¿En qué postura está?",
+          "options": [
+            "Ponzi, porque necesita más deuda solo para atender los pagos corrientes",
+            "Especulativa, porque refinancia el principal",
+            "Cubierta, porque el inmueble tiene valor de mercado",
+            "No es clasificable sin conocer el tipo de interés"
+          ],
+          "correct": 0,
+          "note": "La clasificación depende de si los ingresos del activo bastan para los compromisos. Que el inmueble valga mucho es irrelevante mientras no se venda: esa dependencia del precio es justamente lo que define la postura Ponzi."
+        },
+        {
+          "q": "¿Qué significa que el sistema «amplifique» una perturbación?",
+          "options": [
+            "Que la respuesta a una caída de precios genera ventas que la profundizan",
+            "Que los medios de comunicación exageran las malas noticias",
+            "Que el banco central interviene con retraso",
+            "Que la volatilidad medida aumenta tras el suceso"
+          ],
+          "correct": 0,
+          "note": "La amplificación es un mecanismo de retroalimentación contable: las ventas forzadas para atender pagos deprimen el precio del activo que había que vender, lo que fuerza más ventas."
+        }
+      ]
+    },
+    {
+      "id": "mer-0003",
+      "category": "mercados",
+      "title": "El riesgo medido es mínimo justo cuando el sistema es más frágil",
+      "subtitle": "El apalancamiento de la banca sube cuando sus balances crecen, y la medida de riesgo que lo gobierna lo consiente.",
+      "cover_image": {
+        "query": "bank balance sheet documents",
+        "wikipedia": "Apalancamiento financiero"
+      },
+      "cards": [
+        {
+          "heading": "Una identidad, no una teoría",
+          "text": "Si un banco mantiene capital suficiente para cubrir su riesgo medido, entonces su apalancamiento es el cociente entre activos y ese riesgo. La relación es contable, no conjetural. Y tiene una consecuencia inmediata: que el apalancamiento suba en los auges equivale exactamente a que el riesgo por unidad de activo caiga en los auges."
+        },
+        {
+          "heading": "El VaR como bisagra",
+          "text": "La medida que cumple ese papel es el valor en riesgo, la pérdida máxima esperada a un horizonte y nivel de confianza dados. Desde la enmienda de Basilea de 1996, el capital exigido a un banco por su cartera de negociación es tres veces el VaR a diez días con el 99% de confianza. El VaR no describe el riesgo: lo regula."
+        },
+        {
+          "heading": "Calculado con volatilidad reciente",
+          "text": "El problema es cómo se estima. El VaR se calcula con la volatilidad observada, y en una expansión la volatilidad es baja. El modelo concluye entonces que el riesgo es pequeño y libera capacidad de endeudamiento, precisamente cuando los balances están más crecidos. Adrian y Shin documentan un VaR de negociación medio de 49 millones de dólares frente a recursos propios medios de 11.908 millones."
+        },
+        {
+          "heading": "Lo transferible",
+          "text": "El hallazgo sobrevive al cambio de escenario, de un banco apalancado a una cartera sin deuda: la volatilidad baja no es prueba de que el sistema sea seguro, sino indicio de que está apalancado. Los propios autores reconocen además un apetito por el riesgo procíclico que su modelo no captura, de modo que el VaR explica parte del comportamiento, no todo."
+        }
+      ],
+      "key_fact": "El valor en riesgo medio de negociación de los bancos analizados era de 49 millones de dólares frente a unos recursos propios medios de 11.908 millones: el riesgo medido era mínimo con el sistema en su punto más apalancado.",
+      "questions": [
+        {
+          "q": "¿Por qué el apalancamiento procíclico equivale a riesgo unitario contracíclico?",
+          "options": [
+            "Porque si el capital cubre el riesgo medido, apalancamiento y riesgo por activo son inversos por construcción",
+            "Porque los bancos centrales bajan los tipos en las expansiones",
+            "Porque la correlación entre activos aumenta en las crisis",
+            "Porque los reguladores revisan los modelos solo tras las crisis"
+          ],
+          "correct": 0,
+          "note": "Es una identidad contable, no una hipótesis empírica. Fijado el capital como múltiplo del riesgo medido, un apalancamiento creciente solo es posible si el riesgo medido por unidad de activo cae."
+        },
+        {
+          "q": "¿Qué provoca que el VaR libere capacidad de endeudamiento en plena expansión?",
+          "options": [
+            "Que se estima con la volatilidad reciente, y en las expansiones la volatilidad es baja",
+            "Que los bancos lo calculan con horizontes cada vez más cortos",
+            "Que Basilea permite excluir la cartera de negociación",
+            "Que los activos se valoran a coste histórico y no a mercado"
+          ],
+          "correct": 0,
+          "note": "La prociclicidad nace del insumo del cálculo, no de un fallo de aplicación. Un modelo que mira la volatilidad pasada mide la calma, no la fragilidad acumulada bajo esa calma."
+        },
+        {
+          "q": "¿Qué conclusión se traslada a un inversor particular sin deuda?",
+          "options": [
+            "Que un periodo de volatilidad baja puede indicar apalancamiento del sistema, no seguridad",
+            "Que debe calcular su propio VaR a diez días",
+            "Que conviene vender siempre que la volatilidad caiga",
+            "Que los bancos son malas inversiones en las expansiones"
+          ],
+          "correct": 0,
+          "note": "Lo transferible es la lectura de la señal, no el instrumento ni una regla de operación. La volatilidad baja describe el presente del mercado, no la solidez de su estructura."
+        },
+        {
+          "q": "¿Qué reconocen los propios autores que su modelo no explica?",
+          "options": [
+            "Un componente procíclico de apetito por el riesgo que va más allá del VaR",
+            "La relación entre apalancamiento y tamaño del balance",
+            "El efecto de la enmienda de Basilea de 1996",
+            "La magnitud del VaR frente a los recursos propios"
+          ],
+          "correct": 0,
+          "note": "En sus datos, el cociente entre VaR y patrimonio sube cuando el banco se apalanca más, lo que contradice la versión estricta del modelo y deja un residuo de apetito por el riesgo sin explicar."
+        }
+      ]
+    },
+    {
+      "id": "mer-0004",
+      "category": "mercados",
+      "title": "El ciclo financiero dura mucho más que el ciclo económico",
+      "subtitle": "Mirar la macroeconomía sin el crédito, dice Borio, es como representar Hamlet sin el Príncipe.",
+      "cover_image": {
+        "query": "credit cycle chart",
+        "wikipedia": "Ciclo económico"
+      },
+      "cards": [
+        {
+          "heading": "Dos relojes distintos",
+          "text": "El ciclo económico tradicional, medido por producción y empleo, se mide en años: entre cinco y ocho de pico a pico. El ciclo financiero —crédito y precios de los activos, sobre todo inmobiliarios— se mide en décadas, con una duración que puede alcanzar los veinte años. Quien analiza una economía con el reloj corto no ve la fase en que está el largo."
+        },
+        {
+          "heading": "Autorreforzado",
+          "text": "Borio lo define como la interacción que se refuerza a sí misma entre percepciones de valor y de riesgo, actitudes ante el riesgo y restricciones de financiación. El crédito abundante sube el precio del colateral; el colateral más valioso justifica más crédito. La definición es analítica, pensada para la política económica, no un hallazgo estadístico sobre series temporales."
+        },
+        {
+          "heading": "Tres consignas",
+          "text": "El argumento se resume en tres: pensar a medio plazo, porque el ciclo relevante es más largo que el observado; pensar en términos monetarios, porque el sistema financiero no solo asigna poder de compra, lo genera; y pensar globalmente, porque los ciclos de distintos países interactúan y pueden ir a fases y velocidades diferentes."
+        },
+        {
+          "heading": "La exigencia incómoda",
+          "text": "La consecuencia que Borio considera más difícil de incorporar es que el auge debe causar la caída, no solo precederla. Eso obliga a distinguir el producto potencial no inflacionario del producto sostenible: una economía puede crecer sin inflación y estar acumulando a la vez un exceso de deuda y de capital que la hace insostenible."
+        }
+      ],
+      "key_fact": "El ciclo económico tradicional dura entre cinco y ocho años; el ciclo financiero puede extenderse hasta veinte, de modo que una vida profesional entera cabe en una sola de sus fases.",
+      "questions": [
+        {
+          "q": "¿Qué implica que el auge «cause» la caída y no solo la preceda?",
+          "options": [
+            "Que la expansión genera los desequilibrios que provocan la contracción posterior",
+            "Que las recesiones son más profundas que las expansiones",
+            "Que las crisis siempre se originan en el sector inmobiliario",
+            "Que la política monetaria es ineficaz en la contracción"
+          ],
+          "correct": 0,
+          "note": "La distinción es de causalidad frente a secuencia temporal. Si el auge solo precediera a la caída, bastaría con amortiguar la caída; si la causa, hay que actuar durante el auge."
+        },
+        {
+          "q": "¿Por qué una economía puede crecer sin inflación y ser insostenible?",
+          "options": [
+            "Porque el producto no inflacionario no coincide con el sostenible si se acumula exceso de deuda",
+            "Porque la inflación se mide con retraso de varios trimestres",
+            "Porque el crecimiento sin inflación exige tipos de interés negativos",
+            "Porque los índices de precios excluyen los activos financieros"
+          ],
+          "correct": 0,
+          "note": "Son dos nociones de potencial distintas. La ausencia de presión sobre los precios de bienes y servicios no informa sobre los desequilibrios acumulados en los balances."
+        },
+        {
+          "q": "¿Qué significa «pensar en términos monetarios» en este marco?",
+          "options": [
+            "Que el sistema financiero genera poder de compra, no solo lo redistribuye",
+            "Que hay que vigilar la cantidad de dinero en circulación",
+            "Que los precios deben expresarse en términos reales",
+            "Que la política monetaria debe seguir una regla fija"
+          ],
+          "correct": 0,
+          "note": "La idea es que el crédito bancario crea depósitos, de modo que el sistema financiero tiene capacidad de expansión propia en lugar de limitarse a intermediar un ahorro dado."
+        },
+        {
+          "q": "¿Qué naturaleza tiene la definición de ciclo financiero que propone Borio?",
+          "options": [
+            "Analítica, construida por su utilidad para la política económica",
+            "Estadística, derivada del filtrado de series históricas",
+            "Jurídica, basada en la regulación bancaria vigente",
+            "Contable, deducida de los balances de los bancos centrales"
+          ],
+          "correct": 0,
+          "note": "Borio elige la definición más relevante para entender las fluctuaciones y las crisis, y lo declara explícitamente. No es el resultado de identificar frecuencias dominantes en los datos."
+        }
+      ]
+    },
+    {
+      "id": "mer-0005",
+      "category": "mercados",
+      "title": "Las cuatro salidas de un exceso de deuda",
+      "subtitle": "Dalio sostiene que un desapalancamiento siempre combina las mismas cuatro vías, y que todo depende de la dosis.",
+      "cover_image": {
+        "query": "debt documents stack",
+        "wikipedia": "Desapalancamiento"
+      },
+      "cards": [
+        {
+          "heading": "Las cuatro vías",
+          "text": "Reducir la relación entre deuda y renta admite solo cuatro caminos: impagos y reestructuraciones, austeridad, transferencia de riqueza de quienes tienen a quienes no, y monetización de la deuda. Las dos primeras son deflacionarias y deprimen la actividad; la cuarta es inflacionaria y la estimula. La tercera, admite Dalio, rara vez ocurre en cantidades relevantes salvo que haya revoluciones."
+        },
+        {
+          "heading": "Tres regímenes",
+          "text": "De la mezcla salen tres resultados. El desapalancamiento deflacionario feo ocurre cuando no se ha emitido bastante dinero y los tipos nominales están por encima del crecimiento nominal. El inflacionario feo, cuando la emisión es excesiva y precios y tipos entran en espiral. Entre ambos queda el hermoso, con crecimiento positivo y la deuda cayendo en relación con la renta."
+        },
+        {
+          "heading": "Una sola variable",
+          "text": "El equilibrio correcto se reconoce, según Dalio, por un único indicador: que el crecimiento nominal quede marginalmente por encima del tipo de interés nominal. Si la renta nominal crece más rápido de lo que se acumulan los intereses, la deuda se diluye sin colapso. Ni más, porque sería inflación descontrolada, ni menos, porque sería contracción."
+        },
+        {
+          "heading": "Por qué se gestiona mal",
+          "text": "La explicación que ofrece no es técnica sino de experiencia: estos episodios llegan una vez por vida y quienes deciden no los han estudiado. Primero se prueba la austeridad, porque parece lo evidente; se sufre un par de años; y solo entonces se pasa a la monetización. Weimar es el contraejemplo del exceso; Japón, el del defecto."
+        }
+      ],
+      "key_fact": "El desapalancamiento «hermoso» se identifica por una sola condición: que el crecimiento nominal de la renta quede ligeramente por encima del tipo de interés nominal.",
+      "questions": [
+        {
+          "q": "¿Cuál de las cuatro vías queda de hecho fuera del modelo operativo?",
+          "options": [
+            "La transferencia de riqueza, que rara vez alcanza magnitudes relevantes sin revoluciones",
+            "La austeridad, por ser políticamente inviable",
+            "La monetización, por generar inflación",
+            "El impago, por su coste reputacional"
+          ],
+          "correct": 0,
+          "note": "Dalio la enumera por completitud pero descarta su peso práctico. Las otras tres sí aparecen, en proporciones distintas, en todos los episodios que analiza."
+        },
+        {
+          "q": "Un país tiene crecimiento nominal del 2% y tipos nominales del 5%. ¿Qué régimen describe?",
+          "options": [
+            "Deflacionario feo: los intereses crecen más rápido que la renta",
+            "Hermoso, porque el crecimiento es positivo",
+            "Inflacionario feo, por el nivel de los tipos",
+            "No es clasificable sin conocer la inflación"
+          ],
+          "correct": 0,
+          "note": "La condición es comparativa, no de niveles: con tipos por encima del crecimiento nominal, la carga de deuda aumenta en relación con la renta aunque la economía crezca."
+        },
+        {
+          "q": "¿Por qué la austeridad por sí sola no resuelve un desapalancamiento?",
+          "options": [
+            "Porque es deflacionaria y reduce la renta, el denominador de la relación de deuda",
+            "Porque los acreedores la rechazan sistemáticamente",
+            "Porque exige acuerdos internacionales difíciles",
+            "Porque solo afecta al gasto público y no al privado"
+          ],
+          "correct": 0,
+          "note": "El cociente puede empeorar aunque la deuda baje en términos absolutos: si la renta cae más deprisa que la deuda, el esfuerzo de ajuste resulta contraproducente."
+        },
+        {
+          "q": "¿Qué explicación da Dalio de que estos episodios se gestionen mal?",
+          "options": [
+            "Que ocurren una vez por vida y quienes deciden no los han estudiado",
+            "Que los modelos económicos disponibles son incorrectos",
+            "Que los bancos centrales carecen de instrumentos adecuados",
+            "Que los datos necesarios no están disponibles a tiempo"
+          ],
+          "correct": 0,
+          "note": "El argumento es de aprendizaje, no de capacidad técnica. La secuencia típica —austeridad primero, monetización después de varios años de daño— se repite porque cada generación la descubre de nuevo."
+        }
+      ]
+    },
+    {
+      "id": "mer-0006",
+      "category": "mercados",
+      "title": "Por qué un banco central prefiere una regla a su propio criterio",
+      "subtitle": "La fórmula que hizo célebre a Taylor no era lo que Taylor defendía en aquel artículo.",
+      "cover_image": {
+        "query": "central bank building facade",
+        "wikipedia": "Regla de Taylor"
+      },
+      "cards": [
+        {
+          "heading": "Lo que se defendía",
+          "text": "El artículo de 1993 no propone aplicar una ecuación. Defiende la conducta sistemática frente a la discreción pura, y presenta la fórmula como ilustración de qué significa ser sistemático. La distinción importa: lo que queda excluido no es el juicio, sino fijar los instrumentos desde cero cada periodo sin intentar seguir ningún plan."
+        },
+        {
+          "heading": "Por qué ninguna fórmula basta",
+          "text": "Taylor enumera sus propios límites. El trimestre es a la vez demasiado corto para promediar oscilaciones de precios y demasiado largo para mantener fijo el tipo de interés si llega una recesión. Distinguir una subida de precios temporal de una permanente exige mirar varios índices, futuros y encuestas. Y estimar el producto potencial obliga a predecir productividad y desempleo natural."
+        },
+        {
+          "heading": "Los episodios especiales",
+          "text": "Hay momentos en que la regla no sirve y él los nombra. Tras el desplome bursátil del 19 de octubre de 1987, la Reserva Federal tuvo que proveer reservas al sistema, y ninguna fórmula sobre inflación y producción habría indicado eso. En esos casos, escribe, la Fed necesitaría más que una regla simple como guía."
+        },
+        {
+          "heading": "Regla como referencia",
+          "text": "La salida que propone es ampliar la definición: una regla de política es un plan de contingencia razonablemente bien definido, operable con juicio, no un algoritmo. La ecuación aparece en ese contexto, como referencia contra la que contrastar decisiones. Su valor no es decidir sino obligar a explicar por qué se decidió otra cosa."
+        }
+      ],
+      "key_fact": "Taylor cita la provisión de reservas tras el desplome del 19 de octubre de 1987 como ejemplo de situación en que una regla simple no basta como guía.",
+      "questions": [
+        {
+          "q": "¿Qué excluye exactamente la defensa de las reglas que hace Taylor?",
+          "options": [
+            "Fijar los instrumentos desde cero cada periodo sin seguir ningún plan de contingencia",
+            "Cualquier uso del juicio por parte del banco central",
+            "Las desviaciones puntuales respecto a la fórmula",
+            "El uso del tipo de interés como instrumento principal"
+          ],
+          "correct": 0,
+          "note": "Su definición ampliada de regla admite el juicio: lo que rechaza es la discreción pura, entendida como ausencia de plan. Una regla con desviaciones justificadas sigue siendo una regla."
+        },
+        {
+          "q": "¿Qué problema plantea la frecuencia trimestral según el propio artículo?",
+          "options": [
+            "Es corta para promediar oscilaciones de precios y larga para reaccionar a una recesión",
+            "Los datos de inflación no están disponibles trimestralmente",
+            "Obliga a revisar la fórmula cada tres meses",
+            "Impide comparar la política entre distintos países"
+          ],
+          "correct": 0,
+          "note": "El problema es que una sola frecuencia debe servir a dos exigencias opuestas: filtrar ruido de precios pide ventanas largas, y responder a una contracción pide reacción rápida."
+        },
+        {
+          "q": "Un banco central se desvía de la fórmula ante una crisis bancaria. Según el artículo, ¿cómo debe leerse?",
+          "options": [
+            "Como un episodio especial previsto, en que la regla sirve de referencia y no de algoritmo",
+            "Como un abandono de la conducta sistemática",
+            "Como prueba de que la fórmula está mal calibrada",
+            "Como un caso de discreción pura"
+          ],
+          "correct": 0,
+          "note": "Taylor anticipa estos casos y los nombra. La función de la regla en ellos es exigir que la desviación se explique, no impedirla."
+        },
+        {
+          "q": "¿Qué hace difícil aplicar la fórmula aunque se acepte su lógica?",
+          "options": [
+            "Que estimar el producto potencial exige predecir productividad y desempleo natural",
+            "Que la inflación objetivo cambia con cada gobierno",
+            "Que los tipos de interés tienen un suelo en cero",
+            "Que no existe consenso sobre los coeficientes"
+          ],
+          "correct": 0,
+          "note": "Uno de los dos insumos de la regla no es observable sino estimado, y su estimación depende de magnitudes que a su vez hay que predecir. El error de medida entra directamente en la prescripción."
+        }
+      ]
+    },
+    {
+      "id": "inv-0001",
+      "category": "inversion",
+      "title": "El margen de seguridad protege del error, no del mercado",
+      "subtitle": "La distancia entre lo que algo vale y lo que se paga por ello existe porque la estimación puede estar mal.",
+      "cover_image": {
+        "query": "bridge engineering structure",
+        "wikipedia": "Margen de seguridad (inversión)"
+      },
+      "cards": [
+        {
+          "heading": "Qué es",
+          "text": "El margen de seguridad es la diferencia exigida entre el valor estimado de un negocio y el precio que se paga por él. Su función no es aumentar la rentabilidad, aunque la aumente, sino absorber los errores de la propia estimación. Quien calcula un valor intrínseco acepta implícitamente que ese cálculo puede fallar, y el margen es el espacio reservado para ese fallo."
+        },
+        {
+          "heading": "Sin fórmula durante décadas",
+          "text": "En las cartas de Berkshire entre 1977 y 1983 el lenguaje es enteramente cualitativo: precio atractivo, precio justo, precio razonable. Ninguna de esas siete cartas contiene un descuento de flujos formal, ni CAPM, ni coste medio ponderado de capital. La exigencia de margen precede en más de dos décadas a cualquier intento de formalizarla numéricamente en la serie."
+        },
+        {
+          "heading": "También al vender",
+          "text": "El concepto no se limita a la compra. En 2009 Buffett lo aplica al lado vendedor de una operación corporativa: pagar una adquisición con acciones propias infravaloradas destruye valor para los accionistas aunque el precio pagado por el objetivo sea justo. Su ejemplo usa dos empresas cotizando a 80 dólares con valor intrínseco de 100: el intercambio entrega más de lo que recibe."
+        },
+        {
+          "heading": "Por qué un porcentaje",
+          "text": "Fijar el margen como porcentaje mínimo convierte una intuición en criterio contrastable. Si la exigencia es del veinte o treinta por ciento, el cálculo de valor tiene que equivocarse en más de esa magnitud para que la inversión pierda dinero por error de valoración. No protege de que el negocio se deteriore, solo de haberlo medido mal."
+        }
+      ],
+      "key_fact": "En las siete cartas de Berkshire entre 1977 y 1983 la exigencia de precio es puramente cualitativa: no aparece ningún descuento de flujos formal, ni CAPM, ni coste de capital.",
+      "questions": [
+        {
+          "q": "¿De qué protege principalmente el margen de seguridad?",
+          "options": [
+            "Del error en la propia estimación del valor",
+            "De las caídas generales del mercado",
+            "De la inflación a largo plazo",
+            "Del riesgo de iliquidez de la posición"
+          ],
+          "correct": 0,
+          "note": "Es un colchón frente al error de medición, no frente al deterioro del negocio ni frente a la volatilidad. Si la empresa pierde su ventaja competitiva, ningún margen de entrada lo compensa."
+        },
+        {
+          "q": "Una empresa cotiza a 80 con valor intrínseco de 100 y compra con sus propias acciones otra igual de infravalorada a precio justo. ¿Qué ocurre?",
+          "options": [
+            "Destruye valor para sus accionistas, porque entrega algo que vale más de lo que cobra",
+            "Crea valor, porque adquiere activos infravalorados",
+            "Es neutral, porque ambas están infravaloradas en la misma proporción",
+            "Depende de si la operación se paga en efectivo o en acciones"
+          ],
+          "correct": 0,
+          "note": "El precio pagado es justo en términos de mercado pero no en términos de valor: se entregan acciones que valen 100 por unas que valen 100, cobrando por las propias solo 80. La paridad de infravaloración no salva la operación."
+        },
+        {
+          "q": "¿Qué ventaja tiene expresar el margen como porcentaje mínimo?",
+          "options": [
+            "Hace el criterio contrastable: define cuánto puede errar la valoración",
+            "Permite comparar empresas de sectores distintos",
+            "Elimina la necesidad de estimar el valor intrínseco",
+            "Garantiza una rentabilidad mínima equivalente"
+          ],
+          "correct": 0,
+          "note": "Convierte una intuición en regla verificable: por debajo de ese umbral no se compra, y el umbral cuantifica la tolerancia al error propio."
+        },
+        {
+          "q": "¿Qué revela que las cartas de 1977 a 1983 no contengan descuentos de flujos?",
+          "options": [
+            "Que la exigencia de margen es anterior e independiente de su formalización numérica",
+            "Que Buffett desconocía la técnica en aquel momento",
+            "Que el margen de seguridad no se aplicaba todavía",
+            "Que las cartas omitían deliberadamente los cálculos"
+          ],
+          "correct": 0,
+          "note": "El criterio opera con lenguaje cualitativo durante décadas, lo que indica que la herramienta de cálculo y el principio de disciplina de precio son cosas separables."
+        }
+      ]
+    },
+    {
+      "id": "inv-0002",
+      "category": "inversion",
+      "title": "El foso económico y la obligación de ensancharlo",
+      "subtitle": "Buffett tardó veinticinco años en nombrar el concepto que llevaba describiendo desde el principio.",
+      "cover_image": {
+        "query": "castle moat water",
+        "wikipedia": "Ventaja competitiva"
+      },
+      "cards": [
+        {
+          "heading": "La palabra llegó tarde",
+          "text": "El término foso económico no aparece con formulación explícita completa en las cartas de Berkshire hasta 2005, aunque el concepto es identificable desde el recopilatorio de 1977 a 1983. En 1982, GEICO se describe como una empresa con una ventaja de coste amplia y sostenible: el lenguaje del foso ya está, sin la metáfora."
+        },
+        {
+          "heading": "No es una receta única",
+          "text": "En 2004 Buffett describe dos fosos distintos en el mismo negocio commoditizado. National Indemnity practica disciplina de precio con tolerancia a perder volumen: su prima anual cayó de 366,2 millones de dólares en 1986 a 54,5 en 1999. GEICO persigue lo contrario, liderazgo en coste sin tregua. Dos formas opuestas de protegerse, no intercambiables entre sí."
+        },
+        {
+          "heading": "Daño reparable",
+          "text": "En 1980 describe GEICO y American Express como franquicias extraordinarias con un cáncer localizado y extirpable. La distinción es operativa: un negocio con foso temporalmente dañado no es lo mismo que un negocio mediocre en proceso de reflotarse. La primera situación es una oportunidad; la segunda, casi siempre una trampa."
+        },
+        {
+          "heading": "Ensanchar tiene prioridad",
+          "text": "La formulación de 2005 convierte el foso en acción diaria: es la suma de decisiones imperceptibles que fortalecen o debilitan la posición competitiva. Y añade una regla de precedencia explícita: cuando el corto y el largo plazo entran en conflicto, ensanchar el foso debe tener prioridad. Es una instrucción de gestión, no una categoría de análisis."
+        }
+      ],
+      "key_fact": "National Indemnity dejó caer su prima anual de 366,2 millones de dólares en 1986 a 54,5 millones en 1999 antes que suscribir riesgos mal pagados.",
+      "questions": [
+        {
+          "q": "¿Qué muestra el contraste entre National Indemnity y GEICO?",
+          "options": [
+            "Que hay formas distintas y no intercambiables de construir un foso en el mismo sector",
+            "Que la disciplina de precio es siempre superior al liderazgo en coste",
+            "Que los seguros no admiten ventajas competitivas duraderas",
+            "Que el tamaño es el único foso sostenible"
+          ],
+          "correct": 0,
+          "note": "Ambas operan en un negocio commoditizado y se protegen de maneras opuestas. Intentar aplicar la estrategia de una en la otra destruiría la ventaja de las dos."
+        },
+        {
+          "q": "¿Por qué importa distinguir un foso dañado de un negocio mediocre?",
+          "options": [
+            "Porque en el primer caso la ventaja persiste bajo el problema y en el segundo no existe",
+            "Porque los negocios mediocres cotizan siempre más caros",
+            "Porque el daño temporal nunca afecta a los beneficios",
+            "Porque los reflotamientos tienen mejor histórico de rentabilidad"
+          ],
+          "correct": 0,
+          "note": "La metáfora del cáncer extirpable apunta a eso: eliminado el problema, la franquicia sigue entera. En un negocio sin ventaja no queda nada que recuperar una vez resuelto el problema visible."
+        },
+        {
+          "q": "Un gestor puede subir el beneficio del trimestre recortando el servicio al cliente. Según la regla de 2005, ¿qué debe hacer?",
+          "options": [
+            "No recortarlo, porque ensanchar el foso tiene prioridad sobre el corto plazo",
+            "Recortarlo, porque el beneficio trimestral es verificable",
+            "Decidir según el efecto sobre la cotización",
+            "Consultar si el recorte es reversible al trimestre siguiente"
+          ],
+          "correct": 0,
+          "note": "La regla de precedencia está formulada precisamente para este conflicto. El foso se compone de decisiones pequeñas, así que cada recorte de este tipo lo estrecha de forma imperceptible pero acumulativa."
+        },
+        {
+          "q": "¿Qué indica que la palabra «foso» no aparezca hasta 2005 pese a describirse el concepto desde los setenta?",
+          "options": [
+            "Que la idea precede a su etiqueta y puede identificarse con otro vocabulario",
+            "Que el concepto cambió de significado en ese periodo",
+            "Que antes de 2005 no se aplicaba como criterio de inversión",
+            "Que la metáfora fue acuñada por analistas externos"
+          ],
+          "correct": 0,
+          "note": "Describir GEICO en 1982 como poseedora de una ventaja de coste amplia y sostenible es describir un foso. Leer las fuentes buscando la palabra, y no el concepto, habría fechado el criterio veinte años tarde."
+        }
+      ]
+    },
+    {
+      "id": "inv-0003",
+      "category": "inversion",
+      "title": "El beneficio que no aparece en la cuenta de resultados",
+      "subtitle": "Una participación minoritaria retiene beneficios que el accionista no cobra y que la contabilidad no le atribuye.",
+      "cover_image": {
+        "query": "accounting ledger numbers",
+        "wikipedia": "Resultado contable"
+      },
+      "cards": [
+        {
+          "heading": "El desajuste",
+          "text": "Cuando una empresa posee una participación minoritaria en otra, su cuenta de resultados solo recoge los dividendos que recibe. Los beneficios que la participada retiene e invierte no aparecen por ninguna parte, aunque pertenezcan económicamente al accionista en proporción a su participación. El resultado contable informa de la caja cobrada, no del valor generado."
+        },
+        {
+          "heading": "Las cifras de 2012",
+          "text": "Buffett lo cuantifica sobre las participaciones que llamaba las cuatro grandes. La parte de Berkshire en sus beneficios de 2012 ascendió a 3.900 millones de dólares, de los cuales solo 1.100 llegaron como dividendo y entraron en el resultado contable. Los 2.800 millones retenidos, escribe, no son en ningún sentido menos valiosos que los registrados."
+        },
+        {
+          "heading": "La condición que lo sostiene",
+          "text": "El argumento depende de un supuesto que conviene no dar por bueno sin comprobarlo: que la participada reinvierta esos beneficios con una rentabilidad razonable. Un euro retenido por una empresa que destruye valor al reinvertirlo vale menos que un euro repartido. La equivalencia entre beneficio retenido y beneficio cobrado no es automática."
+        },
+        {
+          "heading": "Un hallazgo sobre la etiqueta",
+          "text": "El término inglés que popularizó la idea no aparece literalmente en ninguna de las veinte cartas individuales ingeridas de la serie, pese a ser el concepto más citado sobre Buffett en la literatura de value investing. La idea vive en las cartas bajo otros nombres según el año. La atribución de vocabulario y la de contenido no siempre coinciden."
+        }
+      ],
+      "key_fact": "En 2012 la parte de Berkshire en los beneficios de sus cuatro grandes participaciones fue de 3.900 millones de dólares, pero solo 1.100 millones entraron en el resultado contable como dividendo.",
+      "questions": [
+        {
+          "q": "¿Por qué el resultado contable subestima lo que genera una participación minoritaria?",
+          "options": [
+            "Porque registra solo el dividendo cobrado y no el beneficio retenido por la participada",
+            "Porque las participaciones minoritarias se valoran a coste histórico",
+            "Porque los dividendos tributan antes de registrarse",
+            "Porque la consolidación elimina los resultados intragrupo"
+          ],
+          "correct": 0,
+          "note": "Por debajo del umbral de consolidación, la norma reconoce el ingreso cuando se cobra. El beneficio retenido existe económicamente para el accionista pero no tiene reflejo en su cuenta de resultados."
+        },
+        {
+          "q": "¿Qué condición debe cumplirse para que el beneficio retenido valga tanto como el repartido?",
+          "options": [
+            "Que la participada lo reinvierta con una rentabilidad razonable",
+            "Que la participación supere el 20% del capital",
+            "Que el dividendo no esté sujeto a retención fiscal",
+            "Que la participada cotice en el mismo mercado"
+          ],
+          "correct": 0,
+          "note": "La equivalencia es condicional. Si la reinversión rinde por debajo del coste de capital, cada euro retenido vale menos que uno distribuido, y el ajuste al alza del beneficio sería engañoso."
+        },
+        {
+          "q": "De los 3.900 millones de 2012, ¿qué representaban los 2.800 no cobrados?",
+          "options": [
+            "Beneficios retenidos por las participadas, no reflejados en el resultado contable",
+            "Plusvalías latentes por revalorización de las acciones",
+            "Dividendos pendientes de cobro al cierre del ejercicio",
+            "Beneficios eliminados en la consolidación"
+          ],
+          "correct": 0,
+          "note": "No son plusvalías ni cobros pendientes, sino beneficio generado y reinvertido dentro de las participadas durante el ejercicio."
+        },
+        {
+          "q": "¿Qué enseña que la etiqueta inglesa del concepto no aparezca en las cartas?",
+          "options": [
+            "Que buscar un término literal puede no encontrar una idea que sí está presente",
+            "Que el concepto fue inventado por la literatura secundaria",
+            "Que Buffett rechazaba esa forma de medir el beneficio",
+            "Que las cartas ingeridas están incompletas"
+          ],
+          "correct": 0,
+          "note": "El contenido está desarrollado con precisión creciente bajo nombres distintos. Rastrear fuentes por palabra clave habría concluido erróneamente que el concepto no aparece."
+        }
+      ]
+    },
+    {
+      "id": "inv-0004",
+      "category": "inversion",
+      "title": "El dinero que se tiene pero no se posee",
+      "subtitle": "Una aseguradora cobra hoy las primas y paga mañana los siniestros; entremedias, invierte.",
+      "cover_image": {
+        "query": "insurance policy paperwork",
+        "wikipedia": "Reaseguro"
+      },
+      "cards": [
+        {
+          "heading": "La definición",
+          "text": "El float es el dinero que una aseguradora tiene pero no posee: las primas cobradas por adelantado que permanecen invertibles hasta que hay que pagar los siniestros. La formulación es de Buffett en 1998. No es patrimonio ni deuda financiera convencional, sino un pasivo que llega sin intereses pactados y que puede incluso rendir."
+        },
+        {
+          "heading": "Cuándo tiene valor",
+          "text": "La regla que fija en esa misma carta es precisa: un negocio asegurador tiene valor si el coste de su float a lo largo del tiempo es menor que el coste al que la empresa obtendría fondos de otro modo. Pero el negocio es un limón si ese coste supera los tipos de mercado. No basta con generar float: hay que generarlo barato."
+        },
+        {
+          "heading": "Los tres determinantes",
+          "text": "Fijados en 1998 y repetidos con precisión creciente en 2002, son tres: cuánto float genera el negocio, cuánto cuesta, y la perspectiva a largo plazo de ambos factores. El tercero es el que decide, porque un coste bajo obtenido un año por suerte en la siniestralidad no dice nada sobre la calidad de la suscripción."
+        },
+        {
+          "heading": "Qué lo hace barato",
+          "text": "El coste del float es el resultado técnico del seguro: si se cobran más primas de las que se pagan en siniestros y gastos, el float sale gratis o con coste negativo. Eso exige disciplina de suscripción, es decir, rechazar riesgos mal pagados aunque suponga perder volumen. El float no es una fuente de financiación que se pueda ampliar a voluntad."
+        }
+      ],
+      "key_fact": "La regla de 1998: el negocio asegurador tiene valor si el coste de su float es inferior al coste al que la empresa obtendría fondos de otro modo, y es un limón si lo supera.",
+      "questions": [
+        {
+          "q": "¿Qué es exactamente el float de una aseguradora?",
+          "options": [
+            "Primas cobradas por adelantado que se invierten hasta pagar los siniestros",
+            "El patrimonio neto disponible para invertir",
+            "Las reservas obligatorias exigidas por el regulador",
+            "La diferencia entre primas emitidas y primas devengadas"
+          ],
+          "correct": 0,
+          "note": "Es un pasivo, no recursos propios: el dinero habrá que pagarlo. Su particularidad es que llega antes de saber cuánto y cuándo habrá que devolverlo, y entretanto se invierte."
+        },
+        {
+          "q": "Una aseguradora triplica su float subiendo mucho el volumen suscrito, con pérdidas técnicas crecientes. ¿Cómo se valora?",
+          "options": [
+            "Mal: el float solo aporta valor si su coste queda por debajo del de financiarse de otro modo",
+            "Bien: más float significa más capacidad de inversión",
+            "Es neutral mientras la inversión supere las pérdidas técnicas",
+            "Depende del tamaño relativo frente a los competidores"
+          ],
+          "correct": 0,
+          "note": "Las pérdidas técnicas son precisamente el coste del float. Un float grande y caro es la definición del limón: equivale a endeudarse por encima del tipo de mercado para invertir."
+        },
+        {
+          "q": "¿Por qué el tercer determinante, la perspectiva a largo plazo, es el decisivo?",
+          "options": [
+            "Porque un coste bajo puntual puede deberse a suerte en la siniestralidad y no a buena suscripción",
+            "Porque los tipos de interés se fijan a largo plazo",
+            "Porque los siniestros tardan años en declararse",
+            "Porque la normativa contable exige proyecciones plurianuales"
+          ],
+          "correct": 0,
+          "note": "Un ejercicio sin catástrofes abarata el float sin que la disciplina haya mejorado. Solo la serie larga distingue la calidad de la suscripción del azar del año."
+        },
+        {
+          "q": "¿Qué hace que el float salga gratis o con coste negativo?",
+          "options": [
+            "Que las primas cobradas superen los siniestros y gastos pagados",
+            "Que los tipos de interés sean elevados",
+            "Que el regulador reduzca las exigencias de capital",
+            "Que la cartera de inversión supere al índice de referencia"
+          ],
+          "correct": 0,
+          "note": "El coste del float es el resultado técnico, independiente del rendimiento de la inversión. Confundir ambos lleva a atribuir a la suscripción lo que vino del mercado financiero."
+        }
+      ]
+    },
+    {
+      "id": "inv-0005",
+      "category": "inversion",
+      "title": "Las cadenas de un solo eslabón",
+      "subtitle": "Diez condiciones independientes con un noventa por ciento de probabilidad cada una no dan un noventa por ciento.",
+      "cover_image": {
+        "query": "metal chain link",
+        "wikipedia": "Probabilidad condicionada"
+      },
+      "cards": [
+        {
+          "heading": "El perímetro",
+          "text": "El círculo de competencia es el límite declarado del conocimiento propio dentro del cual se puede evaluar con fiabilidad la ventaja competitiva futura de un negocio. Buffett lo formula en 1999: si tienen una fortaleza, dice, es reconocer cuándo operan bien dentro de ese círculo y cuándo se acercan al perímetro. Lo relevante es saber dónde está el borde, no cuán grande es el círculo."
+        },
+        {
+          "heading": "No es escepticismo",
+          "text": "Lo usa ese mismo año para explicar la ausencia de empresas tecnológicas en cartera, y la razón que da no es dudar del sector. Comparte la idea de que la tecnología transformará la sociedad. Lo que declara es su incapacidad para identificar, dentro de ese sector, qué ventaja competitiva será duradera. La limitación es del analista, no del negocio."
+        },
+        {
+          "heading": "La aritmética de 2004",
+          "text": "En 2004 formaliza algo que estaba implícito. Si una decisión depende de una variable con un noventa por ciento de probabilidad de salir bien, la probabilidad de acierto es del noventa por ciento. Si depende de diez variables independientes al noventa por ciento cada una, cae al treinta y cinco. No basta con entender el negocio: hay que preferir los que no exijan que muchas cosas salgan bien a la vez."
+        },
+        {
+          "heading": "Checklist negativo",
+          "text": "El concepto resulta más útil por sus fallos admitidos que por sus aciertos. Sobre General Re, Buffett diagnostica que se rompieron las tres reglas de disciplina que él mismo había enunciado en 2001: aceptar solo riesgos evaluables, limitar el negocio para que ningún evento correlacionado amenace la solvencia, y evitar el riesgo moral. El criterio sirve sobre todo para detectar cuándo se está saliendo."
+        }
+      ],
+      "key_fact": "Diez variables independientes con un 90% de probabilidad de éxito cada una dan una probabilidad conjunta del 35%, no del 90%.",
+      "questions": [
+        {
+          "q": "Una tesis de inversión requiere que seis condiciones independientes se cumplan, cada una con un 90% de probabilidad. ¿Qué probabilidad aproximada tiene?",
+          "options": [
+            "Alrededor del 53%, porque las probabilidades se multiplican",
+            "El 90%, porque todas son muy probables",
+            "El 54% solo si las condiciones están correlacionadas",
+            "No puede calcularse sin conocer el orden de las condiciones"
+          ],
+          "correct": 0,
+          "note": "0,9 elevado a 6 da aproximadamente 0,53. La intuición falla porque se evalúa cada condición por separado y se olvida que el éxito exige la conjunción de todas."
+        },
+        {
+          "q": "¿Qué razón da Buffett en 1999 para no tener tecnológicas en cartera?",
+          "options": [
+            "No poder identificar qué ventaja competitiva será duradera dentro del sector",
+            "Considerar que el sector está sobrevalorado",
+            "Pensar que la tecnología no transformará la economía",
+            "Preferir negocios con dividendos estables"
+          ],
+          "correct": 0,
+          "note": "Comparte explícitamente la tesis de que la tecnología transformará la sociedad. La objeción es sobre su propia capacidad de discriminar dentro del sector, no sobre el sector."
+        },
+        {
+          "q": "¿Por qué el círculo de competencia funciona mejor como checklist negativo?",
+          "options": [
+            "Porque es más fácil reconocer cuándo se está saliendo que delimitar todo lo que se domina",
+            "Porque los aciertos no se documentan en las cartas",
+            "Porque el círculo se amplía con la experiencia",
+            "Porque los errores tienen mayor impacto en la rentabilidad"
+          ],
+          "correct": 0,
+          "note": "La formulación de 1999 ya apunta ahí: la fortaleza declarada es detectar el perímetro. Los casos de fallo admitido muestran el criterio operando mejor que cualquier enumeración de competencias."
+        },
+        {
+          "q": "¿Qué implica preferir negocios con pocas variables críticas?",
+          "options": [
+            "Que la probabilidad de acierto de la tesis cae rápido al multiplicarse condiciones",
+            "Que los negocios simples son siempre más rentables",
+            "Que conviene evitar los sectores regulados",
+            "Que la diversificación pierde utilidad"
+          ],
+          "correct": 0,
+          "note": "Es una consecuencia aritmética, no estética. Una tesis que depende de muchas cosas independientes es frágil incluso si cada una es individualmente probable."
+        }
+      ]
+    },
+    {
+      "id": "inv-0006",
+      "category": "inversion",
+      "title": "Una señal contable que funciona donde no se puede invertir",
+      "subtitle": "El F-Score de Piotroski separa ganadores de perdedores, pero su efecto se desvanece en las grandes.",
+      "cover_image": {
+        "query": "financial statements magnifier",
+        "wikipedia": "Análisis fundamental"
+      },
+      "cards": [
+        {
+          "heading": "Nueve señales binarias",
+          "text": "Piotroski propuso en 2000 puntuar la salud financiera de una empresa con nueve indicadores contables que valen uno o cero: rentabilidad positiva, flujo de caja operativo positivo, mejora del margen, reducción de deuda, y algunos más. La suma va de cero a nueve. La idea no es valorar el negocio sino filtrar, entre acciones ya baratas, las que no están baratas por buenas razones."
+        },
+        {
+          "heading": "Dónde se probó",
+          "text": "El universo del estudio son acciones con alta relación entre valor contable y precio, es decir, las más baratas por ese criterio, y dentro de ellas predominan las empresas pequeñas. Ahí la señal funciona: las de puntuación alta superan a las de puntuación baja con holgura. El resultado es uno de los más replicados de la literatura contable."
+        },
+        {
+          "heading": "La frontera",
+          "text": "El propio trabajo desglosa el efecto por tamaño, y es ahí donde la conclusión cambia. En el tercio superior de capitalización, el exceso de retorno asociado a la señal es de 0,017, con un estadístico t de 0,872 y un valor p de 0,203. Dicho sin tecnicismos: en las empresas grandes el efecto no se distingue de cero."
+        },
+        {
+          "heading": "Qué queda",
+          "text": "Para quien solo invierte en grandes compañías, la señal no es una estrategia pero puede seguir siendo un filtro de descarte: una empresa con puntuación muy baja tiene problemas contables identificables, independientemente de si eso predice su cotización. Separar el hallazgo de su dominio de validez es lo que evita trasladarlo donde no se contrastó."
+        }
+      ],
+      "key_fact": "En el tercio superior de capitalización, el exceso de retorno del F-Score es de 0,017 con t = 0,872 y p = 0,203: estadísticamente indistinguible de cero.",
+      "questions": [
+        {
+          "q": "¿Para qué sirve el F-Score dentro del universo en que se contrastó?",
+          "options": [
+            "Para distinguir, entre acciones baratas, las que lo están sin motivo de las que lo están con razón",
+            "Para estimar el valor intrínseco de una empresa",
+            "Para predecir el momento de entrada en el mercado",
+            "Para medir la calidad de la gestión directiva"
+          ],
+          "correct": 0,
+          "note": "Es un filtro de calidad aplicado a una cesta ya seleccionada por precio, no un método de valoración ni de sincronización. Su función es reducir los falsos positivos de un cribado por múltiplos."
+        },
+        {
+          "q": "Un valor p de 0,203 en el tercio de mayor capitalización significa que...",
+          "options": [
+            "El efecto observado es compatible con que no exista ningún efecto real",
+            "El efecto es real pero de magnitud pequeña",
+            "La muestra de grandes empresas era demasiado pequeña",
+            "El efecto se invierte en las empresas grandes"
+          ],
+          "correct": 0,
+          "note": "Un p alto indica que los datos no permiten descartar la ausencia de efecto. No demuestra que el efecto sea nulo, pero sí que no hay evidencia de que exista."
+        },
+        {
+          "q": "¿Por qué importa comprobar el dominio de validez antes de aplicar un hallazgo?",
+          "options": [
+            "Porque un resultado obtenido en empresas pequeñas puede no sobrevivir en grandes",
+            "Porque los datos contables cambian de definición según el país",
+            "Porque las señales pierden eficacia al hacerse conocidas",
+            "Porque los estudios académicos usan periodos muy antiguos"
+          ],
+          "correct": 0,
+          "note": "El propio desglose por tamaño del estudio lo demuestra: la misma señal, el mismo periodo y el mismo método dan un resultado robusto en un subuniverso y nulo en otro."
+        },
+        {
+          "q": "¿Qué uso conserva la señal para quien invierte solo en grandes compañías?",
+          "options": [
+            "Filtro de descarte, porque una puntuación baja señala problemas contables reales",
+            "Ninguno, porque el efecto no es significativo",
+            "Estrategia principal, aplicando la puntuación más alta",
+            "Indicador de momento de venta"
+          ],
+          "correct": 0,
+          "note": "Los nueve indicadores miden hechos contables comprobables con independencia de que predigan la cotización. Lo que no sobrevive al cambio de universo es su capacidad predictiva, no su contenido descriptivo."
+        }
+      ]
+    },
+    {
+      "id": "qnt-0001",
+      "category": "quant",
+      "title": "Markowitz a los setenta: la optimización que no se puede usar sola",
+      "subtitle": "Aplicar la formulación original sin restricciones produce carteras peores que repartir a partes iguales.",
+      "cover_image": {
+        "query": "efficient frontier graph",
+        "wikipedia": "Teoría moderna de carteras"
+      },
+      "cards": [
+        {
+          "heading": "El planteamiento",
+          "text": "Markowitz formuló en 1952 la selección de carteras como un problema de optimización que compensa retorno esperado contra riesgo, definido como la varianza de los retornos. Setenta años después el marco no ha sido sustituido sino extendido: la práctica cuantitativa dominante es una generalización directa de aquella formulación, con restricciones y regularización añadidas."
+        },
+        {
+          "heading": "El fracaso desnudo",
+          "text": "La demostración empírica es el argumento más contundente a favor de esas añadiduras. Sobre el S&P 100 entre 2000 y 2023, la formulación básica sin restricciones da un Sharpe de 0,19, una caída máxima del 78,9%, apalancamiento de hasta 9,3 veces y una rotación anualizada de 1.145. Una cartera equiponderada obtiene un Sharpe de 0,66."
+        },
+        {
+          "heading": "Dónde está el problema",
+          "text": "El optimizador no falla al optimizar: falla porque recibe estimaciones con error y las trata como ciertas. Concentra la cartera en los activos cuyo retorno esperado se ha sobrestimado, que es precisamente donde el error es mayor. Añadir una sola restricción razonable —límite de peso, de apalancamiento, de rotación— mejora el resultado de forma sustancial."
+        },
+        {
+          "heading": "La cifra que no se puede usar",
+          "text": "La versión completa alcanza un Sharpe de 4,32 sin calibrar y 4,65 calibrada anualmente. Los propios autores advierten inmediatamente que esa cifra no es implementable: el backtest emplea retornos esperados sintéticos y declara sesgo de supervivencia. La advertencia la hacen ellos, y conviene citarla junto al número siempre que se cite el número."
+        }
+      ],
+      "key_fact": "Sobre el S&P 100 entre 2000 y 2023, la optimización de Markowitz sin restricciones rinde un Sharpe de 0,19 con una caída máxima del 78,9%; una cartera equiponderada obtiene 0,66.",
+      "questions": [
+        {
+          "q": "¿Por qué la optimización sin restricciones rinde peor que repartir a partes iguales?",
+          "options": [
+            "Porque trata como ciertas estimaciones con error y se concentra donde el error es mayor",
+            "Porque la varianza es una mala medida de riesgo",
+            "Porque no admite más de cien activos",
+            "Porque exige rebalancear a diario"
+          ],
+          "correct": 0,
+          "note": "El problema es de insumos, no del algoritmo. El optimizador sobrepondera los activos con mayor retorno esperado estimado, que tienden a ser los que tienen el error de estimación más favorable."
+        },
+        {
+          "q": "¿Qué efecto tiene añadir una sola restricción razonable?",
+          "options": [
+            "Mejora sustancialmente el resultado, aunque sea solo un límite de peso o de rotación",
+            "Reduce el Sharpe a cambio de menor volatilidad",
+            "Es irrelevante si no se robustecen también los pronósticos",
+            "Hace el problema no convexo y difícil de resolver"
+          ],
+          "correct": 0,
+          "note": "Cada restricción limita el daño que puede hacer una estimación errónea. Precisamente por eso la mejora aparece con una sola, antes de aplicar todas a la vez."
+        },
+        {
+          "q": "¿Cómo debe citarse el Sharpe de 4,65 de la versión completa?",
+          "options": [
+            "Con la advertencia de los autores: usa retornos sintéticos y tiene sesgo de supervivencia",
+            "Como el resultado esperable de aplicar el método hoy",
+            "Como una cota inferior de lo alcanzable",
+            "Como una cifra válida solo para el S&P 100"
+          ],
+          "correct": 0,
+          "note": "Los propios autores la declaran no implementable en el mismo apartado donde la presentan. Separar la cifra de su advertencia la convierte en una promesa que la fuente no hace."
+        },
+        {
+          "q": "¿Qué significa que la práctica actual sea una «generalización» de 1952?",
+          "options": [
+            "Que conserva la formulación original y le añade restricciones y robustez",
+            "Que la ha sustituido por métodos de aprendizaje automático",
+            "Que solo se usa con fines docentes",
+            "Que abandonó la varianza como medida de riesgo"
+          ],
+          "correct": 0,
+          "note": "El núcleo —compensar retorno esperado contra varianza— sigue siendo el mismo problema de optimización convexa. Lo añadido gestiona el error de estimación, no reemplaza el objetivo."
+        }
+      ]
+    },
+    {
+      "id": "qnt-0002",
+      "category": "quant",
+      "title": "El riesgo que el mercado no paga",
+      "subtitle": "Sharpe demostró que el riesgo total de un activo no guarda relación consistente con su retorno esperado.",
+      "cover_image": {
+        "query": "risk return scatter plot",
+        "wikipedia": "Modelo de valoración de activos financieros"
+      },
+      "cards": [
+        {
+          "heading": "El hueco de 1964",
+          "text": "Antes de Sharpe existía una descripción rigurosa de cómo se determina el tipo de interés, pero el premio por riesgo se introducía por afirmación. Su aportación fue agregar las decisiones individuales en un precio de equilibrio, de modo que el mercado ofreciera dos precios distintos: el precio del tiempo, que es el tipo puro, y el precio del riesgo."
+        },
+        {
+          "heading": "Total frente a sistemático",
+          "text": "El resultado operativo es que para activos individuales no existe relación consistente entre retorno esperado y riesgo total. Sí existe con la porción del riesgo que no puede diversificarse, que Sharpe bautiza riesgo sistemático. La parte que desaparece al combinar activos no se remunera, y la condición para que eso valga es que se haya diversificado de verdad."
+        },
+        {
+          "heading": "Lo que el artículo no dice",
+          "text": "La expresión que la práctica conoce como fórmula del CAPM no figura escrita en ninguna página del artículo: aparece invertida y en nota al pie, y despejarla es álgebra elemental. Más llamativo aún, el texto no contiene la expresión cartera de mercado ni propone ningún índice como referencia. Donde la práctica pone el mercado, Sharpe pone una combinación eficiente cualquiera."
+        },
+        {
+          "heading": "La defensa metodológica",
+          "text": "Sharpe reconoce que sus supuestos son altamente restrictivos e indudablemente irrealistas, y los defiende con un argumento explícito: la prueba adecuada de una teoría no es el realismo de sus supuestos sino la aceptabilidad de sus implicaciones. Añade la escasez de modelos alternativos como razón para no rechazarlo. Es un argumento instrumental, no de evidencia: el artículo no contiene ningún contraste empírico."
+        }
+      ],
+      "key_fact": "El artículo de Sharpe no contiene la expresión «cartera de mercado» ni propone ningún índice de referencia: la fórmula aparece invertida en nota al pie y sobre una combinación eficiente cualquiera.",
+      "questions": [
+        {
+          "q": "¿Qué relación niega Sharpe para los activos individuales?",
+          "options": [
+            "La existencia de una relación consistente entre retorno esperado y riesgo total",
+            "La existencia de una relación entre retorno esperado y riesgo sistemático",
+            "Que los inversores puedan prestar al tipo sin riesgo",
+            "Que la varianza sea una medida calculable de riesgo"
+          ],
+          "correct": 0,
+          "note": "La contribución es precisamente separar las dos: el riesgo total de una acción suelta no predice su retorno, porque parte de ese riesgo desaparece al integrarla en una cartera."
+        },
+        {
+          "q": "¿Qué condición debe cumplirse para que el riesgo diversificable no se remunere?",
+          "options": [
+            "Que el inversor haya diversificado efectivamente, manteniendo una combinación eficiente",
+            "Que el mercado sea eficiente en sentido fuerte",
+            "Que existan activos sin riesgo disponibles",
+            "Que las expectativas de los inversores sean heterogéneas"
+          ],
+          "correct": 0,
+          "note": "El modelo supone que el inversor mantiene una combinación eficiente, no un puñado de posiciones elegidas. Quien no diversifica soporta riesgo por el que nadie le paga."
+        },
+        {
+          "q": "¿Qué implica que el artículo hable de «una combinación eficiente cualquiera» y no del mercado?",
+          "options": [
+            "Que la elección de un índice concreto no es inocua fuera del modelo",
+            "Que el modelo no admite aplicación práctica",
+            "Que todas las carteras eficientes tienen el mismo retorno",
+            "Que la beta no puede estimarse con datos históricos"
+          ],
+          "correct": 0,
+          "note": "Dentro del modelo la elección es libre porque todas las combinaciones eficientes están perfectamente correlacionadas. Fuera de él esa correlación perfecta no se cumple, de modo que el índice elegido cambia el resultado."
+        },
+        {
+          "q": "¿Con qué argumento defiende Sharpe unos supuestos que él mismo llama irrealistas?",
+          "options": [
+            "Que una teoría se juzga por la aceptabilidad de sus implicaciones, no por el realismo de sus supuestos",
+            "Que los supuestos se cumplen aproximadamente en mercados desarrollados",
+            "Que el contraste empírico del artículo los respalda",
+            "Que el modelo se puede recalibrar cuando fallan"
+          ],
+          "correct": 0,
+          "note": "Es instrumentalismo metodológico, reforzado por la ausencia de alternativas. El artículo no presenta ni pretende presentar ningún contraste empírico."
+        }
+      ]
+    },
+    {
+      "id": "qnt-0003",
+      "category": "quant",
+      "title": "Valorar una opción sin saber si la acción subirá",
+      "subtitle": "Black y Scholes partieron de un solo principio: en una posición cubierta no debe haber beneficio cierto.",
+      "cover_image": {
+        "query": "options trading screen",
+        "wikipedia": "Modelo de Black-Scholes"
+      },
+      "cards": [
+        {
+          "heading": "Un único principio",
+          "text": "Si las opciones están bien valoradas, no debe ser posible obtener un beneficio cierto combinando posiciones largas y cortas en opciones y en la acción subyacente. De esa sola exigencia —ausencia de arbitraje en una posición cubierta— sale una fórmula cerrada que, a diferencia de todo el trabajo previo, no contiene ningún parámetro arbitrario."
+        },
+        {
+          "heading": "La cobertura continua",
+          "text": "El mecanismo es una posición que se ajusta sin interrupción: una acción larga contra un número de opciones cortas que depende de la sensibilidad del valor de la opción al precio de la acción. Si la cobertura se mantiene de forma continua, su rentabilidad se vuelve cierta y, por tanto, debe igualar al tipo de interés sin riesgo. Esa condición produce la ecuación que se resuelve."
+        },
+        {
+          "heading": "Lo que no aparece",
+          "text": "El resultado notable es qué variables no entran. La fórmula depende del precio de la acción, el de ejercicio, el tiempo a vencimiento, el tipo sin riesgo y la varianza de los retornos. No depende del retorno esperado de la acción ni de la aversión al riesgo del inversor. Dos inversores que discrepen sobre si la acción subirá deben coincidir en el precio de la opción."
+        },
+        {
+          "heading": "Casi todo es una opción",
+          "text": "La segunda mitad del artículo extiende la idea a los pasivos corporativos. La acción ordinaria de una empresa endeudada es una opción de compra sobre los activos de la empresa: si valen más que la deuda, el accionista se queda el resto; si no, no pone nada. De ahí sale la valoración de la deuda y el descuento que impone el riesgo de impago."
+        }
+      ],
+      "key_fact": "La fórmula no depende del retorno esperado de la acción ni de la aversión al riesgo: dos inversores con expectativas opuestas sobre la acción deben coincidir en el precio de su opción.",
+      "questions": [
+        {
+          "q": "¿De qué único principio se deriva la fórmula?",
+          "options": [
+            "De que una posición cubierta no puede dar un beneficio cierto",
+            "De que los precios de las acciones siguen un paseo aleatorio",
+            "De que los inversores son neutrales al riesgo",
+            "De que la volatilidad es constante en el tiempo"
+          ],
+          "correct": 0,
+          "note": "La ausencia de arbitraje es el único principio económico empleado. El movimiento del precio y la varianza constante son supuestos del modelo del subyacente, no el principio del que se deriva el valor."
+        },
+        {
+          "q": "Dos inversores discrepan sobre si una acción subirá. Según el modelo, ¿qué debe ocurrir con el precio de su opción?",
+          "options": [
+            "Deben coincidir, porque el retorno esperado de la acción no entra en la fórmula",
+            "Discrepar en la misma proporción que sobre la acción",
+            "Coincidir solo si comparten la misma aversión al riesgo",
+            "Discrepar, porque la opción amplifica las expectativas"
+          ],
+          "correct": 0,
+          "note": "Es la consecuencia más contraintuitiva del resultado. La cobertura elimina la exposición a la dirección del precio, de modo que la opinión sobre la dirección no puede influir en el valor."
+        },
+        {
+          "q": "¿Por qué la acción de una empresa endeudada es una opción de compra?",
+          "options": [
+            "Porque el accionista se queda el excedente sobre la deuda y nada si no lo hay",
+            "Porque puede venderse en cualquier momento",
+            "Porque su valor crece con la volatilidad del negocio",
+            "Porque la deuda tiene prelación en la liquidación"
+          ],
+          "correct": 0,
+          "note": "El perfil de pagos es el de una opción: valor positivo por encima de un umbral, cero por debajo, con pérdida limitada a lo aportado. Ese umbral es el nominal de la deuda."
+        },
+        {
+          "q": "¿Qué diferencia la fórmula del trabajo previo sobre opciones?",
+          "options": [
+            "Que no contiene ningún parámetro arbitrario",
+            "Que admite opciones americanas además de europeas",
+            "Que no requiere estimar la volatilidad",
+            "Que incorpora los costes de transacción"
+          ],
+          "correct": 0,
+          "note": "Los modelos anteriores dependían de parámetros como el retorno esperado o un factor de descuento que había que elegir. La volatilidad sí hay que estimarla, y es la variable que el modelo deja abierta."
+        }
+      ]
+    },
+    {
+      "id": "qnt-0004",
+      "category": "quant",
+      "title": "La medida de riesgo que premia trocear la cartera",
+      "subtitle": "El valor en riesgo falla un axioma elemental, y el fallo se puede explotar por diseño.",
+      "cover_image": {
+        "query": "risk management dashboard",
+        "wikipedia": "Valor en riesgo"
+      },
+      "cards": [
+        {
+          "heading": "Qué mide",
+          "text": "El valor en riesgo es la pérdida máxima esperada de una cartera a un horizonte y nivel de confianza dados: un VaR al 95% a un día es la pérdida que no se superará en el 95% de las jornadas. Se calcula por tres vías —paramétrica, simulación histórica y Monte Carlo— y es la medida sobre la que se apoya la regulación bancaria de mercado."
+        },
+        {
+          "heading": "La subaditividad",
+          "text": "Una medida de riesgo coherente debe cumplir que el riesgo del conjunto no supere la suma de los riesgos de las partes: juntar dos carteras no puede crear riesgo de la nada, porque la diversificación solo puede ayudar. El VaR no cumple esa propiedad. Existen combinaciones en las que el VaR del total supera la suma de los VaR individuales."
+        },
+        {
+          "heading": "Explotable por diseño",
+          "text": "La consecuencia no es académica. Si el riesgo del conjunto puede ser mayor que la suma de las partes, entonces trocear una cartera en piezas permite reportar menos capital regulatorio total que manteniéndola unida. No es un descuido de aplicación sino una propiedad de la medida, y quien la usa como límite interno hereda el mismo incentivo."
+        },
+        {
+          "heading": "Lo que el VaR calla",
+          "text": "Hay un segundo límite más simple: el VaR dice cuál es el umbral que no se superará con cierta probabilidad, pero nada sobre qué ocurre cuando se supera. Dos carteras con idéntico VaR al 99% pueden tener pérdidas muy distintas en el 1% restante. La medida describe la frontera de lo tolerable, no el territorio que hay detrás."
+        }
+      ],
+      "key_fact": "Bajo la enmienda de riesgo de mercado de Basilea de 1996, el capital exigido a un banco es tres veces su VaR a diez días con el 99% de confianza.",
+      "questions": [
+        {
+          "q": "¿Qué exige la subaditividad a una medida de riesgo?",
+          "options": [
+            "Que el riesgo del conjunto no supere la suma de los riesgos de las partes",
+            "Que el riesgo crezca de forma proporcional al tamaño de la posición",
+            "Que la medida sea invariante al horizonte temporal",
+            "Que el riesgo de una cartera sin deuda sea cero"
+          ],
+          "correct": 0,
+          "note": "Formaliza la idea de que la diversificación no puede perjudicar. Una medida que la incumple puede indicar que separar posiciones reduce el riesgo, lo que es económicamente absurdo."
+        },
+        {
+          "q": "Un banco divide una cartera en tres carteras menores y reporta menos capital total. ¿Qué lo permite?",
+          "options": [
+            "Que el VaR no es subaditivo, de modo que la suma de las partes puede ser menor que el total",
+            "Que la regulación no cubre carteras pequeñas",
+            "Que el horizonte de diez días deja de aplicarse",
+            "Que la simulación histórica subestima las colas"
+          ],
+          "correct": 0,
+          "note": "Es una propiedad matemática de la medida, no un vacío normativo ni un error de método. El incentivo existe mientras el límite se exprese en términos de VaR."
+        },
+        {
+          "q": "Dos carteras tienen el mismo VaR al 99%. ¿Qué no se puede concluir?",
+          "options": [
+            "Que sufrirían pérdidas parecidas en el 1% de los peores casos",
+            "Que el umbral de pérdida al 99% coincide",
+            "Que ambas superarán ese umbral con la misma frecuencia",
+            "Que se calcularon con el mismo horizonte"
+          ],
+          "correct": 0,
+          "note": "El VaR es un cuantil: informa de dónde está el corte, no de la magnitud de lo que queda al otro lado. Una de las dos puede tener pérdidas catastróficas en ese 1% y la otra no."
+        },
+        {
+          "q": "¿Qué papel tiene el VaR en la regulación bancaria de mercado?",
+          "options": [
+            "Determina el capital exigido como tres veces el VaR a diez días al 99%",
+            "Sirve solo como indicador interno de seguimiento",
+            "Sustituye a las pruebas de resistencia",
+            "Se aplica únicamente a la cartera de inversión a vencimiento"
+          ],
+          "correct": 0,
+          "note": "La enmienda de 1996 lo convirtió en insumo del cálculo de capital, lo que explica por qué sus propiedades matemáticas tienen consecuencias sobre la estructura del sistema financiero."
+        }
+      ]
+    },
+    {
+      "id": "qnt-0005",
+      "category": "quant",
+      "title": "Momentum: el efecto que enero destruye",
+      "subtitle": "Comprar lo que ha subido funcionó durante décadas, salvo un mes al año y salvo en las empresas grandes.",
+      "cover_image": {
+        "query": "upward price trend chart",
+        "wikipedia": "Momentum (finanzas)"
+      },
+      "cards": [
+        {
+          "heading": "El hueco de la literatura",
+          "text": "En 1993 ya se documentaba reversión a tres y cinco años y reversión a una semana o un mes. Entre esos extremos quedaba sin examinar el tramo que los profesionales usaban: movimientos de precio de los últimos tres a doce meses. Jegadeesh y Titman examinaron ese tramo, con 32 estrategias de las cuales todas menos una resultaron estadísticamente significativas."
+        },
+        {
+          "heading": "Las cifras",
+          "text": "La estrategia que analizan en detalle —formación a seis meses, tenencia a seis meses— rinde un 0,95% mensual con un estadístico t de 3,07, equivalente a un exceso compuesto del 12,01% anual. La más rentable del conjunto, formación a doce meses y tenencia a tres, alcanza el 1,49% mensual con t de 4,28. No es riesgo sistemático: la beta de la cartera de coste cero es negativa, de −0,08."
+        },
+        {
+          "heading": "El enero",
+          "text": "El desglose por mes natural revela algo que las medias ocultan. La estrategia pierde un 6,86% cada enero de media, con t de −3,52, y gana un 1,66% en los otros once meses. Y la pérdida de enero es inversamente proporcional al tamaño: en el submuestreo de empresas grandes deja de ser estadísticamente significativa, con −1,61% y t de −1,28."
+        },
+        {
+          "heading": "Se disipa",
+          "text": "El retorno acumulado de la cartera alcanza su máximo en el mes doce, con un 9,51% y t de 3,67, y cae al 4,06% en el mes treinta y seis, con t de 0,67: indistinguible de cero. Los propios autores concluyen que no pueden descartar que los retornos positivos del primer año sean enteramente temporales, y que leer esto como sobrerreacción o infrarreacción es probablemente demasiado simplista."
+        }
+      ],
+      "key_fact": "La estrategia pierde un 6,86% de media cada enero y gana un 1,66% en los demás meses; en las empresas grandes, la pérdida de enero deja de ser significativa (−1,61%, t = −1,28).",
+      "questions": [
+        {
+          "q": "¿Por qué la beta negativa de −0,08 refuerza el hallazgo?",
+          "options": [
+            "Porque ajustar por riesgo aumenta el retorno en lugar de explicarlo",
+            "Porque indica que la cartera cubre el riesgo de mercado",
+            "Porque permite apalancar la estrategia sin coste",
+            "Porque confirma que los ganadores son menos volátiles"
+          ],
+          "correct": 0,
+          "note": "Si la cartera tuviera beta alta, el exceso de retorno podría ser compensación por riesgo sistemático. Con beta negativa, el ajuste va en dirección contraria y el exceso se agranda."
+        },
+        {
+          "q": "¿Qué patrón sigue la pérdida de enero según el tamaño de empresa?",
+          "options": [
+            "Es inversamente proporcional al tamaño y deja de ser significativa en las grandes",
+            "Es uniforme en todos los tramos de capitalización",
+            "Solo aparece en las empresas grandes",
+            "Se invierte: en enero las grandes pierden más"
+          ],
+          "correct": 0,
+          "note": "El mismo desglose por tamaño que aparece en otros hallazgos de la literatura: el efecto se concentra en las empresas pequeñas y se diluye al subir de capitalización."
+        },
+        {
+          "q": "El retorno acumulado pasa de 9,51% (t = 3,67) en el mes 12 a 4,06% (t = 0,67) en el 36. ¿Qué se concluye?",
+          "options": [
+            "Que no puede descartarse que el retorno del primer año sea enteramente temporal",
+            "Que la estrategia debe mantenerse treinta y seis meses",
+            "Que el efecto se invierte por completo a tres años",
+            "Que el retorno del primer año está mal medido"
+          ],
+          "correct": 0,
+          "note": "Es la conclusión que extraen los autores: al no ser el acumulado a 36 meses distinto de cero, la ganancia inicial podría disiparse del todo con horizonte suficiente."
+        },
+        {
+          "q": "¿Qué tramo temporal examinaron que la literatura previa había dejado sin cubrir?",
+          "options": [
+            "De tres a doce meses, el que usaban los profesionales",
+            "De una a cuatro semanas",
+            "De tres a cinco años",
+            "El día posterior al anuncio de resultados"
+          ],
+          "correct": 0,
+          "note": "Los extremos estaban estudiados y mostraban reversión. El tramo intermedio, el de uso práctico, era el hueco, y en él el signo resulta ser el opuesto: persistencia, no reversión."
+        }
+      ]
+    },
+    {
+      "id": "qnt-0006",
+      "category": "quant",
+      "title": "Rechazar el paseo aleatorio no es rechazar la eficiencia",
+      "subtitle": "Lo y MacKinlay tumbaron el modelo con un test elegante, y dedicaron el artículo a advertir qué no se seguía de ello.",
+      "cover_image": {
+        "query": "random walk diagram",
+        "wikipedia": "Paseo aleatorio"
+      },
+      "cards": [
+        {
+          "heading": "La implicación medible",
+          "text": "Si el logaritmo del precio sigue un paseo aleatorio, la varianza de sus incrementos es lineal en el intervalo de muestreo: la varianza de los retornos mensuales debe ser cuatro veces la de los semanales. Lo y MacKinlay convirtieron esa igualdad en un contraste, comparando estimadores de varianza obtenidos a frecuencias distintas."
+        },
+        {
+          "heading": "El rechazo",
+          "text": "Con retornos semanales de 1962 a 1985, el modelo se rechaza de forma contundente para el índice equiponderado, en el periodo completo y en todos los subperiodos. El cociente de varianzas es 1,30, lo que implica una autocorrelación semanal de primer orden del 30%, con z de 10,29. El rechazo sobrevive al corregir por heteroscedasticidad y no lo explica la negociación infrecuente."
+        },
+        {
+          "heading": "El signo sorprende",
+          "text": "La autocorrelación resulta positiva, no negativa. Eso descarta el modelo de modas y reversión a la media que buena parte de la literatura contemporánea proponía: los precios no oscilan alrededor de un valor, se arrastran. El resultado va en contra de la explicación intuitiva que había motivado buscar la anomalía."
+        },
+        {
+          "heading": "La advertencia",
+          "text": "Los autores acotan su propio hallazgo desde la introducción: estos resultados no implican necesariamente que el mercado sea ineficiente ni que los precios no sean valoraciones racionales. Los precios de equilibrio bajo expectativas racionales no necesitan siquiera formar una martingala, de la cual el paseo aleatorio es un caso especial. Sin un modelo explícito del mecanismo de formación de precios, el rechazo tiene pocas implicaciones sobre la eficiencia."
+        }
+      ],
+      "key_fact": "El cociente de varianzas del índice equiponderado es 1,30 (z = 10,29), lo que implica una autocorrelación semanal del 30%; aun así los autores niegan que eso demuestre ineficiencia.",
+      "questions": [
+        {
+          "q": "¿Qué propiedad del paseo aleatorio convierten en contraste?",
+          "options": [
+            "Que la varianza de los incrementos crece linealmente con el intervalo de muestreo",
+            "Que la media de los retornos es cero",
+            "Que los retornos se distribuyen normalmente",
+            "Que la autocorrelación de primer orden es negativa"
+          ],
+          "correct": 0,
+          "note": "La linealidad de la varianza es consecuencia directa de la independencia de los incrementos, y permite contrastar el modelo comparando dos frecuencias sin estimar la media."
+        },
+        {
+          "q": "¿Por qué el signo positivo de la autocorrelación es contraintuitivo?",
+          "options": [
+            "Porque descarta los modelos de modas y reversión que motivaban la búsqueda",
+            "Porque implica que la varianza decrece con el horizonte",
+            "Porque contradice la linealidad de la varianza",
+            "Porque solo aparece en índices ponderados por valor"
+          ],
+          "correct": 0,
+          "note": "La reversión a la media exigiría autocorrelación negativa. Encontrarla positiva significa que la anomalía existe, pero no es la que se estaba buscando."
+        },
+        {
+          "q": "¿Por qué rechazar el paseo aleatorio no rechaza la eficiencia?",
+          "options": [
+            "Porque los precios de equilibrio racionales no necesitan formar ni una martingala",
+            "Porque el test tiene poca potencia en muestras largas",
+            "Porque la autocorrelación encontrada es económicamente pequeña",
+            "Porque el periodo analizado termina en 1985"
+          ],
+          "correct": 0,
+          "note": "El paseo aleatorio es un caso particular de martingala, y la eficiencia no exige ninguna de las dos. Son modelos estadísticos distintos de la hipótesis económica que se pretende contrastar."
+        },
+        {
+          "q": "¿Qué descarta el modelo explícito de negociación infrecuente que incluyen?",
+          "options": [
+            "Que la falta de negociación genere autocorrelaciones de la magnitud observada",
+            "Que el índice equiponderado sea representativo",
+            "Que la heteroscedasticidad afecte al estadístico",
+            "Que los subperiodos tengan comportamientos distintos"
+          ],
+          "correct": 0,
+          "note": "La negociación infrecuente induce autocorrelación espuria, por lo que era la explicación mecánica más plausible. El modelo demuestra que su magnitud no alcanza para explicar un 30%."
+        }
+      ]
+    }
+  ]
+}

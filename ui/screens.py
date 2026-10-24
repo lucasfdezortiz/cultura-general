@@ -12,7 +12,13 @@ from datetime import date
 
 import streamlit as st
 
-from config.categories import CATEGORIES, categorias_ordenadas, icono, nombre
+from config.categories import (
+    CATEGORIES,
+    categorias_ordenadas,
+    frecuencia,
+    icono,
+    nombre,
+)
 from core import bank as bank_mod
 from core import progress as prog_mod
 from core import selection
@@ -92,10 +98,19 @@ def sidebar(banco: dict, prog: dict, salud: dict) -> None:
             persistir()
             st.rerun()
         if tope:
-            vueltas = -(-n_activas // tope)
+            # El reparto es ponderado por frecuencia, no por turnos iguales, así
+            # que no hay un "cada N días" común a todas. Se anuncia el ritmo de
+            # las que más salen y el de las que menos, que es la información
+            # que de verdad describe lo que el usuario va a ver.
+            activas = prog_mod.categorias_activas(prog)
+            suma = sum(frecuencia(c) for c in activas) or 1
+            ritmos = {c: suma / (tope * frecuencia(c)) for c in activas}
+            mas, menos = min(ritmos, key=ritmos.get), max(ritmos, key=ritmos.get)
             st.caption(
-                f"{tope} de {n_activas} categorías al día, rotando: todas entran "
-                f"cada {vueltas} días. Unas {tope * 4} preguntas por jornada."
+                f"{tope} de {n_activas} categorías al día, repartidas por peso: "
+                f"{nombre(mas)} sale una vez cada {ritmos[mas]:.0f} días "
+                f"y {nombre(menos)} cada {ritmos[menos]:.0f}. "
+                f"Unas {tope * 4} preguntas por jornada."
             )
         else:
             st.caption(

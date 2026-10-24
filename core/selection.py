@@ -1,12 +1,15 @@
 """Selección diaria: qué lecciones toca hoy.
 
 Reglas:
-1. Para cada categoría activa se toma la siguiente lección **no vista**, según
-   el orden estable de `bank._orden_estable`. No hay azar: recargar la página
-   el mismo día devuelve exactamente lo mismo.
-2. El paquete se **ancla** en el progreso la primera vez que se consulta ese
+1. De cada categoría se toma la siguiente lección **no vista**, según el orden
+   estable de `bank._orden_estable`. No hay azar: recargar la página el mismo
+   día devuelve exactamente lo mismo.
+2. Qué categorías entran cada día lo decide una **ruleta ponderada** por el
+   campo `frecuencia` de cada categoría, no un reparto por igual. Es lo que
+   hace que Mercados salga cuatro veces más a menudo que Humanidades.
+3. El paquete se **ancla** en el progreso la primera vez que se consulta ese
    día. Así, completar una lección a media mañana no reordena el resto del día.
-3. Las categorías marcadas como "dominadas" bajan al final del paquete, pero
+4. Las categorías marcadas como "dominadas" bajan al final del paquete, pero
    siguen apareciendo.
 """
 
@@ -29,19 +32,62 @@ def _siguiente_pendiente(
     return None
 
 
-def _rotacion(orden: list[str], hoy: str) -> list[str]:
-    """Rota la lista de categorías según el día.
+def _ruleta(categorias: list[str]) -> list[str]:
+    """Secuencia cíclica donde cada categoría ocupa tantas plazas como su frecuencia.
 
-    Con un tope diario, sin rotación las últimas categorías del orden no
-    saldrían nunca. Desplazar el punto de partida un puesto por día hace que
-    todas entren en el paquete cada pocos días, y sigue siendo determinista:
-    depende solo de la fecha.
+    Las apariciones de una categoría se reparten a intervalos regulares dentro
+    del ciclo —la i-ésima de una categoría de frecuencia `f` va en la posición
+    `(i + desplazamiento) / f`— de modo que una categoría de frecuencia 4 queda
+    distribuida por el ciclo en vez de agrupada al principio. El
+    desplazamiento, derivado del orden de presentación, separa entre sí a las
+    categorías que comparten frecuencia para que no caigan en el mismo punto.
     """
-    if not orden:
-        return orden
-    dias = date.fromisoformat(hoy).toordinal()
-    desfase = dias % len(orden)
-    return orden[desfase:] + orden[:desfase]
+    marcas: list[tuple[float, int, str]] = []
+    total = len(categorias) or 1
+    for idx, cat in enumerate(categorias):
+        f = max(1, int(CATEGORIES[cat].get("frecuencia", 1)))
+        for i in range(f):
+            marcas.append(((i + idx / total) / f, CATEGORIES[cat]["orden"], cat))
+    marcas.sort()
+    return [cat for _, _, cat in marcas]
+
+
+def _orden_del_dia(prioritarias: list[str], hoy: str, tope: int) -> list[str]:
+    """Categorías del día, de mayor a menor prioridad, según la ruleta ponderada.
+
+    Del ciclo se toman `tope` posiciones **separadas entre sí**, no consecutivas:
+    así un día no se lleva tres categorías contiguas de la ruleta y el paquete
+    sale variado. El punto de partida avanza una plaza por día, lo que recorre
+    el ciclo completo y mantiene las proporciones a medio plazo. Detrás van las
+    plazas restantes como reserva, para que una categoría sin lecciones
+    pendientes ceda su sitio en lugar de dejar el día corto.
+    """
+    ruleta = _ruleta(prioritarias)
+    if not ruleta:
+        return []
+
+    desfase = date.fromisoformat(hoy).toordinal() % len(ruleta)
+    salto = max(1, len(ruleta) // max(1, tope))
+
+    elegidas: list[str] = []
+    usadas: set[int] = set()
+    for k in range(max(1, tope)):
+        pos = (desfase + k * salto) % len(ruleta)
+        usadas.add(pos)
+        # Una categoría ocupa varias plazas del ciclo, así que dos posiciones
+        # distintas pueden caer en la misma: se descarta la repetida y su hueco
+        # lo cubre la reserva. Sin esto el paquete serviría dos lecciones de
+        # Economía el mismo día y en pantalla parecería un error.
+        if ruleta[pos] not in elegidas:
+            elegidas.append(ruleta[pos])
+
+    reserva: list[str] = []
+    for i in range(len(ruleta)):
+        pos = (desfase + i) % len(ruleta)
+        cat = ruleta[pos]
+        if pos not in usadas and cat not in elegidas and cat not in reserva:
+            reserva.append(cat)
+    return elegidas + reserva
 
 
 def construir_paquete(banco: dict, prog: dict, hoy: str) -> list[str]:
@@ -58,22 +104,27 @@ def construir_paquete(banco: dict, prog: dict, hoy: str) -> list[str]:
     )
 
     tope = prog_mod.max_por_dia(prog)
-    if tope:
-        # Solo rotan las prioritarias: las dominadas quedan siempre al final.
-        orden = _rotacion(prioritarias, hoy) + secundarias
-    else:
-        orden = prioritarias + secundarias
-
     paquete: list[str] = []
-    for cat in orden:
-        if tope and len(paquete) >= tope:
+
+    if not tope:
+        # Sin tope caben todas, así que se sirve una lección de cada categoría
+        # activa y la frecuencia no interviene: solo decide a quién le toca
+        # cuando hay que repartir plazas escasas.
+        for cat in prioritarias + secundarias:
+            for _ in range(max(1, CATEGORIES[cat].get("por_dia", 1))):
+                lid = _siguiente_pendiente(banco, cat, completadas, set(paquete))
+                if lid:
+                    paquete.append(lid)
+        return paquete
+
+    # Con tope manda la ruleta ponderada. Las dominadas quedan siempre al final,
+    # detrás incluso de la reserva.
+    for cat in _orden_del_dia(prioritarias, hoy, tope) + secundarias:
+        if len(paquete) >= tope:
             break
-        for _ in range(max(1, CATEGORIES[cat].get("por_dia", 1))):
-            if tope and len(paquete) >= tope:
-                break
-            lid = _siguiente_pendiente(banco, cat, completadas, set(paquete))
-            if lid:
-                paquete.append(lid)
+        lid = _siguiente_pendiente(banco, cat, completadas, set(paquete))
+        if lid:
+            paquete.append(lid)
     return paquete
 
 
