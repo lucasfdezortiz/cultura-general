@@ -145,6 +145,189 @@ def medidor(etiqueta: str, hechas: int, total: int, sufijo: str = "") -> None:
     )
 
 
+def _fondo(leccion: dict) -> str:
+    """Estilo de fondo de una portada: la imagen si existe, si no el color."""
+    url = (leccion.get("cover_image") or {}).get("url")
+    if url:
+        return f"background-image:url('{_e(url)}');"
+    cat = leccion["category"]
+    return f"background-image:linear-gradient(145deg,{color(cat)},{color(cat)}99);"
+
+
+def chip(cat_id: str) -> str:
+    """El ticker de una categoría, con su color."""
+    return f'<span class="tk" style="--tk-color:{color(cat_id)}">{ticker(cat_id)}</span>'
+
+
+def saludo(hoy: date, estado: dict, racha: int) -> None:
+    """Cabecera de la pantalla de hoy: marca, racha, titular y fecha."""
+    pendientes = estado["pendientes"]
+    if not estado["total"]:
+        pie = "SIN LECCIONES DISPONIBLES"
+    elif estado["cerrado"]:
+        pie = f"{fecha_corta(hoy)} · DÍA CERRADO"
+    else:
+        plural = "PENDIENTES" if pendientes != 1 else "PENDIENTE"
+        pie = f"{fecha_corta(hoy)} · {pendientes} DE {estado['total']} {plural}"
+
+    st.markdown(
+        f"""<div class="cabecera">
+              <div>
+                <div class="marca">LF <em>Global Capital</em></div>
+                <div class="marca-pie">Cultura de mercados · sesión diaria</div>
+              </div>
+              <span class="racha-chip">▲ {racha}</span>
+            </div>
+            <div class="saludo">Tu sesión<br>de hoy</div>
+            <div class="saludo-pie">{pie}</div>""",
+        unsafe_allow_html=True,
+    )
+
+
+def fecha_corta(d: date) -> str:
+    return f"{d.day:02d} {MESES_CORTOS[d.month - 1]}"
+
+
+def segmentos(hechas: int, total: int, cuenta: str | None = None, ok: bool = False) -> str:
+    """Barra de progreso por tramos. Devuelve HTML para componerlo con otros."""
+    clase = "s ok" if ok else "s on"
+    piezas = "".join(
+        f'<div class="{clase if i < hechas else "s"}"></div>' for i in range(max(total, 1))
+    )
+    cola = f'<span class="seg-cuenta">{_e(cuenta)}</span>' if cuenta else ""
+    return f'<div class="segmentos">{piezas}</div>{cola}'
+
+
+def progreso_dia(estado: dict) -> None:
+    st.markdown(
+        f'<div class="seg-fila">{segmentos(estado["completadas"], estado["total"])}</div>',
+        unsafe_allow_html=True,
+    )
+
+
+def hero_leccion(leccion: dict) -> None:
+    """Tarjeta protagonista del día. El botón lo pone quien la llama.
+
+    La tarjeta se cierra por abajo con el contenedor del botón siguiente, al
+    que el CSS da el mismo fondo y el radio inferior (ver .hero-cta).
+    """
+    cat = leccion["category"]
+    n_tarjetas = len(leccion.get("cards", []))
+    n_preguntas = len(leccion.get("questions", []))
+    st.markdown(
+        f"""<div class="hero">
+              <div class="hero-cover" style="{_fondo(leccion)}">{chip(cat)}</div>
+              <div class="hero-cuerpo">
+                <div class="hero-cat">{_e(nombre(cat))}</div>
+                <div class="hero-titulo">{_e(leccion['title'])}</div>
+                <div class="hero-meta">
+                  <span>{n_tarjetas} tarjetas</span>
+                  <span>·</span>
+                  <span>{n_preguntas} preguntas</span>
+                </div>
+              </div>
+            </div>
+            <div class="hero-cta"></div>""",
+        unsafe_allow_html=True,
+    )
+
+
+def mini_chip(cat_id: str) -> None:
+    """Línea de categoría sobre una fila compacta del paquete."""
+    st.markdown(
+        f'<div class="mini-chip">{chip(cat_id)}'
+        f'<span class="nom">{_e(nombre(cat_id))}</span></div>',
+        unsafe_allow_html=True,
+    )
+
+
+def cierre(leccion: dict, aciertos: int, total: int) -> None:
+    """Sello y titular de la pantalla de lección completada."""
+    frases = {
+        4: "Dominado. Esta ya es tuya.",
+        3: "Sólido. Se te ha quedado lo importante.",
+        2: "A medias. Merece un repaso.",
+        1: "Poco ha calado. Vuelve a las tarjetas.",
+        0: "Empezamos de cero con esta.",
+    }
+    st.markdown(
+        f"""<div class="cierre">
+              <div class="cierre-sello">✓</div>
+              <div class="cierre-titulo">Lección completada</div>
+              <div class="cierre-sub">{_e(leccion['title'])}</div>
+            </div>""",
+        unsafe_allow_html=True,
+    )
+    st.caption(frases.get(aciertos, ""))
+
+
+def tiles_cierre(aciertos: int, total: int, racha: int) -> None:
+    """Las dos cifras del cierre: acierto de este quiz y racha resultante."""
+    pleno = aciertos == total
+    st.markdown(
+        f"""<div class="panel dos">
+              <div class="metrica" style="--acento:{'var(--verde)' if pleno else 'var(--bronce)'}">
+                <div class="metrica-etiq">Acierto</div>
+                <div class="metrica-valor" style="color:{'var(--verde)' if pleno else 'var(--tinta)'}">
+                  {aciertos}<small>/{total}</small></div>
+                <div class="metrica-pie">en este quiz</div>
+              </div>
+              <div class="metrica" style="--acento:var(--bronce)">
+                <div class="metrica-etiq">Racha</div>
+                <div class="metrica-valor">{racha}<small>d</small></div>
+                <div class="metrica-pie">días seguidos</div>
+              </div>
+            </div>""",
+        unsafe_allow_html=True,
+    )
+
+
+def avance_categoria(cat_id: str, hechas: int, total: int) -> None:
+    """Barra de avance de la categoría recién practicada."""
+    pct = (hechas / total * 100) if total else 0
+    st.markdown(
+        f"""<div class="tabla-cat">
+              <div class="cat-fila" style="--cat:{color(cat_id)}">
+                {chip(cat_id)}
+                <div>
+                  <div class="cat-nom">{_e(nombre(cat_id))}</div>
+                  <div class="cat-pista"><div class="cat-relleno"
+                       style="width:{min(pct, 100):.0f}%"></div></div>
+                </div>
+                <div class="cat-cifras"><b>{hechas}/{total}</b></div>
+              </div>
+            </div>""",
+        unsafe_allow_html=True,
+    )
+
+
+def aviso_dia(estado: dict) -> None:
+    if estado["cerrado"]:
+        texto = "<b>Día cerrado.</b> El paquete de hoy está completo."
+    else:
+        n = estado["pendientes"]
+        plural = "lecciones" if n != 1 else "lección"
+        texto = f"Te quedan <b>{n} {plural}</b> para cerrar el día."
+    st.markdown(f'<div class="cierre-aviso">◷ {texto}</div>', unsafe_allow_html=True)
+
+
+def continuar_card(leccion: dict, hechas: int, total: int) -> None:
+    """Tarjeta de 'continúa donde lo dejaste' de la biblioteca."""
+    cat = leccion["category"]
+    st.markdown(
+        f"""<div class="continuar">
+              <div class="continuar-cover" style="{_fondo(leccion)}">{chip(cat)}</div>
+              <div class="continuar-cuerpo">
+                <div class="continuar-titulo">{_e(leccion['title'])}</div>
+                <div class="cat-pista"><div class="cat-relleno"
+                     style="width:{(hechas / total * 100) if total else 0:.0f}%;
+                            --cat:{color(cat)}"></div></div>
+              </div>
+            </div>""",
+        unsafe_allow_html=True,
+    )
+
+
 def rotulo(texto: str) -> None:
     st.markdown(f'<div class="rotulo">{_e(texto)}</div>', unsafe_allow_html=True)
 
@@ -274,11 +457,16 @@ def marcador(aciertos: int, total: int) -> None:
     )
 
 
-def opcion_revelada(texto: str, estado: str) -> None:
-    """estado: 'ok' (correcta) | 'ko' (elegida y errónea) | 'neutra'."""
-    marca = {"ok": "✓", "ko": "✕"}.get(estado, "·")
+LETRAS = ["A", "B", "C", "D", "E", "F"]
+
+
+def opcion_revelada(texto: str, estado: str, indice: int = 0) -> None:
+    """estado: 'ok' (correcta) | 'ko' (elegida y errónea) | 'tenue'."""
+    marca = {"ok": "✓", "ko": "✕"}.get(estado, LETRAS[indice % len(LETRAS)])
     st.markdown(
-        f'<div class="opcion-rev {estado}">{marca}&nbsp;&nbsp;{_e(texto)}</div>',
+        f'<div class="op-rev {estado}">'
+        f'<span class="let">{marca}</span>'
+        f'<span>{_e(texto)}</span></div>',
         unsafe_allow_html=True,
     )
 

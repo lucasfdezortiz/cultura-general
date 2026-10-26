@@ -1,9 +1,13 @@
+# El tema nativo de Streamlit se usa para lo que el CSS propio no alcanza y
+# para el instante previo a que este se inyecte. Debe coincidir con el tema
+# por defecto de la app (oscuro, ui/styles.TEMA_POR_DEFECTO); si no, al abrir
+# se ve un destello claro y los widgets sin estilar desentonan.
 [theme]
-base = "light"
-primaryColor = "#A67C3D"
-backgroundColor = "#F4F1EA"
-secondaryBackgroundColor = "#EBE6DA"
-textColor = "#1B2A41"
+base = "dark"
+primaryColor = "#E2B35A"
+backgroundColor = "#0B0F15"
+secondaryBackgroundColor = "#151C25"
+textColor = "#E7EDF4"
 font = "sans serif"
 
 [client]

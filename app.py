@@ -25,6 +25,7 @@ from ui.styles import inyectar, tema_valido  # noqa: E402
 
 ESTADO_INICIAL = {
     "pantalla": "hoy",
+    "pestana": "hoy",
     "leccion_id": None,
     "tarjeta_idx": 0,
     "quiz_idx": 0,
@@ -72,8 +73,6 @@ def main() -> None:
     )
     screens.sidebar(banco, prog, salud)
 
-    c.cabecera(hoy)
-
     # El aviso de persistencia va en la pantalla principal, no solo en el
     # sidebar: si el progreso no se está guardando hay que verlo sin tener que
     # abrir nada, porque cada redespliegue borraría la racha.
@@ -92,6 +91,8 @@ def main() -> None:
             "del Gist siga siendo válido y tenga permiso de Gists.",
         )
 
+    # Las pantallas del flujo de una lección van a pantalla completa, sin la
+    # barra de pestañas: una vez dentro, lo único que importa es la lección.
     pantalla = st.session_state.pantalla
     if pantalla == "leccion":
         screens.pantalla_leccion(banco, prog)
@@ -100,8 +101,14 @@ def main() -> None:
     elif pantalla == "resultado":
         screens.pantalla_resultado(banco, prog, hoy)
     else:
-        screens.pantalla_hoy(banco, prog, hoy)
-        c.aviso_banco(salud)
+        pestana = st.session_state.get("pestana", "hoy")
+        if pestana == "biblioteca":
+            screens.tab_biblioteca(banco, prog, hoy)
+        elif pestana == "avance":
+            screens.tab_avance(banco, prog, hoy)
+        else:
+            screens.tab_hoy(banco, prog, hoy, salud)
+        screens.nav_inferior(pestana)
 
 
 if __name__ == "__main__":

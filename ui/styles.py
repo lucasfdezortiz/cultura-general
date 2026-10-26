@@ -34,8 +34,11 @@ TEMAS = {
         "velo_1": ".20",
         "velo_2": ".58",
         "velo_3": ".93",
-        "primario": "#111A26",
-        "sobre_primario": "#FFFFFF",
+        # El dorado es el color de marca, así que la acción principal es dorada
+        # también en claro. Antes era azul marino y el botón de "Empezar"
+        # cambiaba de color según el tema, que es justo lo que no debe pasar.
+        "primario": "#E2B35A",
+        "sobre_primario": "#16202E",
         "rejilla": "rgba(17,26,38,.05)",
         "panel": "#FFFFFF",
     },
@@ -181,7 +184,8 @@ html, body, .stApp,
 [data-testid="stBottomBlockContainer"] {
   background: var(--papel) !important;
 }
-.block-container { max-width: 780px; padding: 3.1rem 1.4rem 5rem; }
+.block-container { max-width: 780px; padding: 3.1rem 1.4rem 6.5rem; }
+/* El relleno inferior deja hueco a la barra de navegación fija. */
 html, body, [class*="css"], .stApp, p, li, span, label, div {
   font-family: var(--sans);
   color: var(--tinta);
@@ -315,6 +319,268 @@ a { color: var(--bronce); }
 .medidor-fila .cifra { font-variant-numeric: tabular-nums; color: var(--tinta); font-weight: 600; white-space: nowrap; }
 .pista { height: 6px; background: var(--papel-hund); border-radius: 3px; overflow: hidden; border: 1px solid var(--borde); }
 .relleno { height: 100%; background: linear-gradient(90deg, var(--bronce), var(--bronce-claro)); border-radius: 3px; }
+
+/* ---- Barra de navegación inferior ----
+   Streamlit no tiene navegación por pestañas fijas, así que son tres botones
+   en una fila de columnas a la que el CSS ancla al borde inferior de la
+   ventana. El gancho es el marcador .marca-nav, igual que en .nav-compacta.
+   `env(safe-area-inset-bottom)` deja sitio al indicador del iPhone. */
+[data-testid="stHorizontalBlock"]:has(.marca-nav) {
+  position: fixed !important; left: 0; right: 0; bottom: 0; z-index: 900;
+  background: color-mix(in srgb, var(--papel) 94%, transparent);
+  backdrop-filter: blur(12px);
+  border-top: 1px solid var(--borde);
+  margin: 0 !important; gap: 0 !important; flex-wrap: nowrap !important;
+  padding: .3rem .5rem calc(.3rem + env(safe-area-inset-bottom, 0px));
+}
+[data-testid="stHorizontalBlock"]:has(.marca-nav) > div {
+  min-width: 0 !important; width: auto !important; flex: 1 1 0 !important;
+}
+[data-testid="stHorizontalBlock"]:has(.marca-nav) .stButton button {
+  background: transparent !important; border: 0 !important;
+  box-shadow: none !important; padding: .6rem .2rem !important;
+  font-size: .72rem !important; font-weight: 500 !important;
+  letter-spacing: .04em; color: var(--tinta-tenue) !important;
+}
+[data-testid="stHorizontalBlock"]:has(.marca-nav) .stButton button p {
+  color: var(--tinta-tenue) !important; font-size: .72rem !important;
+}
+/* La pestaña activa se marca con type="primary", pero aquí no debe pintarse
+   como botón sólido: solo cambia de color. */
+[data-testid="stHorizontalBlock"]:has(.marca-nav) .stButton button[kind="primary"],
+[data-testid="stHorizontalBlock"]:has(.marca-nav) .stButton button[kind="primary"] p {
+  background: transparent !important; color: var(--bronce) !important;
+  font-weight: 700 !important;
+}
+.marca-nav { height: 0; overflow: hidden; }
+
+/* ---- Cabecera compacta de la sesión ---- */
+.saludo {
+  font-family: var(--serif); font-size: 1.95rem; line-height: 1.1;
+  font-weight: 600; letter-spacing: -0.025em; color: var(--tinta);
+  margin: .2rem 0 .3rem;
+}
+.saludo-pie {
+  font-family: var(--mono); font-size: .64rem; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--tinta-tenue); margin-bottom: .9rem;
+}
+.racha-chip {
+  display: inline-flex; align-items: center; gap: .35rem;
+  background: var(--panel); border: 1px solid var(--borde);
+  border-radius: 999px; padding: .28rem .6rem .28rem .5rem;
+  font-family: var(--mono); font-size: .72rem; font-weight: 700;
+  color: var(--bronce);
+}
+
+/* ---- Progreso por segmentos ---- */
+.segmentos { display: flex; gap: 4px; flex: 1; }
+.segmentos .s { flex: 1 1 0; height: 4px; border-radius: 2px; background: var(--borde); }
+.segmentos .s.on { background: var(--bronce); }
+.segmentos .s.ok { background: var(--verde); }
+.seg-fila {
+  display: flex; align-items: center; gap: .7rem; margin: .1rem 0 1.1rem;
+}
+.seg-cuenta {
+  font-family: var(--mono); font-size: .7rem; font-weight: 700;
+  color: var(--tinta-suave); white-space: nowrap;
+}
+
+/* ---- Tarjeta protagonista del día ---- */
+.hero {
+  border: 1px solid var(--borde); border-bottom: 0;
+  border-radius: 20px 20px 0 0; overflow: hidden; background: var(--panel);
+}
+.hero-cover {
+  height: 136px; background-size: cover; background-position: center;
+  position: relative; display: flex; align-items: flex-end; padding: .8rem;
+}
+.hero-cover::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(6,9,14,.15) 0%, rgba(6,9,14,.72) 100%);
+}
+/* Sobre una fotografía oscura el color plano de la categoría no se lee:
+   el chip pasa a fondo translúcido oscuro con el tono aclarado. */
+.hero-cover .tk, .continuar-cover .tk {
+  position: relative; z-index: 2;
+  background: rgba(8,12,18,.62);
+  border-color: color-mix(in srgb, var(--tk-color) 70%, transparent);
+  color: color-mix(in srgb, var(--tk-color) 60%, #FFFFFF);
+  backdrop-filter: blur(3px);
+}
+.hero-cuerpo { padding: .9rem 1.05rem .2rem; }
+.hero-cat {
+  font-size: .6rem; font-weight: 600; letter-spacing: .13em;
+  text-transform: uppercase; color: var(--tinta-tenue); margin-bottom: .4rem;
+}
+.hero-titulo {
+  font-family: var(--serif); font-size: 1.22rem; line-height: 1.26;
+  font-weight: 600; color: var(--tinta); margin-bottom: .55rem;
+}
+.hero-meta {
+  display: flex; align-items: center; gap: .7rem;
+  font-family: var(--mono); font-size: .64rem; letter-spacing: .06em;
+  color: var(--tinta-tenue); text-transform: uppercase;
+}
+/* El botón que sigue al hero cierra la tarjeta: hereda su fondo, sus bordes
+   laterales y el radio inferior, de modo que los dos bloques se leen como
+   una sola pieza aunque Streamlit los renderice por separado. */
+[data-testid="stVerticalBlock"]:has(> div > [data-testid="stElementContainer"] .hero-cta) {
+  gap: 0 !important;
+}
+.hero-cta { height: 0; overflow: hidden; }
+[data-testid="stElementContainer"]:has(.hero-cta) + [data-testid="stElementContainer"] {
+  background: var(--panel);
+  border: 1px solid var(--borde); border-top: 0;
+  border-radius: 0 0 20px 20px;
+  padding: .2rem .9rem .9rem;
+  margin-bottom: 1.15rem;
+}
+
+/* ---- Filas del resto del paquete ---- */
+.mini-chip { margin: 0 0 .3rem; display: flex; align-items: center; gap: .4rem; }
+.mini-chip .nom {
+  font-size: .6rem; font-weight: 600; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--tinta-tenue);
+}
+
+/* ---- Listas de botones con aspecto de tarjeta ----
+   Streamlit centra el texto de sus botones, que para un título largo queda
+   mal. Un marcador invisible dentro de un `st.container` permite reestilar
+   solo los botones de ese contenedor, sin tocar los del resto de la app. */
+[data-testid="stVerticalBlock"]:has(> [data-testid="stElementContainer"] .mk-lista) .stButton button {
+  text-align: left; justify-content: flex-start;
+  font-family: var(--serif); font-size: .97rem; font-weight: 600;
+  line-height: 1.32; padding: .85rem .95rem; border-radius: 15px;
+  background: var(--panel) !important; border: 1px solid var(--borde) !important;
+  min-height: 3.4rem;
+}
+[data-testid="stVerticalBlock"]:has(> [data-testid="stElementContainer"] .mk-lista) .stButton button p {
+  text-align: left; font-family: var(--serif); font-size: .97rem; font-weight: 600;
+}
+.mk-lista, .mk-opciones { height: 0; overflow: hidden; }
+/* El ticker viaja dentro de la etiqueta del botón como código en línea. */
+[data-testid="stVerticalBlock"]:has(> [data-testid="stElementContainer"] .mk-lista) .stButton code,
+[data-testid="stVerticalBlock"]:has(> [data-testid="stElementContainer"] .mk-opciones) .stButton code {
+  font-family: var(--mono); font-size: .62rem; font-weight: 700;
+  letter-spacing: .06em; padding: .16rem .36rem; border-radius: 5px;
+  background: color-mix(in srgb, var(--bronce) 17%, transparent) !important;
+  color: var(--bronce) !important; margin-right: .3rem; white-space: nowrap;
+}
+
+/* ---- Opciones del quiz ---- */
+/* Tarjetas grandes y alineadas a la izquierda: la respuesta se elige tocando
+   la opción, sin botón de enviar. */
+[data-testid="stVerticalBlock"]:has(> [data-testid="stElementContainer"] .mk-opciones) .stButton button {
+  text-align: left; justify-content: flex-start;
+  font-size: .92rem; font-weight: 400; line-height: 1.42;
+  padding: .9rem 1rem; border-radius: 16px; min-height: 3.6rem;
+  background: var(--panel) !important; border: 1px solid var(--borde) !important;
+}
+[data-testid="stVerticalBlock"]:has(> [data-testid="stElementContainer"] .mk-opciones) .stButton button p {
+  text-align: left; font-size: .92rem; font-weight: 400; line-height: 1.42;
+}
+[data-testid="stVerticalBlock"]:has(> [data-testid="stElementContainer"] .mk-opciones) .stButton button:hover {
+  border-color: var(--bronce) !important;
+}
+
+/* Opciones ya reveladas: la correcta en verde, la elegida errónea en rojo. */
+.op-rev {
+  display: flex; align-items: center; gap: .7rem;
+  border-radius: 16px; padding: .85rem .95rem; margin-bottom: .55rem;
+  border: 1px solid var(--borde); background: var(--panel);
+  font-size: .92rem; line-height: 1.42; color: var(--tinta-suave);
+}
+.op-rev .let {
+  display: grid; place-items: center; flex: 0 0 1.65rem;
+  width: 1.65rem; height: 1.65rem; border-radius: 50%;
+  background: var(--papel-hund); color: var(--tinta-tenue);
+  font-family: var(--mono); font-size: .72rem; font-weight: 700;
+}
+.op-rev.tenue { opacity: .5; }
+.op-rev.ok {
+  border: 1.5px solid var(--verde); background: var(--verde-fondo);
+  color: var(--tinta); font-weight: 500;
+}
+.op-rev.ok .let { background: var(--verde); color: var(--papel); }
+.op-rev.ko {
+  border: 1.5px solid var(--rojo); background: var(--rojo-fondo); color: var(--tinta);
+}
+.op-rev.ko .let { background: var(--rojo); color: var(--papel); }
+
+.quiz-ayuda {
+  text-align: center; font-size: .78rem; color: var(--tinta-tenue);
+  margin-top: .8rem;
+}
+
+/* ---- Barra superior de lección y quiz ----
+   Botón de cerrar redondo a la izquierda y progreso ocupando el resto. Sin
+   esto Streamlit apila las dos columnas en móvil y la barra se come media
+   pantalla. */
+[data-testid="stHorizontalBlock"]:has(.barra-sup) {
+  flex-wrap: nowrap !important; gap: .65rem !important; align-items: center;
+  margin-bottom: .3rem;
+}
+[data-testid="stHorizontalBlock"]:has(.barra-sup) > div:first-child {
+  min-width: 0 !important; width: auto !important; flex: 0 0 2.5rem !important;
+}
+[data-testid="stHorizontalBlock"]:has(.barra-sup) > div:last-child {
+  min-width: 0 !important; width: auto !important; flex: 1 1 auto !important;
+}
+[data-testid="stHorizontalBlock"]:has(.barra-sup) .stButton button {
+  width: 2.5rem !important; height: 2.5rem; min-height: 2.5rem;
+  padding: 0 !important; border-radius: 50%; font-size: .95rem;
+}
+.barra-sup { height: 0; overflow: hidden; }
+.leccion-rotulo {
+  font-family: var(--serif); font-size: .95rem; line-height: 1.32;
+  font-weight: 600; color: var(--tinta-suave); margin: 0 0 1rem;
+}
+
+/* ---- Cierre de lección ---- */
+.panel.dos { grid-template-columns: repeat(2, 1fr); }
+.cierre { text-align: center; padding: 1.4rem 0 .2rem; }
+.cierre-sello {
+  width: 88px; height: 88px; border-radius: 50%; margin: 0 auto 1.1rem;
+  background: linear-gradient(160deg, var(--bronce-claro), var(--bronce));
+  display: grid; place-items: center;
+  font-size: 2.4rem; line-height: 1; color: var(--sobre-primario);
+  box-shadow: 0 10px 30px color-mix(in srgb, var(--bronce) 22%, transparent);
+}
+.cierre-titulo {
+  font-family: var(--serif); font-size: 1.62rem; font-weight: 600;
+  letter-spacing: -0.02em; color: var(--tinta); margin-bottom: .35rem;
+}
+.cierre-sub {
+  font-size: .86rem; line-height: 1.5; color: var(--tinta-suave);
+  max-width: 19rem; margin: 0 auto 1.3rem;
+}
+.cierre-aviso {
+  display: flex; align-items: center; gap: .6rem;
+  background: color-mix(in srgb, var(--bronce) 9%, transparent);
+  border: 1px solid color-mix(in srgb, var(--bronce) 30%, transparent);
+  border-radius: 14px; padding: .8rem .9rem; margin: .9rem 0 1.2rem;
+  font-size: .84rem; line-height: 1.45; color: var(--tinta);
+}
+.cierre-aviso b { color: var(--bronce); }
+
+/* ---- Biblioteca ---- */
+.continuar {
+  border: 1px solid var(--borde); border-radius: 18px; overflow: hidden;
+  background: var(--panel); margin-bottom: .3rem;
+}
+.continuar-cover {
+  height: 84px; background-size: cover; background-position: center;
+  position: relative; display: flex; align-items: flex-end; padding: .65rem;
+}
+.continuar-cover::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(6,9,14,.1) 0%, rgba(6,9,14,.7) 100%);
+}
+.continuar-cuerpo { padding: .75rem .9rem .85rem; }
+.continuar-titulo {
+  font-family: var(--serif); font-size: 1rem; line-height: 1.28;
+  font-weight: 600; color: var(--tinta); margin-bottom: .55rem;
+}
 
 /* ---- Rejilla de portadas ---- */
 .rotulo {
@@ -544,30 +810,34 @@ a { color: var(--bronce); }
 }
 .aviso-banco b { color: var(--bronce); }
 
-/* ---- Botones ---- */
-.stButton > button {
+/* ---- Botones ----
+   Selector de descendiente y no de hijo directo: cuando un botón lleva
+   `help=`, Streamlit lo envuelve en un div de tooltip y `.stButton > button`
+   deja de alcanzarlo. Pasó con la ✕ de la barra superior, que salía con el
+   fondo claro del tema nativo en mitad de la pantalla oscura. */
+.stButton button {
   font-family: var(--sans); font-size: .875rem; font-weight: 500;
   border-radius: 8px; border: 1px solid var(--borde);
   background: var(--papel-alto) !important; color: var(--tinta) !important;
   padding: .55rem 1rem; transition: all .13s ease; width: 100%;
 }
-.stButton > button p { color: var(--tinta) !important; }
-.stButton > button:hover { border-color: var(--bronce); background: var(--papel-alto) !important; }
-.stButton > button:hover p, .stButton > button:hover { color: var(--bronce) !important; }
-.stButton > button:focus:not(:active) { border-color: var(--bronce); }
-.stButton > button[kind="primary"] {
+.stButton button p { color: var(--tinta) !important; }
+.stButton button:hover { border-color: var(--bronce); background: var(--papel-alto) !important; }
+.stButton button:hover p, .stButton button:hover { color: var(--bronce) !important; }
+.stButton button:focus:not(:active) { border-color: var(--bronce); }
+.stButton button[kind="primary"] {
   background: var(--primario) !important; border-color: var(--primario);
 }
-.stButton > button[kind="primary"], .stButton > button[kind="primary"] p {
+.stButton button[kind="primary"], .stButton button[kind="primary"] p {
   color: var(--sobre-primario) !important;
 }
-.stButton > button[kind="primary"]:hover {
+.stButton button[kind="primary"]:hover {
   background: var(--bronce) !important; border-color: var(--bronce);
 }
-.stButton > button[kind="primary"]:hover, .stButton > button[kind="primary"]:hover p {
+.stButton button[kind="primary"]:hover, .stButton button[kind="primary"]:hover p {
   color: __SOBRE_BRONCE__ !important;
 }
-.stButton > button:disabled, .stButton > button:disabled p { opacity: .42; }
+.stButton button:disabled, .stButton button:disabled p { opacity: .42; }
 
 /* ---- Sidebar ---- */
 section[data-testid="stSidebar"] {
@@ -577,6 +847,18 @@ section[data-testid="stSidebar"] * { color: var(--tinta); }
 section[data-testid="stSidebar"] .block-container { padding-top: 2rem; }
 section[data-testid="stSidebar"] h2, section[data-testid="stSidebar"] h3 { font-size: .96rem !important; }
 [data-testid="stCaptionContainer"], [data-testid="stCaptionContainer"] p { color: var(--tinta-tenue) !important; }
+
+/* ---- Campo de texto ----
+   Sin esto conserva el fondo claro de Streamlit y en tema oscuro aparece
+   como un recuadro beige en mitad de la pantalla. */
+[data-testid="stTextInput"] input,
+[data-baseweb="input"], [data-baseweb="base-input"] {
+  background: var(--panel) !important; color: var(--tinta) !important;
+  border-radius: 13px !important;
+}
+[data-baseweb="input"] { border: 1px solid var(--borde) !important; }
+[data-testid="stTextInput"] input::placeholder { color: var(--tinta-tenue) !important; }
+[data-baseweb="input"]:focus-within { border-color: var(--bronce) !important; }
 
 /* ---- Controles ---- */
 [data-testid="stWidgetLabel"] p, .stRadio label p, .stCheckbox label p { color: var(--tinta) !important; }
@@ -644,7 +926,7 @@ hr, [data-testid="stDivider"] hr { border-color: var(--borde) !important; margin
 }
 
 @media (max-width: 640px) {
-  .block-container { padding: 2.9rem .85rem 3rem; }
+  .block-container { padding: 2.9rem .85rem 6rem; }
   /* La cabecera mantiene marca y fecha en la misma línea también en móvil:
      apilarlas desperdiciaba la mitad de la primera pantalla. */
   .cabecera { padding: .75rem .8rem; gap: .6rem; margin-bottom: .75rem; }
@@ -665,6 +947,11 @@ hr, [data-testid="stDivider"] hr { border-color: var(--borde) !important; margin
   .barras .b { height: 7px; }
   .barras .b.d-parcial { height: 17px; }
   .barras .b.d-completo { height: 28px; }
+  .saludo { font-size: 1.72rem; }
+  .hero-cover { height: 124px; }
+  .hero-titulo { font-size: 1.14rem; }
+  .cierre-sello { width: 78px; height: 78px; font-size: 2.1rem; }
+  .cierre-titulo { font-size: 1.44rem; }
   .leccion-titulo { font-size: 1.42rem; }
   .leccion-subtitulo { font-size: .96rem; margin-bottom: 1rem; }
   .portada-grande { height: 168px; }
@@ -673,9 +960,9 @@ hr, [data-testid="stDivider"] hr { border-color: var(--borde) !important; margin
   .rotulo { margin: 1.3rem 0 .6rem; }
   .medidor { margin: .9rem 0 .9rem; }
   .quiz-pregunta { font-size: 1.1rem; }
-  .stButton > button { padding: .62rem .8rem; }
+  .stButton button { padding: .62rem .8rem; }
   /* El botón de volver no necesita ocupar todo el ancho en móvil. */
-  [data-testid="stHorizontalBlock"]:has(.nav-compacta) .stButton > button {
+  [data-testid="stHorizontalBlock"]:has(.nav-compacta) .stButton button {
     padding: .62rem .4rem; font-size: .82rem;
   }
 }

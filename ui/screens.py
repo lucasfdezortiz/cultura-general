@@ -50,6 +50,32 @@ def abrir_leccion(leccion_id: str, extra: bool = False) -> None:
     )
 
 
+PESTANAS = (("hoy", "Hoy"), ("biblioteca", "Biblioteca"), ("avance", "Avance"))
+
+
+def nav_inferior(activa: str) -> None:
+    """Tres pestañas ancladas al borde inferior de la ventana.
+
+    Streamlit no tiene navegación fija, así que son botones en una fila de
+    columnas que el CSS fija abajo (ver .marca-nav en ui/styles.py). El
+    marcador va dentro de la primera columna para quedar en el mismo bloque
+    horizontal al que apunta el selector.
+    """
+    columnas = st.columns(len(PESTANAS), gap="small")
+    for i, (col, (clave, etiqueta)) in enumerate(zip(columnas, PESTANAS)):
+        with col:
+            if i == 0:
+                st.markdown('<div class="marca-nav"></div>', unsafe_allow_html=True)
+            if st.button(
+                etiqueta,
+                key=f"nav_{clave}",
+                type="primary" if clave == activa else "secondary",
+                width="stretch",
+            ):
+                st.session_state.pestana = clave
+                st.rerun()
+
+
 def persistir() -> None:
     """Guarda el progreso y deja constancia si el guardado falla.
 
@@ -194,76 +220,209 @@ def sidebar(banco: dict, prog: dict, salud: dict) -> None:
 # Pantalla: hoy
 # --------------------------------------------------------------------------
 
-def pantalla_hoy(banco: dict, prog: dict, hoy: date) -> None:
+def tab_hoy(banco: dict, prog: dict, hoy: date, salud: dict) -> None:
+    """Paquete del día: una lección protagonista y el resto en filas."""
     hoy_iso = hoy.isoformat()
     paquete, cambio = selection.paquete_del_dia(banco, prog, hoy_iso)
     if cambio:
         persistir()
 
     completadas = prog_mod.ids_completadas(prog)
+    estado = selection.estado_paquete(prog, paquete, hoy_iso)
+
+    c.saludo(hoy, estado, prog_mod.racha_actual(prog, hoy))
+    if estado["total"]:
+        c.progreso_dia(estado)
+
+    if not paquete:
+        c.vacio(
+            "No quedan lecciones pendientes en las categorías activas. "
+            "Activa otra categoría o pide una tanda nueva."
+        )
+        c.aviso_banco(salud)
+        return
+
+    pendientes = [i for i in paquete if i not in completadas]
+    hechas = [i for i in paquete if i in completadas]
+
+    if pendientes:
+        principal, resto = pendientes[0], pendientes[1:]
+        c.hero_leccion(banco["lecciones"][principal])
+        if st.button(
+            "Empezar", key=f"hero_{principal}", type="primary", width="stretch"
+        ):
+            abrir_leccion(principal)
+    else:
+        resto = []
+        st.success("Paquete de hoy completado. El sello del día queda lleno.")
+
+    if resto:
+        c.rotulo("También hoy")
+        _lista_lecciones(banco, resto, prefijo="fila")
+
+    if hechas:
+        c.rotulo("Ya hechas hoy")
+        _lista_lecciones(banco, hechas, prefijo="rep", prog=prog)
+
+    if estado["cerrado"]:
+        siguiente = selection.siguiente_extra(banco, prog, hoy_iso)
+        if siguiente:
+            c.rotulo("Seguir aprendiendo")
+            st.caption(
+                "Suma al porcentaje completado, pero no afecta al sello del día."
+            )
+            _lista_lecciones(banco, [siguiente], prefijo="extra", extra=True)
+
+    c.aviso_banco(salud)
+
+
+def _lista_lecciones(
+    banco: dict,
+    ids: list[str],
+    prefijo: str,
+    prog: dict | None = None,
+    extra: bool = False,
+) -> None:
+    """Filas tocables de lección. El contenedor acota el CSS a esta lista."""
+    with st.container():
+        st.markdown('<div class="mk-lista"></div>', unsafe_allow_html=True)
+        for lid in ids:
+            leccion = banco["lecciones"].get(lid)
+            if not leccion:
+                continue
+            # El ticker va como código en línea: Streamlit lo renderiza en un
+            # <code> al que el CSS da forma de chip dentro del propio botón.
+            etiqueta = f"`{ticker(leccion['category'])}`  {leccion['title']}"
+            if prog is not None:
+                r = prog_mod.resultado(prog, lid) or {}
+                etiqueta += f"  ·  {r.get('aciertos', 0)}/{r.get('total', 4)}"
+            if st.button(etiqueta, key=f"{prefijo}_{lid}", width="stretch"):
+                abrir_leccion(lid, extra=extra)
+
+
+# --------------------------------------------------------------------------
+# Pestaña: biblioteca
+# --------------------------------------------------------------------------
+
+def tab_biblioteca(banco: dict, prog: dict, hoy: date) -> None:
+    c.cabecera(hoy)
+    st.markdown('<div class="saludo">Biblioteca</div>', unsafe_allow_html=True)
+
+    completadas = prog_mod.ids_completadas(prog)
+
+    # Lección a medias: la que se abrió y aún no tiene resultado registrado.
+    en_curso = st.session_state.get("leccion_id")
+    if en_curso and en_curso in banco["lecciones"] and en_curso not in completadas:
+        leccion = banco["lecciones"][en_curso]
+        c.rotulo("Continúa donde lo dejaste")
+        c.continuar_card(
+            leccion,
+            st.session_state.get("tarjeta_idx", 0) + 1,
+            len(leccion.get("cards", [])) or 1,
+        )
+        if st.button("Reanudar", key="reanudar", type="primary", width="stretch"):
+            ir_a("leccion")
+
+    busqueda = st.text_input(
+        "Buscar",
+        placeholder="Buscar una lección…",
+        label_visibility="collapsed",
+        key="buscar_biblio",
+    ).strip().lower()
+
+    if not completadas:
+        c.vacio("Todavía no has completado ninguna lección.")
+        return
+
+    grupos = prog_mod.historial_por_categoria(prog, banco)
+    c.rotulo("Lecciones completadas, por tema")
+
+    hubo = False
+    for cat_id, _meta in categorias_ordenadas():
+        entradas = grupos.get(cat_id, [])
+        if busqueda:
+            entradas = [e for e in entradas if busqueda in e[0].get("title", "").lower()]
+        if not entradas:
+            continue
+        hubo = True
+        en_banco = len(banco["por_categoria"].get(cat_id, []))
+        c.cabecera_categoria(
+            cat_id, len(entradas), en_banco, prog_mod.accuracy_categoria(entradas)
+        )
+        for leccion, resultado in entradas:
+            c.fila_historial(leccion, resultado)
+
+    if not hubo:
+        c.vacio(
+            f"Ninguna lección completada coincide con «{busqueda}»."
+            if busqueda
+            else "Todavía no has completado ninguna lección."
+        )
+
+
+# --------------------------------------------------------------------------
+# Pestaña: avance
+# --------------------------------------------------------------------------
+
+def tab_avance(banco: dict, prog: dict, hoy: date) -> None:
+    c.cabecera(hoy)
+    st.markdown('<div class="saludo">Tu avance</div>', unsafe_allow_html=True)
+
+    completadas = prog_mod.ids_completadas(prog)
     stats = bank_mod.estadisticas(banco, completadas)
+    hoy_iso = hoy.isoformat()
+    paquete = prog["dias"].get(hoy_iso, {}).get("paquete", [])
     estado = selection.estado_paquete(prog, paquete, hoy_iso)
 
     c.panel_metricas(prog, hoy, stats, estado)
     c.racha_barras(prog, hoy)
 
-    tab_hoy, tab_hist = st.tabs(["Paquete de hoy", "Historial"])
+    if not completadas:
+        c.vacio("Completa una lección y aquí verás tu avance por categoría.")
+        return
 
-    with tab_hoy:
-        if not paquete:
-            c.vacio(
-                "No quedan lecciones pendientes en las categorías activas. "
-                "Activa otra categoría o pide una tanda nueva."
-            )
-        else:
-            if estado["cerrado"]:
-                c.rotulo(f"Día cerrado · {estado['total']} de {estado['total']}")
-                st.success("Paquete de hoy completado. El sello ya está lleno.")
-            else:
-                c.rotulo(
-                    f"{estado['pendientes']} pendientes de {estado['total']} · "
-                    "elige por dónde empezar"
-                )
-
-            columnas = st.columns(2, gap="medium")
-            for i, lid in enumerate(paquete):
-                leccion = banco["lecciones"].get(lid)
-                if not leccion:
-                    continue
-                hecha = lid in completadas
-                with columnas[i % 2]:
-                    c.tarjeta_portada(leccion, hecha)
-                    if st.button(
-                        "Repasar" if hecha else "Empezar",
-                        key=f"abrir_{lid}",
-                        type="secondary" if hecha else "primary",
-                    ):
-                        abrir_leccion(lid, extra=False)
-                    st.markdown("")
-
-            if estado["cerrado"]:
-                siguiente = selection.siguiente_extra(banco, prog, hoy_iso)
-                st.divider()
-                if siguiente:
-                    c.rotulo("Seguir aprendiendo")
-                    st.caption(
-                        "Estas lecciones suman al porcentaje completado, pero no "
-                        "afectan al sello de racha del día."
-                    )
-                    extra = banco["lecciones"][siguiente]
-                    c.tarjeta_portada(extra, False)
-                    if st.button("Continuar con esta", key="extra", type="primary"):
-                        abrir_leccion(siguiente, extra=True)
-                else:
-                    c.vacio("No queda nada más pendiente en el banco. Toca ampliarlo.")
-
-    with tab_hist:
-        tab_historial(banco, prog)
+    grupos = prog_mod.historial_por_categoria(prog, banco)
+    c.rotulo("Avance por categoría")
+    filas = []
+    for cat_id, _meta in categorias_ordenadas():
+        s = stats["por_categoria"].get(cat_id, {})
+        if not s.get("total"):
+            continue
+        filas.append({
+            "id": cat_id,
+            "hechas": s["completadas"],
+            "total": s["total"],
+            "pct": s["pct"],
+            "accuracy": prog_mod.accuracy_categoria(grupos.get(cat_id, [])),
+        })
+    c.tabla_categorias(filas)
 
 
 # --------------------------------------------------------------------------
 # Pantalla: lección
 # --------------------------------------------------------------------------
+
+def _barra_superior(
+    llenos: int, total: int, key: str, ok: bool = False, texto: str | None = None
+) -> None:
+    """Cerrar a la izquierda, progreso por tramos a la derecha.
+
+    `llenos` son los tramos ya pintados y `texto` lo que dice el contador. Se
+    separan porque en el quiz no coinciden: al abrir la pregunta 1 no hay
+    ninguna respondida, pero el contador debe decir 1/4 y no 0/4.
+    """
+    izq, der = st.columns([0.17, 1], gap="small")
+    with izq:
+        st.markdown('<div class="barra-sup"></div>', unsafe_allow_html=True)
+        if st.button("✕", key=key, help="Volver al paquete"):
+            ir_a("hoy")
+    with der:
+        cuenta = texto or f"{llenos}/{total}"
+        st.markdown(
+            f'<div class="seg-fila">{c.segmentos(llenos, total, cuenta, ok)}</div>',
+            unsafe_allow_html=True,
+        )
+
 
 def pantalla_leccion(banco: dict, prog: dict) -> None:
     leccion = banco["lecciones"].get(st.session_state.leccion_id)
@@ -275,18 +434,23 @@ def pantalla_leccion(banco: dict, prog: dict) -> None:
     idx = min(st.session_state.get("tarjeta_idx", 0), len(tarjetas) - 1)
     ya_hecha = prog_mod.esta_completada(prog, leccion["id"])
 
-    atras, _ = st.columns([1, 2.4])
-    with atras:
-        if st.button("← Volver al paquete", key="volver_lec"):
-            ir_a("hoy")
+    _barra_superior(idx + 1, len(tarjetas), "cerrar_lec")
 
-    st.markdown(c.eyebrow_categoria(leccion["category"]), unsafe_allow_html=True)
     c.portada_grande(leccion)
-    st.markdown(
-        f'<div class="leccion-titulo">{c._e(leccion["title"])}</div>'
-        f'<div class="leccion-subtitulo">{c._e(leccion["subtitle"])}</div>',
-        unsafe_allow_html=True,
-    )
+
+    # El título completo solo en la primera tarjeta: a partir de ahí estorba,
+    # y basta con un recordatorio tenue de qué se está leyendo.
+    if idx == 0:
+        st.markdown(
+            f'<div class="leccion-titulo">{c._e(leccion["title"])}</div>'
+            f'<div class="leccion-subtitulo">{c._e(leccion["subtitle"])}</div>',
+            unsafe_allow_html=True,
+        )
+    else:
+        st.markdown(
+            f'<div class="leccion-rotulo">{c._e(leccion["title"])}</div>',
+            unsafe_allow_html=True,
+        )
 
     c.tarjeta_contenido(tarjetas[idx])
     c.puntos(idx, len(tarjetas))
@@ -297,8 +461,7 @@ def pantalla_leccion(banco: dict, prog: dict) -> None:
             st.session_state.tarjeta_idx = idx - 1
             st.rerun()
     with centro:
-        # La clase 'nav-compacta' es el gancho que usa el CSS para impedir que
-        # esta fila se apile en móvil (ver ui/styles.py).
+        # 'nav-compacta' impide que esta fila se apile en móvil (ui/styles.py).
         st.markdown(
             f'<div class="nav-compacta contador-tarjeta">{idx + 1} de {len(tarjetas)}</div>',
             unsafe_allow_html=True,
@@ -321,7 +484,9 @@ def pantalla_leccion(banco: dict, prog: dict) -> None:
             if st.button("Volver al paquete", key="fin_repaso", type="primary"):
                 ir_a("hoy")
         else:
-            if st.button("Continuar al quiz", key="ir_quiz", type="primary"):
+            if st.button(
+                "Continuar al quiz", key="ir_quiz", type="primary", width="stretch"
+            ):
                 ir_a("quiz", quiz_idx=0, respuestas=[], revelada=False)
 
 
@@ -344,23 +509,37 @@ def pantalla_quiz(banco: dict, prog: dict, hoy: date) -> None:
     pregunta = preguntas[idx]
     respuestas = st.session_state.get("respuestas", [])
     revelada = st.session_state.get("revelada", False)
+    acierto = revelada and respuestas[idx] == pregunta["correct"]
+
+    _barra_superior(
+        idx + (1 if revelada else 0),
+        len(preguntas),
+        "cerrar_quiz",
+        ok=acierto,
+        texto=f"{idx + 1}/{len(preguntas)}",
+    )
 
     st.markdown(
-        f'<div class="quiz-cuenta">{ticker(leccion["category"])} · '
-        f'Pregunta {idx + 1:02d} de {len(preguntas):02d}</div>',
+        c.chip(leccion["category"])
+        + f'<div class="quiz-pregunta">{c._e(pregunta["q"])}</div>',
         unsafe_allow_html=True,
-    )
-    st.progress((idx + (1 if revelada else 0)) / len(preguntas))
-    st.markdown(
-        f'<div class="quiz-pregunta">{c._e(pregunta["q"])}</div>', unsafe_allow_html=True
     )
 
     if not revelada:
-        for i, opcion in enumerate(pregunta["options"]):
-            if st.button(opcion, key=f"op_{leccion['id']}_{idx}_{i}"):
-                st.session_state.respuestas = respuestas + [i]
-                st.session_state.revelada = True
-                st.rerun()
+        with st.container():
+            st.markdown('<div class="mk-opciones"></div>', unsafe_allow_html=True)
+            for i, opcion in enumerate(pregunta["options"]):
+                etiqueta = f"`{c.LETRAS[i]}`  {opcion}"
+                if st.button(
+                    etiqueta, key=f"op_{leccion['id']}_{idx}_{i}", width="stretch"
+                ):
+                    st.session_state.respuestas = respuestas + [i]
+                    st.session_state.revelada = True
+                    st.rerun()
+        st.markdown(
+            '<div class="quiz-ayuda">Toca una respuesta para comprobarla</div>',
+            unsafe_allow_html=True,
+        )
     else:
         elegida = respuestas[idx]
         correcta = pregunta["correct"]
@@ -370,8 +549,8 @@ def pantalla_quiz(banco: dict, prog: dict, hoy: date) -> None:
             elif i == elegida:
                 estado = "ko"
             else:
-                estado = "neutra"
-            c.opcion_revelada(opcion, estado)
+                estado = "tenue"
+            c.opcion_revelada(opcion, estado, i)
 
         c.veredicto(elegida == correcta, pregunta.get("note", ""), pregunta["options"][correcta])
 
@@ -380,6 +559,7 @@ def pantalla_quiz(banco: dict, prog: dict, hoy: date) -> None:
             "Ver resultado" if ultima else "Siguiente pregunta",
             key=f"sig_{idx}",
             type="primary",
+            width="stretch",
         ):
             if ultima:
                 prog_mod.registrar_leccion(
@@ -411,92 +591,32 @@ def pantalla_resultado(banco: dict, prog: dict, hoy: date) -> None:
     resultado = prog_mod.resultado(prog, leccion["id"]) or {}
     aciertos = resultado.get("aciertos", 0)
     total = resultado.get("total", len(leccion.get("questions", [])))
+    cat = leccion["category"]
 
-    st.markdown(
-        c.eyebrow_categoria(leccion["category"])
-        + f'<div class="leccion-titulo">{c._e(leccion["title"])}</div>',
-        unsafe_allow_html=True,
-    )
-    c.marcador(aciertos, total)
-    st.divider()
+    c.cierre(leccion, aciertos, total)
+    c.tiles_cierre(aciertos, total, prog_mod.racha_actual(prog, hoy))
+
+    completadas = prog_mod.ids_completadas(prog)
+    ids_cat = banco["por_categoria"].get(cat, [])
+    c.avance_categoria(cat, sum(1 for i in ids_cat if i in completadas), len(ids_cat))
 
     hoy_iso = hoy.isoformat()
     paquete = prog["dias"].get(hoy_iso, {}).get("paquete", [])
     estado = selection.estado_paquete(prog, paquete, hoy_iso)
+    c.aviso_dia(estado)
 
-    if estado["cerrado"]:
-        st.success(
-            f"Paquete de hoy completado: {estado['total']} de {estado['total']}. "
-            "El sello del día queda lleno.",
-        )
+    siguiente = selection.siguiente_pendiente_del_paquete(prog, paquete)
+    if siguiente:
+        if st.button(
+            "Siguiente lección", key="res_siguiente", type="primary", width="stretch"
+        ):
+            abrir_leccion(siguiente, extra=False)
     else:
-        st.info(
-            f"Te quedan {estado['pendientes']} lecciones para cerrar el día.",
-        )
+        extra = selection.siguiente_extra(banco, prog, hoy_iso)
+        if extra and st.button(
+            "Seguir aprendiendo", key="res_extra", type="primary", width="stretch"
+        ):
+            abrir_leccion(extra, extra=True)
 
-    completadas = prog_mod.ids_completadas(prog)
-    stats = bank_mod.estadisticas(banco, completadas)
-    c.medidor("Conocimiento completado", stats["completadas"], stats["total"])
-
-    izq, der = st.columns(2)
-    with izq:
-        if st.button("Volver al paquete", key="res_volver", type="primary"):
-            ir_a("hoy")
-    with der:
-        siguiente = selection.siguiente_pendiente_del_paquete(prog, paquete)
-        if siguiente:
-            if st.button("Siguiente categoría", key="res_siguiente"):
-                abrir_leccion(siguiente, extra=False)
-        else:
-            extra = selection.siguiente_extra(banco, prog, hoy_iso)
-            if extra and st.button("Seguir aprendiendo", key="res_extra"):
-                abrir_leccion(extra, extra=True)
-
-
-# --------------------------------------------------------------------------
-# Historial
-# --------------------------------------------------------------------------
-
-def tab_historial(banco: dict, prog: dict) -> None:
-    completadas = prog_mod.ids_completadas(prog)
-    if not completadas:
-        c.vacio("Todavía no has completado ninguna lección.")
-        return
-
-    stats = bank_mod.estadisticas(banco, completadas)
-    grupos = prog_mod.historial_por_categoria(prog, banco)
-
-    c.rotulo("Avance por categoría")
-    filas = []
-    for cat_id, _meta in categorias_ordenadas():
-        s = stats["por_categoria"].get(cat_id, {})
-        if not s.get("total"):
-            continue
-        filas.append({
-            "id": cat_id,
-            "hechas": s["completadas"],
-            "total": s["total"],
-            "pct": s["pct"],
-            "accuracy": prog_mod.accuracy_categoria(grupos.get(cat_id, [])),
-        })
-    c.tabla_categorias(filas)
-
-    c.rotulo("Lecciones completadas, por tema")
-
-    # El histórico se agrupa por categoría y sobrevive a las ampliaciones del
-    # banco: se conserva por id, no por posición.
-    hubo_alguna = False
-    for cat_id, _meta in categorias_ordenadas():
-        entradas = grupos.get(cat_id, [])
-        if not entradas:
-            continue
-        hubo_alguna = True
-        en_banco = len(banco["por_categoria"].get(cat_id, []))
-        c.cabecera_categoria(
-            cat_id, len(entradas), en_banco, prog_mod.accuracy_categoria(entradas)
-        )
-        for leccion, resultado in entradas:
-            c.fila_historial(leccion, resultado)
-
-    if not hubo_alguna:
-        c.vacio("Todavía no has completado ninguna lección.")
+    if st.button("Volver al paquete", key="res_volver", width="stretch"):
+        ir_a("hoy")
