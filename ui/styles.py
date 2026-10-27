@@ -339,7 +339,7 @@ a { color: var(--bronce); }
      ocultar —es otro documento—, así que los botones se suben por encima y la
      insignia queda sobre la franja vacía de la barra en vez de tapar
      «Avance». */
-  padding: .25rem .5rem calc(3.3rem + env(safe-area-inset-bottom, 0px));
+  padding: .25rem .5rem calc(__PAD_NAV__ + env(safe-area-inset-bottom, 0px));
 }
 [data-testid="stHorizontalBlock"]:has(.marca-nav) > div {
   min-width: 0 !important; width: auto !important; flex: 1 1 0 !important;
@@ -994,7 +994,14 @@ def tema_valido(nombre: str | None) -> str:
     return nombre if nombre in TEMAS else TEMA_POR_DEFECTO
 
 
-def inyectar(nombre_tema: str = TEMA_POR_DEFECTO) -> None:
+def inyectar(nombre_tema: str = TEMA_POR_DEFECTO, compacto: bool = False) -> None:
+    """Inyecta el CSS del tema.
+
+    `compacto` quita el hueco que la barra de navegación reserva para la
+    insignia de Streamlit Cloud. Solo debe activarse cuando la app se sirve
+    incrustada (`?embed=true`), porque entonces Cloud no dibuja esa insignia
+    y el hueco sobraría.
+    """
     clave = tema_valido(nombre_tema)
     tema = TEMAS[clave]
     # Sustitución por tokens y no con %-formatting: el CSS está lleno de
@@ -1005,5 +1012,6 @@ def inyectar(nombre_tema: str = TEMA_POR_DEFECTO) -> None:
         # Sobre el bronce hace falta un texto con contraste suficiente en
         # ambos temas: el navy oscuro funciona en los dos.
         .replace("__SOBRE_BRONCE__", "#16202E")
+        .replace("__PAD_NAV__", ".45rem" if compacto else "3.3rem")
     )
     st.markdown(css, unsafe_allow_html=True)

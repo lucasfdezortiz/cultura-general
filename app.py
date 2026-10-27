@@ -51,8 +51,13 @@ def main() -> None:
     inicializar()
 
     prog = st.session_state.prog
+    # Streamlit no expone `embed` en query_params —es un parámetro reservado—,
+    # así que la página que incrusta la app añade `compacto=1` para avisar de
+    # que Cloud no va a dibujar su insignia y la barra no necesita reservarle
+    # hueco.
+    compacto = st.query_params.get("compacto") == "1"
     # El tema se resuelve antes de pintar nada: así no hay parpadeo claro→oscuro.
-    inyectar(tema_valido(prog.get("tema")))
+    inyectar(tema_valido(prog.get("tema")), compacto=compacto)
 
     banco = cargar_banco_cacheado()
     hoy = hoy_local()
