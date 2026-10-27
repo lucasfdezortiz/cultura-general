@@ -127,12 +127,14 @@ __VARS__
   display: flex !important; background: transparent !important;
   visibility: visible !important;
 }
-/* Streamlit Cloud añade aquí su botón de Fork y el icono de GitHub. En lugar
-   de adivinar sus identificadores, se oculta todo lo que cuelga de la barra
-   salvo la rama que contiene el botón de la barra lateral. */
-[data-testid="stToolbar"] > *:not(:has([data-testid="stExpandSidebarButton"])):not([data-testid="stExpandSidebarButton"]) {
-  display: none !important;
-}
+/* Streamlit Cloud añade aquí su botón de Fork y el icono de GitHub, dentro de
+   stToolbarActions. La regla anterior ocultaba los hijos del toolbar que NO
+   contuvieran el botón de la barra lateral, y no servía: en las versiones
+   actuales el botón de la barra lateral y las acciones cuelgan del MISMO
+   hijo, así que la excepción que protegía a uno protegía también al otro, y
+   el Fork seguía viéndose en el despliegue. Se apunta al contenedor de
+   acciones, que tiene identificador propio. */
+[data-testid="stToolbarActions"] { display: none !important; }
 /* La cabecera se hace transparente pero NO se le quita la altura: el botón que
    abre la barra lateral vive dentro, y colapsarla lo dejaba en 0x0. El nombre
    del testid cambia entre versiones de Streamlit (collapsedControl ->
@@ -184,7 +186,7 @@ html, body, .stApp,
 [data-testid="stBottomBlockContainer"] {
   background: var(--papel) !important;
 }
-.block-container { max-width: 780px; padding: 3.1rem 1.4rem 6.5rem; }
+.block-container { max-width: 780px; padding: 3.1rem 1.4rem 9rem; }
 /* El relleno inferior deja hueco a la barra de navegación fija. */
 html, body, [class*="css"], .stApp, p, li, span, label, div {
   font-family: var(--sans);
@@ -331,14 +333,20 @@ a { color: var(--bronce); }
   backdrop-filter: blur(12px);
   border-top: 1px solid var(--borde);
   margin: 0 !important; gap: 0 !important; flex-wrap: nowrap !important;
-  padding: .3rem .5rem calc(.3rem + env(safe-area-inset-bottom, 0px));
+  /* El relleno inferior no es decorativo: Streamlit Cloud dibuja su insignia
+     («Created by…» y «Hosted with Streamlit») FUERA del iframe de la app, en
+     los 46 px inferiores derechos de la ventana. Desde aquí no se puede
+     ocultar —es otro documento—, así que los botones se suben por encima y la
+     insignia queda sobre la franja vacía de la barra en vez de tapar
+     «Avance». */
+  padding: .25rem .5rem calc(3.3rem + env(safe-area-inset-bottom, 0px));
 }
 [data-testid="stHorizontalBlock"]:has(.marca-nav) > div {
   min-width: 0 !important; width: auto !important; flex: 1 1 0 !important;
 }
 [data-testid="stHorizontalBlock"]:has(.marca-nav) .stButton button {
   background: transparent !important; border: 0 !important;
-  box-shadow: none !important; padding: .6rem .2rem !important;
+  box-shadow: none !important; padding: .5rem .2rem !important;
   font-size: .72rem !important; font-weight: 500 !important;
   letter-spacing: .04em; color: var(--tinta-tenue) !important;
 }
@@ -353,6 +361,18 @@ a { color: var(--bronce); }
   font-weight: 700 !important;
 }
 .marca-nav { height: 0; overflow: hidden; }
+
+/* Los marcadores invisibles que enganchan el CSS van en su propio
+   `st.markdown`, y Streamlit envuelve cada uno en un contenedor con margen
+   propio. Aunque el marcador mida 0, el contenedor no: la pestaña «Hoy»
+   quedaba 16 px más baja que las otras dos. Se oculta el contenedor entero;
+   `:has()` sigue encontrando el marcador porque sigue en el DOM. */
+[data-testid="stElementContainer"]:has(.marca-nav),
+[data-testid="stElementContainer"]:has(.barra-sup),
+[data-testid="stElementContainer"]:has(.mk-lista),
+[data-testid="stElementContainer"]:has(.mk-opciones) {
+  display: none !important;
+}
 
 /* ---- Cabecera compacta de la sesión ---- */
 .saludo {
@@ -926,7 +946,7 @@ hr, [data-testid="stDivider"] hr { border-color: var(--borde) !important; margin
 }
 
 @media (max-width: 640px) {
-  .block-container { padding: 2.9rem .85rem 6rem; }
+  .block-container { padding: 2.9rem .85rem 8.5rem; }
   /* La cabecera mantiene marca y fecha en la misma línea también en móvil:
      apilarlas desperdiciaba la mitad de la primera pantalla. */
   .cabecera { padding: .75rem .8rem; gap: .6rem; margin-bottom: .75rem; }
