@@ -34,12 +34,23 @@ La solución es tener una página propia que sí controlemos, que es esta.
 
 ## Pasos
 
-### 1. Pon tu imagen
+### 1. La imagen
 
-Guarda tu foto en esta carpeta como **`icono.png`**, cuadrada y de **1024×1024**
-(vale 512×512). iOS le redondea las esquinas solo, así que no hace falta
-prepararlas. Evita márgenes grandes: la imagen se ve pequeña si el motivo está
-muy centrado.
+Ya hay un **`icono.png`** listo: las iniciales en dorado sobre el azul de la
+app, a 1024×1024. Si te vale, sáltate este paso.
+
+Para poner una foto tuya en su lugar:
+
+```bash
+python3 movil/hacer-icono.py ~/Desktop/mi-foto.jpg
+```
+
+Recorta al centro, la lleva a 1024×1024 y sobrescribe `icono.png`. Sin
+argumentos vuelve a generar el icono de marca.
+
+Un aviso de diseño: una fotografía se ve en 60×60 px en la pantalla de inicio,
+así que los paisajes y las caras pequeñas se convierten en una mancha. Funciona
+mejor algo con una forma grande y mucho contraste.
 
 ### 2. Publícala, gratis
 
